@@ -18,11 +18,20 @@
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
                 'items' => [
                     [
+                        'label' => 'API',
+                        'icon' => 'wrench',
+                        'url' => '#',
+                        'items' => [
+                            ['label' => 'main', 'icon' => 'wrench', 'url' => ['/api/main'],],
+                        ],
+                    ],
+                    [
                         'label' => 'Пользователи',
                         'icon' => 'user',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Пользователи', 'icon' => 'user', 'url' => ['/user'],],
+                            ['label' => 'Пользователи', 'icon' => 'user', 'url' => ['/user/user'],],
+                            ['label' => 'Пользователи Moodle', 'icon' => 'user', 'url' => ['/user/mdl-user'],],
                             ['label' => 'Управление правами', 'icon' => '', 'url' => ['/user-admin/assignment/'],],
                             ['label' => 'Роли', 'icon' => '', 'url' => ['/user-admin/role/'],],
                             ['label' => 'Права дотсупа', 'icon' => '', 'url' => ['/user-admin/permission/'],],

@@ -57,6 +57,8 @@ class User extends ActiveRecord implements IdentityInterface
         return $user;
     }
 
+
+
     public function getNetworks(): ActiveQuery
     {
         return $this->hasMany(Network::className(), ['user_id' => 'id']);
@@ -247,5 +249,15 @@ class User extends ActiveRecord implements IdentityInterface
     private function generateAuthKey()
     {
         $this->auth_key = Yii::$app->security->generateRandomString();
+    }
+
+    public function getUsername()
+    {
+        return $this->username;
+    }
+
+    public function getPassword()
+    {
+        return $this->password;
     }
 }

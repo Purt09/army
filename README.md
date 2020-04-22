@@ -17,8 +17,8 @@ CREATE DATABASE fakultet;
 php yii migrate up
 php yii rbac/init
 ```
-Далее настраиваем домен moodle.5fak к папку moodle \
-И заходим на домен, устанваливаем moodle
+Далее настраиваем домен moodle.5fak на папку moodle \
+И заходим на сайт, устанваливаем moodle
 ##Setting server
 php 7.2+\
 Postgres 11.2+
@@ -31,3 +31,12 @@ Fas123456!
 cadet 
 \
 fas123
+
+Включаем веб службы в муудл, включаем все протколы, Создаем новый сервис, Генерируем для него токен, заполняем данныее в common/config/params
+
+Добавляем нужные функции в созданный сервис и тестируем API Moodle
+
+Для теста core_user_create_users
+
+Для проверки токена:
+https://my.moodleapp.tld/login/token.php?service=moodle_mobile_app&username=mymoodleuser&password=MySecretPassword'

@@ -13,14 +13,18 @@ use yii\bootstrap\Nav;
         ],
     ]);
     $menuItems = [
-        ['label' => 'Home', 'url' => ['site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/contact/index']],
+        ['label' => 'Главная', 'url' => ['site/index']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/auth/signup/request']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/auth/auth/login']];
+        $menuItems[] = ['label' => 'Регистрация', 'url' => ['/auth/signup/request']];
+        $menuItems[] = ['label' => 'Авторизация', 'url' => ['/auth/auth/login']];
     } else {
+        $menuItems[] = [
+                            'label'=>'Олнайн обучение',
+                            'url'=> Yii::$app->params['moodle_host_info'] . 'login/index.php?username=' . Yii::$app->user->identity->getUsername() . '&password=' . Yii::$app->user->identity->getPassword(),
+                            'options'=>['id'=>'shater_li',],
+                            'template' => '<a href="{url}" target="_blank">{label}</a>'
+                        ];
         $menuItems[] = '<li>'
             . Html::beginForm(['/auth/auth/logout'], 'post')
             . Html::submitButton(
