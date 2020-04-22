@@ -2,7 +2,7 @@
 
 namespace core\services\api;
 
-use llagerlof\moodlerest\MoodleRest;
+use core\vendor\MoodleRest;
 
 class MainApiService extends \core\services\MainService
 {
