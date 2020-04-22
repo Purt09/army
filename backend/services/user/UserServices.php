@@ -8,13 +8,16 @@ use backend\forms\user\UserAddForm;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
 use core\repositories\user\UserRepository;
+use core\services\api\UserApiService;
 
 class UserServices
 {
     private $repository;
+    private $serviceAPI;
 
     public function __construct()
     {
+        $this->serviceAPI = new UserApiService();
         $this->repository = new UserRepository();
     }
 
@@ -24,13 +27,15 @@ class UserServices
      * @throws \Exception
      */
     public function signup(User $form): User{
+        vardump($form);
         $user = User::requestSignup(
             $form->username,
             $form->email,
             $form->password
         );
-        $user->status = $form->status;
+        $this->users->save($user);
         $this->repository->save($user);
+        $this->serviceAPI->createUser($form->username, $form->email, $form->password);
         return $user;
     }
 

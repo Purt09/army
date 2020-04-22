@@ -4,6 +4,7 @@ namespace backend\controllers\user;
 
 use backend\services\user\UserServices;
 use core\helpers\user\RbacHelpers;
+use core\services\api\UserApiService;
 use Yii;
 use core\entities\User\User;
 use backend\forms\user\UserSearch;

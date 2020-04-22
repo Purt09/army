@@ -6,7 +6,7 @@ namespace core\services\api;
 
 class UserApiService extends MainApiService
 {
-    public function createUser($username,$password,$email)
+    public function createUser($username,$email,$password)
     {
         $param = [
             'users' => [

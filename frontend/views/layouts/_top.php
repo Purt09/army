@@ -4,6 +4,12 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 ?>
 <header>
+
+    <form action="http://moodle5fak/autoauth.php" method="post" name="login">
+        <input type="text" name="username" value="admin" />
+        <input type="password" name="password" value="Fas123456!" />
+        <input type="submit" value="Login" />
+    </form>
     <?php
     NavBar::begin([
         'brandLabel' => 'My Company',

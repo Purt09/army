@@ -17,12 +17,13 @@ class MainController extends \yii\web\Controller
 
     public function actionIndex()
     {
-        $username = 'test1';
+        /**
+        $username = 'test11234';
         $password = 'Fas123456!';
-        $email = 'new@email.ru';
+        $email = 'ne123w@email.ru';
         $user = User::requestSignup($username,$email,$password);
         $user->save();
-        echo $this->service->createUser($username,$password,$email);
+        echo $this->service->createUser($username,$password,$email);*/
         return $this->render('index');
     }
 }

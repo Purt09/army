@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $models \backend\forms\user\UserAddForm */
+/* @var $models \core\entities\User\User */
 /* @var $roles array все роли, которые существуют */
 
 $this->title = 'Создать пользователя';
