@@ -18,53 +18,17 @@
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
                 'items' => [
                     [
-                        'label' => 'API',
-                        'icon' => 'wrench',
-                        'url' => '#',
-                        'items' => [
-                            ['label' => 'main', 'icon' => 'wrench', 'url' => ['/api/main'],],
-                        ],
-                    ],
-                    [
                         'label' => 'Пользователи',
                         'icon' => 'user',
                         'url' => '#',
                         'items' => [
                             ['label' => 'Пользователи', 'icon' => 'user', 'url' => ['/user/user'],],
-                            ['label' => 'Пользователи Moodle', 'icon' => 'user', 'url' => ['/user/mdl-user'],],
                             ['label' => 'Управление правами', 'icon' => '', 'url' => ['/user-admin/assignment/'],],
                             ['label' => 'Роли', 'icon' => '', 'url' => ['/user-admin/role/'],],
                             ['label' => 'Права дотсупа', 'icon' => '', 'url' => ['/user-admin/permission/'],],
                         ],
                     ],
                     ['label' => 'Menu Yii12', 'options' => ['class' => 'header']],
-                    ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
-                    [
-                        'label' => 'Some tools',
-                        'icon' => 'share',
-                        'url' => '#',
-                        'items' => [
-                            ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii'],],
-                            ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug'],],
-                            [
-                                'label' => 'Level One',
-                                'icon' => 'circle-o',
-                                'url' => '#',
-                                'items' => [
-                                    ['label' => 'Level Two', 'icon' => 'circle-o', 'url' => '#',],
-                                    [
-                                        'label' => 'Level Two',
-                                        'icon' => 'circle-o',
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                        ],
-                                    ],
-                                ],
-                            ],
-                        ],
-                    ],
                 ],
             ]
         ) ?>

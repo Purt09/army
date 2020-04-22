@@ -32,11 +32,13 @@ cadet
 \
 fas123
 
-Включаем веб службы в муудл, включаем все протколы, Создаем новый сервис, Генерируем для него токен, заполняем данныее в common/config/params
+Если муудл только установили, то необъодимо создать в нем в корне файл autoauth с содержимым autoauth.md
 
-Добавляем нужные функции в созданный сервис и тестируем API Moodle
+Включаем веб службы в муудл, включаем все протколы, Создаем новый сервис, Генерируем для него токен, заполняем данные в common/config/params 
 
-Для теста core_user_create_users
+Добавляем нужные функции в созданный сервис и тестируем API Moodle Все функции, которые необходимо активировать, прописаны в docs/api_functions.md
 
-Для проверки токена:
-https://my.moodleapp.tld/login/token.php?service=moodle_mobile_app&username=mymoodleuser&password=MySecretPassword'
+Для проверки токена(и роботоспособности):
+https://moodle5fak/login/token.php?service=moodle_mobile_app&username=mymoodleuser&password=MySecretPassword
+
+Должен вернуть токен доступа, если вернул, то все в порядке и можно работать
