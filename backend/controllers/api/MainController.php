@@ -21,6 +21,7 @@ class MainController extends \yii\web\Controller
         $password = 'Fas123456!';
         $email = 'new@email.ru';
         $user = User::requestSignup($username,$email,$password);
+        $user->id = 3;
         $user->save();
         echo $this->service->createUser($username,$password,$email);
         return $this->render('index');
