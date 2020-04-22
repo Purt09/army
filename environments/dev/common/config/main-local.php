@@ -6,6 +6,7 @@ return [
             'dsn' => 'pgsql:host=localhost;dbname=fakultet',
             'username' => 'postgres',
             'password' => '',
+            'tablePrefix' => 'ksv_',
             'charset' => 'utf8',
         ],
         'mailer' => [
