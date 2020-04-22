@@ -13,6 +13,11 @@ $this->title = '5 факультет';
         <p class="lead">Все страницы в разработке!</p>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Уже совсем скоро запуск проекта</a></p>
+        <form action="http://moodle5fak/autoauth.php" method="post" name="login">
+            <input type="text" name="username" value="admin" />
+            <input type="password" name="password" value="Fas123456!" />
+            <input type="submit" value="Login" />
+        </form>
     </div
 
 </div>
