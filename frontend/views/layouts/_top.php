@@ -9,14 +9,18 @@ use yii\bootstrap\Nav;
 
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => '5 факультет',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'menu',
         ],
     ]);
     $menuItems = [
-        ['label' => 'Главная', 'url' => ['site/index']],
+        ['label' => '5 факультет', 'url' => ['site/index']],
+        ['label' => '51 кафедра', 'url'=>['#']],
+        ['label' => '52 кафедра', 'url'=>['#']],
+        ['label' => '53 кафедра', 'url'=>['#']],
+        ['label' => '55 кафедра', 'url'=>['#']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Регистрация', 'url' => ['/auth/signup/request']];
