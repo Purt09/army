@@ -26,9 +26,9 @@ return [
         'migrate' => [
             'class' => yii\console\controllers\MigrateController::className(),
             'migrationPath' => [
+                '@console/migrations',
                 '@yii/rbac/migrations/',
                 '@pantera/media/migrations',
-                '@console/migrations'
             ],
         ],
     ],

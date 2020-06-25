@@ -26,16 +26,14 @@ class UserServices
      * @return User
      * @throws \Exception
      */
-    public function signup(User $form): User{
-        vardump($form);
+    public function signup(User $models): User
+    {
         $user = User::requestSignup(
-            $form->username,
-            $form->email,
-            $form->password
+            $models->username,
+            $models->password
         );
-        $this->users->save($user);
         $this->repository->save($user);
-        $this->serviceAPI->createUser($form->username, $form->email, $form->password);
+        $this->serviceAPI->createUser($models->username, $models->password);
         return $user;
     }
 

@@ -17,60 +17,28 @@ use core\entities\User\Network;
  * @property integer $id
  * @property string $username
  * @property string $password_hash
- * @property string $password_reset_token
  * @property string $email
- * @property string $email_confirm_token
  * @property string $auth_key
  * @property integer $status
  * @property integer $created_at
  * @property integer $updated_at
  * @property string $password
- *
- * @property Network[] $networks
  */
 class User extends ActiveRecord implements IdentityInterface
 {
     const STATUS_WAIT = 0;
     const STATUS_ACTIVE = 10;
 
-    public static function requestSignup(string $username, string $email, string $password): self
+    public static function requestSignup(string $username, string $password): self
     {
         $user = new User();
         $user->username = $username;
-        $user->email = $email;
         $user->password = $password;
         $user->setPassword($password);
         $user->created_at = time();
-        $user->status = self::STATUS_WAIT;
-        $user->email_confirm_token = Yii::$app->security->generateRandomString();
-        $user->generateAuthKey();
-        return $user;
-    }
-
-    public static function signupByNetwork($network, $identity): self
-    {
-        $user = new User();
-        $user->created_at = time();
         $user->status = self::STATUS_ACTIVE;
         $user->generateAuthKey();
-        $user->networks = [Network::create($network, $identity)];
         return $user;
-    }
-
-
-
-    public function getNetworks(): ActiveQuery
-    {
-        return $this->hasMany(Network::className(), ['user_id' => 'id']);
-    }
-
-    public function confirmSignup(): void
-    {
-        if (!$this->isWait()) {
-            throw new \DomainException('User is already active.');
-        }
-        $this->status = self::STATUS_ACTIVE;
-        $this->email_confirm_token = null;
     }
 
     public function requestPasswordReset(): void
@@ -163,39 +131,6 @@ class User extends ActiveRecord implements IdentityInterface
     public static function findByUsername($username)
     {
         return static::findOne(['username' => $username, 'status' => self::STATUS_ACTIVE]);
-    }
-
-    /**
-     * Finds user by password reset token
-     *
-     * @param string $token password reset token
-     * @return static|null
-     */
-    public static function findByPasswordResetToken($token)
-    {
-//        if (!static::isPasswordResetTokenValid($token)) {
-//            return null;
-//        }
-        return static::findOne([
-            'password_reset_token' => $token,
-//            'status' => self::STATUS_ACTIVE,
-        ]);
-    }
-
-    /**
-     * Finds out if password reset token is valid
-     *
-     * @param string $token password reset token
-     * @return bool
-     */
-    public static function isPasswordResetTokenValid($token)
-    {
-        if (empty($token)) {
-            return false;
-        }
-        $timestamp = (int)substr($token, strrpos($token, '_') + 1);
-        $expire = Yii::$app->params['user.passwordResetTokenExpire'];
-        return $timestamp + $expire >= time();
     }
 
     /**

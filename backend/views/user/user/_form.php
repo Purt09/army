@@ -15,14 +15,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($models, 'username')->textInput() ?>
 
-    <?= $form->field($models, 'email')->textInput() ?>
-
     <?= $form->field($models, 'password')->textInput() ?>
 
-    <?= $form->field($models, 'status')->dropDownList([
-            '0' => 'Не активен',
-            '10' => 'Активен',
-    ]) ?>
 
 
 

@@ -72,19 +72,21 @@ class UserController extends Controller
      * Creates a new User model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
+     * @throws \Exception
      */
     public function actionCreate()
     {
-        $form = new User();
+        $models = new User();
         $roles = RbacHelpers::getRoles();
 
-        if ($form->load(Yii::$app->request->post()) && $form->validate()) {
-            $user = $this->service->signup($form);
+        if ($models->load(Yii::$app->request->post(), '')) {
+            vardump($models);
+            $user = $this->service->signup($models);
             return $this->redirect(['view', 'id' => $user->id]);
         }
 
         return $this->render('create', [
-            'models' => $form,
+            'models' => $models,
             'roles' => $roles
         ]);
     }
