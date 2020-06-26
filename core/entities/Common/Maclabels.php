@@ -2,7 +2,9 @@
 
 namespace core\entities\Common;
 
+use core\entities\User\UsersBase;
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "maclabels".
@@ -15,10 +17,14 @@ use Yii;
  *
  * @property Position[] $positions
  * @property TblIoObjects[] $tblIoObjects
- * @property Users[] $users
+ * @property UsersBase[] $users
  */
 class Maclabels extends \yii\db\ActiveRecord
 {
+    public static function list(): array
+    {
+        return ArrayHelper::map(self::find()->asArray()->all(), 'id', 'name');
+    }
     /**
      * {@inheritdoc}
      */

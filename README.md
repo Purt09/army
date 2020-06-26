@@ -3,26 +3,27 @@
 
 ## Install
 ```
-git clone https://github.com/Purt09/army.git 5fak
-php init 
+$ git clone https://github.com/Purt09/army.git 5fak
+$ php init 
 ```
 C настройками 0
 
-Создаем БД с названием 5fak
+Создаем БД.
+Добавляем все таблицы от мудла
+Добавляем все таблицы из дампа
 ```
-composer install
-psql -U postgres
-CREATE DATABASE fakultet;
-\q
-php yii migrate up
-php yii rbac/init
+$ composer install
+$ psql -U postgres  //Только для создания базы, если уже создана, то не надо
+$ CREATE DATABASE fakultet; // Аналогично выше
+$ \q 
+$ php yii migrate up
+$ php yii rbac/init
 ```
-Далее настраиваем домен moodle.5fak на папку moodle \
-И заходим на сайт, устанваливаем moodle
-##Setting server
+
+##Требования к окружению
 php 7.2+\
 Postgres 11.2+
-###User data:
+###Начальные данные для входа:
 admin 
 \
 Fas123456!

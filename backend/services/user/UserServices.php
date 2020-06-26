@@ -40,7 +40,8 @@ class UserServices extends MainService
                 $form->firstName,
                 $form->lastName,
                 $form->sirName,
-                'fio'
+                'fio',
+                $form->email
             );
             $user->user_base_id = $userBase->id;
             if($form->moodle_id == 0) {

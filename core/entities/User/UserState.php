@@ -3,6 +3,7 @@
 namespace core\entities\User;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "user_state".
@@ -13,10 +14,14 @@ use Yii;
  * @property string $name
  * @property string $short_name
  *
- * @property Users[] $users
+ * @property UsersBase[] $users
  */
 class UserState extends \yii\db\ActiveRecord
 {
+    public static function list(): array
+    {
+        return ArrayHelper::map(self::find()->asArray()->all(), 'id', 'name');
+    }
     /**
      * {@inheritdoc}
      */

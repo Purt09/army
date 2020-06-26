@@ -3,6 +3,7 @@
 namespace core\entities\User;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "ranks".
@@ -18,6 +19,11 @@ use Yii;
  */
 class Ranks extends \yii\db\ActiveRecord
 {
+    public static function list(): array
+    {
+        return ArrayHelper::map(self::find()->asArray()->all(), 'id', 'name');
+    }
+
     /**
      * {@inheritdoc}
      */
