@@ -125,6 +125,20 @@ class RbacHelpers
         return current(ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user->id), $attribute));
     }
 
+    public static function getRolesString(User $user): string
+    {
+        $result = '';
+        $roles = \Yii::$app->authManager->getRolesByUser($user->id);
+        foreach ($roles as $role){
+            if(empty($result))
+                $result .= $role->description;
+            else
+                $result .= ' | ' . $role->description;
+
+        }
+        return  $result;
+    }
+
     public static function getRoles():array {
         $roles = \Yii::$app->getAuthManager()->getRoles();
         $i = 0;

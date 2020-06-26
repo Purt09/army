@@ -26,6 +26,8 @@
                             ['label' => 'Управление правами', 'icon' => '', 'url' => ['/user-admin/assignment/'],],
                             ['label' => 'Роли', 'icon' => '', 'url' => ['/user-admin/role/'],],
                             ['label' => 'Права дотсупа', 'icon' => '', 'url' => ['/user-admin/permission/'],],
+                            ['label' => 'Звания', 'icon' => '', 'url' => ['/user/ranks'],],
+                            ['label' => 'Статусы', 'icon' => '', 'url' => ['/user/state'],],
                         ],
                     ],
                     ['label' => 'Menu Yii12', 'options' => ['class' => 'header']],

@@ -30,36 +30,33 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'username',
             [
-                'attribute' => 'Роль',
-                'value' => function ($user){
-                    if(!empty($userRole = \core\helpers\user\RbacHelpers::getRoleUser($user, 'description'))){
-                        return $userRole;
+                'attribute' => 'Роли',
+                'value' => function ($user) {
+                    if (!empty($userRole = \core\helpers\user\RbacHelpers::getRoleUser($user, 'description'))) {
+                        return \core\helpers\user\RbacHelpers::getRolesString($user);
                     }
                 }
             ],
             'password',
             [
-                'attribute' => 'status',
-                'filter' => \core\helpers\user\UserHelper::statusList(),
-                'value' => function (\core\entities\User\User $user) {
-                    return \core\helpers\user\UserHelper::statusLabel($user->status);
-                },
-                'format' => 'raw'
+                'attribute' => 'Имя',
+                'value' => function ($user) {
+                    return $user->base->firstname;
+                }
             ],
             [
-                'attribute' => 'created_at',
-                'filter' => DatePicker::widget([
-                    'model' => $searchModel,
-                    'attribute' => 'date_from',
-                    'attribute2' => 'date_to',
-                    'type' => DatePicker::TYPE_RANGE,
-                    'separator' => '-',
-                    'pluginOptions' => [
-                        'autoclose' => true,
-                        'format' => 'yyyy-mm-dd'
-                    ]
-                ]),
-                'format' => ['date', 'php:Y-m-d H:i:s']
+                'attribute' => 'Фамилия',
+                'value' => function ($user) {
+                    return $user->base->lastname;
+                }
+            ],
+            [
+                'label' => 'Звание',
+                'attribute' => 'rank_id',
+                'filter' => \core\entities\User\Ranks::list(),
+                'value' => function ($user) {
+                    return $user->base->rank->name;
+                },
             ],
             [
                 'class' => ActionColumn::className(),

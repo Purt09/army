@@ -5,6 +5,8 @@ namespace backend\forms\user;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use core\entities\User\User;
+use yii\db\Query;
+use yii\db\QueryBuilder;
 
 /**
  * UserSearch represents the model behind the search form of `common\entities\User\User`.
@@ -13,6 +15,7 @@ class UserSearch extends User
 {
     public $date_from;
     public $date_to;
+    public $rank_id;
 
     /**
      * {@inheritdoc}
@@ -20,7 +23,7 @@ class UserSearch extends User
     public function rules()
     {
         return [
-            [['id', 'status', 'created_at', 'updated_at'], 'integer'],
+            [['id', 'status', 'created_at', 'updated_at', 'rank_id'], 'integer'],
             [['username', 'auth_key', 'password_hash', 'verification_token'], 'safe'],
             [['date_from', 'date_to'], 'date', 'format' => 'php:Y-m-d']
         ];
@@ -45,6 +48,12 @@ class UserSearch extends User
     public function search($params)
     {
         $query = User::find();
+
+        // Фильтр по полному имени
+        if($params['UserSearch']['rank_id'] != null)
+            $query->joinWith(['base' => function ($q) {
+                $q->where('id_rank = ' . $this->rank_id);
+            }]);
 
         // add conditions that should always apply here
 
