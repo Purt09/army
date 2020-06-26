@@ -4,8 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $models \core\entities\User\User*/
-/* @var $roles array все роли, которые существуют */
+/* @var $models \backend\forms\user\SignupUserForm*/
 
 ?>
 
@@ -15,10 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($models, 'username')->textInput() ?>
 
-    <?= $form->field($models, 'password')->textInput() ?>
-
-
-
+    <?= $form->field($models, 'password')->textInput(['value' => Yii::$app->security->generateRandomString(10) . '*']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>

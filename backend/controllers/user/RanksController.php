@@ -2,31 +2,18 @@
 
 namespace backend\controllers\user;
 
-use backend\forms\user\SignupUserForm;
-use backend\services\user\UserServices;
-use Codeception\Exception\ConfigurationException;
-use core\helpers\user\RbacHelpers;
-use core\services\api\UserApiService;
 use Yii;
-use core\entities\User\User;
-use backend\forms\user\UserSearch;
+use core\entities\User\Ranks;
+use backend\forms\user\RanksSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * UserController implements the CRUD actions for User model.
+ * RanksController implements the CRUD actions for Ranks model.
  */
-class UserController extends Controller
+class RanksController extends Controller
 {
-    private $service;
-
-    public function __construct($id, $module, $config = [])
-    {
-        $this->service = new UserServices();
-        parent::__construct($id, $module, $config);
-    }
-
     /**
      * {@inheritdoc}
      */
@@ -43,12 +30,12 @@ class UserController extends Controller
     }
 
     /**
-     * Lists all User models.
+     * Lists all Ranks models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new UserSearch();
+        $searchModel = new RanksSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -58,7 +45,7 @@ class UserController extends Controller
     }
 
     /**
-     * Displays a single User model.
+     * Displays a single Ranks model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -71,31 +58,25 @@ class UserController extends Controller
     }
 
     /**
-     * Creates a new User model.
+     * Creates a new Ranks model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
-     * @throws \Exception
      */
     public function actionCreate()
     {
-        $models = new SignupUserForm();
+        $model = new Ranks();
 
-        if ($models->load(Yii::$app->request->post())) {
-            try {
-                $user = $this->service->signup($models);
-            }catch (\Exception $e) {
-                Yii::$app->session->setFlash('warning', $e->getMessage());
-            }
-            return $this->redirect(['view', 'id' => $user->id]);
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
         }
 
         return $this->render('create', [
-            'models' => $models,
+            'model' => $model,
         ]);
     }
 
     /**
-     * Updates an existing User model.
+     * Updates an existing Ranks model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -105,18 +86,17 @@ class UserController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
         return $this->render('update', [
-            'models' => $model,
-            'roles' => $roles
+            'model' => $model,
         ]);
     }
 
     /**
-     * Deletes an existing User model.
+     * Deletes an existing Ranks model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -130,15 +110,15 @@ class UserController extends Controller
     }
 
     /**
-     * Finds the User model based on its primary key value.
+     * Finds the Ranks model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return User the loaded model
+     * @return Ranks the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = User::findOne($id)) !== null) {
+        if (($model = Ranks::findOne($id)) !== null) {
             return $model;
         }
 

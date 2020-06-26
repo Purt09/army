@@ -17,12 +17,16 @@ use core\entities\User\Network;
  * @property integer $id
  * @property string $username
  * @property string $password_hash
- * @property string $email
  * @property string $auth_key
  * @property integer $status
  * @property integer $created_at
  * @property integer $updated_at
  * @property string $password
+ * @property int $user_moodle_id
+ * @property int $user_base_id
+ *
+ * @property MdlUser $moodle
+ * @property UsersBase $base
  */
 class User extends ActiveRecord implements IdentityInterface
 {
@@ -36,6 +40,7 @@ class User extends ActiveRecord implements IdentityInterface
         $user->password = $password;
         $user->setPassword($password);
         $user->created_at = time();
+        $user->updated_at = time();
         $user->status = self::STATUS_ACTIVE;
         $user->generateAuthKey();
         return $user;
@@ -102,7 +107,16 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
-            ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_WAIT]],
+            ['password', 'match', 'pattern' => '((?=.*\d)(?=.*[A-Z])(?=.*\W).{8,8})', 'message' => 'Пароль должен содержать минимум 1 букву и 1 цифру, заглавную букву и не менее 8 сиволов'],
+            [['auth_key', 'created_at', 'updated_at', 'user_moodle_id', 'user_base_id'], 'required'],
+            [['status', 'created_at', 'updated_at', 'user_moodle_id', 'user_base_id'], 'default', 'value' => null],
+            [['status', 'created_at', 'updated_at', 'user_moodle_id', 'user_base_id'], 'integer'],
+            [['username', 'password_hash', 'verification_token'], 'string', 'max' => 255],
+            [['auth_key'], 'string', 'max' => 32],
+            [['password'], 'string', 'max' => 15],
+            [['username'], 'unique'],
+            [['user_moodle_id'], 'exist', 'skipOnError' => true, 'targetClass' => MdlUser::className(), 'targetAttribute' => ['user_moodle_id' => 'id']],
+            [['user_base_id'], 'exist', 'skipOnError' => true, 'targetClass' => UsersBase::className(), 'targetAttribute' => ['user_base_id' => 'id']],
         ];
     }
 
@@ -194,5 +208,21 @@ class User extends ActiveRecord implements IdentityInterface
     public function getPassword()
     {
         return $this->password;
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getMoodle()
+    {
+        return $this->hasOne(MdlUser::className(), ['id' => 'user_moodle_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBase()
+    {
+        return $this->hasOne(UsersBase::className(), ['id' => 'user_base_id']);
     }
 }

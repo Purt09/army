@@ -38,7 +38,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             'password',
-            'email:email',
             [
                 'attribute' => 'status',
                 'filter' => \core\helpers\user\UserHelper::statusList(),

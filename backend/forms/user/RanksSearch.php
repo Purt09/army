@@ -4,25 +4,21 @@ namespace backend\forms\user;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use core\entities\User\User;
+use core\entities\User\Ranks;
 
 /**
- * UserSearch represents the model behind the search form of `common\entities\User\User`.
+ * RanksSearch represents the model behind the search form of `core\entities\User\Ranks`.
  */
-class UserSearch extends User
+class RanksSearch extends Ranks
 {
-    public $date_from;
-    public $date_to;
-
     /**
      * {@inheritdoc}
      */
     public function rules()
     {
         return [
-            [['id', 'status', 'created_at', 'updated_at'], 'integer'],
-            [['username', 'auth_key', 'password_hash', 'verification_token'], 'safe'],
-            [['date_from', 'date_to'], 'date', 'format' => 'php:Y-m-d']
+            [['unique_id', 'last_update', 'name', 'short_name', 'code'], 'safe'],
+            [['id'], 'integer'],
         ];
     }
 
@@ -44,7 +40,7 @@ class UserSearch extends User
      */
     public function search($params)
     {
-        $query = User::find();
+        $query = Ranks::find();
 
         // add conditions that should always apply here
 
@@ -55,20 +51,21 @@ class UserSearch extends User
         $this->load($params);
 
         if (!$this->validate()) {
-            $query->where('0=1');
+            // uncomment the following line if you do not want to return any records when validation fails
+            // $query->where('0=1');
             return $dataProvider;
         }
 
         // grid filtering conditions
         $query->andFilterWhere([
+            'last_update' => $this->last_update,
             'id' => $this->id,
-            'status' => $this->status,
         ]);
 
-        $query->andFilterWhere(['like', 'username', $this->username])
-            ->andFilterWhere(['>=', 'created_at', $this->date_from ? strtotime($this->date_from . ' 00:00:00') : null])
-            ->andFilterWhere(['<=', 'created_at', $this->date_to ? strtotime($this->date_to . ' 23:59:59') : null]);
-
+        $query->andFilterWhere(['ilike', 'unique_id', $this->unique_id])
+            ->andFilterWhere(['ilike', 'name', $this->name])
+            ->andFilterWhere(['ilike', 'short_name', $this->short_name])
+            ->andFilterWhere(['ilike', 'code', $this->code]);
 
         return $dataProvider;
     }

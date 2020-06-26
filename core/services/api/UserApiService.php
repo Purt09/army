@@ -6,7 +6,7 @@ namespace core\services\api;
 
 class UserApiService extends MainApiService
 {
-    public function createUser($username, $password, $email = 'NOEMAIL@TEST.RU')
+    public function createUser($username, $email, $password, $firstname, $lastname)
     {
         $param = [
             'users' => [
@@ -14,8 +14,8 @@ class UserApiService extends MainApiService
                     'username' => $username,
                     'email' => $email,
                     'password' => $password,
-                    'firstname' => '123',
-                    'lastname' => '123'
+                    'firstname' => $firstname,
+                    'lastname' => $lastname
                 ]
             ]
         ];
