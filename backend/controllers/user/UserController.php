@@ -111,7 +111,6 @@ class UserController extends Controller
 
         return $this->render('update', [
             'models' => $model,
-            'roles' => $roles
         ]);
     }
 
@@ -124,7 +123,14 @@ class UserController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+
+        $model = $this->findModel($id);
+
+        try {
+            $this->service->delete($model);
+        }catch (\Exception $e) {
+            Yii::$app->session->setFlash('error', $e->getMessage());
+        }
 
         return $this->redirect(['index']);
     }

@@ -4,5 +4,5 @@
 
 ```
 core_user_create_users
-
+core_user_delete_users
 ```

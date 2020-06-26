@@ -6,6 +6,7 @@ namespace backend\services\user;
 
 use backend\forms\user\SignupUserForm;
 use backend\forms\user\UserAddForm;
+use core\entities\User\MdlUser;
 use core\entities\User\User;
 use core\entities\User\UsersBase;
 use core\helpers\user\RbacHelpers;
@@ -64,9 +65,16 @@ class UserServices extends MainService
         return $user;
     }
 
-    public function delete()
+    /**
+     * @param User $user
+     * @throws \Throwable
+     * @throws \yii\db\StaleObjectException
+     */
+    public function delete(User $user)
     {
-
+        $this->serviceAPI->deleteUser($user->user_moodle_id);
+        MdlUser::findOne($user->user_moodle_id)->delete();
+        $user->delete();
     }
 
     public function update(User $user, User $form): void{

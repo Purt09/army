@@ -20,5 +20,15 @@ class UserApiService extends MainApiService
             ]
         ];
         return $this->request('core_user_create_users', $param);
+}
+
+    public function deleteUser($user_id)
+    {
+        $param = [
+            'userids' => [
+                '0' => $user_id
+            ]
+        ];
+        return $this->request('core_user_delete_users', $param);
     }
 }
