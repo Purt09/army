@@ -7,6 +7,7 @@ use yii\helpers\Html;
 
 
 backend\assets\AppAsset::register($this);
+\frontend\assets\CalendarAsset::register($this);
 
 dmstr\web\AdminLteAsset::register($this);
 
