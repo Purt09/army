@@ -13,7 +13,6 @@ $this->title = 'Users';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="user-index">
-
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
@@ -30,7 +29,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'username',
             [
-                'attribute' => 'Роли',
+                'attribute' => 'role_id',
+                'label' => 'Роли',
+                'filter' => \core\helpers\user\RbacHelpers::getRoles(),
                 'value' => function ($user) {
                     if (!empty($userRole = \core\helpers\user\RbacHelpers::getRoleUser($user, 'description'))) {
                         return \core\helpers\user\RbacHelpers::getRolesString($user);

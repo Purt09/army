@@ -2,6 +2,8 @@
 
 namespace backend\controllers;
 
+use core\entities\User\User;
+use core\repositories\user\UserRepository;
 use core\services\auth\AuthService;
 use Yii;
 use yii\web\Controller;
@@ -13,10 +15,12 @@ use common\forms\auth\LoginForm;
  */
 class SiteController extends Controller
 {
+    private $users;
     private $authService;
 
     public function __construct($id, $module, AuthService $authService, $config = [])
     {
+        $this->users = new UserRepository();
         parent::__construct($id, $module, $config);
         $this->authService = $authService;
     }
@@ -55,7 +59,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $users = $this->users->getByRole(['cadet', 'officer']);
+        return $this->render('index', [
+            'users' => $users
+        ]);
     }
 
     /**

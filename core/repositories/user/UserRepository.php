@@ -6,30 +6,20 @@ use core\entities\User\User;
 
 class UserRepository
 {
-    public function findByUsernameOrEmail($value): ?User
+    /**
+     * @param array $roles
+     * @return array
+     */
+    public function getByRole(array $roles): array
     {
-        return User::find()->andWhere(['or', ['username' => $value], ['email' => $value]])->one();
+        $user_ids = [];
+        foreach ($roles as $role){
+            $ids = \Yii::$app->authManager->getUserIdsByRole($role);
+            $user_ids += [$role => User::find()->where(['id' => $ids])->all()];
+        }
+        return $user_ids;
     }
 
-    public function getByEmailConfirmToken($token): User
-    {
-        return $this->getBy(['email_confirm_token' => $token]);
-    }
-
-    public function getByEmail($email): User
-    {
-        return $this->getBy(['email' => $email]);
-    }
-
-    public function getByPasswordResetToken($token): User
-    {
-        return $this->getBy(['password_reset_token' => $token]);
-    }
-
-    public function existsByPasswordResetToken(string $token): bool
-    {
-        return (bool)User::findByPasswordResetToken($token);
-    }
 
     public function save(User $user): void
     {
@@ -44,11 +34,6 @@ class UserRepository
             throw new NotFoundException('User not found.');
         }
         return $user;
-    }
-
-    public function findByNetworkIdentity($network, $identity): ?User
-    {
-        return User::find()->joinWith('networks n')->andWhere(['n.network' => $network, 'n.identity' => $identity])->one();
     }
 
 }

@@ -5,6 +5,7 @@ namespace backend\forms\user;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use core\entities\User\User;
+use yii\db\ActiveQuery;
 use yii\db\Query;
 use yii\db\QueryBuilder;
 
@@ -16,6 +17,7 @@ class UserSearch extends User
     public $date_from;
     public $date_to;
     public $rank_id;
+    public $role_id;
 
     /**
      * {@inheritdoc}
@@ -24,6 +26,7 @@ class UserSearch extends User
     {
         return [
             [['id', 'status', 'created_at', 'updated_at', 'rank_id'], 'integer'],
+            ['role_id', 'string'],
             [['username', 'auth_key', 'password_hash', 'verification_token'], 'safe'],
             [['date_from', 'date_to'], 'date', 'format' => 'php:Y-m-d']
         ];
@@ -49,11 +52,6 @@ class UserSearch extends User
     {
         $query = User::find();
 
-        // Фильтр по полному имени
-        if($params['UserSearch']['rank_id'] != null)
-            $query->joinWith(['base' => function ($q) {
-                $q->where('id_rank = ' . $this->rank_id);
-            }]);
 
         // add conditions that should always apply here
 
@@ -63,16 +61,16 @@ class UserSearch extends User
 
         $this->load($params);
 
+        if ($this->rank_id != null)
+            $query->joinWith(['base' => function ($q) {
+                $q->where('id_rank = ' . $this->rank_id);
+            }]);
+
+        $this->filterByRole($query);
         if (!$this->validate()) {
             $query->where('0=1');
             return $dataProvider;
         }
-
-        // grid filtering conditions
-        $query->andFilterWhere([
-            'id' => $this->id,
-            'status' => $this->status,
-        ]);
 
         $query->andFilterWhere(['like', 'username', $this->username])
             ->andFilterWhere(['>=', 'created_at', $this->date_from ? strtotime($this->date_from . ' 00:00:00') : null])
@@ -80,5 +78,16 @@ class UserSearch extends User
 
 
         return $dataProvider;
+    }
+
+    /** Ищет по роли
+     * @param ActiveQuery $query
+     */
+    private function filterByRole(ActiveQuery $query)
+    {
+        if($this->role_id != null) {
+            $user_ids = \Yii::$app->authManager->getUserIdsByRole($this->role_id);
+            $query->andFilterWhere(['id' => $user_ids]);
+        }
     }
 }

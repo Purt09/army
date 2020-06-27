@@ -143,9 +143,9 @@ class RbacHelpers
         $roles = \Yii::$app->getAuthManager()->getRoles();
         $i = 0;
         $result = [];
-        foreach ($roles as $role){
+        foreach ($roles as $key => $role){
             $i++;
-            $result += [$i => $role->description];
+            $result += [$key => $role->description];
         }
         return $result;
     }

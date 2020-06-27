@@ -4,6 +4,8 @@ namespace backend\controllers\user;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
+use core\helpers\user\RbacHelpers;
+use core\repositories\user\UserRepository;
 use Yii;
 use core\entities\User\User;
 use backend\forms\user\UserSearch;
@@ -17,9 +19,11 @@ use yii\filters\VerbFilter;
 class UserController extends Controller
 {
     private $service;
+    private $users;
 
     public function __construct($id, $module, $config = [])
     {
+        $this->users = new UserRepository();
         $this->service = new UserServices();
         parent::__construct($id, $module, $config);
     }
