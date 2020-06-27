@@ -18,9 +18,9 @@ class AuthService
 
     public function auth(LoginForm $form): User
     {
-        $user = $this->repository->findByUsernameOrEmail($form->username);
+        $user = $this->repository->findByUsername($form->username);
         if (!$user || !$user->isActive() || !$user->validatePassword($form->password)) {
-            throw new \DomainException('Undefined user or password.');
+            throw new \DomainException('Неверное имя пользователя или пароль');
         }
         return $user;
     }

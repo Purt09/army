@@ -17,19 +17,19 @@ use yii\bootstrap\Nav;
     ]);
     $menuItems = [
         ['label' => '5 факультет', 'url' => ['site/index']],
-        ['label' => '51 кафедра', 'url'=>['#']],
-        ['label' => '52 кафедра', 'url'=>['#']],
-        ['label' => '53 кафедра', 'url'=>['#']],
-        ['label' => '55 кафедра', 'url'=>['#']],
+        ['label' => '51 кафедра', 'url' => ['#']],
+        ['label' => '52 кафедра', 'url' => ['#']],
+        ['label' => '53 кафедра', 'url' => ['#']],
+        ['label' => '55 кафедра', 'url' => ['#']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Регистрация', 'url' => ['/auth/signup/request']];
-        $menuItems[] = ['label' => 'Авторизация', 'url' => ['/auth/auth/login']];
+        $menuItems[] = ['label' => 'Авторизация', 'url' => ['/lk/auth/login']];
     } else {
+        $menuItems[] = ['label' => 'Личный кабинет', 'url' => ['/lk/desktop/index']];
         $menuItems[] = ''
             . '<li><form action="' . Yii::$app->params['moodle_host_info'] . 'autoauth.php" method="post">'
-            . '<input type="text" name="username" value="' . Yii::$app->user->identity->username .'" style="display:none">'
-            . '<input type="text" name="password" value="' . Yii::$app->user->identity->password .'" style="display:none">'
+            . '<input type="text" name="username" value="' . Yii::$app->user->identity->username . '" style="display:none">'
+            . '<input type="text" name="password" value="' . Yii::$app->user->identity->password . '" style="display:none">'
             . '<button type="submit" class="btn btn-link logout">Дистанционное обучение</button>'
             . '</form></li>';
         $menuItems[] = '<li>'

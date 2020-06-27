@@ -6,6 +6,11 @@ use core\entities\User\User;
 
 class UserRepository
 {
+    public function findByUsername($username)
+    {
+        return User::find()->where(['username' => $username])->one();
+    }
+
     /**
      * @param array $roles
      * @return array

@@ -1,14 +1,13 @@
 <?php
 
-namespace frontend\controllers\auth;
+
+namespace frontend\modules\lk\controllers;
 
 
-use core\helpers\user\RbacHelpers;
+use common\forms\auth\LoginForm;
 use core\services\auth\AuthService;
-use Yii;
 use yii\helpers\Url;
 use yii\web\Controller;
-use common\forms\auth\LoginForm;
 
 class AuthController extends Controller
 {
@@ -25,18 +24,19 @@ class AuthController extends Controller
      */
     public function actionLogin()
     {
-        if (!Yii::$app->user->isGuest) {
+        $this->layout = 'main-login';
+        if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
         $form = new LoginForm();
-        if ($form->load(Yii::$app->request->post()) && $form->validate()) {
+        if ($form->load(\Yii::$app->request->post()) && $form->validate()) {
             try {
                 $user = $this->service->auth($form);
-                Yii::$app->user->login($user, $form->rememberMe ? Yii::$app->params['user.rememberMeDuration'] : 0);
+                \Yii::$app->user->login($user, $form->rememberMe ? \Yii::$app->params['user.rememberMeDuration'] : 0);
                 return $this->redirect(Url::to('/'));
             } catch (\DomainException $e) {
-                Yii::$app->errorHandler->logException($e);
-                Yii::$app->session->setFlash('error', $e->getMessage());
+                \Yii::$app->errorHandler->logException($e);
+                \Yii::$app->session->setFlash('error', $e->getMessage());
             }
         }
         return $this->render('login', [
@@ -49,7 +49,8 @@ class AuthController extends Controller
      */
     public function actionLogout()
     {
-        Yii::$app->user->logout();
+        \Yii::$app->user->logout();
         return $this->goHome();
     }
+
 }

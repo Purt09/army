@@ -54,8 +54,8 @@ return [
         },
     ],
     'modules' => [
-        'api' => [
-            'class' => 'frontend\modules\api\Module',
+        'lk' => [
+            'class' => 'frontend\modules\lk\Module',
         ],
     ],
     'params' => $params,
