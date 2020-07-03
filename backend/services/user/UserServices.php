@@ -29,7 +29,7 @@ class UserServices extends MainService
      * @param SignupUserForm $form
      * @return User
      */
-    public function signup(SignupUserForm $form): User
+    public function signup(SignupUserForm $form)
     {
         $user = User::requestSignup(
             $form->username,
@@ -48,13 +48,13 @@ class UserServices extends MainService
                 $user->user_moodle_id = 1;
                 if(!$user->save())
                     throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные');
-                $user_id = json_decode($this->serviceAPI->createUser(
+                $user_id = $this->serviceAPI->createUser(
                     $form->username,
                     $form->email,
                     $form->password,
                     $form->firstName,
                     $form->lastName
-                ),1);
+                );
                 if(!is_int($user_id[0]['id']))
                     throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные');
                 $user->user_moodle_id = $user_id[0]['id'];
@@ -71,14 +71,14 @@ class UserServices extends MainService
      * @throws \Throwable
      * @throws \yii\db\StaleObjectException
      */
-    public function delete(User $user)
+    public function delete($user)
     {
         $this->serviceAPI->deleteUser($user->user_moodle_id);
         MdlUser::findOne($user->user_moodle_id)->delete();
         $user->delete();
     }
 
-    public function update(User $user, User $form): void{
+    public function update(User $user, User $form){
         $user->username = $form->username;
         $user->status = $form->status;
 

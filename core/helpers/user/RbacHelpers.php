@@ -114,18 +114,29 @@ class RbacHelpers
      * @param User $user
      * @throws \Exception
      */
-    public static function setRoleUser(string $role_name, User $user)
+    public static function setRoleUser($role_name, $user)
     {
         $userRole = \Yii::$app->authManager->getRole($role_name);
         \Yii::$app->authManager->assign($userRole, $user->id);
     }
 
 
-    public static function getRoleUser(User $user, string $attribute = 'name'){
+    /**
+     * @param User $user
+     * @param string $attribute
+     * @return mixed
+     */
+    public static function getRoleUser($user, $attribute = 'name'){
         return current(ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user->id), $attribute));
     }
 
-    public static function getRolesString(User $user): string
+    /**
+     * Просто перечисляет роли с разделеителем
+     * @param User $user
+     * @param string $separator
+     * @return string
+     */
+    public static function getRolesString($user, $separator = ' | ')
     {
         $result = '';
         $roles = \Yii::$app->authManager->getRolesByUser($user->id);
@@ -133,13 +144,16 @@ class RbacHelpers
             if(empty($result))
                 $result .= $role->description;
             else
-                $result .= ' | ' . $role->description;
+                $result .= $separator . $role->description;
 
         }
         return  $result;
     }
 
-    public static function getRoles():array {
+    /**
+     * @return array
+     */
+    public static function getRoles() {
         $roles = \Yii::$app->getAuthManager()->getRoles();
         $i = 0;
         $result = [];

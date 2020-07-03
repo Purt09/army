@@ -12,10 +12,11 @@ class UserRepository
     }
 
     /**
+     * Возращает пользователей определенных ролей
      * @param array $roles
      * @return array
      */
-    public function getByRole(array $roles): array
+    public function getByRole(array $roles)
     {
         $user_ids = [];
         foreach ($roles as $role){
@@ -26,14 +27,21 @@ class UserRepository
     }
 
 
-    public function save(User $user): void
+    /**
+     * @param $user
+     */
+    public function save($user)
     {
         if (!$user->save()) {
             throw new \RuntimeException('Saving error.');
         }
     }
 
-    private function getBy(array $condition): User
+    /**
+     * @param array $condition
+     * @return array|\yii\db\ActiveRecord|null
+     */
+    private function getBy(array $condition)
     {
         if (!$user = User::find()->andWhere($condition)->limit(1)->one()) {
             throw new NotFoundException('User not found.');

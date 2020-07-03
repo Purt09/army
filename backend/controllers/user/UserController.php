@@ -4,7 +4,9 @@ namespace backend\controllers\user;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
-use core\helpers\user\RbacHelpers;
+use core\entities\User\UsersBase;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use core\repositories\user\UserRepository;
 use Yii;
 use core\entities\User\User;
@@ -73,6 +75,24 @@ class UserController extends Controller
         ]);
     }
 
+    public function actionExcel()
+    {
+        try {
+            $file = \Yii::createObject([
+                'class' => 'codemix\excelexport\ExcelFile',
+                'sheets' => [
+                    'Users' => [
+                        'class' => 'codemix\excelexport\ActiveExcelSheet',
+                        'query' => UsersBase::find()->with('rank'),
+                    ]
+                ]
+            ]);
+            $file->send('user.xlsx');
+        } catch (\Exception $e) {
+            vardump($e->getMessage());
+        }
+    }
+
     /**
      * Creates a new User model.
      * If creation is successful, the browser will be redirected to the 'view' page.
@@ -86,7 +106,7 @@ class UserController extends Controller
         if ($models->load(Yii::$app->request->post())) {
             try {
                 $user = $this->service->signup($models);
-            }catch (\Exception $e) {
+            } catch (\Exception $e) {
                 Yii::$app->session->setFlash('warning', $e->getMessage());
             }
             return $this->redirect(['view', 'id' => $user->id]);
@@ -131,7 +151,7 @@ class UserController extends Controller
 
         try {
             $this->service->delete($model);
-        }catch (\Exception $e) {
+        } catch (\Exception $e) {
             Yii::$app->session->setFlash('error', $e->getMessage());
         }
 

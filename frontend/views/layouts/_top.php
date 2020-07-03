@@ -33,7 +33,7 @@ use yii\bootstrap\Nav;
             . '<button type="submit" class="btn btn-link logout">Дистанционное обучение</button>'
             . '</form></li>';
         $menuItems[] = '<li>'
-            . Html::beginForm(['/auth/auth/logout'], 'post')
+            . Html::beginForm(['/lk/auth/logout'], 'post')
             . Html::submitButton(
                 'Logout (' . Yii::$app->user->identity->username . ')',
                 ['class' => 'btn btn-link logout']

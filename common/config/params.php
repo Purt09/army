@@ -5,6 +5,6 @@ return [
     'senderName' => 'Example.com mailer',
     'user.passwordResetTokenExpire' => 3600,
     'user.rememberMeDuration' => 3600 * 24 * 30,
-    'moodle_host_info' => 'http://moodle5fak/',
+    'moodle_host_info' => 'http://moodle/',
     'moodle_api_link' => 'webservice/rest/server.php'
 ];

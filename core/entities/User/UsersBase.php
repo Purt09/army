@@ -40,7 +40,15 @@ use Yii;
  */
 class UsersBase extends \yii\db\ActiveRecord
 {
-    public static function create($firstname, $lastname, $sirname, $fio, $email): UsersBase
+    /**
+     * @param $firstname string
+     * @param $lastname string
+     * @param $sirname string
+     * @param $fio string
+     * @param $email string
+     * @return UsersBase
+     */
+    public static function create($firstname, $lastname, $sirname, $fio, $email)
     {
         $model = new UsersBase();
         $model->email = $email;

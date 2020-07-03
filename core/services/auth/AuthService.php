@@ -9,14 +9,17 @@ use core\repositories\user\UserRepository;
 class AuthService
 {
     private $repository;
-    private $helpers;
 
-    public function __construct(UserRepository $users)
+    public function __construct()
     {
-        $this->repository = $users;
+        $this->repository = new UserRepository();
     }
 
-    public function auth(LoginForm $form): User
+    /**
+     * @param LoginForm $form
+     * @return array|\yii\db\ActiveRecord|null
+     */
+    public function auth($form)
     {
         $user = $this->repository->findByUsername($form->username);
         if (!$user || !$user->isActive() || !$user->validatePassword($form->password)) {

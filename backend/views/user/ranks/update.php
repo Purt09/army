@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Ranks */
 
-$this->title = 'Update Ranks: ' . $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Ranks', 'url' => ['index']];
+$this->title = 'Редактровать звание: ' . $model->name;
+$this->params['breadcrumbs'][] = ['label' => 'Звнаия', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Редактирование';
 ?>
 <div class="ranks-update">
 

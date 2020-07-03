@@ -146,11 +146,11 @@ $moodle_link = '<form action="' . Yii::$app->params['moodle_host_info'] . 'autoa
             <div class="box-body">
                 <!-- the events -->
                 <div id="external-events-list">
-                    <div class="external-event bg-green ui-draggable ui-draggable-handle" style="position: relative; z-index: auto; left: 0px; top: 0px;">Lunch</div>
-                    <div class="external-event bg-yellow ui-draggable ui-draggable-handle" style="position: relative;">Go home</div>
-                    <div class="external-event bg-aqua ui-draggable ui-draggable-handle" style="position: relative;">Do homework</div>
-                    <div class="external-event bg-light-blue ui-draggable ui-draggable-handle" style="position: relative;">Work on UI design</div>
-                    <div class="external-event bg-red ui-draggable ui-draggable-handle" style="position: relative;">Sleep tight</div>
+                    <div class="external-event bg-green ui-draggable ui-draggable-handle" style="position: relative; z-index: auto; left: 0px; top: 0px;">Событие 1</div>
+                    <div class="external-event bg-yellow ui-draggable ui-draggable-handle" style="position: relative;">Событие 2</div>
+                    <div class="external-event bg-aqua ui-draggable ui-draggable-handle" style="position: relative;">Событие 3</div>
+                    <div class="external-event bg-light-blue ui-draggable ui-draggable-handle" style="position: relative;">Событие 4</div>
+                    <div class="external-event bg-red ui-draggable ui-draggable-handle" style="position: relative;">Событие 5</div>
                 </div>
             </div>
         </div>

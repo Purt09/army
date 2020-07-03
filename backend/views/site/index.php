@@ -11,7 +11,7 @@ $this->title = 'Рабочий стол админ панели';
 ?>
 <div class="site-index">
     <div class="col-md-3 col-sm-6 col-xs-12">
-        <a href="<?= Url::to('user/user') ?>" class="info-box">
+        <a href="<?= Url::to('/admin/user/user') ?>" class="info-box">
             <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
 
             <div class="info-box-content">

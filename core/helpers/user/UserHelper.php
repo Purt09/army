@@ -8,7 +8,10 @@ use yii\helpers\Html;
 
 class UserHelper
 {
-    public static function statusList(): array
+    /**
+     * @return array
+     */
+    public static function statusList()
     {
         return [
             User::STATUS_WAIT => 'Wait',
@@ -16,12 +19,16 @@ class UserHelper
         ];
     }
 
-    public static function statusName($status): string
+    public static function statusName($status)
     {
         return ArrayHelper::getValue(self::statusList(), $status);
     }
 
-    public static function statusLabel($status): string
+    /**
+     * @param $status
+     * @return string
+     */
+    public static function statusLabel($status)
     {
         switch ($status) {
             case User::STATUS_WAIT:

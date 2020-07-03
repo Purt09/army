@@ -10,7 +10,7 @@ class MainService
      * Несколько связанных действий с бд, лучше делать через транзакции!
      * @param callable $callable Действия с бд
      */
-    protected function transaction(callable $callable)
+    protected function transaction($callable)
     {
         $db = \Yii::$app->db;
         $transaction = $db->beginTransaction();

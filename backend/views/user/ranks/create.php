@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Ranks */
 
-$this->title = 'Create Ranks';
-$this->params['breadcrumbs'][] = ['label' => 'Ranks', 'url' => ['index']];
+$this->title = 'Добавить звнаие';
+$this->params['breadcrumbs'][] = ['label' => 'Звания', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="ranks-create">

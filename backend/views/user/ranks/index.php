@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel backend\forms\user\RanksSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Ranks';
+$this->title = 'Звания';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="ranks-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Ranks', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить звнаие', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

@@ -11,7 +11,7 @@ class MainRepository
      * @param callable $request запрос, который добавить в кеш
      * @return mixed
      */
-    protected static function checkCache(string $key, callable $request)
+    protected static function checkCache($key, $request)
     {
         $cache = \Yii::$app->cache;
         return $cache->getOrSet($key, $request, 3600);
@@ -23,7 +23,7 @@ class MainRepository
         return $cache->flush();
     }
 
-    protected static function clearCacheByKey(string $key)
+    protected static function clearCacheByKey($key)
     {
         return \Yii::$app->cache->delete(['yii\widgets\FragmentCache', $key]);
     }

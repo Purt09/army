@@ -18,7 +18,10 @@ use yii\helpers\ArrayHelper;
  */
 class UserState extends \yii\db\ActiveRecord
 {
-    public static function list(): array
+    /**
+     * @return array
+     */
+    public static function list()
     {
         return ArrayHelper::map(self::find()->asArray()->all(), 'id', 'name');
     }
