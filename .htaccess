@@ -1,59 +1,27 @@
 Options +FollowSymLinks
-
 IndexIgnore */*
-
 RewriteEngine on
 
-
-
 # Если запрос начинается с /admin, то заменяем на /backend/web/
-
 RewriteCond %{REQUEST_URI} ^/admin
-
 RewriteRule ^admin\/?(.*) /backend/web/$1
 
 # Если запрос начинается с /moodle, то заменяем на /backend/web/
-
 RewriteCond %{REQUEST_URI} ^/moodle
-
 RewriteRule ^moodle\/?(.*) /moodle/$1
 
-# Если moodle запрос
-
-RewriteCond %{REQUEST_URI} ^/moodle
-
-RewriteCond %{REQUEST_FILENAME} !-f
-
-RewriteCond %{REQUEST_FILENAME} !-d
-
-RewriteRule . /moodle/index.php
-
 # Добавляем другой запрос /frontend/web/$1
-
-RewriteCond %{REQUEST_URI} !^/(frontend/web|backend/web|admin)
-
+RewriteCond %{REQUEST_URI} !^/(frontend/web|backend/web|admin|moodle)
 RewriteRule (.*) /frontend/web/$1
 
-
-
 # Если frontend запрос
-
 RewriteCond %{REQUEST_URI} ^/frontend/web
-
 RewriteCond %{REQUEST_FILENAME} !-f
-
 RewriteCond %{REQUEST_FILENAME} !-d
-
 RewriteRule . /frontend/web/index.php
 
-
-
 # Если backend запрос
-
 RewriteCond %{REQUEST_URI} ^/backend/web
-
 RewriteCond %{REQUEST_FILENAME} !-f
-
 RewriteCond %{REQUEST_FILENAME} !-d
-
 RewriteRule . /backend/web/index.php

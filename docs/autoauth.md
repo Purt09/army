@@ -1,8 +1,7 @@
 
 Этот файл необходимо создать в корне moodle для автоматической авторизации!
+```
 <?php
-
-
 require('config.php');
 $name = $_REQUEST['username'];
 $password = $_REQUEST['password'];
@@ -18,6 +17,7 @@ if (complete_user_login($user)) {
     echo "not login";
     die;
 }
+```
 
 
 

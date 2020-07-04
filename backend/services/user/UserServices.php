@@ -55,11 +55,11 @@ class UserServices extends MainService
                     $form->firstName,
                     $form->lastName
                 );
+                vardump($user_id);
                 if(!is_int($user_id[0]['id']))
                     throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные');
                 $user->user_moodle_id = $user_id[0]['id'];
-            }
-            else
+            } else
                 $user->user_moodle_id = $form->moodle_id;
             $this->repository->save($user);
         });
