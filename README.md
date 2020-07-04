@@ -3,7 +3,8 @@
 
 ## Install
 ```
-$ git clone https://github.com/Purt09/army.git 5F.vka
+$ git clone https://github.com/Purt09/army.git 5f.vka
+$ composer install
 $ php init 
 ```
 C настройками 0
@@ -13,7 +14,6 @@ C настройками 0
 Добавляем все таблицы от мудла
 Добавляем все таблицы из дампа
 ```
-$ composer install
 $ psql -U postgres  //Только для создания базы, если уже создана, то не надо
 $ CREATE DATABASE fakultet; // Аналогично выше
 $ \q 
