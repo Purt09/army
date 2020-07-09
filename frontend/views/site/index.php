@@ -4,7 +4,59 @@
 
 $this->title = '5 факультет';
 ?>
-<div class="banner_w3lspvt  position-relative" style="background-image: url(/img/banner.jpg); background-repeat: no-repeat; background-size: cover;">
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="info-box bg-info">
+        <span class="info-box-icon"><i class="fa fa-graduation-cap"></i></span>
+
+        <div class="info-box-content">
+            <span class="info-box-number">Подготовка и повышение квалификации л/с</span>
+
+        </div>
+        <!-- /.info-box-content -->
+    </div>
+    <!-- /.info-box -->
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="info-box bg-info">
+        <span class="info-box-icon"><i class="fa fa-calculator"></i></span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">Научная работа</span>
+            <span class="info-box-number">
+                    Научно-исследовательская
+            </span>
+        </div>
+        <!-- /.info-box-content -->
+    </div>
+    <!-- /.info-box -->
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="info-box bg-info">
+        <span class="info-box-icon"><i class="fa fa fa-book"></i></span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">Образовательная</span>
+            <span class="info-box-number">деятельность</span>
+
+        </div>
+        <!-- /.info-box-content -->
+    </div>
+    <!-- /.info-box -->
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="info-box bg-info">
+        <span class="info-box-icon"><i class="fa fa fa-legal"></i></span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">Методическая</span>
+            <span class="info-box-number">деятельность</span>
+
+        </div>
+        <!-- /.info-box-content -->
+    </div>
+    <!-- /.info-box -->
+</div>
+<div class="banner_w3lspvt  position-relative" style="background-image: url(/img/banner.jpg); background-repeat: no-repeat; background-size: cover; margin-top: 100px">
     <div class="container">
             <div class="w3ls_banner_txt">
                 <h3 class="w3ls_pvt-title">Факультет сбора <br>и обработки <br>информации </h3>

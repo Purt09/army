@@ -224,3 +224,11 @@ h3.w3ls_pvt-title span {
     position: relative;
     z-index: 1;
 }
+
+
+.banner_main {
+background: url(/images/fon.png);
+background-size: cover;
+width: 100%;
+height: 250px;
+}
