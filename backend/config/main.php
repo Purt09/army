@@ -23,6 +23,23 @@ return [
             // используем шаблон нашей админки.
             'layout' => null,
         ],
+        'pages' => [
+            'class' => 'bupy7\pages\Module',
+            'controllerMap' => [
+                'manager' => [
+                    'class' => 'bupy7\pages\controllers\ManagerController',
+                    'as access' => [
+                        'class' => \yii\filters\AccessControl::className(),
+                        'rules' => [
+                            [
+                                'allow' => true,
+                                'roles' => ['admin'],
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
     'components' => [
         'request' => [

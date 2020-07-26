@@ -15,8 +15,8 @@ class m200625_211925_cahnge_user_table extends Migration
         $this->dropColumn('{{%user}}', 'email');
         $this->addColumn('{{%user}}', 'user_moodle_id', $this->integer());
         $this->addColumn('{{%user}}', 'user_base_id', $this->integer());
-        $this->addForeignKey('{{%fk-user-user_moodle_id}}', '{{%user}}', 'user_moodle_id', 'mdl_user', 'id', 'CASCADE');
-        $this->addForeignKey('{{%fk-user-user_base_id}}', '{{%user}}', 'user_base_id', 'users', 'id', 'CASCADE');
+        $this->addForeignKey('{{%fk-user-user_moodle_id}}', '{{%user}}', 'user_moodle_id', 'mdl_user', 'id', 'SET NULL');
+        $this->addForeignKey('{{%fk-user-user_base_id}}', '{{%user}}', 'user_base_id', 'users', 'id', 'SET NULL');
     }
 
     /**

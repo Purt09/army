@@ -9,7 +9,6 @@ use yii\widgets\DetailView;
 $this->title = 'Профиль пользователя ' . $model->username;
 $this->params['breadcrumbs'][] = ['label' => 'Users', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
-\yii\web\YiiAsset::register($this);
 ?>
 <div class="user-view">
 
@@ -32,38 +31,31 @@ $this->params['breadcrumbs'][] = $this->title;
                 'content' => DetailView::widget([
                         'model' => $model->base,
                         'attributes' => [
-                            'id',
-                            'role_name',
-                            'with_inheritance:boolean',
                             'unique_id',
                             'last_update',
-                            [
-                                'attribute' => 'id_rank',
-                                'value' => function ($model) {
-                                    return $model->rank->name;
-                                }
-                            ],
-                            [
-                                'attribute' => 'id_state',
-                                'value' => function ($model) {
-                                    return $model->state->name;
-                                }
-                            ],
-                            [
-                                'attribute' => 'id_maclabel',
-                                'value' => function ($model) {
-                                    return $model->maclabel->name;
-                                }
-                            ],
+                            'id',
+                            'id_io_state',
+                            'uuid_t',
+                            'rr_name',
+                            'r_icon',
+                            'record_fill_color',
+                            'record_text_color',
+                            'id_current_mil_rank',
+                            'id_current_mil_position',
+                            'fio',
                             'lastname',
                             'firstname',
                             'sirname',
-                            'fio',
-                            'insert_time',
+                            'passport_number',
                             'email:email',
-                            'acc_right_num',
-                            'acc_right_date',
-                            'is_connected:boolean',
+                            'mobile_phone',
+                            'wife_mobile_phone',
+                            'home_phone',
+                            'work_phone',
+                            'address',
+                            'birthday_date',
+                            'udl_number',
+                            'foto',
                         ],
                     ]) .
                     Html::a('Редактировать', ['user/users-base/update?id=' . $model->base->id], ['class' => 'btn btn-success']) .

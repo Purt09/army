@@ -4,6 +4,7 @@ namespace backend\controllers\user;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
+use core\entities\User\TblStaff;
 use core\entities\User\UsersBase;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
@@ -104,11 +105,19 @@ class UserController extends Controller
         $models = new SignupUserForm();
 
         if ($models->load(Yii::$app->request->post())) {
-            try {
+                $staff = TblStaff::create(
+                    $models->firstName,
+                    $models->lastName,
+                    $models->sirName,
+                    $models->passport,
+                    $models->mobile_phone,
+                    $models->address,
+                    $models->birthday_date,
+                    $models->udl_number
+                );
+                $staff->save();
+                vardump($staff);
                 $user = $this->service->signup($models);
-            } catch (\Exception $e) {
-                Yii::$app->session->setFlash('warning', $e->getMessage());
-            }
             return $this->redirect(['view', 'id' => $user->id]);
         }
 

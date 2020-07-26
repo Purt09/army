@@ -26,7 +26,7 @@ use core\entities\User\Network;
  * @property int $user_base_id
  *
  * @property MdlUser $moodle
- * @property UsersBase $base
+ * @property TblStaff $base
  */
 class User extends ActiveRecord implements IdentityInterface
 {
@@ -45,24 +45,6 @@ class User extends ActiveRecord implements IdentityInterface
         $user->generateAuthKey();
         return $user;
     }
-
-    public function requestPasswordReset(): void
-    {
-        if (!empty($this->password_reset_token) && self::isPasswordResetTokenValid($this->password_reset_token)) {
-            throw new \DomainException('Password resetting is already requested.');
-        }
-        $this->password_reset_token = Yii::$app->security->generateRandomString() . '_' . time();
-    }
-
-    public function resetPassword($password): void
-    {
-        if (empty($this->password_reset_token)) {
-            throw new \DomainException('Password resetting is not requested.');
-        }
-        $this->setPassword($password);
-        $this->password_reset_token = null;
-    }
-
     public function isWait(): bool
     {
         return $this->status === self::STATUS_WAIT;
@@ -223,6 +205,6 @@ class User extends ActiveRecord implements IdentityInterface
      */
     public function getBase()
     {
-        return $this->hasOne(UsersBase::className(), ['id' => 'user_base_id']);
+        return $this->hasOne(TblStaff::className(), ['id' => 'user_base_id']);
     }
 }

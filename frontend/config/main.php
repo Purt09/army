@@ -57,6 +57,12 @@ return [
         'lk' => [
             'class' => 'frontend\modules\lk\Module',
         ],
+        'courses' => [
+            'class' => 'frontend\modules\courses\Module',
+        ],
+        'department' => [
+            'class' => 'frontend\modules\department\Module',
+        ],
     ],
     'params' => $params,
 ];

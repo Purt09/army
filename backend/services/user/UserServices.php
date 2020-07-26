@@ -7,6 +7,7 @@ namespace backend\services\user;
 use backend\forms\user\SignupUserForm;
 use backend\forms\user\UserAddForm;
 use core\entities\User\MdlUser;
+use core\entities\User\TblStaff;
 use core\entities\User\User;
 use core\entities\User\UsersBase;
 use core\helpers\user\RbacHelpers;
@@ -36,16 +37,23 @@ class UserServices extends MainService
             $form->password
         );
         $this->transaction(function () use ($user, $form){
-            $userBase = UsersBase::create(
+            $staff = TblStaff::create(
                 $form->firstName,
                 $form->lastName,
                 $form->sirName,
-                'fio',
-                $form->email
+                $form->passport,
+                $form->mobile_phone,
+                $form->address,
+                $form->birthday_date,
+                $form->udl_number
             );
-            $user->user_base_id = $userBase->id;
+            $staff->save();
+            vardump($staff);
+            throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные');
+            $user->user_base_id = $staff->id;
             if($form->moodle_id == 0) {
-                $user->user_moodle_id = 1;
+                $user->user_moodle_id = 2;
+
                 if(!$user->save())
                     throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные');
                 $user_id = $this->serviceAPI->createUser(
@@ -55,7 +63,6 @@ class UserServices extends MainService
                     $form->firstName,
                     $form->lastName
                 );
-                vardump($user_id);
                 if(!is_int($user_id[0]['id']))
                     throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные');
                 $user->user_moodle_id = $user_id[0]['id'];

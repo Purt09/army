@@ -18,6 +18,7 @@ $ psql -U postgres  //Только для создания базы, если у
 $ CREATE DATABASE fakultet; // Аналогично выше
 $ \q 
 $ php yii migrate up
+$ ./yii migrate/up --migrationPath=@bupy7/pages/migrations
 $ php yii rbac/init
 ```
 Должны получится все таблицы в обной базе.

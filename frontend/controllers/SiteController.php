@@ -2,6 +2,9 @@
 
 namespace frontend\controllers;
 
+use bupy7\pages\models\Page;
+use core\entities\News\News;
+use core\entities\News\NewsPublications;
 use yii\web\Controller;
 
 /**
@@ -30,14 +33,28 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+//        $content = Page::find()->where(['alias' => 'main'])->one();
+//        $history = Page::find()->where(['alias' => 'history-main'])->one();
+//
+//        $news = NewsPublications::find()->where(['main' => 1])->with('article')->all();
+
+        return $this->render('index', [
+            'content' => $content,
+            'history' => $history,
+            'news' => $news
+        ]);
     }
 
     /**
      * @return mixed
      */
-    public function actionAbout()
+    public function actionContact()
     {
-        return $this->render('about');
+        $abonents = Page::find()->where(['alias' => 'contacts-abonent'])->one();
+        $info = Page::find()->where(['alias' => 'contacts-info'])->one();
+        return $this->render('contact',[
+            'abonents' => $abonents,
+            'info' => $info,
+        ]);
     }
 }

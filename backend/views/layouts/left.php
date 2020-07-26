@@ -17,6 +17,8 @@
             [
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
                 'items' => [
+                    ['label' => 'Страницы', 'icon' => 'list', 'url' => ['/pages/manager/index'],],
+                    ['label' => 'Новости', 'icon' => 'list', 'url' => ['/news/index'],],
                     [
                         'label' => 'Пользователи',
                         'icon' => 'user',

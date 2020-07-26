@@ -55,14 +55,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             [
-                'label' => 'Звание',
-                'attribute' => 'rank_id',
-                'filter' => \core\entities\User\Ranks::list(),
-                'value' => function ($user) {
-                    return $user->base->rank->name;
-                },
-            ],
-            [
                 'class' => ActionColumn::className(),
             ],
         ],

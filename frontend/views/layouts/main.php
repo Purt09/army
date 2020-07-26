@@ -9,6 +9,7 @@ use yii\helpers\Html;
 backend\assets\AppAsset::register($this);
 \frontend\assets\CalendarAsset::register($this);
 dmstr\web\AdminLteAsset::register($this);
+\yii\web\YiiAsset::register($this);
 
 Yii::$app->name = '5 Факультет';
 
@@ -27,24 +28,6 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed201
 <body class="hold-transition skin-blue sidebar-mini">
 <?php $this->beginBody() ?>
 
-<div class="banner_main">
-    <div style="">
-        <div class="banner-left" style="position:absolute; ">
-            <img src="images/logo.png" alt="logo" width="370" height="250">
-    </div>
-    <div class="banner-centr" style="padding-left:470px;  position:absolute">
-            <div style="position:absolute; color:white; padding-top:45px">
-                <h1 align="center"> ФАКУЛЬТЕТ СБОРА И ОБРАБОТКИ ИНФОРМАЦИИ</h1>
-            </div>
-            <img src="images/acad2.jpeg" alt="logo" width="600" height="250">
-        </div> 
-        <div>
-            <img src="images/flogo.png" alt="logo" style="position: absolute; top: -24px; width: 230px; height: auto; left: 60%;">
-        </div>
-    </div>
-</div>
-   
-<div class="wrapper">
 
     <?= $this->render(
         'header.php',
