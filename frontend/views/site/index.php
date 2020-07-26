@@ -141,7 +141,7 @@ $history = "<section class=\"content\">
 
 <section class=\"content\">
     <div class=\"col-sm-6 cafedra_block\">
-        <div class=\"col-sm-9 cafedra_title\">
+        <div class=\"col-sm-8 cafedra_title\">
             <h2>
                 Факультет сбора и обработки информации
             </h2>
