@@ -43,9 +43,9 @@ class FiveFreeController extends Controller
 //        $news = NewsPublications::find()->where(['53_cafedra' => 1])->with('article')->all();
 
         return $this->render('index', [
-            'content' => $content,
-            'history' => $history,
-            'news' => $news
+//            'content' => $content,
+//            'history' => $history,
+//            'news' => $news
         ]);
     }
 

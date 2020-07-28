@@ -21,7 +21,7 @@ $news ="
             <div class=\"row\">
             <div class=\"col-md-4 blog_box\">
                 <a href=\"#\" class=\"mask\">
-                    <img src=\"https://s0.rbk.ru/v6_top_pics/media/img/5/97/755795279287975.jpeg\" alt=\"IV ВСЕРОССИЙСКАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ «ЭКОЛОГИЯ И КОСМОС» ИМ. АКАДЕМИКА К.Я. КОНДРАТЬЕВА»\" class=\"img-responsive zoom-img\">
+                    <img src=\"/img/new1.jpeg\" alt=\"IV ВСЕРОССИЙСКАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ «ЭКОЛОГИЯ И КОСМОС» ИМ. АКАДЕМИКА К.Я. КОНДРАТЬЕВА»\" class=\"img-responsive zoom-img\">
                 </a>
             </div>
             <div class=\"col-md-8\">

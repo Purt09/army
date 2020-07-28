@@ -44,9 +44,9 @@ class FiveFiveController extends Controller
 //        $news = NewsPublications::find()->where(['54_cafedra' => 1])->with('article')->all();
 
         return $this->render('index', [
-            'content' => $content,
-            'history' => $history,
-            'news' => $news
+//            'content' => $content,
+//            'history' => $history,
+//            'news' => $news
         ]);
     }
 

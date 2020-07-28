@@ -7,21 +7,7 @@ use yii\helpers\Html;
 ?>
 
 <div class="banner_main">
-    <div class="col-sm-2">
-
-    </div>
-    <div class="col-sm-2">
-        <img src="/img/emblema-vka.png" alt="logo" style="height: 240px;width: auto;">
-    </div>
-    <div class="col-sm-5 col-xlg-4">
-        <img src="/images/acad2.jpeg" alt="logo" width="600" height="250">
-        <div style="position:absolute; color:white; z-index: 99;top: 40px;width: 600px;">
-            <h1 style="text-align: center"> ФАКУЛЬТЕТ СБОРА И ОБРАБОТКИ ИНФОРМАЦИИ</h1>
-        </div>
-    </div>
-    <div class="col-sm-2">
-        <img src="/images/flogo.png" alt="logo" style="position: absolute; top: -24px; width: 230px; height: auto; ">
-    </div>
+    <img src="/img/new_banner.jpg" style="width:100%;">
 </div>
 
 <div class="wrapper">
