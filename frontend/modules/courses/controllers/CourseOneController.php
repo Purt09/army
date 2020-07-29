@@ -6,6 +6,7 @@ namespace frontend\modules\courses\controllers;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
+use core\helpers\user\RbacHelpers;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 
@@ -48,6 +49,8 @@ class CourseOneController extends Controller
         if ($model->load(\Yii::$app->request->post())) {
             try {
                 $user = $this->service->signup($model);
+                RbacHelpers::setRoleUser(RbacHelpers::$CADET, $user);
+                RbacHelpers::setRoleUser(RbacHelpers::$COURSE51, $user);
             } catch (\Exception $e) {
                 \Yii::$app->session->setFlash('warning', $e->getMessage());
             }
