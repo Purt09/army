@@ -59,7 +59,7 @@ class CourseFourController extends Controller
             } catch (\Exception $e) {
                 \Yii::$app->session->setFlash('warning', $e->getMessage());
             }
-            return $this->redirect(['course-four', 'id' => $user->id]);
+            return $this->redirect('/profile/'. $user->id);
         }
 
         return $this->render('create-cadet', [
