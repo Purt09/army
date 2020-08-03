@@ -4,31 +4,33 @@
 namespace frontend\modules\department\controllers;
 
 
-
 use bupy7\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
+use core\entities\News\NewsSearch;
 use frontend\modules\department\useCases\NewsService;
 use Yii;
+use yii\filters\AccessControl;
 use yii\web\Controller;
 
 class FiveFiveController extends Controller
 {
     private $newsService;
-//    public function behaviors()
-//    {
-//        return [
-//            'access' => [
-//                'class' => AccessControl::className(),
-//                'rules' => [
-//                    [
-//                        'allow' => true,
-//                        'roles' => ['course51'],
-//                    ],
-//                ],
-//            ],
-//        ];
-//    }
+    public function behaviors()
+    {
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'except' => ['index'],
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['cafedra55', 'admin'],
+                    ],
+                ],
+            ],
+        ];
+    }
 
 
     public function __construct($id, $module, $config = [])
@@ -39,14 +41,14 @@ class FiveFiveController extends Controller
 
     public function actionIndex()
     {
-//        $content = Page::find()->where(['alias' => 'main_55kaf'])->one();
-//        $history = Page::find()->where(['alias' => 'history_55kaf-main'])->one();
-//        $news = NewsPublications::find()->where(['54_cafedra' => 1])->with('article')->all();
+        $content = Page::find()->where(['alias' => 'main_55kaf'])->one();
+        $history = Page::find()->where(['alias' => 'history_55kaf'])->one();
+        $news = NewsPublications::find()->where(['54_cafedra' => 1])->with('article')->all();
 
         return $this->render('index', [
-//            'content' => $content,
-//            'history' => $history,
-//            'news' => $news
+            'content' => $content,
+            'history' => $history,
+            'news' => $news
         ]);
     }
 
@@ -69,6 +71,24 @@ class FiveFiveController extends Controller
 
     public function actionManager()
     {
-        return $this->render('manager');
+        $newsPublications = NewsPublications::find()->where(['54_cafedra' => true])->with('articles')->all();
+        return $this->render('manager', [
+            'newsPublications' => $newsPublications
+        ]);
+    }
+
+    public function actionMain()
+    {
+        $model = Page::find()->where(['alias' => 'main_55kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+        ]);
     }
 }

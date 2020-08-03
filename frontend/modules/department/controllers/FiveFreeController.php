@@ -15,20 +15,21 @@ use yii\web\Controller;
 
 class FiveFreeController extends Controller
 {
-//    public function behaviors()
-//    {
-//        return [
-//            'access' => [
-//                'class' => AccessControl::className(),
-//                'rules' => [
-//                    [
-//                        'allow' => true,
-//                        'roles' => ['course51'],
-//                    ],
-//                ],
-//            ],
-//        ];
-//    }
+    public function behaviors()
+    {
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'except' => ['index'],
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['cafedra53', 'admin'],
+                    ],
+                ],
+            ],
+        ];
+    }
 
 
     public function __construct($id, $module, $config = [])
@@ -38,14 +39,14 @@ class FiveFreeController extends Controller
 
     public function actionIndex()
     {
-//        $content = Page::find()->where(['alias' => 'main_53kaf'])->one();
-//        $history = Page::find()->where(['alias' => 'history_53kaf-main'])->one();
-//        $news = NewsPublications::find()->where(['53_cafedra' => 1])->with('article')->all();
+        $content = Page::find()->where(['alias' => 'main_53kaf'])->one();
+        $history = Page::find()->where(['alias' => 'history_53kaf'])->one();
+        $news = NewsPublications::find()->where(['53_cafedra' => 1])->with('articles')->all();
 
         return $this->render('index', [
-//            'content' => $content,
-//            'history' => $history,
-//            'news' => $news
+            'content' => $content,
+            'history' => $history,
+            'news' => $news
         ]);
     }
 
@@ -68,7 +69,25 @@ class FiveFreeController extends Controller
 
     public function actionManager()
     {
-        return $this->render('manager');
+        $newsPublications = NewsPublications::find()->where(['53_cafedra' => true])->with('articles')->all();
+        return $this->render('manager', [
+            'newsPublications' => $newsPublications
+        ]);
+    }
+
+    public function actionMain()
+    {
+        $model = Page::find()->where(['alias' => 'main_53kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+        ]);
     }
 
 }

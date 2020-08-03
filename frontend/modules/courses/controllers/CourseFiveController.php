@@ -6,6 +6,7 @@ namespace frontend\modules\courses\controllers;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
+use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -33,10 +34,16 @@ class CourseFiveController extends Controller
         parent::__construct($id, $module, $config);
     }
 
+
     public function actionIndex()
     {
-
-        return $this->render('index');
+        $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$COURSE55);
+        $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$CADET);
+        $users = array_intersect($users1, $users2);
+        $users = User::find()->where(['id' => $users])->all();
+        return $this->render('index', [
+            'users' => $users
+        ]);
     }
 
 

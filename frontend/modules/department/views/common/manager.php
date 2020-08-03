@@ -2,6 +2,7 @@
 /**
  * @var $controller string
  * @var $title string
+ * @var $newsPublications \core\entities\News\NewsPublications
  */
 
 $this->title = 'Управление кафедрой ' . $title;
@@ -22,18 +23,35 @@ $this->title = 'Управление кафедрой ' . $title;
     </a>
 </div>
 <div class="col-md-3 col-sm-6 col-xs-12">
-    <div class="info-box bg-green">
-        <span class="info-box-icon"><i class="fa fa-align-left"></i></span>
+    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/common/news") ?>">
+        <div class="info-box bg-green">
+            <span class="info-box-icon"><i class="fa fa-align-left"></i></span>
 
-        <div class="info-box-content">
-            <span class="info-box-text">Управление новостями</span>
-            <span class="info-box-number">Всего новостей: 0</span>
+            <div class="info-box-content">
+                <span class="info-box-text">Управление новостями</span>
+                <span class="info-box-number">Всего новостей: <?= count($newsPublications) ?></span>
 
-            <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div>
             </div>
         </div>
-    </div>
+    </a>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/main") ?>">
+        <div class="info-box bg-green">
+            <span class="info-box-icon"><i class="fa fa-pencil"></i></span>
+
+            <div class="info-box-content">
+                <span class="info-box-text">Управление главной</span>
+
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div>
+            </div>
+        </div>
+    </a>
 </div>
 <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="info-box bg-yellow">

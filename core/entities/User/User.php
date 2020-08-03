@@ -98,7 +98,7 @@ class User extends ActiveRecord implements IdentityInterface
             [['password'], 'string', 'max' => 15],
             [['username'], 'unique'],
             [['user_moodle_id'], 'exist', 'skipOnError' => true, 'targetClass' => MdlUser::className(), 'targetAttribute' => ['user_moodle_id' => 'id']],
-            [['user_base_id'], 'exist', 'skipOnError' => true, 'targetClass' => UsersBase::className(), 'targetAttribute' => ['user_base_id' => 'id']],
+            [['user_base_id'], 'exist', 'skipOnError' => true, 'targetClass' => TblStaff::className(), 'targetAttribute' => ['user_base_id' => 'id']],
         ];
     }
 

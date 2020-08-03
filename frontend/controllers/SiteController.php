@@ -33,15 +33,15 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-//        $content = Page::find()->where(['alias' => 'main'])->one();
-//        $history = Page::find()->where(['alias' => 'history-main'])->one();
-//
-//        $news = NewsPublications::find()->where(['main' => 1])->with('article')->all();
+        $content = Page::find()->where(['alias' => 'main'])->one();
+        $history = Page::find()->where(['alias' => 'history-main'])->one();
+
+        $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
 
         return $this->render('index', [
-//            'content' => $content,
-//           'history' => $history,
-//            'news' => $news
+            'content' => $content,
+           'history' => $history,
+            'news' => $news
         ]);
     }
 
@@ -50,11 +50,28 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
-        $abonents = Page::find()->where(['alias' => 'contacts-abonent'])->one();
         $info = Page::find()->where(['alias' => 'contacts-info'])->one();
         return $this->render('contact',[
-            'abonents' => $abonents,
             'info' => $info,
         ]);
+    }
+
+    /**
+     * @return mixed
+     */
+    public function actionContactList()
+    {
+        $abonents = Page::find()->where(['alias' => 'contacts-abonent'])->one();
+        return $this->render('contact-list',[
+            'abonents' => $abonents,
+        ]);
+    }
+
+    /**
+     * @return mixed
+     */
+    public function actionVideoCamera()
+    {
+        return $this->render('video-camera');
     }
 }

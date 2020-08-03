@@ -14,7 +14,7 @@ use Yii;
  * @property bool|null $53_cafedra
  * @property bool|null $54_cafedra Это 55 кафедра, просто не хочу менять бд
  *
- * @property News[] $article
+ * @property News[] $articles
  */
 class NewsPublications extends \yii\db\ActiveRecord
 {
@@ -56,7 +56,7 @@ class NewsPublications extends \yii\db\ActiveRecord
      *
      * @return \yii\db\ActiveQuery
      */
-    public function getArticle()
+    public function getArticles()
     {
         return $this->hasOne(News::className(), ['publications' => 'id']);
     }

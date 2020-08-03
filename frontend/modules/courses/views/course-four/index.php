@@ -1,6 +1,7 @@
 <?php
 /**
  * @var $this \yii\web\View
+ * @var $users \core\entities\User\User[]
  */
 
 $this->title = 'Управление 54 курсом';
@@ -29,16 +30,19 @@ use yii\helpers\Url;
                     <th>Группа</th>
                     <th>Действия</th>
                 </tr>
-                <tr>
-                    <td>Александр</td>
-                    <td>Пуртов</td>
-                    <td>Николаевич</td>
-                    <td><span class="label label-success">565</span></td>
-                    <td>
-                        <i class="fa fa-remove"></i>
-                        <i class="fa fa-edit"></i>
-                    </td>
-                </tr>
+                <?php foreach ($users as $user): ?>
+                    <tr>
+                        <td><?= $user->base->firstname ?></td>
+                        <td><?= $user->base->lastname ?></td>
+                        <td><?= $user->base->sirname ?></td>
+                        <td><span class="label label-success">??</span></td>
+                        <td>
+                            <i class="fa fa-remove"></i>
+                            <i class="fa fa-edit"></i>
+                            <a href="/profile/<?= $user->id ?>"><i class="fa fa-eye"></i></a>
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
                 </tbody></table>
         </div>
     </div>

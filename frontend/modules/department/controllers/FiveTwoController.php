@@ -8,24 +8,26 @@ use bupy7\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use Yii;
+use yii\filters\AccessControl;
 use yii\web\Controller;
 
 class FiveTwoController extends Controller
 {
-//    public function behaviors()
-//    {
-//        return [
-//            'access' => [
-//                'class' => AccessControl::className(),
-//                'rules' => [
-//                    [
-//                        'allow' => true,
-//                        'roles' => ['course51'],
-//                    ],
-//                ],
-//            ],
-//        ];
-//    }
+    public function behaviors()
+    {
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'except' => ['index'],
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['cafedra52', 'admin'],
+                    ],
+                ],
+            ],
+        ];
+    }
 
 
     public function __construct($id, $module, $config = [])
@@ -35,15 +37,15 @@ class FiveTwoController extends Controller
 
     public function actionIndex()
     {
-//        $content = Page::find()->where(['alias' => 'main_52kaf'])->one();
-//        $history = Page::find()->where(['alias' => 'history_52kaf-main'])->one();
-//
-//        $news = NewsPublications::find()->where(['52_cafedra' => 1])->with('article')->all();
+        $content = Page::find()->where(['alias' => 'main_52kaf'])->one();
+        $history = Page::find()->where(['alias' => 'history_52kaf-main'])->one();
+
+        $news = NewsPublications::find()->where(['52_cafedra' => 1])->with('articles')->all();
 
         return $this->render('index', [
-//            'content' => $content,
-//            'history' => $history,
-//            'news' => $news
+            'content' => $content,
+            'history' => $history,
+            'news' => $news
         ]);
     }
 
@@ -66,6 +68,24 @@ class FiveTwoController extends Controller
 
     public function actionManager()
     {
-        return $this->render('manager');
+        $newsPublications = NewsPublications::find()->where(['52_cafedra' => true])->with('articles')->all();
+        return $this->render('manager', [
+            'newsPublications' => $newsPublications
+        ]);
+    }
+
+    public function actionMain()
+    {
+        $model = Page::find()->where(['alias' => 'main_52kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+        ]);
     }
 }

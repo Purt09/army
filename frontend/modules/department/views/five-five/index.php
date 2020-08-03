@@ -1,37 +1,22 @@
 <?php
 /**
- * @var $this View
- * @var $news NewsPublications[]
+ * @var $this \yii\web\View
  * @var $content Page
  * @var $history Page
+ * @var $news NewsPublications
  */
 
 use bupy7\pages\models\Page;
 use core\entities\News\NewsPublications;
-use yii\web\View;
 
 $this->title = 'Кафедра 55';
 
 ?>
-<?php
-$main = "
-<section class=\"content\">
-    <div class=\"col-sm-6 cafedra_block\">
-        <div class=\"col-sm-9 cafedra_title\">
-            <h2>
-                 Кафедра космического радиоэлектронного контроля
-            </h2>
-            <span>
-            Кафедра образована 1 декабря 1977 года и начинает свою историю с создания кафедры Радиотехнических средств контроля
 
-            </span>
-        </div>
-        <div class=\"col-sm-3 caferdra_emblema\">
-            <img src=\"/img/эмб53.jpg\" alt=\"Эмблема\" height=\"160px\">
-        </div>
-        <div class=\"col-sm-12 cafedra_prev\">
-Кафедра осуществляет подготовку специалистов с высшим военно-специальным образованием (специалитет) по специальности:<br> 11.05.02 – Специальные радиотехнические системы, а также осуществляет подготовку научно-педогагических кадров по одной научной специальности.<br> Офицер- выпускник кафедры предназначен для прохождения службы в войско-вых частях ГУ ГШ ВС РФ.
-       </div>
+<?php $main = "<section class=\"content\">
+    <div class=\"col-sm-6\" style=\" margin-top: 60px; background-color: white;border-radius: 20px;
+        padding: 15px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);\">
+    $content->content
     </div>
     <div class=\"col-sm-6\">
         <div style=\"text-align: center;\">
@@ -46,7 +31,7 @@ $main = "
                             <img class=\"user_photo img-responsive\" src=\"/img/нач55каф.jpg\" alt=\"User profile picture\">
                         </div>
 
-                        <h3 class=\"profile-username text-center\">АЛЁХИН СЕРГЕЙ ГРИГОРЬЕВИЧ</h3>
+                        <h3 class=\"profile-username text-center\">АЛЁХИН СЕРГЕЙ <br> ГРИГОРЬЕВИЧ</h3>
 
                         <p class=\"text-muted text-center\">Начальник кафедры</p>
 
@@ -110,7 +95,7 @@ $main = "
                             <img class=\"user_photo img-responsive\" src=\"/img/знк55.jpg\" alt=\"User profile picture\" id=\"foto_zn\" >
                         </div>
 
-                        <h3 class=\"profile-username text-center\">КАЛМЫЧКОВ ИГОРЬ ЕВГЕНЬЕВИЧ</h3>
+                        <h3 class=\"profile-username text-center\">КАЛМЫЧКОВ ИГОРЬ <br> ЕВГЕНЬЕВИЧ</h3>
 
                         <p class=\"text-muted text-center\">Заместитель начальника кафедры</p>
 
@@ -161,73 +146,7 @@ $main = "
             </div>
         </div>
     </div>
-</section>";
-?>
-<?php
-$news ="
-    <div>
-    <div class=\"col-sm-9\">
-            <div class=\"row\">
-            <div class=\"col-md-4 blog_box\">
-                <a href=\"#\" class=\"mask\">
-                    <img src=\"/img/new1.jpeg\" alt=\"IV ВСЕРОССИЙСКАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ «ЭКОЛОГИЯ И КОСМОС» ИМ. АКАДЕМИКА К.Я. КОНДРАТЬЕВА»\" class=\"img-responsive zoom-img\">
-                </a>
-            </div>
-            <div class=\"col-md-8\">
-                <h3 style=\"margin-top: 0px\"><a href=\"single.html\">IV ВСЕРОССИЙСКАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ «ЭКОЛОГИЯ И КОСМОС» ИМ. АКАДЕМИКА К.Я. КОНДРАТЬЕВА»</a></h3>
-                <div class=\"links\">
-                    <ul>
-                        <li><i class=\"fa blog-icon fa-calendar\"> </i><span>23 июля 2020 г.</span></li>
-                    </ul>
-                </div>
-                <p>В период с 16 по 18 сентября 2020 года Военно-космическая академия имени А.Ф.Можайского, г. Санкт-Петербург, проводит IV Всероссийскую научную конференцию «Экология и космос» имени академика К.Я. Кондратьева», посвященную 100-летию со дня его рождения.
-
-На конференции органи...</p>
-                <a href=\"#\" class=\"btn1 btn-8 btn-8c\">Читать</a>
-                <div class=\"clearfix\"></div>
-            </div>
-        </div>
-        <div class=\"clearfix\"></div>
-        <hr>
-    </div>
-    <div class=\"col-md-3\">
-    <ul class=\"menu\">
-        <li>Дни рождения:</li>
-        <li><span>П-к Карин А.В.</span><em>26 июля 2020</em></li>
-        <li><span>П-к Карин А.В.</span><em>28 июля 2020</em></li>
-        <li><span>П-к Карин А.В.</span><em>30 июля 2020</em></li>
-    </ul>
-</div>
-    </div>
-    ";
-$history = "<section class=\"content\">
-	<div class=\"col-sm-9 head-text\">
-		<h2>История 55 кафедры</h2>
-	</div>
-		<div class=\"col-sm-3 head-text\">
-	   <img src=\"/img/эмб55.jpg\" alt=\"Эмблема\" height=\"160px\">
-	</div>
-
-	<div class=\"col-sm-12 text_block\">
-Кафедра образована 1 декабря 1977 года и начинает свою историю с создания кафедры Радиотехнических средств контроля. Первым начальником кафедры стал Заслуженный деятель науки и техники РСФСР доктор технических наук профессор полковник-инженер Логачев Евгений Георгиевич. В 80 - 90-е годы кафедра занималась подготовкой специалистов по космическому радиотехническому контролю. Кроме того, в это время окончательно сложилась научная школа, в рамках которой подготовлено 4 доктора и 39 кандидатов технических наук. В научной работы под руководством Логачева Е.Г. заложены теоретические основы космического радиоэлектронного контроля. В этот период огромный вклад в подготовку выпускников и развитие научной школы внесли Кисель В.В., Голубев В.А., Замарин А.И., Сайбель А.Г., Малибашев А.Б. Особое место в истории кафедры занимает период (2000 – 2010 г.г.), в котором под руководством кандидата технических наук доцента полковника Воронина А.В. разработаны новые учебные дисциплины, оперяющиеся на современные достижения в области радиотехники. Несомненно, преподавание таких дисциплин потребовало переоснащения кафедры новыми техническими средствами на основе современных приемных комплексов и компьютерной техники. За более чем сорокалетнюю историю на кафедре подготовлено свыше 500 высококлассных специалистов космического радиоэлектронного контроля (КРЭК). 
-</div>
-
-
-<div class=\"col-sm-12 text_block\">
-    <div class=\"col-sm-4 text_block\">
-    <img src=\"/img/155.png\" alt=\"\" height=\"300\" width=\"300\">
-</div>
-    <div class=\"col-sm-4 text_block\">
-    <img src=\"/img/255.png\" alt=\"\" height=\"300\" width=\"300\">
-</div>
-    <div class=\"col-sm-4 text_block\">
-    <img src=\"/img/355.png\" alt=\"\" height=\"300\" width=\"300\">
-</div>
-
-
-
-	</div>";
-?>
+</section>" ?>
 
 <?= \yii\bootstrap\Tabs::widget([
     'items' => [
@@ -237,13 +156,12 @@ $history = "<section class=\"content\">
         ],
         [
             'label' => 'Новости',
-            'content' => $news,
+            'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
         ],
         [
             'label' => 'История кафедры',
-            'content' => $history,
+            'content' => $history->content,
         ],
     ],
 ]);
 ?>
-

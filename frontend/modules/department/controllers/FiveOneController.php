@@ -17,20 +17,21 @@ use yii\web\Controller;
 class FiveOneController extends Controller
 {
     private $newsService;
-//    public function behaviors()
-//    {
-//        return [
-//            'access' => [
-//                'class' => AccessControl::className(),
-//                'rules' => [
-//                    [
-//                        'allow' => true,
-//                        'roles' => ['course51'],
-//                    ],
-//                ],
-//            ],
-//        ];
-//    }
+    public function behaviors()
+    {
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'except' => ['index'],
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['cafedra51', 'admin'],
+                    ],
+                ],
+            ],
+        ];
+    }
 
 
 
@@ -42,21 +43,23 @@ class FiveOneController extends Controller
 
     public function actionIndex()
     {
-//        $content = Page::find()->where(['alias' => 'main_51kaf'])->one();
-//        $history = Page::find()->where(['alias' => 'history_51kaf-main'])->one();
-//
-//        $news = NewsPublications::find()->where(['51_cafedra' => 1])->with('article')->all();
+        $content = Page::find()->where(['alias' => 'main_51kaf'])->one();
+        $history = Page::find()->where(['alias' => 'history_51kaf'])->one();
+        $news = NewsPublications::find()->where(['51_cafedra' => 1])->with('articles')->all();
 
         return $this->render('index', [
-//            'content' => $content,
-//            'history' => $history,
-//            'news' => $news
+            'content' => $content,
+            'history' => $history,
+            'news' => $news
         ]);
     }
 
     public function actionManager()
     {
-        return $this->render('manager');
+        $newsPublications = NewsPublications::find()->where(['51_cafedra' => true])->with('articles')->all();
+        return $this->render('manager', [
+            'newsPublications' => $newsPublications
+        ]);
     }
 
     public function actionCreateNews()
@@ -73,6 +76,22 @@ class FiveOneController extends Controller
         return $this->render('create-news', [
             'model' => $model,
             'publications' => $publications
+        ]);
+    }
+
+    public function actionMain()
+    {
+        $model = Page::find()->where(['alias' => 'main_51kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
         ]);
     }
 }

@@ -2,12 +2,7 @@
 return [
     'adminEmail' => 'admin@example.com',
     'left_menu' =>  [
-        ['label' => 'Главное', 'options' => ['class' => 'header']],
-        [
-            'label' => 'О факультете',
-            'icon' => 'star',
-            'url' => ['/'],
-        ],
+        ['label' => 'Главная', 'options' => ['class' => 'header']],
         [
             'label' => 'Подразделения',
             'icon' => 'user',
@@ -36,16 +31,36 @@ return [
             ],
         ],
         [
-            'label' => 'Выпускники',
-            'icon' => 'child',
+            'label' => 'ВПР',
+            'icon' => 'star',
+            'url' => ['/'],
+            'items' => [
+                ['label' => 'Поощерения', 'icon' => 'star', 'url' => ['/user/user'],],
+                ['label' => 'Безопасность', 'icon' => 'user-secret', 'url' => ['/user/user'],],
+            ],
+        ],
+        [
+            'label' => 'Спортивная работа',
+            'icon' => 'trophy',
+            'url' => ['/'],
+        ],
+        [
+            'label' => 'Боевая готовность',
+            'icon' => 'star',
+            'url' => ['/'],
+        ],
+        [
+            'label' => 'УМБ',
+            'icon' => 'star',
+            'url' => ['/'],
+        ],
+        [
+            'label' => 'Кадровая работа',
+            'icon' => 'pencil',
             'url' => '#',
             'items' => [
-                ['label' => 'Все', 'icon' => 'user-secret', 'url' => ['/user/user'],],
-                ['label' => '51 кафедры', 'icon' => '', 'url' => ['/user/user'],],
-                ['label' => '52 кафедры', 'icon' => '', 'url' => ['/user-admin/assignment/'],],
-                ['label' => '53 кафедры', 'icon' => '', 'url' => ['/user-admin/role/'],],
-                ['label' => '54 кафедры', 'icon' => '', 'url' => ['/user-admin/permission/'],],
-                ['label' => 'Известные', 'icon' => 'star', 'url' => ['/user/user'],],
+                ['label' => 'ШДК', 'icon' => 'star', 'url' => ['/user/user'],],
+                ['label' => 'Списки вне казармы', 'icon' => 'list', 'url' => ['/user/user'],],
             ],
         ],
         [
@@ -53,19 +68,34 @@ return [
             'icon' => 'file',
             'url' => '#',
             'items' => [
-                ['label' => 'Подразделений', 'file' => 'user-secret', 'url' => ['/user/user'],],
-                ['label' => 'Факультета', 'file' => 'user-secret', 'url' => ['/user/user'],],
+                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/user/user'],],
+                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/user/user'],],
+                ['label' => 'Виды деятельности', 'icon' => 'file', 'url' => ['/user/user'],],
+                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/user/user'],],
             ],
         ],
         [
-            'label' => 'ВПР',
-            'icon' => 'star',
-            'url' => ['/'],
+            'label' => 'Выпускники',
+            'icon' => 'child',
+            'url' => '#',
+            'items' => [
+                ['label' => 'Все', 'icon' => 'users', 'url' => ['/user/user'],],
+                ['label' => '51 кафедры', 'icon' => '', 'url' => ['/user/user'],],
+                ['label' => '52 кафедры', 'icon' => '', 'url' => ['/user-admin/assignment/'],],
+                ['label' => '53 кафедры', 'icon' => '', 'url' => ['/user-admin/role/'],],
+                ['label' => '55 кафедры', 'icon' => '', 'url' => ['/user-admin/permission/'],],
+                ['label' => 'Достижения', 'icon' => 'star', 'url' => ['/user/user'],],
+            ],
         ],
         [
-            'label' => 'Расход',
+            'label' => 'Контакты',
             'icon' => 'star',
             'url' => ['/'],
+            'items' => [
+                ['label' => 'Список абонентов академии', 'icon' => 'user-secret', 'url' => ['/site/contact-list'],],
+                ['label' => 'Контакты факультета', 'icon' => 'phone', 'url' => ['/site/contact'],],
+                ['label' => 'Видеокамеры', 'icon' => 'video-camera', 'url' => ['/site/video-camera'],],
+            ],
         ],
     ],
 ];

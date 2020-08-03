@@ -47,15 +47,14 @@ class UserServices extends MainService
                 $form->birthday_date,
                 $form->udl_number
             );
-            $staff->save();
-            vardump($staff);
-            throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные');
+            if(!$staff->save())
+                throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
             $user->user_base_id = $staff->id;
             if($form->moodle_id == 0) {
                 $user->user_moodle_id = 2;
 
                 if(!$user->save())
-                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные');
+                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
                 $user_id = $this->serviceAPI->createUser(
                     $form->username,
                     $form->email,
@@ -64,7 +63,7 @@ class UserServices extends MainService
                     $form->lastName
                 );
                 if(!is_int($user_id[0]['id']))
-                    throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные');
+                    throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
                 $user->user_moodle_id = $user_id[0]['id'];
             } else
                 $user->user_moodle_id = $form->moodle_id;

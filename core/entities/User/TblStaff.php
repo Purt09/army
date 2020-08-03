@@ -59,13 +59,11 @@ string $address, string $birthday_date, string $udl_number)
     {
         $user = new self();
         $user->id_io_state = IoStates::ACTIVE;
-        $user->uuid_t = substr(md5(time()), 0, 8) . '-87c0-11ea-9c7d-00ff9d3af8ce';
-        $user->unique_id = Yii::$app->security->generateRandomString();
         $user->rr_name = 'Новая запись справочника';
         $user->firstname = $firstName;
         $user->lastname = $lastName;
         $user->sirname = $sirName;
-        $user->fio = $lastName . ' ' . $firstName[0] . '.' . $sirName[0] . '.';
+        $user->fio = $lastName . ' ' . mb_substr($firstName, 0, 1) . '.' . mb_substr($sirName, 0, 1) . '.';
         $user->passport_number = $passport_number;
         $user->mobile_phone = $mobile_phone;
         $user->address = $address;
@@ -87,8 +85,8 @@ string $address, string $birthday_date, string $udl_number)
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'lastname', 'firstname', 'sirname', 'passport_number', 'mobile_phone', 'address', 'birthday_date', 'udl_number'], 'required'],
-            [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'fio', 'lastname', 'firstname', 'sirname', 'passport_number', 'email', 'mobile_phone', 'wife_mobile_phone', 'home_phone', 'work_phone', 'address', 'udl_number', 'foto'], 'string'],
+            [[ 'rr_name', 'lastname', 'firstname', 'sirname', 'passport_number', 'mobile_phone', 'address', 'birthday_date', 'udl_number'], 'required'],
+            [['rr_name', 'r_icon', 'fio', 'lastname', 'firstname', 'sirname', 'passport_number', 'email', 'mobile_phone', 'wife_mobile_phone', 'home_phone', 'work_phone', 'address', 'udl_number', 'foto'], 'string'],
             [['last_update', 'birthday_date'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_current_mil_rank', 'id_current_mil_position'], 'default', 'value' => null],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_current_mil_rank', 'id_current_mil_position'], 'integer'],

@@ -105,19 +105,11 @@ class UserController extends Controller
         $models = new SignupUserForm();
 
         if ($models->load(Yii::$app->request->post())) {
-                $staff = TblStaff::create(
-                    $models->firstName,
-                    $models->lastName,
-                    $models->sirName,
-                    $models->passport,
-                    $models->mobile_phone,
-                    $models->address,
-                    $models->birthday_date,
-                    $models->udl_number
-                );
-                $staff->save();
-                vardump($staff);
+            try {
                 $user = $this->service->signup($models);
+            } catch (\Exception $e) {
+                Yii::$app->session->setFlash('error', $e->getMessage());
+            }
             return $this->redirect(['view', 'id' => $user->id]);
         }
 
