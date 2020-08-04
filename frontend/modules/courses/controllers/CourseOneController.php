@@ -75,10 +75,8 @@ class CourseOneController extends Controller
             $user->user_base_id = $staff->id;
             if($model->moodle_id == 0) {
                 $user->user_moodle_id = 2;
-                vardump($user->save());
-                vardump($user);
-                if(!$user->save())
-                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
+//                if(!$user->save())
+//                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
                 $user_id = $this->serviceAPI->createUser(
                     $model->username,
                     $model->email,
@@ -86,6 +84,8 @@ class CourseOneController extends Controller
                     $model->firstName,
                     $model->lastName
                 );
+                vardump($user->save());
+                vardump($user);
                 vardump($user_id);
                 if(!is_int($user_id[0]['id']))
                     throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
