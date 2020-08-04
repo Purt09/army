@@ -52,8 +52,6 @@ class UserServices extends MainService
             $user->user_base_id = $staff->id;
             if($form->moodle_id == 0) {
                 $user->user_moodle_id = 2;
-                if(!$user->save())
-                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
                 $user_id = $this->serviceAPI->createUser(
                     $form->username,
                     $form->email,
@@ -64,6 +62,8 @@ class UserServices extends MainService
                 if(!is_int($user_id[0]['id']))
                     throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
                 $user->user_moodle_id = $user_id[0]['id'];
+                if(!$user->save())
+                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
             } else
                 $user->user_moodle_id = $form->moodle_id;
             $this->repository->save($user);
