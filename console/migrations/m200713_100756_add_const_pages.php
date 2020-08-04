@@ -12,27 +12,13 @@ class m200713_100756_add_const_pages extends Migration
      */
     public function safeUp()
     {
-//        $this->insert('{{%page}}', [
-//            'title' => 'Главная о факультете',
-//            'display_title' => true,
-//            'alias' => 'main',
-//            'created_at' => '2020-07-13 09:20:56',
-//            'updated_at' => '2020-07-13 09:20:56'
-//        ]);
-//        $this->insert('{{%page}}', [
-//            'title' => 'Контакты (Список терминалов)',
-//            'display_title' => true,
-//            'alias' => 'contacts-abonent',
-//            'created_at' => '2020-07-13 09:20:56',
-//            'updated_at' => '2020-07-13 09:20:56',
-//        ]);
-//        $this->insert('{{%page}}', [
-//            'title' => 'Контакты (Информация)',
-//            'display_title' => true,
-//            'alias' => 'contacts-info',
-//            'created_at' => '2020-07-13 09:20:56',
-//            'updated_at' => '2020-07-13 09:20:56'
-//        ]);
+        $this->insert('{{%page}}', [
+            'title' => 'Главная о факультете',
+            'display_title' => true,
+            'alias' => 'main',
+            'created_at' => '2020-07-13 09:20:56',
+            'updated_at' => '2020-07-13 09:20:56'
+        ]);
         $this->insert('{{%page}}', [
             'title' => 'Главная 51 кафедра',
             'display_title' => true,

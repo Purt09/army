@@ -42,18 +42,18 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             'password',
-            [
-                'attribute' => 'Имя',
-                'value' => function ($user) {
-                    return $user->base->firstname;
-                }
-            ],
-            [
-                'attribute' => 'Фамилия',
-                'value' => function ($user) {
-                    return $user->base->lastname;
-                }
-            ],
+//            [
+//                'attribute' => 'Имя',
+//                'value' => function ($user) {
+//                    return $user->base->firstname;
+//                }
+//            ],
+//            [
+//                'attribute' => 'Фамилия',
+//                'value' => function ($user) {
+//                    return $user->base->lastname;
+//                }
+//            ],
             [
                 'class' => ActionColumn::className(),
             ],
