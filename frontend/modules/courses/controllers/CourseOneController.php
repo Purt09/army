@@ -87,8 +87,8 @@ class CourseOneController extends Controller
                     $model->lastName
                 );
                 vardump($user_id);
-                if(!is_int($user_id[0]['id']))
-                    throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
+//                if(!is_int($user_id[0]['id']))
+//                    throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
                 $user->user_moodle_id = $user_id[0]['id'];
                 vardump($user->save());
                 vardump($user);
