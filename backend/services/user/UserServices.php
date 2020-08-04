@@ -49,7 +49,6 @@ class UserServices extends MainService
             );
             vardump($staff->save());
             vardump($staff);
-            throw new \RuntimeException($staff->save());
             if(!$staff->save())
                 throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
             $user->user_base_id = $staff->id;

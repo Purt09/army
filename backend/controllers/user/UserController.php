@@ -105,11 +105,47 @@ class UserController extends Controller
         $models = new SignupUserForm();
 
         if ($models->load(Yii::$app->request->post())) {
-            try {
-                $user = $this->service->signup($models);
-            } catch (\Exception $e) {
-                Yii::$app->session->setFlash('error', $e->getMessage());
-            }
+
+                $user = User::requestSignup(
+                    $models->username,
+                    $models->password
+                );
+                $staff = TblStaff::create(
+                    $models->firstName,
+                    $models->lastName,
+                    $models->sirName,
+                    $models->passport,
+                    $models->mobile_phone,
+                    $models->address,
+                    $models->birthday_date,
+                    $models->udl_number
+                );
+                vardump($staff->save());
+                vardump($staff);
+                if(!$staff->save())
+                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
+                $user->user_base_id = $staff->id;
+                if($models->moodle_id == 0) {
+                    $user->user_moodle_id = 2;
+
+                    vardump($user->save());
+                    vardump($user);
+                    if(!$user->save())
+                        throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
+                    $user_id = $this->serviceAPI->createUser(
+                        $models->username,
+                        $models->email,
+                        $models->password,
+                        $models->firstName,
+                        $models->lastName
+                    );
+                    if(!is_int($user_id[0]['id']))
+                        throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
+                    $user->user_moodle_id = $user_id[0]['id'];
+                } else
+                    $user->user_moodle_id = $models->moodle_id;
+                $this->users->save($user);
+                //$user = $this->service->signup($models);
             return $this->redirect(['view', 'id' => $user->id]);
         }
 
