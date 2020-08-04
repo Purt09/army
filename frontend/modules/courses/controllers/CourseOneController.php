@@ -9,6 +9,7 @@ use backend\services\user\UserServices;
 use core\entities\User\TblStaff;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
+use core\services\api\UserApiService;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 
@@ -30,8 +31,11 @@ class CourseOneController extends Controller
     }
 
     private $service;
+    private $serviceAPI;
+
     public function __construct($id, $module, $config = [])
     {
+        $this->serviceAPI = new UserApiService();
         $this->service = new UserServices();
         parent::__construct($id, $module, $config);
     }
