@@ -51,7 +51,6 @@ class UserServices extends MainService
                 throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
             $user->user_base_id = $staff->id;
             if($form->moodle_id == 0) {
-                $user->user_moodle_id = 2;
                 $user_id = $this->serviceAPI->createUser(
                     $form->username,
                     $form->email,
