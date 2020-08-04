@@ -7,6 +7,8 @@ namespace frontend\modules\department\controllers;
 use bupy7\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
+use core\entities\News\NewsSearch;
+use frontend\modules\department\useCases\NewsService;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -38,7 +40,7 @@ class FiveTwoController extends Controller
     public function actionIndex()
     {
         $content = Page::find()->where(['alias' => 'main_52kaf'])->one();
-        $history = Page::find()->where(['alias' => 'history_52kaf'])->one();
+        $history = Page::find()->where(['alias' => 'history_52kaf-main'])->one();
 
         $news = NewsPublications::find()->where(['52_cafedra' => 1])->with('articles')->all();
 
