@@ -72,10 +72,8 @@ class CourseOneController extends Controller
                 $model->birthday_date,
                 $model->udl_number
             );
-            vardump($staff->save());
-            vardump($staff);
-            if(!$staff->save())
-                throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
+//            if(!$staff->save())
+//                throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
             $user->user_base_id = $staff->id;
             if($model->moodle_id == 0) {
                 $user->user_moodle_id = 2;
