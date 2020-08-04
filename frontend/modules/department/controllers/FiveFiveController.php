@@ -43,7 +43,7 @@ class FiveFiveController extends Controller
     {
         $content = Page::find()->where(['alias' => 'main_55kaf'])->one();
         $history = Page::find()->where(['alias' => 'history_55kaf'])->one();
-        $news = NewsPublications::find()->where(['54_cafedra' => 1])->with('article')->all();
+        $news = NewsPublications::find()->where(['54_cafedra' => 1])->with('articles')->all();
 
         return $this->render('index', [
             'content' => $content,
