@@ -40,7 +40,7 @@ class FiveTwoController extends Controller
     public function actionIndex()
     {
         $content = Page::find()->where(['alias' => 'main_52kaf'])->one();
-        $history = Page::find()->where(['alias' => 'history_52kaf-main'])->one();
+        $history = Page::find()->where(['alias' => 'history_52kaf'])->one();
 
         $news = NewsPublications::find()->where(['52_cafedra' => 1])->with('articles')->all();
 
