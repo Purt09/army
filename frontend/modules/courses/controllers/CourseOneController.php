@@ -58,45 +58,46 @@ class CourseOneController extends Controller
 
 
         if ($model->load(\Yii::$app->request->post())) {
-            $user = User::requestSignup(
-                $model->username,
-                $model->password
-            );
-            $staff = TblStaff::create(
-                $model->firstName,
-                $model->lastName,
-                $model->sirName,
-                $model->passport,
-                $model->mobile_phone,
-                $model->address,
-                $model->birthday_date,
-                $model->udl_number
-            );
-            vardump($staff->save());
-//            if(!$staff->save())
-//                throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
-            $user->user_base_id = $staff->id;
-            if($model->moodle_id == 0) {
-                $user->user_moodle_id = 2;
-//                if(!$user->save())
-//                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
-                $user_id = $this->serviceAPI->createUser(
-                    $model->username,
-                    $model->email,
-                    $model->password,
-                    $model->firstName,
-                    $model->lastName
-                );
-                vardump($user_id);
-//                throw new \RuntimeException('STOP' . $user_id[0]['id']);
-//                if(!is_int($user_id[0]['id']))
-//                    throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
-                $user->user_moodle_id = 1;
-                vardump($user->save());
-                vardump($user);
-            } else
-                $user->user_moodle_id = $model->moodle_id;
-            $user->save();
+            $user = $this->service->signup($model);
+//            $user = User::requestSignup(
+//                $model->username,
+//                $model->password
+//            );
+//            $staff = TblStaff::create(
+//                $model->firstName,
+//                $model->lastName,
+//                $model->sirName,
+//                $model->passport,
+//                $model->mobile_phone,
+//                $model->address,
+//                $model->birthday_date,
+//                $model->udl_number
+//            );
+//            vardump($staff->save());
+////            if(!$staff->save())
+////                throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
+//            $user->user_base_id = $staff->id;
+//            if($model->moodle_id == 0) {
+//                $user->user_moodle_id = 2;
+////                if(!$user->save())
+////                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
+//                $user_id = $this->serviceAPI->createUser(
+//                    $model->username,
+//                    $model->email,
+//                    $model->password,
+//                    $model->firstName,
+//                    $model->lastName
+//                );
+//                vardump($user_id);
+////                throw new \RuntimeException('STOP' . $user_id[0]['id']);
+////                if(!is_int($user_id[0]['id']))
+////                    throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
+//                $user->user_moodle_id = 1;
+//                vardump($user->save());
+//                vardump($user);
+//            } else
+//                $user->user_moodle_id = $model->moodle_id;
+//            $user->save();
             return $this->redirect('/profile/'. $user->id);
         }
 
