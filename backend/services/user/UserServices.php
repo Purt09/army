@@ -47,16 +47,11 @@ class UserServices extends MainService
                 $form->birthday_date,
                 $form->udl_number
             );
-            vardump($staff->save());
-            vardump($staff);
             if(!$staff->save())
                 throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
             $user->user_base_id = $staff->id;
             if($form->moodle_id == 0) {
                 $user->user_moodle_id = 2;
-
-                vardump($user->save());
-                vardump($user);
                 if(!$user->save())
                     throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
                 $user_id = $this->serviceAPI->createUser(
