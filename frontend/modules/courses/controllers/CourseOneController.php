@@ -6,6 +6,7 @@ namespace frontend\modules\courses\controllers;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
+use core\entities\User\TblStaff;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
 use yii\filters\AccessControl;
@@ -53,13 +54,45 @@ class CourseOneController extends Controller
 
 
         if ($model->load(\Yii::$app->request->post())) {
-            try {
-                $user = $this->service->signup($model);
-                RbacHelpers::setRoleUser(RbacHelpers::$CADET, $user);
-                RbacHelpers::setRoleUser(RbacHelpers::$COURSE51, $user);
-            } catch (\Exception $e) {
-                \Yii::$app->session->setFlash('warning', $e->getMessage());
-            }
+            $user = User::requestSignup(
+                $model->username,
+                $model->password
+            );
+            $staff = TblStaff::create(
+                $model->firstName,
+                $model->lastName,
+                $model->sirName,
+                $model->passport,
+                $model->mobile_phone,
+                $model->address,
+                $model->birthday_date,
+                $model->udl_number
+            );
+            vardump($staff->save());
+            vardump($staff);
+            if(!$staff->save())
+                throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(база)');
+            $user->user_base_id = $staff->id;
+            if($model->moodle_id == 0) {
+                $user->user_moodle_id = 2;
+                vardump($user->save());
+                vardump($user);
+                if(!$user->save())
+                    throw new \RuntimeException('Данные не были сохранены. Пробуйте изменить данные(yii)');
+                $user_id = $this->serviceAPI->createUser(
+                    $model->username,
+                    $model->email,
+                    $model->password,
+                    $model->firstName,
+                    $model->lastName
+                );
+                vardump($user_id);
+                if(!is_int($user_id[0]['id']))
+                    throw new \RuntimeException('Данные не были отправлены на мудл. Пробуйте изменить данные(moodle)');
+                $user->user_moodle_id = $user_id[0]['id'];
+            } else
+                $user->user_moodle_id = $model->moodle_id;
+            $user->save();
             return $this->redirect('/profile/'. $user->id);
         }
 
