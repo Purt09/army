@@ -7,44 +7,21 @@
 
 $this->title = 'Управление кафедрой ' . $title;
 ?>
+<?= $this->render('_manager', [
+    'controller' => 'five-free',
+    'title' => 'факультета',
+    'newsPublications' => $newsPublications
+]) ?>
+
 <div class="col-md-3 col-sm-6 col-xs-12">
-    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/create-news") ?>">
-        <div class="info-box bg-green">
-            <span class="info-box-icon"><i class="fa fa-align-left"></i></span>
-
-            <div class="info-box-content">
-                <span class="info-box-text">Добавить новость</span>
-
-                <div class="progress">
-                    <div class="progress-bar" style="width: 70%"></div>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
-    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/common/news") ?>">
-        <div class="info-box bg-green">
-            <span class="info-box-icon"><i class="fa fa-align-left"></i></span>
-
-            <div class="info-box-content">
-                <span class="info-box-text">Управление новостями</span>
-                <span class="info-box-number">Всего новостей: <?= count($newsPublications) ?></span>
-
-                <div class="progress">
-                    <div class="progress-bar" style="width: 70%"></div>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
-    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/main") ?>">
+    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/common/contact-info") ?>">
         <div class="info-box bg-green">
             <span class="info-box-icon"><i class="fa fa-pencil"></i></span>
 
             <div class="info-box-content">
-                <span class="info-box-text">Управление главной</span>
+                <span class="info-box-text"> </span>
+                <span class="info-box-number">Управление контактами</span>
+                <span class="info-box-number">факультета</span>
 
                 <div class="progress">
                     <div class="progress-bar" style="width: 70%"></div>
@@ -54,30 +31,19 @@ $this->title = 'Управление кафедрой ' . $title;
     </a>
 </div>
 <div class="col-md-3 col-sm-6 col-xs-12">
-    <div class="info-box bg-yellow">
-        <span class="info-box-icon"><i class="fa fa-user"></i></span>
+    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/common/contact-abonent") ?>">
+        <div class="info-box bg-green">
+            <span class="info-box-icon"><i class="fa fa-pencil"></i></span>
 
-        <div class="info-box-content">
-            <span class="info-box-text">Добавить офицера</span>
-            <span class="info-box-number">Всего офицеров: 0</span>
+            <div class="info-box-content">
+                <span class="info-box-text"> </span>
+                <span class="info-box-number">Управление списком</span>
+                <span class="info-box-number">терминалов</span>
 
-            <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
-    <div class="info-box bg-yellow">
-        <span class="info-box-icon"><i class="fa fa-users"></i></span>
-
-        <div class="info-box-content">
-            <span class="info-box-text">График нарядов</span>
-            <span class="info-box-number">?</span>
-
-            <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-            </div>
-        </div>
-    </div>
+    </a>
 </div>

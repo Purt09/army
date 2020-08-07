@@ -7,7 +7,7 @@
 $this->title = 'Управление кафедрой';
 ?>
 
-<?= $this->render('../common/manager', [
+<?= $this->render('../common/_manager', [
     'controller' => 'five-one',
     'title' => '51',
     'newsPublications' => $newsPublications

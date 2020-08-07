@@ -88,6 +88,52 @@ class FiveTwoController extends Controller
 
         return $this->render('main', [
             'model' => $model,
+            'title' => 'Управление главной 52 кафедры'
+        ]);
+    }
+
+    public function actionHistory()
+    {
+        $model = Page::find()->where(['alias' => 'history_52kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+            'title' => 'Управление историей 52 кафедры'
+        ]);
+    }
+
+
+    public function actionGraduate()
+    {
+        $model = Page::find()->where(['alias' => 'department_52kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+            'title' => 'Управление выпускиниками 52 кафедры'
+        ]);
+    }
+
+    public function actionViewGraduate()
+    {
+        $model = Page::find()->where(['alias' => 'department_52kaf'])->one();
+
+
+        return $this->render('view-graduate', [
+            'model' => $model,
         ]);
     }
 }

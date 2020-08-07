@@ -306,6 +306,21 @@ h3.w3ls_pvt-title span {
     object-position: 0 0;
 }
 
+@media screen and (max-width: 1400px) {
+    .user_photo {
+        width: 160px;
+        margin: auto;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .user_photo {
+        width: 130px;
+        margin: auto;
+        height: 160px;
+    }
+}
+
 .cafedra_prev {
     text-align: center;
     font-size: 18px;

@@ -46,13 +46,13 @@ use yii\helpers\Html;
             <div class="navbar-custom-menu" style="float: left">
 
                 <ul class="nav navbar-nav">
-                    <li class="dropdown messages-menu" style="background-color: brown;">
+                    <li class="dropdown messages-menu" style="background-color: #cc00cc;">
                         <a href="/moodle/">
-                            MOODLE(Онлайн обучение)
+                            Онлайн обучение
                         </a>
                     </li>
                     <li class="dropdown messages-menu">
-                        <a href="#">
+                        <a href="http://rashod.vka/">
                             Расход
                         </a>
                     </li>
@@ -63,17 +63,17 @@ use yii\helpers\Html;
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="#">
+                                    <a href="/education/main">
                                         Аттестация
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/education/main">
                                         Сессия
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/education/main">
                                         Учебный год
                                     </a>
                                 </li>
@@ -87,27 +87,27 @@ use yii\helpers\Html;
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/method">
                                         Подготовка и повышение квалификации
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/method">
                                         Планы
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/method">
                                         Писп(РИР)
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/method"">
                                         Индивиндуальные планы
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/method">
                                         Целевые показатели
                                     </a>
                                 </li>
@@ -122,17 +122,17 @@ use yii\helpers\Html;
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/nayka">
                                         ВНО
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/nayka">
                                         Конкурсы
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/site/nayka">
                                         Выставки
                                     </a>
                                 </li>

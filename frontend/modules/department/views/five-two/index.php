@@ -108,7 +108,7 @@ $this->title = 'Кафедра 52';
                                 <b>Преподаватель</b>
                             </li>
                             <li class=\"list-group-item\">
-                                <b>Подполковник</b>
+                                <b>Полковник</b>
                             </li>
                         </ul>
                         <button type=\"button\" class=\"btn btn-primary btn-block\" data-toggle=\"modal\"

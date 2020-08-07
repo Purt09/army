@@ -2,11 +2,13 @@
 /**
  * @var $this \yii\web\View
  * @var $model \bupy7\pages\models\Page
+ * @var $title string
  */
 
-$this->title = 'Управление главной 52 кафедры';
+$this->title = $title;
 ?>
 
 <?= $this->render('../common/_form_main', [
-    'model' => $model
+    'model' => $model,
+    'title' => $title
 ]) ?>

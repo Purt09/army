@@ -92,6 +92,52 @@ class FiveOneController extends Controller
 
         return $this->render('main', [
             'model' => $model,
+            'title' => 'Управление главной 51 кафедры'
+        ]);
+    }
+
+    public function actionHistory()
+    {
+        $model = Page::find()->where(['alias' => 'history_51kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+            'title' => 'Управление историей 51 кафедры'
+        ]);
+    }
+
+
+    public function actionGraduate()
+    {
+        $model = Page::find()->where(['alias' => 'department_51kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+            'title' => 'Управление выпускиниками 51 кафедры'
+        ]);
+    }
+
+    public function actionViewGraduate()
+    {
+        $model = Page::find()->where(['alias' => 'department_51kaf'])->one();
+
+
+        return $this->render('view-graduate', [
+            'model' => $model,
         ]);
     }
 }

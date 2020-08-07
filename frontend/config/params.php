@@ -8,7 +8,7 @@ return [
             'icon' => 'user',
             'url' => '#',
             'items' => [
-                ['label' => 'Управление', 'icon' => 'star', 'url' => ['/manager/'],],
+                ['label' => 'Управление', 'icon' => 'star', 'url' => ['/department/common'],],
                 ['label' => '51 кафедра', 'icon' => '', 'url' => ['/department/five-one'],],
                 ['label' => '52 кафедра', 'icon' => '', 'url' => ['/department/five-two'],],
                 ['label' => '53 кафедра', 'icon' => '', 'url' => ['/department/five-free'],],
@@ -25,9 +25,9 @@ return [
             'icon' => 'pencil',
             'url' => '#',
             'items' => [
-                ['label' => 'Учебные группы', 'icon' => 'star', 'url' => ['/user/user'],],
-                ['label' => 'ППС', 'icon' => '', 'url' => ['/user/user'],],
-                ['label' => 'Сводное по кафедрам', 'icon' => '', 'url' => ['/user-admin/assignment/'],],
+                ['label' => 'Учебные группы', 'icon' => 'star', 'url' => ['/site/list-lessons'],],
+                ['label' => 'ППС', 'icon' => '', 'url' => ['/site/list-lessons'],],
+                ['label' => 'Сводное по кафедрам', 'icon' => '', 'url' => ['/site/list-lessons'],],
             ],
         ],
         [
@@ -59,8 +59,8 @@ return [
             'icon' => 'pencil',
             'url' => '#',
             'items' => [
-                ['label' => 'ШДК', 'icon' => 'star', 'url' => ['/user/user'],],
-                ['label' => 'Списки вне казармы', 'icon' => 'list', 'url' => ['/user/user'],],
+                ['label' => 'ШДК', 'icon' => 'star', 'url' => ['/'],],
+                ['label' => 'Списки вне казармы', 'icon' => 'list', 'url' => ['/'],],
             ],
         ],
         [
@@ -68,10 +68,9 @@ return [
             'icon' => 'file',
             'url' => '#',
             'items' => [
-                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/user/user'],],
-                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/user/user'],],
-                ['label' => 'Виды деятельности', 'icon' => 'file', 'url' => ['/user/user'],],
-                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/user/user'],],
+                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/test/default'],],
+                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/test/default'],],
+                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/test/default'],],
             ],
         ],
         [
@@ -79,12 +78,12 @@ return [
             'icon' => 'child',
             'url' => '#',
             'items' => [
-                ['label' => 'Все', 'icon' => 'users', 'url' => ['/user/user'],],
-                ['label' => '51 кафедры', 'icon' => '', 'url' => ['/user/user'],],
-                ['label' => '52 кафедры', 'icon' => '', 'url' => ['/user-admin/assignment/'],],
-                ['label' => '53 кафедры', 'icon' => '', 'url' => ['/user-admin/role/'],],
-                ['label' => '55 кафедры', 'icon' => '', 'url' => ['/user-admin/permission/'],],
-                ['label' => 'Достижения', 'icon' => 'star', 'url' => ['/user/user'],],
+                ['label' => 'Все', 'icon' => 'users', 'url' => ['/department/common/view-graduate'],],
+                ['label' => '51 кафедры', 'icon' => '', 'url' => ['/department/five-one/view-graduate'],],
+                ['label' => '52 кафедры', 'icon' => '', 'url' => ['/department/five-two/view-graduate'],],
+                ['label' => '53 кафедры', 'icon' => '', 'url' => ['/department/five-free/view-graduate'],],
+                ['label' => '55 кафедры', 'icon' => '', 'url' => ['/department/five-five/view-graduate'],],
+                ['label' => 'Достижения', 'icon' => 'star', 'url' => ['/department/common/view-graduate-stars'],],
             ],
         ],
         [

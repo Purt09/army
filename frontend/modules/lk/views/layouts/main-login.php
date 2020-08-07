@@ -21,6 +21,7 @@ dmstr\web\AdminLteAsset::register($this);
 
 <?php $this->beginBody() ?>
 
+<?= \common\widgets\Alert::widget() ?>
     <?= $content ?>
 
 <?php $this->endBody() ?>

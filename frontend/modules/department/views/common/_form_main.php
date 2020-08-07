@@ -6,6 +6,11 @@ use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model \bupy7\pages\models\Page */
+/**
+ * @var $title string
+ */
+
+$this->title = $title;
 ?>
 
 <div class="news-form">

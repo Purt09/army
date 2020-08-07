@@ -2,6 +2,7 @@
 
 namespace core\repositories\user;
 
+use core\entities\User\MdlUser;
 use core\entities\User\User;
 
 class UserRepository
@@ -9,6 +10,11 @@ class UserRepository
     public function findByUsername($username)
     {
         return User::find()->where(['username' => $username])->one();
+    }
+
+    public function findByUsernameInMoodle($username)
+    {
+        return MdlUser::find()->where(['username' => $username])->one();
     }
 
     /**

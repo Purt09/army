@@ -22,7 +22,9 @@ $this->title = 'Кафедра 55';
         <div style=\"text-align: center;\">
             <h2>КОМАНДОВАНИЕ КАФЕДРЫ</h2>
         </div>
-        <div>
+        <div style='
+  display: flex;
+  align-items: stretch;' ы>
             <div class=\"col-sm-6\">
                 <div class=\"box box-primary\">
                     <div class=\"box-body box-profile\">
@@ -103,11 +105,10 @@ $this->title = 'Кафедра 55';
                             <li class=\"list-group-item\">
                                 <b>Кандидат технических наук</b>
                             </li>
-                                                        <li class=\"list-group-item\">
-                                <b>Преподаватель</b>
+                            <li class=\"list-group - item\">
                             </li>
                             <li class=\"list-group-item\">
-                                <b>Подполковник</b>
+                                <b>Полковник</b>
                             </li>
                         </ul>
                         <button type=\"button\" class=\"btn btn-primary btn-block\" data-toggle=\"modal\"

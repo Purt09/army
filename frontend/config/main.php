@@ -63,6 +63,18 @@ return [
         'department' => [
             'class' => 'frontend\modules\department\Module',
         ],
+        'education' => [
+            'class' => 'frontend\modules\education\Module',
+        ],
+        'documents' => [
+            'class' => 'frontend\modules\documents\Module',
+        ],
+        'filemanager' => [
+            'class' => 'frontend\modules\fileManager\SimpleFilemanagerModule',
+        ],
+        'test' => [
+            'class' => 'DeLuxis\Yii2SimpleFilemanager\SimpleFilemanagerModule'
+        ],
     ],
     'params' => $params,
 ];

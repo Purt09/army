@@ -87,6 +87,52 @@ class FiveFreeController extends Controller
 
         return $this->render('main', [
             'model' => $model,
+            'title' => 'Управление главной 53 кафедры'
+        ]);
+    }
+
+    public function actionHistory()
+    {
+        $model = Page::find()->where(['alias' => 'history_53kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+            'title' => 'Управление историей 53 кафедры'
+        ]);
+    }
+
+
+    public function actionGraduate()
+    {
+        $model = Page::find()->where(['alias' => 'department_53kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+            'title' => 'Управление выпускиниками 53 кафедры'
+        ]);
+    }
+
+    public function actionViewGraduate()
+    {
+        $model = Page::find()->where(['alias' => 'department_53kaf'])->one();
+
+
+        return $this->render('view-graduate', [
+            'model' => $model,
         ]);
     }
 

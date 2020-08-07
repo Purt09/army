@@ -74,4 +74,29 @@ class SiteController extends Controller
     {
         return $this->render('video-camera');
     }
+
+    /**
+     * @return mixed
+     */
+    public function actionMethod()
+    {
+        return $this->render('method');
+    }
+
+
+    /**
+     * @return mixed
+     */
+    public function actionNayka()
+    {
+        return $this->render('nayka');
+    }
+
+    /**
+     * @return mixed
+     */
+    public function actionListLessons()
+    {
+        return $this->render('list-lessons');
+    }
 }
