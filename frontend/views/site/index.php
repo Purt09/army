@@ -92,7 +92,7 @@ $this->title = '5 факультет';
                             <img class=\"user_photo img-responsive\" src=\"img/начфак.png\" alt=\"User profile picture\">
                         </div>
 
-                        <h3 class=\"profile-username text-center\">КОТЕНОК АНДРЕЙ АНАТОЛЬЕВИЧ</h3>
+                        <h3 class=\"profile-username text-center\">КОТЕНОК АНДРЕЙ <br> АНАТОЛЬЕВИЧ</h3>
 
                         <p class=\"text-muted text-center\">Начальник Факультета</p><br>
 

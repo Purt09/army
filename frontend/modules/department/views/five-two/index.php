@@ -96,7 +96,7 @@ $this->title = 'Кафедра 52';
                             <img class=\"user_photo img-responsive\" src=\"/img/знк52.jpg\" alt=\"User profile picture\">
                         </div>
 
-                        <h3 class=\"profile-username text-center\">Борсиов Алексей Анатольевич</h3>
+                        <h3 class=\"profile-username text-center\">Борисов Алексей <br> Анатольевич</h3>
 
                         <p class=\"text-muted text-center\">Заместитель начальника кафедры</p>
 
