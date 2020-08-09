@@ -1,8 +1,9 @@
 <?php
 
-namespace app\modules\fileManager\controllers;
+namespace frontend\modules\fileManager\controllers;
 
-use app\modules\fileManager\models\Directory;
+use core\entities\Common\File;
+use frontend\modules\fileManager\models\Directory;
 use frontend\modules\fileManager\SimpleFilemanagerModule;
 use Yii;
 use yii\data\ArrayDataProvider;
@@ -27,14 +28,16 @@ class DefaultController extends Controller
         if (strstr($path, '../')) {
             throw new BadRequestHttpException();
         }
+        mb_internal_encoding("UTF-8");
 
-        try {
+//        try {
             $directory = Directory::createByPath($path);
-            $list = $directory->list;
-        } catch (\Exception $e) {
-            yii::$app->session->setFlash('error', $e->getMessage());
-            return $this->redirect(yii::$app->request->referrer);
-        }
+
+            $list = File::getByPath($path);
+//        } catch (\Exception $e) {
+//            yii::$app->session->setFlash('error', $e->getMessage());
+//            return $this->redirect(yii::$app->request->referrer);
+//        }
 
         return $this->render('index', [
             'directory' => $directory,

@@ -69,11 +69,8 @@ return [
         'documents' => [
             'class' => 'frontend\modules\documents\Module',
         ],
-        'filemanager' => [
+        'fileManager' => [
             'class' => 'frontend\modules\fileManager\SimpleFilemanagerModule',
-        ],
-        'test' => [
-            'class' => 'DeLuxis\Yii2SimpleFilemanager\SimpleFilemanagerModule'
         ],
     ],
     'params' => $params,

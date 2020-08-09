@@ -2,9 +2,10 @@
 
 namespace frontend\modules\fileManager\controllers;
 
+use core\entities\Common\File as FileYii;
 use Yii;
-use app\modules\fileManager\models\Directory;
-use app\modules\fileManager\models\DirectoryForm;
+use frontend\modules\fileManager\models\Directory;
+use frontend\modules\fileManager\models\DirectoryForm;
 use yii\filters\VerbFilter;
 use yii\helpers\FileHelper;
 use yii\web\BadRequestHttpException;
@@ -42,7 +43,9 @@ class DirectoryController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
             try {
+                $file = FileYii::createDirectory($model->name, $model->path);
                 $model->save();
+                $file->save();
                 return $this->redirect(['default/index', 'path' => $model->path]);
             } catch (\Exception $e) {
                 yii::$app->session->setFlash('error', $e->getMessage());
@@ -94,13 +97,15 @@ class DirectoryController extends Controller
      * @throws BadRequestHttpException
      * @throws \yii\base\ErrorException
      */
-    public function actionDelete($path)
+    public function actionDelete($path, $id)
     {
         if (strstr($path, '../')) {
             throw new BadRequestHttpException();
         }
         $directory = Directory::createByPath($path);
         FileHelper::removeDirectory($directory->fullPath);
+        $file_yii = FileYii::findOne($id);
+        $file_yii->deleteFile();
 
         return $this->redirect(['default/index', 'path' => $directory->parent->path]);
     }

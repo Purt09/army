@@ -6,6 +6,7 @@ use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
 use core\entities\User\TblStaff;
 use core\entities\User\UsersBase;
+use core\services\api\UserApiService;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use core\repositories\user\UserRepository;
@@ -23,9 +24,12 @@ class UserController extends Controller
 {
     private $service;
     private $users;
+    private $serviceAPI;
+
 
     public function __construct($id, $module, $config = [])
     {
+        $this->serviceAPI = new UserApiService();
         $this->users = new UserRepository();
         $this->service = new UserServices();
         parent::__construct($id, $module, $config);
@@ -103,19 +107,28 @@ class UserController extends Controller
     public function actionCreate()
     {
         $models = new SignupUserForm();
-
         if ($models->load(Yii::$app->request->post())) {
-            try {
-                $user = $this->service->signup($models);
-            } catch (\Exception $e) {
-                Yii::$app->session->setFlash('error', $e->getMessage());
+            $user = User::requestSignup(
+                $models->username,
+                $models->password
+            );
+            $user->user_base_id = 'ЗДЕСЬ ID ИЗ tbl_staff не нужный';
+            if ($models->moodle_id == 0) {
+                $user_id = $this->serviceAPI->createUser(
+                    $models->username,
+                    $models->email,
+                    $models->password,
+                    $models->firstName,
+                    $models->lastName
+                );
+                vardump($user_id);
+                $user->user_moodle_id = $user_id[0]['id'];
+                vardump($user->save());vardump($user);
             }
-            return $this->redirect(['view', 'id' => $user->id]);
+            return $this->render('create', [
+                'models' => $models,
+            ]);
         }
-
-        return $this->render('create', [
-            'models' => $models,
-        ]);
     }
 
     /**
@@ -125,7 +138,8 @@ class UserController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($id)
+    public
+    function actionUpdate($id)
     {
         $model = $this->findModel($id);
 
@@ -146,7 +160,8 @@ class UserController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id)
+    public
+    function actionDelete($id)
     {
 
         $model = $this->findModel($id);
@@ -167,7 +182,8 @@ class UserController extends Controller
      * @return User the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id)
+    protected
+    function findModel($id)
     {
         if (($model = User::findOne($id)) !== null) {
             return $model;

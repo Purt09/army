@@ -68,9 +68,9 @@ return [
             'icon' => 'file',
             'url' => '#',
             'items' => [
-                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/test/default'],],
-                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/test/default'],],
-                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/test/default'],],
+                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/fileManager/default/index?path=%5Cpodrazdelenie'],],
+                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/fileManager/default/index?path=%5Cfakultet'],],
+                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/fileManager/default/index?path=%5Cprikazania'],],
             ],
         ],
         [

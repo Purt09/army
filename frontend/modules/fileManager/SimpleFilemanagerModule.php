@@ -46,9 +46,9 @@ class SimpleFilemanagerModule extends Module
     {
         parent::init();
 
-        defined('UPLOAD_DIR') or define('UPLOAD_DIR', 'uploads');
+        defined('UPLOAD_DIR') or define('UPLOAD_DIR', 'file_manager');
 
-        $this->controllerNamespace = 'app\modules\fileManager\controllers';
+        $this->controllerNamespace = 'frontend\modules\fileManager\controllers';
 
         $this->_urlPath = yii::getAlias('@web/' . UPLOAD_DIR . '/' . self::BASE_DIR);
 

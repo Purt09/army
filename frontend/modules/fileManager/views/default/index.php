@@ -1,8 +1,9 @@
 <?php
 
+use core\helpers\user\RbacHelpers;
 use yii\grid\GridView;
 use yii\helpers\Html;
-use Directory;
+use \frontend\modules\fileManager\models\Directory;
 
 /** @var \yii\data\ArrayDataProvider $dataProvider */
 /** @var Directory $directory */
@@ -13,17 +14,11 @@ $this->title = Yii::t('filemanager', 'File manager');
 if (!isset($this->params['breadcrumbs'])) {
     $this->params['breadcrumbs'] = [];
 }
-
-if ($directory->isRoot) {
-    $this->params['breadcrumbs'][] = $this->title;
-} else {
-    $this->params['breadcrumbs'] = array_merge($this->params['breadcrumbs'], $directory->breadcrumbs);
-    $this->title .= ' ' . $directory->name;
-}
-
+$path = $directory->path;
 ?>
 <div class="simple-filemanager">
     <p>
+        <?php if(RbacHelpers::checkRole(RbacHelpers::$ADMIN)): ?>
         <?= Html::a('<i class="fa fa-folder fa-fw"></i> ' . Yii::t('filemanager', 'Create directory'),
             ['directory/create', 'path' => $directory->path],
             [
@@ -36,11 +31,12 @@ if ($directory->isRoot) {
             ['file/upload', 'path' => $directory->path],
             ['class' => 'btn btn-primary'])
         ?>
+        <?php endif; ?>
     </p>
 </div>
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-12">
         <div class="box">
             <div class="box-body">
                 <?php try {
@@ -49,30 +45,52 @@ if ($directory->isRoot) {
                         'columns' => [
                             [
                                 'attribute' => 'name',
-                                'value' => function ($item) {
-                                    $fa = Html::tag('i', '',
-                                        ['class' => 'fa ' . $item['icon'] . ' fa-fw']);
-                                    return Html::a($fa . ' ' . $item['name'],
-                                        $item['type'] != 'directory' ? $item['url'] : ['index', 'path' => $item['path']]);
+                                'label' => 'Название',
+                                'value' => function ($item) use ($path) {
+                                    if ($item['type'] == \core\entities\Common\File::TYPE_DIR)
+                                        return Html::a(
+                                            "<i class='fa  fa-folder'></i> " . $item['title'],
+                                            ['index', 'path' => $item['path']]);
+                                    if ($item['type'] == 'back')
+                                        return Html::a($item['title'], ['index', 'path' => $item['path']]);
+
+                                    $link = '/file_manager/' . \frontend\modules\fileManager\SimpleFilemanagerModule::BASE_DIR . str_replace("\\", "/", $item['path']);
+                                    return Html::a($item['title'], $link);
                                 },
                                 'format' => 'html'
                             ],
                             [
-                                'attribute' => 'link',
-                                'value' => function ($item) {
-                                    return Html::tag('code',
-                                        $item['type'] != 'directory' ? $item['url'] : '');
-                                },
-                                'format' => 'html'
+                                'attribute' => 'user_id',
+                                'label' => 'Опубликовал',
                             ],
-                            'time:datetime',
+                            [
+                                'attribute' => 'create_at',
+                                'value' => function ($item) {
+                                    if ($item['type'] == \core\entities\Common\File::TYPE_DIR || $item['type'] == 'back')
+                                        return '';
+
+                                    return Yii::$app->formatter->asDatetime($item['create_at']);
+                                },
+                                'label' => 'Дата',
+                            ],
+                            [
+                                'attribute' => 'size',
+                                'value' => function ($item) {
+                                    if ($item['type'] == \core\entities\Common\File::TYPE_DIR || $item['type'] == 'back')
+                                        return '';
+
+                                    return Yii::$app->formatter->asShortSize($item['size']);
+                                },
+                                'label' => 'Размер',
+                            ],
                             [
                                 'class' => 'yii\grid\ActionColumn',
                                 'headerOptions' => ['class' => 'col-xs-1'],
                                 'urlCreator' => function ($action, $item) {
                                     return [
                                         $item['type'] . '/' . $action,
-                                        'path' => $item['path']
+                                        'path' => $item['path'],
+                                        'id' => $item['id'],
                                     ];
                                 },
                                 'buttonOptions' => [
@@ -82,14 +100,32 @@ if ($directory->isRoot) {
                                 ],
                                 'visibleButtons' => [
                                     'update' => function ($item) {
-                                        return $item['type'] == 'directory' && !(empty($item['time']));
+                                        return false;
+                                        if ($item['block'])
+                                            return false;
+                                        return $item['type'] == 'directory';
                                     },
-                                    'delete' =>  function ($item) {
-                                        return !(empty($item['time']));
+                                    'delete' => function ($item) {
+                                        if(!RbacHelpers::checkRole(RbacHelpers::$ADMIN))
+                                            return false;
+                                        if ($item['block'])
+                                            return false;
+                                        else
+                                            return true;
                                     },
                                 ],
-                                'template' => '{delete} {update}'
+                                'template' => '{delete}{update}'
                             ],
+//                            [
+//                                'attribute' => 'path',
+//                                'value' => function ($item) {
+//                                    return Html::tag('code',
+//                                        $item['type'] != 'directory' ? $item['url'] : '');
+//                                },
+//                                'format' => 'html'
+//                            ],
+//                            'time:datetime',
+
                         ],
                     ]);
                 } catch (Exception $e) {

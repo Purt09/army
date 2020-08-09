@@ -163,4 +163,17 @@ class RbacHelpers
         }
         return $result;
     }
+
+    /**
+     * @param string $role
+     */
+    public static function checkRole(string $role)
+    {
+        $user = User::findOne(\Yii::$app->user->id);
+        if($user == null)
+            return false;
+
+        $roles = ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user->id), 'name');
+        return array_key_exists($role, $roles);
+    }
 }

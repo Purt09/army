@@ -4,6 +4,7 @@ namespace frontend\modules\fileManager\models;
 
 
 use yii\base\Model;
+use yii\helpers\Inflector;
 use yii\web\UploadedFile;
 
 class UploadForm extends Model
@@ -24,8 +25,11 @@ class UploadForm extends Model
 
     public function upload()
     {
-        $directory = Directory::createByPath($this->path);
+        $extantion = stristr($this->files['0']->name, '.');
+        $name = stristr($this->files['0']->name, '.', true);
+        $this->files['0']->name = Inflector::slug($name, '_', false) . $extantion;
 
+        $directory = Directory::createByPath($this->path);
         if ($this->validate()) {
             foreach ($this->files as $file) {
                 $file->saveAs($directory->fullPath . $file->baseName . '.' . $file->extension);
