@@ -540,16 +540,13 @@ li.menu:hover{
     z-index: 0;
     width: 100%;
     overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
     display: block;
     margin: 0;
     padding: 0;
     outline: none;
-    height: 200px;
+    height: 25vh;
     background: url(/img/kos.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-attachment: fixed;
     background-size: cover;
 }

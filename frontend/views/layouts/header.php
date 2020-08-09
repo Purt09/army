@@ -6,27 +6,35 @@ use yii\helpers\Html;
 /* @var $content string */
 ?>
 
+
 <div class="background_header">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
         <div style="text-align: left;">
-            <img src="/img/эмбфак.png" width="150px" height=100%>
+            <img src="/img/1.png" style="   width: auto;  height: 25vh; position: relative;">
         </div>
+
     </div>
-    <div class="col-sm-6">
-        <div style="text-align: center; display: block; height: 100%;">
-            <div style="position: absolute; text-align: center; ">
-                <h1 style="color: white; border-color: #fff; margin: 40px;">
-                    ФАКУЛЬТЕТ СБОРА И ОБРАБОТКИ ИНФОРМАЦИИ
-                </h1>
-            </div>
-            <div>
-                <img src="/img/1.gif" width="100%" height=100% style="border-radius: 50px; box-shadow: 0 0 20px #000;">
+    <div class="col-sm-8">
+        <div style="text-align: center; display: block; height: 25vh;">
+            <h1 style="
+    color: white;
+    z-index: 2;
+    text-align: center;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;">
+                ФАКУЛЬТЕТ СБОРА И ОБРАБОТКИ ИНФОРМАЦИИ
+            </h1>
+            <div style="position: relative;text-align: center;width: auto;height: 20vw;">
+                <img src="/img/1.gif"
+                     style="border-radius: 50px;box-shadow: 0 0 20px #000;object-fit: cover;position: relative;width: 100%;height: 25vh;">
             </div>
         </div>
+
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-2">
         <div style="text-align: right; ">
-            <img src="/img/эмбвка.png" width="150px" height=100%>
+            <img src="/img/эмбвка.png" style="  width: auto;  height: 25vh; position: relative;">
         </div>
     </div>
 </div>
@@ -103,7 +111,7 @@ use yii\helpers\Html;
                                 </li>
                                 <li>
                                     <a href="/site/method"">
-                                        Индивиндуальные планы
+                                    Индивиндуальные планы
                                     </a>
                                 </li>
                                 <li>
