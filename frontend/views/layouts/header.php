@@ -10,24 +10,18 @@ use yii\helpers\Html;
 <div class="background_header">
     <div class="col-sm-2">
         <div style="text-align: left;">
-            <img src="/img/1.png" style="   width: auto;  height: 25vh; position: relative;">
+            <img src="/img/1.png" style="   width: auto;  height: 25vh; position: absolute;right: auto;margin: auto;">
         </div>
 
     </div>
     <div class="col-sm-8">
-        <div style="text-align: center; display: block; height: 25vh;">
-            <h1 style="
-    color: white;
-    z-index: 2;
-    text-align: center;
-    position: absolute;
-    top: 5vh;
-    left: 15vw;">
+        <div style="text-align: center; display: block; height: 25vh; margin: 0">
+            <h1 style="color: white; z-index: 2; text-align: center; position: absolute; top: 40%; left: 50%; margin-right: -50%;
+transform: translate(-50%, -50%);">
                 ФАКУЛЬТЕТ СБОРА И ОБРАБОТКИ ИНФОРМАЦИИ
             </h1>
             <div style="position: relative;text-align: center;width: auto;height: 20vw;">
-                <img src="/img/1.gif"
-                     style="border-radius: 50px;box-shadow: 0 0 20px #000;object-fit: cover;position: relative;width: 100%;height: 25vh;">
+                <img src="/img/1.gif" style="border-radius: 50px; position: inherit;width: 100%;height: 25vh;">
             </div>
         </div>
 

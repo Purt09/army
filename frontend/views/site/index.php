@@ -161,9 +161,9 @@ $this->title = '5 факультет';
                             <img class=\"user_photo img-responsive\" src=\"img/замначфак.jpg\" alt=\"User profile picture\">
                         </div>
 
-                        <h3 class=\"profile-username text-center\">КАЛИНИЧЕНКО СЕРГЕЙ ВЛАДИМИРОВИЧ</h3>
+                        <h3 class=\"profile-username text-center\">КАЛИНИЧЕНКО СЕРГЕЙ <br> ВЛАДИМИРОВИЧ</h3>
 
-                        <p class=\"text-muted text-center\">Заместитель начальника факультета-начальник учебной части</p>
+                        <p class=\"text-muted text-center\">Заместитель начальника факультета - <br>начальник учебной части</p>
 
                         <ul class=\"list-group list-group-unbordered\">
                             <li class=\"list-group-item\">
