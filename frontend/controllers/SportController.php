@@ -4,7 +4,13 @@
 namespace frontend\controllers;
 
 
-class SportController
+use yii\web\Controller;
+
+class SportController extends Controller
 {
+    public function actionIndex()
+    {
+        return $this->render('index');
+    }
 
 }

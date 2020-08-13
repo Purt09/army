@@ -25,9 +25,9 @@ return [
             'icon' => 'pencil',
             'url' => '#',
             'items' => [
-                ['label' => 'Учебные группы', 'icon' => 'star', 'url' => ['/site/list-lessons'],],
-                ['label' => 'ППС', 'icon' => '', 'url' => ['/site/list-lessons'],],
-                ['label' => 'Сводное по кафедрам', 'icon' => '', 'url' => ['/site/list-lessons'],],
+                ['label' => 'Учебные группы', 'icon' => 'star', 'url' => ['/list-lessons/cadet'],],
+                ['label' => 'ППС', 'icon' => '', 'url' => ['/list-lessons/teacher'],],
+                ['label' => 'Сводное по кафедрам', 'icon' => '', 'url' => ['/list-lessons/common'],],
             ],
         ],
         [
@@ -35,18 +35,18 @@ return [
             'icon' => 'star',
             'url' => ['/'],
             'items' => [
-                ['label' => 'Поощерения', 'icon' => 'star', 'url' => ['/user/user'],],
-                ['label' => 'Безопасность', 'icon' => 'user-secret', 'url' => ['/user/user'],],
+                ['label' => 'Поощерения', 'icon' => 'star', 'url' => ['/vpr/index'],],
+                ['label' => 'Бессмертный полк', 'icon' => 'user-secret', 'url' => ['/vpr/not-killed'],],
             ],
         ],
         [
             'label' => 'Спортивная работа',
             'icon' => 'trophy',
-            'url' => ['/'],
+            'url' => ['/sport/index'],
         ],
         [
-            'label' => 'Мобилизационная готовность',
-            'icon' => 'star',
+            'label' => 'Мобилизационная готовн-ть',
+            'icon' => '',
             'url' => ['/'],
         ],
         [
