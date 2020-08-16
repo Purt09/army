@@ -2,24 +2,25 @@
     <section class="sidebar">
             <?php
             $items = [
+                ['label' => 'УПРАВЛЕНИЕ КУРСОМ', 'options' => ['class' => 'header']],
                 [
                     'label' => 'Главная курса',
                     'icon' => 'star',
                     'url' => ['/courses/common'],
                 ],
                 [
-                    'label' => 'Управление',
-                    'icon' => 'star',
+                    'label' => 'Обновление данных',
+                    'icon' => 'list',
                     'url' => ['/'],
                 ],
                 [
-                    'label' => 'Наряды',
-                    'icon' => 'star',
+                    'label' => 'Кадровая работа',
+                    'icon' => 'users',
                     'url' => ['/'],
                 ],
                 [
-                    'label' => 'Успеваемость',
-                    'icon' => 'star',
+                    'label' => 'Списки вне казармы',
+                    'icon' => 'user-plus',
                     'url' => ['/'],
                 ],
             ];

@@ -32,10 +32,9 @@ class AuthController extends Controller
         if ($form->load(\Yii::$app->request->post()) && $form->validate()) {
             try {
                 $user = $this->service->auth($form);
-                if(isset($user)){
-                } else {
-                    $this->service->checkMoodle($form);
-                }
+                if(!isset($user))
+                    $user = $this->service->checkMoodle($form);
+
                 \Yii::$app->user->login($user, $form->rememberMe ? \Yii::$app->params['user.rememberMeDuration'] : 0);
                 return $this->redirect(Url::to('/'));
             } catch (\DomainException $e) {

@@ -10,7 +10,7 @@ use yii\helpers\Html;
 <div class="background_header">
     <div class="col-sm-2">
         <div style="text-align: left;">
-            <img src="/img/1.png" style="   width: auto;  height: 25vh; position: absolute;right: auto;margin: auto;">
+            <?= \frontend\widget\EmblemaWidget::widget()?>
         </div>
 
     </div>
@@ -18,7 +18,7 @@ use yii\helpers\Html;
         <div style="text-align: center; display: block; height: 25vh; margin: 0">
             <h1 style="color: white; z-index: 2; text-align: center; position: absolute; top: 40%; left: 50%; margin-right: -50%;
 transform: translate(-50%, -50%);">
-                ФАКУЛЬТЕТ СБОРА И ОБРАБОТКИ ИНФОРМАЦИИ
+                <?= \frontend\widget\LabelEmblemaWidget::widget()?>
             </h1>
             <div style="position: relative;text-align: center;width: auto;height: 20vw;">
                 <img src="/img/1.gif" style="border-radius: 50px; position: inherit;width: 100%;height: 25vh;">
@@ -36,7 +36,7 @@ transform: translate(-50%, -50%);">
 <div class="wrapper">
     <header class="main-header">
 
-        <?= Html::a('<span class="logo-mini">Меню</span><span class="logo-lg">' . Yii::$app->name . '</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
+        <?= Html::a('<span class="logo-mini">Меню</span><span class="logo-lg"> Главная </span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
 
 
         <nav class="navbar navbar-static-top" role="navigation">

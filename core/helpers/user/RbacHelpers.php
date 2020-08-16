@@ -126,7 +126,8 @@ class RbacHelpers
      * @param string $attribute
      * @return mixed
      */
-    public static function getRoleUser($user, $attribute = 'name'){
+    public static function getRoleUser($user, $attribute = 'name')
+    {
         return current(ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user->id), $attribute));
     }
 
@@ -140,24 +141,25 @@ class RbacHelpers
     {
         $result = '';
         $roles = \Yii::$app->authManager->getRolesByUser($user->id);
-        foreach ($roles as $role){
-            if(empty($result))
+        foreach ($roles as $role) {
+            if (empty($result))
                 $result .= $role->description;
             else
                 $result .= $separator . $role->description;
 
         }
-        return  $result;
+        return $result;
     }
 
     /**
      * @return array
      */
-    public static function getRoles() {
+    public static function getRoles()
+    {
         $roles = \Yii::$app->getAuthManager()->getRoles();
         $i = 0;
         $result = [];
-        foreach ($roles as $key => $role){
+        foreach ($roles as $key => $role) {
             $i++;
             $result += [$key => $role->description];
         }
@@ -170,7 +172,7 @@ class RbacHelpers
     public static function checkRole(string $role)
     {
         $user = User::findOne(\Yii::$app->user->id);
-        if($user == null)
+        if ($user == null)
             return false;
 
         $roles = ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user->id), 'name');

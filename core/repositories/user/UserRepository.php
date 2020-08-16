@@ -12,6 +12,10 @@ class UserRepository
         return User::find()->where(['username' => $username])->one();
     }
 
+    /**
+     * @param $username
+     * @return MdlUser|\yii\db\ActiveRecord|null
+     */
     public function findByUsernameInMoodle($username)
     {
         return MdlUser::find()->where(['username' => $username])->one();

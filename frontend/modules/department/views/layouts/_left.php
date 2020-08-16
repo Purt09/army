@@ -2,7 +2,7 @@
     <section class="sidebar">
             <?php
             $items = [
-                ['label' => 'Кафедральный раздел', 'options' => ['class' => 'header']],
+                ['label' => 'УПРАВЛЕНИЕ КАФЕДРОЙ', 'options' => ['class' => 'header']],
                 [
                     'label' => 'Главная кафедры',
                     'icon' => 'star',
@@ -12,6 +12,11 @@
                     'label' => 'Обновление данных',
                     'icon' => 'list',
                     'url' => ['manager'],
+                ],
+                [
+                    'label' => 'Кадровая работа',
+                    'icon' => 'users',
+                    'url' => ['users'],
                 ],
             ];
             $items = array_merge($items, Yii::$app->params['left_menu']);
