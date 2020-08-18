@@ -8,7 +8,7 @@ $this->title = 'Просмотр камер';
 <div class="container">
     <ul class="list-unstyled video-list-thumbs row">
         <li class="col-lg-3 col-sm-4 col-xs-6">
-            <a href="#" title="Камера №1">
+            <a href="http://192.168.50.111" title="Камера №1">
                 <img src="http://i.ytimg.com/vi/ZKOtE9DOwGE/mqdefault.jpg" alt="Barca" class="img-responsive" height="130px" />
                 <h2>Камера 1</h2>
                 <span class="glyphicon glyphicon-play-circle"></span>
@@ -16,7 +16,7 @@ $this->title = 'Просмотр камер';
             </a>
         </li>
         <li class="col-lg-3 col-sm-4 col-xs-6">
-            <a href="#" title="Камера №2">
+            <a href="http://192.168.50.114" title="Камера №2">
                 <img src="http://i.ytimg.com/vi/ZKOtE9DOwGE/mqdefault.jpg" alt="Barca" class="img-responsive" height="130px" />
                 <h2>Камера 2</h2>
                 <span class="glyphicon glyphicon-play-circle"></span>
@@ -24,7 +24,7 @@ $this->title = 'Просмотр камер';
             </a>
         </li>
         <li class="col-lg-3 col-sm-4 col-xs-6">
-            <a href="#" title="Камера №3">
+            <a href="http://192.168.50.116" title="Камера №3">
                 <img src="http://i.ytimg.com/vi/ZKOtE9DOwGE/mqdefault.jpg" alt="Barca" class="img-responsive" height="130px" />
                 <h2>Камера 3</h2>
                 <span class="glyphicon glyphicon-play-circle"></span>
@@ -32,7 +32,7 @@ $this->title = 'Просмотр камер';
             </a>
         </li>
         <li class="col-lg-3 col-sm-4 col-xs-6">
-            <a href="#" title="Камера №4">
+            <a href="http://192.168.50.118" title="Камера №4">
                 <img src="http://i.ytimg.com/vi/ZKOtE9DOwGE/mqdefault.jpg" alt="Barca" class="img-responsive" height="130px" />
                 <h2>Камера 4</h2>
                 <span class="glyphicon glyphicon-play-circle"></span>
