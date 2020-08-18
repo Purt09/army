@@ -18,7 +18,7 @@ use yii\helpers\Html;
         <div style="text-align: center; display: block; height: 25vh; margin: 0">
             <h1 style="color: white; z-index: 2; text-align: center; position: absolute; top: 40%; left: 50%; margin-right: -50%;
 transform: translate(-50%, -50%);">
-                <?= \frontend\widget\LabelEmblemaWidget::widget()?>
+                <?= \frontend\widget\LabelFullWidget::widget()?>
             </h1>
             <div style="position: relative;text-align: center;width: auto;height: 20vw;">
                 <img src="/img/1.gif" style="border-radius: 50px; position: inherit;width: 100%;height: 25vh;">

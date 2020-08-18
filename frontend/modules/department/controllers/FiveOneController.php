@@ -9,6 +9,7 @@ use backend\services\user\UserServices;
 use bupy7\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
+use core\helpers\user\RbacHelpers;
 use frontend\modules\department\useCases\NewsService;
 use Yii;
 use yii\filters\AccessControl;
@@ -26,7 +27,13 @@ class FiveOneController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'roles' => ['cafedra51', 'admin'],
+                        'roles' => ['admin'],
+                    ],
+                    [
+                        'allow' => true,
+                        'matchCallback' => function ($rule, $action) {
+                            return RbacHelpers::checkRole(RbacHelpers::$CAFEDRA51) && RbacHelpers::checkRole(RbacHelpers::$MANAGER);
+                        }
                     ],
                 ],
             ],
@@ -45,12 +52,15 @@ class FiveOneController extends Controller
     {
         $content = Page::find()->where(['alias' => 'main_51kaf'])->one();
         $history = Page::find()->where(['alias' => 'history_51kaf'])->one();
+        $main = Page::find()->where(['alias' => 'main_51kaf_general'])->one();
+
         $news = NewsPublications::find()->where(['51_cafedra' => 1])->with('articles')->all();
 
         return $this->render('index', [
             'content' => $content,
             'history' => $history,
-            'news' => $news
+            'news' => $news,
+            'main' => $main
         ]);
     }
 
@@ -138,6 +148,30 @@ class FiveOneController extends Controller
 
         return $this->render('view-graduate', [
             'model' => $model,
+        ]);
+    }
+
+    public function actionGeneral()
+    {
+        $model = Page::find()->where(['alias' => 'main_51kaf_general'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('main', [
+            'model' => $model,
+            'title' => 'Управление главной 51 кафедры(общее)'
+        ]);
+    }
+
+    public function actionUsers()
+    {
+        return $this->render('users', [
+            'title' => 'Управление пользователями факультета',
+            'controller' => 'five-one'
         ]);
     }
 }

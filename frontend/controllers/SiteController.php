@@ -67,6 +67,11 @@ class SiteController extends Controller
         ]);
     }
 
+    public function actionArmy()
+    {
+        return $this->render('army');
+    }
+
     /**
      * @return mixed
      */

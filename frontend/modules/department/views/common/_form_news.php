@@ -21,12 +21,19 @@ use core\entities\News\NewsPublications;
 
         <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-3">
         <?= $form->field($publications, 'main')->checkbox() ?>
         <?= $form->field($publications, '51_cafedra')->checkbox() ?>
         <?= $form->field($publications, '52_cafedra')->checkbox() ?>
         <?= $form->field($publications, '53_cafedra')->checkbox() ?>
         <?= $form->field($publications, '54_cafedra')->checkbox() ?>
+    </div>
+    <div class="col-sm-3">
+        <?= $form->field($publications, 'course51')->checkbox() ?>
+        <?= $form->field($publications, 'course52')->checkbox() ?>
+        <?= $form->field($publications, 'course53')->checkbox() ?>
+        <?= $form->field($publications, 'course54')->checkbox() ?>
+        <?= $form->field($publications, 'course55')->checkbox() ?>
     </div>
     <div class="col-sm-12">
         <?= $form->field($model, 'img')->textInput(['maxlength' => true]) ?>

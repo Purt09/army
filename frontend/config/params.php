@@ -35,9 +35,14 @@ return [
             'icon' => 'star',
             'url' => ['/'],
             'items' => [
-                ['label' => 'Поощерения', 'icon' => 'star', 'url' => ['/vpr/index'],],
+                ['label' => 'Дисциплинарная практика', 'icon' => 'star', 'url' => ['/vpr/index'],],
                 ['label' => 'Бессмертный полк', 'icon' => 'user-secret', 'url' => ['/vpr/not-killed'],],
             ],
+        ],
+        [
+            'label' => 'Служба войск',
+            'icon' => 'star',
+            'url' => ['/site/army'],
         ],
         [
             'label' => 'Спортивная работа',

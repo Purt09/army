@@ -9,7 +9,7 @@ use Yii;
 
 class LabelEmblemaWidget extends Widget
 {
-    private $title = 'ФАКУЛЬТЕТ СБОРА И ОБРАБОТКИ ИНФОРМАЦИИ';
+    private $title = 'Факультет';
 
     public function run()
     {

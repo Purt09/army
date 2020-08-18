@@ -4,6 +4,7 @@
  * @var $content Page
  * @var $history Page
  * @var $news NewsPublications
+ * @var $main Page
  */
 
 use bupy7\pages\models\Page;
@@ -140,17 +141,18 @@ $this->title = 'Кафедра 51';
             </div>
         </div>
     </div>
-</section>" ?>
+</section>
+{$main->content}" ?>
 
 <?= \yii\bootstrap\Tabs::widget([
     'items' => [
         [
-            'label' => 'Главная 51 кафедры',
-            'content' => $main,
-        ],
-        [
             'label' => 'Новости',
             'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
+        ],
+        [
+            'label' => 'Главная 51 кафедры',
+            'content' => $main,
         ],
         [
             'label' => 'История кафедры',

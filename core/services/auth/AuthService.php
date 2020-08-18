@@ -47,15 +47,16 @@ class AuthService extends MainService
 
     /**
      * @param MdlUser $userMoodle
-     * @param LoginForm $form
+     * @param $form
+     * @return User
      */
     private function signupByMoodle(MdlUser $userMoodle, $form)
     {
         $user = User::requestSignup($form->username, $form->password);
         $this->transaction(function () use ($userMoodle, $user) {
             $staff = TblStaff::create($userMoodle->firstname,
-                $userMoodle->lastname,
-                'Пусто',
+                'Фамилия',
+                'Отчество',
                 '123123',
                 '7991991991',
                 'Спб',

@@ -6,22 +6,22 @@
                 [
                     'label' => 'Главная курса',
                     'icon' => 'star',
-                    'url' => ['/courses/common'],
+                    'url' => ['index'],
                 ],
                 [
                     'label' => 'Обновление данных',
                     'icon' => 'list',
-                    'url' => ['/'],
+                    'url' => ['manager'],
                 ],
                 [
                     'label' => 'Кадровая работа',
                     'icon' => 'users',
-                    'url' => ['/'],
+                    'url' => ['users'],
                 ],
                 [
                     'label' => 'Списки вне казармы',
                     'icon' => 'user-plus',
-                    'url' => ['/'],
+                    'url' => ['users-free'],
                 ],
             ];
             $items = array_merge($items, Yii::$app->params['left_menu']);

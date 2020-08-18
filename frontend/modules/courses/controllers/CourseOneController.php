@@ -6,6 +6,8 @@ namespace frontend\modules\courses\controllers;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
+use bupy7\pages\models\Page;
+use core\entities\News\NewsPublications;
 use core\entities\User\TblStaff;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
@@ -15,11 +17,14 @@ use yii\web\Controller;
 
 class CourseOneController extends Controller
 {
+    use CommonTraits;
+
     public function behaviors()
     {
         return [
             'access' => [
                 'class' => AccessControl::className(),
+                'except' => ['index'],
                 'rules' => [
                     [
                         'allow' => true,
@@ -42,11 +47,24 @@ class CourseOneController extends Controller
 
     public function actionIndex()
     {
+
+        $content = Page::find()->where(['alias' => 'main_51course'])->one();
+
+        $news = NewsPublications::find()->where(['course51' => 1])->with('articles')->all();
+
+        return $this->render('index', [
+            'content' => $content,
+            'news' => $news,
+        ]);
+    }
+
+    public function actionUsers()
+    {
         $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$COURSE51);
         $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$CADET);
         $users = array_intersect($users1, $users2);
         $users = User::find()->where(['id' => $users])->all();
-        return $this->render('index', [
+        return $this->render('users', [
             'users' => $users
         ]);
     }

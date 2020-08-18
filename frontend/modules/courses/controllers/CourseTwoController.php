@@ -6,18 +6,24 @@ namespace frontend\modules\courses\controllers;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
+use bupy7\pages\models\Page;
+use core\entities\News\NewsPublications;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
+use core\services\api\UserApiService;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 
 class CourseTwoController extends Controller
 {
+    use CommonTraits;
+
     public function behaviors()
     {
         return [
             'access' => [
                 'class' => AccessControl::className(),
+                'except' => ['index'],
                 'rules' => [
                     [
                         'allow' => true,
@@ -27,20 +33,37 @@ class CourseTwoController extends Controller
             ],
         ];
     }
+
     private $service;
+    private $serviceAPI;
+
     public function __construct($id, $module, $config = [])
     {
+        $this->serviceAPI = new UserApiService();
         $this->service = new UserServices();
         parent::__construct($id, $module, $config);
     }
 
     public function actionIndex()
     {
+
+        $content = Page::find()->where(['alias' => 'main_52course'])->one();
+
+        $news = NewsPublications::find()->where(['course52' => 1])->with('articles')->all();
+
+        return $this->render('index', [
+            'content' => $content,
+            'news' => $news,
+        ]);
+    }
+
+    public function actionUsers()
+    {
         $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$COURSE52);
         $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$CADET);
         $users = array_intersect($users1, $users2);
         $users = User::find()->where(['id' => $users])->all();
-        return $this->render('index', [
+        return $this->render('users', [
             'users' => $users
         ]);
     }

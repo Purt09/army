@@ -2,7 +2,7 @@
     <section class="sidebar">
             <?php
             $items = [
-                ['label' => 'УПРАВЛЕНИЕ КАФЕДРОЙ', 'options' => ['class' => 'header']],
+                ['label' =>  \frontend\widget\LabelEmblemaWidget::widget(), 'options' => ['class' => 'header']],
                 [
                     'label' => 'Главная кафедры',
                     'icon' => 'star',

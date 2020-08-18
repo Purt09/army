@@ -9,6 +9,11 @@ use Yii;
  *
  * @property int $id
  * @property bool|null $main
+ * @property bool|null $course51
+ * @property bool|null $course52
+ * @property bool|null $course53
+ * @property bool|null $course54
+ * @property bool|null $course55
  * @property bool|null $51_cafedra
  * @property bool|null $52_cafedra
  * @property bool|null $53_cafedra
@@ -32,7 +37,8 @@ class NewsPublications extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['main', '51_cafedra', '52_cafedra', '53_cafedra', '54_cafedra'], 'boolean'],
+            [['main', '51_cafedra', '52_cafedra', '53_cafedra', '54_cafedra', 'course51',
+                'course52', 'course53', 'course54', 'course55'], 'boolean'],
         ];
     }
 
@@ -44,6 +50,11 @@ class NewsPublications extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'main' => 'Опубликовать на главной факультета',
+            'course51' => 'Опубликовать на 51 курсе',
+            'course52' => 'Опубликовать на 52 курсе',
+            'course53' => 'Опубликовать на 53 курсе',
+            'course54' => 'Опубликовать на 54 курсе',
+            'course55' => 'Опубликовать на 55 курсе',
             '51_cafedra' => 'Опубликовать на 51 кафедре',
             '52_cafedra' => 'Опубликовать на 52 кафедре',
             '53_cafedra' => 'Опубликовать на 53 кафедре',

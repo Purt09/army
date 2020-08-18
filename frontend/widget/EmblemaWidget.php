@@ -36,7 +36,7 @@ class EmblemaWidget extends Widget
                     $this->url = '/img/эмб52.png';
                     break;
                 case 'five-free':
-                    $this->url = '/img/эмб53.jpg';
+                    $this->url = '/img/эмб53.png';
                     break;
                 case 'five-five':
                     $this->url = '/img/эмб55.gif';

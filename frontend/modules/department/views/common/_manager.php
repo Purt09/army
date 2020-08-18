@@ -40,7 +40,7 @@ $this->title = 'Управление кафедрой ' . $title;
 </div>
 <div class="col-md-3 col-sm-6 col-xs-12">
     <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/main") ?>">
-        <div class="info-box bg-green">
+        <div class="info-box bg-light-blue">
             <span class="info-box-icon"><i class="fa fa-pencil"></i></span>
 
             <div class="info-box-content">
@@ -56,9 +56,26 @@ $this->title = 'Управление кафедрой ' . $title;
     </a>
 </div>
 <div class="col-md-3 col-sm-6 col-xs-12">
+    <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/general") ?>">
+        <div class="info-box bg-light-blue">
+            <span class="info-box-icon"><i class="fa fa-pencil"></i></span>
+
+            <div class="info-box-content">
+                <span class="info-box-text">Управление главной</span>
+                <span class="info-box-number">Редактирование</span>
+                <span class="info-box-number">общее</span>
+
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
     <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/history") ?>">
         <div class="info-box bg-green">
-            <span class="info-box-icon"><i class="fa fa-pencil"></i></span>
+            <span class="info-box-icon"><i class="fa fa-history"></i></span>
 
             <div class="info-box-content">
                 <span class="info-box-text">Управление историей</span>
@@ -75,7 +92,7 @@ $this->title = 'Управление кафедрой ' . $title;
 <div class="col-md-3 col-sm-6 col-xs-12">
     <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/graduate") ?>">
         <div class="info-box bg-green">
-            <span class="info-box-icon"><i class="fa fa-pencil"></i></span>
+            <span class="info-box-icon"><i class="fa fa-graduation-cap"></i></span>
 
             <div class="info-box-content">
                 <span class="info-box-text">Управление выпускниками</span>
@@ -88,32 +105,4 @@ $this->title = 'Управление кафедрой ' . $title;
             </div>
         </div>
     </a>
-</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
-    <div class="info-box bg-yellow">
-        <span class="info-box-icon"><i class="fa fa-user"></i></span>
-
-        <div class="info-box-content">
-            <span class="info-box-text">Добавить офицера</span>
-            <span class="info-box-number">Всего офицеров: 0</span>
-
-            <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
-    <div class="info-box bg-yellow">
-        <span class="info-box-icon"><i class="fa fa-users"></i></span>
-
-        <div class="info-box-content">
-            <span class="info-box-text">График нарядов</span>
-            <span class="info-box-number">?</span>
-
-            <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-            </div>
-        </div>
-    </div>
 </div>
