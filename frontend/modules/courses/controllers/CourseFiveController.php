@@ -49,7 +49,7 @@ class CourseFiveController extends Controller
 
         $content = Page::find()->where(['alias' => 'main_55course'])->one();
 
-        $news = NewsPublications::find()->where(['course55' => 1])->with('articles')->all();
+        $news = NewsPublications::find()->where(['course55' => 1])->with('articles')->orderBy('id desc')->all();
 
         return $this->render('index', [
             'content' => $content,

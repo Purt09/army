@@ -15,8 +15,8 @@ $this->title = 'Кафедра 52';
 ?>
 
 <?php $main = "<section class=\"content\">
-    <div class=\"col - sm - 6\" style=\" margin - top: 60px; background - color: white;border - radius: 20px;
-        padding: 15px;box - shadow: 0 0 5px rgba(0, 0, 0, 0.1);\">
+    <div class=\"col-sm-6\" style=\" margin-top: 60px; background-color: white;border-radius: 20px;
+        padding: 15px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);\">
     $content->content
     </div>
     <div class=\"col-sm-6\">

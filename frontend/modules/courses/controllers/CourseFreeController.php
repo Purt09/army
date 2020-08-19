@@ -49,7 +49,7 @@ class CourseFreeController extends Controller
 
         $content = Page::find()->where(['alias' => 'main_53course'])->one();
 
-        $news = NewsPublications::find()->where(['course53' => 1])->with('articles')->all();
+        $news = NewsPublications::find()->where(['course53' => 1])->with('articles')->orderBy('id desc')->all();
 
         return $this->render('index', [
             'content' => $content,

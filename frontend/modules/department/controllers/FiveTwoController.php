@@ -9,6 +9,7 @@ use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use core\entities\News\NewsSearch;
 use core\helpers\user\RbacHelpers;
+use core\repositories\news\NewsRepository;
 use frontend\modules\department\useCases\NewsService;
 use Yii;
 use yii\filters\AccessControl;
@@ -16,6 +17,7 @@ use yii\web\Controller;
 
 class FiveTwoController extends Controller
 {
+    private $news;
     public function behaviors()
     {
         return [
@@ -41,6 +43,7 @@ class FiveTwoController extends Controller
 
     public function __construct($id, $module, $config = [])
     {
+        $this->news = new NewsRepository();
         parent::__construct($id, $module, $config);
     }
 
@@ -50,7 +53,8 @@ class FiveTwoController extends Controller
         $history = Page::find()->where(['alias' => 'history_52kaf'])->one();
         $main = Page::find()->where(['alias' => 'main_52kaf_general'])->one();
 
-        $news = NewsPublications::find()->where(['52_cafedra' => 1])->with('articles')->all();
+
+        $news = $this->news->getNewsByType('52_cafedra')->all();
 
         return $this->render('index', [
             'content' => $content,
@@ -167,6 +171,17 @@ class FiveTwoController extends Controller
         return $this->render('users', [
             'title' => 'Управление пользователями факультета',
             'controller' => 'five-two'
+        ]);
+    }
+
+    public function actionNews()
+    {
+        $searchModel = new NewsSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, '52_cafedra');
+
+        return $this->render('news', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
         ]);
     }
 }

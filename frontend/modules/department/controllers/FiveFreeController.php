@@ -8,6 +8,8 @@ use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
 use bupy7\pages\models\Page;
 use core\entities\News\News;
+use core\repositories\news\NewsRepository;
+use core\entities\News\NewsSearch;
 use core\entities\News\NewsPublications;
 use core\helpers\user\RbacHelpers;
 use Yii;
@@ -16,6 +18,7 @@ use yii\web\Controller;
 
 class FiveFreeController extends Controller
 {
+    private $news;
     public function behaviors()
     {
         return [
@@ -41,6 +44,7 @@ class FiveFreeController extends Controller
 
     public function __construct($id, $module, $config = [])
     {
+        $this->news = new NewsRepository();
         parent::__construct($id, $module, $config);
     }
 
@@ -50,7 +54,7 @@ class FiveFreeController extends Controller
         $history = Page::find()->where(['alias' => 'history_53kaf'])->one();
         $main = Page::find()->where(['alias' => 'main_53kaf_general'])->one();
 
-        $news = NewsPublications::find()->where(['53_cafedra' => 1])->with('articles')->all();
+        $news = $this->news->getNewsByType('53_cafedra')->all();
 
         return $this->render('index', [
             'content' => $content,
@@ -167,6 +171,17 @@ class FiveFreeController extends Controller
         return $this->render('users', [
             'title' => 'Управление пользователями факультета',
             'controller' => 'five-free'
+        ]);
+    }
+
+    public function actionNews()
+    {
+        $searchModel = new NewsSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, '53_cafedra');
+
+        return $this->render('news', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
         ]);
     }
 

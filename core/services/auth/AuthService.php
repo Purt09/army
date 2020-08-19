@@ -63,10 +63,13 @@ class AuthService extends MainService
                 '2020-01-01',
                 'АВ123123'
             );
-            $staff->save();
+            if(!$staff->save())
+              throw new \Exception("staff not save", 1);
+
             $user->user_base_id = $staff->id;;
             $user->user_moodle_id = $userMoodle->id;
-            $user->save();
+            if(!$user->save())
+              throw new \Exception("user not save", 1);
         });
         return $user;
     }

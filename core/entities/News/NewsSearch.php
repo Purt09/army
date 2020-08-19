@@ -5,12 +5,19 @@ namespace core\entities\News;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use core\entities\News\News;
+use core\repositories\news\NewsRepository;
+use yii\helpers\ArrayHelper;
 
 /**
  * NewsSearch represents the model behind the search form of `core\entities\News\News`.
  */
 class NewsSearch extends News
 {
+  private $news;
+  public function __construct()
+  {
+      $this->news = new NewsRepository();
+  }
     /**
      * {@inheritdoc}
      */
@@ -35,12 +42,19 @@ class NewsSearch extends News
      * Creates data provider instance with search query applied
      *
      * @param array $params
+     * @param string $type
      *
      * @return ActiveDataProvider
      */
-    public function search($params)
+    public function search($params, string $type = 'main')
     {
-        $query = News::find();
+        $newsPublications = $this->news->getNewsByType($type)->all();
+        $ids = [];
+        foreach ($newsPublications as $key => $item)
+          array_push($ids,$item->id);
+
+
+        $query = News::find()->where(['publications' => $ids]);
 
         // add conditions that should always apply here
 

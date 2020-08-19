@@ -8,6 +8,7 @@ use bupy7\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use core\entities\News\NewsSearch;
+use core\repositories\news\NewsRepository;
 use core\helpers\user\RbacHelpers;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -15,6 +16,7 @@ use Yii;
 
 class CommonController extends Controller
 {
+
     public function behaviors()
     {
         return [
@@ -64,7 +66,8 @@ class CommonController extends Controller
         $newsPublications = NewsPublications::find()->where(['main' => true])->with('articles')->all();
         return $this->render('manager', [
             'newsPublications' => $newsPublications,
-            'controller' => 'common'
+            'controller' => 'common',
+            'title' => 'факультетом'
         ]);
     }
 

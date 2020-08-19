@@ -89,7 +89,6 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
-            ['password', 'match', 'pattern' => '((?=.*\d)(?=.*[A-Z])(?=.*\W).{8,8})', 'message' => 'Пароль должен содержать минимум 1 букву и 1 цифру, заглавную букву и не менее 8 сиволов'],
             [['auth_key', 'created_at', 'updated_at', 'user_moodle_id', 'user_base_id'], 'required'],
             [['status', 'created_at', 'updated_at', 'user_moodle_id', 'user_base_id'], 'default', 'value' => null],
             [['status', 'created_at', 'updated_at', 'user_moodle_id', 'user_base_id'], 'integer'],
