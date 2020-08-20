@@ -54,9 +54,13 @@ class AuthService extends MainService
     {
         $user = User::requestSignup($form->username, $form->password);
         $this->transaction(function () use ($userMoodle, $user) {
+            if(empty($userMoodle->lastname))
+                $userMoodle->lastname = 'Фамилия';
+            if(empty($userMoodle->middlename))
+                $userMoodle->middlename = 'Отчество';
             $staff = TblStaff::create($userMoodle->firstname,
-                'Фамилия',
-                'Отчество',
+                $userMoodle->lastname,
+                $userMoodle->middlename,
                 '123123',
                 '7991991991',
                 'Спб',
