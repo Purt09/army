@@ -12,9 +12,8 @@ $this->title = $title;
 
 ?>
 
-<?= $this->render('../common/_users', [
+<?= $this->render('_users', [
     'controller' => $controller,
     'title' => $title,
     'provider' => $provider
-
 ]) ?>

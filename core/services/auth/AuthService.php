@@ -39,10 +39,12 @@ class AuthService extends MainService
     public function checkMoodle($form)
     {
         $userMoodle = $this->repository->findByUsernameInMoodle($form->username);
+        if($userMoodle == null)
+            throw new \DomainException('Логин и пароль не совпадают');
         if (password_verify($form->password, $userMoodle->password))
             return $this->signupByMoodle($userMoodle, $form);
         else
-            throw new \DomainException('Вы еще не зарегистрированы. Обратитесь к администратору. Или данные неверные');
+            throw new \DomainException('Логин найден в базе, но пароль неверный!');
     }
 
     /**
@@ -62,11 +64,12 @@ class AuthService extends MainService
                 $userMoodle->lastname,
                 $userMoodle->middlename,
                 '123123',
-                '7991991991',
+                '991991991',
                 'Спб',
                 '2020-01-01',
                 'АВ123123'
             );
+            $staff->email = $userMoodle->email;
             if(!$staff->save())
               throw new \Exception("staff not save", 1);
 

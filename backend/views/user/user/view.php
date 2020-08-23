@@ -58,7 +58,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'foto',
                         ],
                     ]) .
-                    Html::a('Редактировать', ['user/users-base/update?id=' . $model->base->id], ['class' => 'btn btn-success']) .
+                    Html::a('Редактировать', ['user/tbl-staff/update?id=' . $model->base->id], ['class' => 'btn btn-success']) .
                     Html::a('Управлять ролями', ['user-admin/assignment/view?id=' . $model->id], ['class' => 'btn btn-success']),
                 'active' => true
             ],

@@ -41,7 +41,7 @@ class AuthController extends Controller
                     $user = $this->service->checkMoodle($form);
 
                 if($user == null)
-                    throw new \RuntimeException('Логин или пароль не верные, обратитесь к администратору');
+                    throw new \RuntimeException('Логин или пароль неверные, обратитесь к администратору');
                 \Yii::$app->user->login($user, $form->rememberMe ? \Yii::$app->params['user.rememberMeDuration'] : 0);
                 return $this->redirect(Url::to('/'));
             } catch (\DomainException $e) {

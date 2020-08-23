@@ -2,7 +2,7 @@
 /**
  * @var $this \yii\web\View
  * @var $roles array
- * @var $user \core\entities\User\User
+ * @var $user \core\entities\User\TblStaff
  */
 
 $this->title = 'Профиль';
@@ -15,11 +15,11 @@ $this->title = 'Профиль';
         <!-- Profile Image -->
         <div class="box box-primary">
             <div class="box-body box-profile">
-                <img class="profile-user-img img-responsive img-circle" src="/img/user.png" alt="User profile picture">
+                <img class="profile-user-img img-responsive img-circle" src="<?= $user->foto ?>" alt="User profile picture">
 
-                <h3 class="profile-username text-center"><?= $user->base->firstname ?> <?= $user->base->sirname ?></h3>
+                <h3 class="profile-username text-center"><?= $user->firstname ?> <?= $user->sirname ?></h3>
 
-                <p class="text-muted text-center"><?= $user->base->lastname ?>r</p>
+                <p class="text-muted text-center"><?= $user->lastname ?>r</p>
 
                 <ul class="list-group list-group-unbordered">
                     <li class="list-group-item">

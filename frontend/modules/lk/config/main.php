@@ -10,12 +10,17 @@ return [
         'except' => ['auth/login', 'profile/view'],
         'rules' => [
             [
-                'allow' => false,
-                'roles' => ['*'],
-            ],
-            [
                 'allow' => true,
                 'roles' => ['@'],
+                'matchCallback' => function ($rule, $action) {
+                    if(Yii::$app->user->id == Yii::$app->request->post('id'))
+                        return true;
+                    if(\core\helpers\user\RbacHelpers::checkRole(\core\helpers\user\RbacHelpers::$ADMIN))
+                        return true;
+                    if(\core\helpers\user\RbacHelpers::checkRole(\core\helpers\user\RbacHelpers::$MANAGER))
+                        return true;
+                    return false;
+                }
             ],
         ],
     ],

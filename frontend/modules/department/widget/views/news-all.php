@@ -9,13 +9,13 @@ use core\entities\News\NewsPublications;
 <div class="col-sm-9">
     <?php foreach ($news as $item): ?>
         <div class="row">
-            <div class="col-md-4 blog_box">
+            <div class="col-md-3 blog_box">
                 <a href="/news/<?= $item->articles->id ?>" class="mask">
                     <img src="<?= $item->articles->img ?>"
                          alt="<?= $item->articles->title ?>" class="img-responsive zoom-img"/>
                 </a>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <h3 style="margin-top: 0px"><a href="/news/<?= $item->articles->id ?>"><?= $item->articles->title ?></a></h3>
                 <div class="links">
                     <ul>

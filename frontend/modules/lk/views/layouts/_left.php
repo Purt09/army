@@ -4,19 +4,14 @@
             $items = [
                 ['label' => 'ЛИЧНЫЙ КАБИНЕТ', 'options' => ['class' => 'header']],
                 [
-                    'label' => 'Рабочий стол',
-                    'icon' => 'desktop',
-                    'url' => ['desktop/index'],
-                ],
-                [
                     'label' => 'Редактировать профиль',
                     'icon' => 'wrench',
-                    'url' => ['profile/setting', 'id' => Yii::$app->user->id],
+                    'url' => ['profile/setting', 'id' => Yii::$app->request->get('id')],
                 ],
                 [
                     'label' => 'Посмотреть профиль',
                     'icon' => 'eye',
-                    'url' => ['profile/view', 'id' => Yii::$app->user->id],
+                    'url' => ['profile/view', 'id' => Yii::$app->request->get('id')],
                 ],
             ];
             $items = array_merge($items, Yii::$app->params['left_menu']);

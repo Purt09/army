@@ -137,6 +137,16 @@ string $address, string $birthday_date, string $udl_number)
      *
      * @return \yii\db\ActiveQuery
      */
+    public function getUser()
+    {
+        return $this->hasMany(User::className(), ['user_base_id' => 'id']);
+    }
+
+    /**
+     * Gets query for [[TblEducations]].
+     *
+     * @return \yii\db\ActiveQuery
+     */
     public function getTblEducations()
     {
         return $this->hasMany(TblEducation::className(), ['id_staff' => 'id']);
