@@ -30,14 +30,14 @@ class DefaultController extends Controller
         }
         mb_internal_encoding("UTF-8");
 
-//        try {
+        try {
             $directory = Directory::createByPath($path);
 
             $list = File::getByPath($path);
-//        } catch (\Exception $e) {
-//            yii::$app->session->setFlash('error', $e->getMessage());
-//            return $this->redirect(yii::$app->request->referrer);
-//        }
+        } catch (\Exception $e) {
+            yii::$app->session->setFlash('error', $e->getMessage());
+            return $this->redirect(yii::$app->request->referrer);
+        }
 
         return $this->render('index', [
             'directory' => $directory,

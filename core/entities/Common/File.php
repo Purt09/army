@@ -92,6 +92,9 @@ class File extends \yii\db\ActiveRecord
                 continue;
             }
         }
+        if(count($results) == 1 && $path != '\\')
+            throw new \RuntimeException('Директория не найдена');
+
         return $results;
     }
     /**
