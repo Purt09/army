@@ -54,6 +54,7 @@ use Yii;
  */
 class TblStaff extends \yii\db\ActiveRecord
 {
+
     public static function create(string $firstName, string $lastName, string $sirName, string $passport_number, string $mobile_phone,
 string $address, string $birthday_date, string $udl_number)
     {
@@ -70,6 +71,15 @@ string $address, string $birthday_date, string $udl_number)
         $user->birthday_date = $birthday_date;
         $user->udl_number = $udl_number;
         return $user;
+    }
+
+    public function beforeSave($insert)
+    {
+        if(parent::beforeSave($insert)){
+          $this->fio = $this->lastname . ' ' . mb_substr($this->firstname, 0, 1) . '.' . mb_substr($this->sirname, 0, 1) . '.';
+          return true;
+        }
+        return false;
     }
     /**
      * {@inheritdoc}

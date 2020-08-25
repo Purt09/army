@@ -4,6 +4,7 @@ namespace core\entities\Common;
 
 use Yii;
 use yii\helpers\Inflector;
+use core\entities\User\User;
 
 /**
  * This is the model class for table "yii_file".
@@ -13,14 +14,20 @@ use yii\helpers\Inflector;
  * @property string|null $name
  * @property int|null $user_id
  * @property int|null $delete_id
+ * @property int|null $parent_id
  * @property string|null $path
  * @property string|null $type
  * @property boolean $block
  * @property int|null $create_at
  * @property int|null $size
+ *
+ *
+ * @property User $user
  */
 class File extends \yii\db\ActiveRecord
 {
+    private static $link = '';
+
     const TYPE_FILE = 'file';
     const TYPE_DIR = 'directory';
 
@@ -29,8 +36,8 @@ class File extends \yii\db\ActiveRecord
         $file = new self();
         $file->title = $title;
         $file->name = Inflector::slug($title, '_');
-        if($path != '\\')
-            $path .= '\\';
+        if($path != '/')
+            $path .= '/';
         $file->path = $path . $file->name;
         $file->size = 0;
         $file->type = self::TYPE_DIR;
@@ -44,14 +51,12 @@ class File extends \yii\db\ActiveRecord
         $extantion = stristr($title, '.');
         $name = stristr($title, '.', true);
         $file->name = Inflector::slug($name, '_', false) . $extantion;
-        if($path != '\\')
-            $path .= '\\';
+        if($path != '/')
+            $path .= '/';
         $file->path = $path . $file->name;
         $file->size = $size;
         $file->type = self::TYPE_FILE;
         return self::create($file);
-//        if(!$file->save())
-//            throw new \RuntimeException('Сохранение файла не удалось');
     }
 
     public function deleteFile()
@@ -69,34 +74,40 @@ class File extends \yii\db\ActiveRecord
         return $file;
     }
 
-    public static function getByPath($path)
+    public static function getByPath($id)
     {
-        $files = self::find()->where(['delete_id' => null])->asArray()->all();
+        $files = self::find()->where(['delete_id' => null])
+          ->andWhere(['parent_id' => $id])
+          ->with('user.base')->asArray()->all();
+
         $results = [];
-        if($path != '\\')
-            array_push($results, [
-                'title' => "<i class='fa fa-reply-all'> </i> Назад",
-                'block' => true,
-                'path' => '\\' . explode('\\', $path)[count(explode('\\', $path)) - 2],
-                'type' => 'back'
-            ]);
-        foreach ($files as $file){
-            $path_file = explode('\\', $file['path']);
-            if(($path == '\\' || $path == null) && count($path_file) == 2) {
-                array_push($results, $file);
-                continue;
-            }
-            array_pop($path_file);
-            if($path_file == explode('\\', $path)) {
-                array_push($results, $file);
-                continue;
-            }
+        if($id != 0){
+          $parent = self::findOne($id);
+              array_push($results, [
+                  'title' => "<i class='fa fa-reply-all'> </i> Назад",
+                  'block' => true,
+                  'parent_id' => $parent->parent_id,
+                  'type' => 'back'
+              ]);
         }
-        if(count($results) == 1 && $path != '\\')
-            throw new \RuntimeException('Директория не найдена');
+            foreach ($files as $file)
+              array_push($results, $file);
 
         return $results;
     }
+
+    public static function getBreadCrumbs($id)
+    {
+      if($id == 0)
+          return 'Главная';
+      $file = self::findOne($id);
+      self::$link =  " <a href=\"index?id={$file->id}\">{$file->title}</a> >" . self::$link;
+      if($file->parent_id != 0)
+        self::getBreadCrumbs($file->parent_id);
+      self::$link = substr(self::$link,0,-1);
+      return self::$link;
+    }
+
     /**
      * {@inheritdoc}
      */
@@ -112,7 +123,7 @@ class File extends \yii\db\ActiveRecord
     {
         return [
             [['user_id', 'create_at', 'size'], 'default', 'value' => null],
-            [['user_id', 'create_at', 'size', 'delete_id'], 'integer'],
+            [['user_id', 'create_at', 'size', 'delete_id', 'parent_id'], 'integer'],
             [['block'], 'boolean'],
             [['title', 'name', 'path', 'type'], 'string', 'max' => 255],
         ];
@@ -132,5 +143,13 @@ class File extends \yii\db\ActiveRecord
             'create_at' => 'Create At',
             'size' => 'Size',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUser()
+    {
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 }

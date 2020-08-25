@@ -32,21 +32,24 @@ class DirectoryController extends Controller
      * @return string
      * @throws BadRequestHttpException
      */
-    public function actionCreate($path = null)
+    public function actionCreate($id)
     {
-        if (strstr($path, '../')) {
-            throw new BadRequestHttpException();
+        $model = new DirectoryForm();
+        if($id == 0)
+          $model->path = '/';
+        else {
+              $parent_dir = FileYii::findOne($id);
+              $model->path = $parent_dir->path;
         }
 
-        $model = new DirectoryForm();
-        $model->path = $path;
 
         if ($model->load(Yii::$app->request->post())) {
             try {
                 $file = FileYii::createDirectory($model->name, $model->path);
+                $file->parent_id = $id;
                 $model->save();
                 $file->save();
-                return $this->redirect(['default/index', 'path' => $model->path]);
+                return $this->redirect(['default/index', 'id' => $file->id]);
             } catch (\Exception $e) {
                 yii::$app->session->setFlash('error', $e->getMessage());
             }
@@ -54,7 +57,7 @@ class DirectoryController extends Controller
 
         return $this->render('create', [
             'model' => $model,
-            'directory' => Directory::createByPath($path)
+            'directory' => Directory::createByPath($id)
         ]);
     }
 

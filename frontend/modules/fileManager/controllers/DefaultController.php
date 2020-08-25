@@ -23,23 +23,25 @@ class DefaultController extends Controller
      * @return string
      * @throws BadRequestHttpException
      */
-    public function actionIndex($path = null)
+    public function actionIndex($id = null)
     {
-        if (strstr($path, '../')) {
-            throw new BadRequestHttpException();
-        }
+        // if (strstr($path, '../')) {
+        //     throw new BadRequestHttpException();
+        // }
         mb_internal_encoding("UTF-8");
 
-        try {
-            $directory = Directory::createByPath($path);
+        // try {
+          $breadCrumbs = File::getBreadCrumbs($id);
+            $directory = Directory::createByPath($id);
 
-            $list = File::getByPath($path);
-        } catch (\Exception $e) {
-            yii::$app->session->setFlash('error', $e->getMessage());
-            return $this->redirect(yii::$app->request->referrer);
-        }
+            $list = File::getByPath($id);
+        // } catch (\Exception $e) {
+        //     yii::$app->session->setFlash('error', $e->getMessage());
+        //     return $this->redirect(yii::$app->request->referrer);
+        // }
 
         return $this->render('index', [
+            'breadCrumbs' => $breadCrumbs,
             'directory' => $directory,
             'dataProvider' => new ArrayDataProvider(
                 [

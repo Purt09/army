@@ -4,6 +4,7 @@ use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
+
 ?>
 
 
@@ -149,7 +150,7 @@ transform: translate(-50%, -50%);">
                         </li>
                     <?php else: ?>
                         <li class="dropdown messages-menu">
-                            <a href="/lk/desktop">
+                            <a href="/lk/profile/view?id=<?= Yii::$app->user->identity->base->id ?>">
                                 Личный кабинет(<?= Yii::$app->user->identity->username ?>)
                             </a>
                         </li>

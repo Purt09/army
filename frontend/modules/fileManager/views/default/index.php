@@ -6,7 +6,10 @@ use yii\helpers\Html;
 use \frontend\modules\fileManager\models\Directory;
 
 /** @var \yii\data\ArrayDataProvider $dataProvider */
-/** @var Directory $directory */
+/**
+* @var Directory $directory
+* @var string $breadCrumbs
+*/
 
 $a = Yii::t('app', 'File manager');
 $this->title = Yii::t('filemanager', 'File manager');
@@ -20,7 +23,7 @@ $path = $directory->path;
     <p>
         <?php if(RbacHelpers::checkRole(RbacHelpers::$ADMIN)): ?>
         <?= Html::a('<i class="fa fa-folder fa-fw"></i> ' . Yii::t('filemanager', 'Create directory'),
-            ['directory/create', 'path' => $directory->path],
+            ['directory/create', 'id' => Yii::$app->request->get('id')],
             [
                 'class' => 'btn btn-success',
                 'data' => [
@@ -28,7 +31,7 @@ $path = $directory->path;
                 ]
             ]) ?>
         <?= Html::a('<i class="fa fa-upload fa-fw"></i> ' . Yii::t('filemanager', 'Upload files'),
-            ['file/upload', 'path' => $directory->path],
+            ['file/upload', 'id' => Yii::$app->request->get('id')],
             ['class' => 'btn btn-primary'])
         ?>
         <?php endif; ?>
@@ -38,6 +41,11 @@ $path = $directory->path;
 <div class="row">
     <div class="col-md-12">
         <div class="box">
+          <div class="box-header with-border">
+            <h3 class="box-title">
+                <?= $breadCrumbs ?>
+              </h3>
+        </div>
             <div class="box-body">
                 <?php try {
                     echo GridView::widget([
@@ -50,9 +58,9 @@ $path = $directory->path;
                                     if ($item['type'] == \core\entities\Common\File::TYPE_DIR)
                                         return Html::a(
                                             "<i class='fa  fa-folder'></i> " . $item['title'],
-                                            ['index', 'path' => $item['path']]);
+                                            ['index', 'id' => $item['id']]);
                                     if ($item['type'] == 'back')
-                                        return Html::a($item['title'], ['index', 'path' => $item['path']]);
+                                        return Html::a($item['title'], 'index?id=' . $item['parent_id']);
 
                                     $link = '/file_manager/' . \frontend\modules\fileManager\SimpleFilemanagerModule::BASE_DIR . str_replace("\\", "/", $item['path']);
                                     return Html::a($item['title'], $link);
@@ -61,6 +69,13 @@ $path = $directory->path;
                             ],
                             [
                                 'attribute' => 'user_id',
+                                'value' => function ($item) {
+                                    if ($item['type'] == 'back')
+                                        return '';
+
+
+                                    return $item['user']['base']['fio'];
+                                },
                                 'label' => 'Опубликовал',
                             ],
                             [

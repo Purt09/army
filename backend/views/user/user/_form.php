@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($models, 'username')->textInput() ?>
 
-    <?= $form->field($models, 'password')->textInput(['value' => Yii::$app->security->generateRandomString(10) . '*']) ?>
+    <?= $form->field($models, 'password')->textInput() ?>
 
     <div class="form-group">
         <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>

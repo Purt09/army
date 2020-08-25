@@ -18,25 +18,27 @@ class FileController extends Controller
      * @return string|\yii\web\Response
      * @throws BadRequestHttpException
      */
-    public function actionUpload($path)
+    public function actionUpload($id)
     {
-        if (strstr($path, '../')) {
-            throw new BadRequestHttpException();
-        }
-
-        $directory = Directory::createByPath($path);
+        $directory = Directory::createByPath($id);
 
         $model = new UploadForm();
-        $model->path = $path;
+        if($id == 0)
+          $model->path = '/';
+        else {
+              $parent_dir = FileYii::findOne($id);
+              $model->path = $parent_dir->path;
+        }
 
         if (\Yii::$app->request->isPost) {
             $model->files = UploadedFile::getInstances($model, 'files');
 
             $file = FileYii::createFile($model->files['0']->name, $model->path, $model->files['0']->size);
+            $file->parent_id = $id;
             if ($model->upload()) {
                 $file->save();
 
-                return $this->redirect(['default/index', 'path' => $model->path]);
+                return $this->redirect(['default/index', 'id' => $file->id]);
             }
         }
 

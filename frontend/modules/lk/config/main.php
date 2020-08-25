@@ -7,13 +7,13 @@ return [
     ],
     'as access' => [
         'class' => 'yii\filters\AccessControl',
-        'except' => ['auth/login', 'profile/view'],
+        'except' => ['auth/login', 'auth/logout'],
         'rules' => [
             [
                 'allow' => true,
                 'roles' => ['@'],
                 'matchCallback' => function ($rule, $action) {
-                    if(Yii::$app->user->id == Yii::$app->request->post('id'))
+                    if(Yii::$app->user->identity->base->id == Yii::$app->request->get('id'))
                         return true;
                     if(\core\helpers\user\RbacHelpers::checkRole(\core\helpers\user\RbacHelpers::$ADMIN))
                         return true;

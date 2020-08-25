@@ -20,6 +20,7 @@ use yii\widgets\MaskedInput;
             </div>
             <!-- /.box-header -->
             <div class="box-body">
+                <a class="btn btn-primary" href="/lk/profile/setting-photo?id=<?= Yii::$app->user->identity->base->id ?>"> Изменить фото </a>
 
                 <?= $form->field($model, 'firstname')->textInput() ?>
                 <?= $form->field($model, 'lastname')->textInput() ?>
@@ -38,18 +39,6 @@ use yii\widgets\MaskedInput;
                 </div>
 
                 <?= $form->field($model, 'address')->textInput() ?>
-
-                <div class="col-sm-4">
-                    <img src="<?= $model->foto ?>" alt="avatar" style="width: 100%; height: auto">
-                </div>
-                <div class="col-sm-8">
-                    <?= $form->field($model, 'foto')->widget(\kartik\widgets\FileInput::className(), [
-                        'pluginOptions' => [
-                            'maxFileSize' => 2800,
-                        ],
-                        'options' => ['multiple' => false]
-                    ]) ?>
-                </div>
             </div>
         </div>
         <!-- /.box-body -->
@@ -103,11 +92,12 @@ use yii\widgets\MaskedInput;
                 <?= $form->field($model, 'udl_number')->widget(MaskedInput::className(), [
                     'mask' => 'AA9999999',
                 ]) ?>
+                <div class="form-group">
+                    <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
+                </div>
             </div>
         </div>
     </div>
-    <div class="form-group">
-        <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
-    </div>
+
 
 <?php ActiveForm::end(); ?>

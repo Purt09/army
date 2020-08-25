@@ -73,7 +73,7 @@ class CourseTwoController extends Controller
     }
     public function actionUsers()
     {
-        $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$COURSE55);
+        $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$COURSE52);
         $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$CADET);
         $users = array_intersect($users1, $users2);
         $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();

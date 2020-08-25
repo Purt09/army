@@ -4,7 +4,6 @@
  * @var $model \core\entities\User\TblStaff
  */
 
-
 $this->title = 'Настройка профиля';
 
 ?>

@@ -17,7 +17,8 @@ class ProfileController extends Controller
     public function actionView($id)
     {
         $staff = $this->findModel($id);
-        $roles = Yii::$app->authManager->getRolesByUser($staff->user->id);
+        $user = User::find()->where(['user_base_id' => $staff->id])->one();
+        $roles = Yii::$app->authManager->getRolesByUser($user->id);
         if (!isset($roles))
             $roles = ['description' => 'Ролей пока нет'];
         return $this->render('view', [
@@ -26,18 +27,32 @@ class ProfileController extends Controller
         ]);
     }
 
+    public function actionSettingPhoto($id)
+    {
+        $staff = $this->findModel($id);
+
+        if ($staff->load(Yii::$app->request->post()) && $staff->validate()){
+                $file = file_get_contents($_FILES['TblStaff']['tmp_name']['foto']);
+                $type = $_FILES['TblStaff']['type']['foto'];
+                $imageData = base64_encode($file);
+                $src = 'data: '. $type.';base64,'.$imageData;
+                $staff->foto = $src;
+
+            if ($staff->save())
+                Yii::$app->session->setFlash('success', 'Настройки сохранены');
+        }
+
+
+        return $this->render('setting-photo', [
+            'model' => $staff
+        ]);
+    }
+
     public function actionSetting($id)
     {
         $staff = $this->findModel($id);
 
         if ($staff->load(Yii::$app->request->post()) && $staff->validate()){
-
-            $file = file_get_contents($_FILES['TblStaff']['tmp_name']['foto']);
-            $type = $_FILES['TblStaff']['type']['foto'];
-            $imageData = base64_encode($file);
-            $src = 'data: '. $type.';base64,'.$imageData;
-            $staff->foto = $src;
-
             if ($staff->save())
                 Yii::$app->session->setFlash('success', 'Настройки сохранены');
         }

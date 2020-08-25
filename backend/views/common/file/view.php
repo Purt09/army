@@ -34,6 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'name',
             'user_id',
             'path',
+            'parent_id',
             'create_at',
             'size',
             'delete_id',
