@@ -15,64 +15,6 @@ $this->title = '5 факультет';
 ?>
 
 
-<div class="row">
-
-    <div id="carousel-example-generic" class="carousel slide carousel-fade carousel-animate carousel-bg"
-         data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active" style="background-image: url(img/карусель1.png)">
-                <div class="carousel-caption">
-                    <div class="hero">
-                        <hgroup class="zoomInDown animated">
-                            <h1 class="fadeInLeft animated">Факультет сбора и обработки инфорации</h1>
-                            <h3 class="slideInRight animated">Новости факульета</h3>
-                        </hgroup>
-                        <button class="btn btn-hero btn-lg bounceInUp animated" role="button">Читать</button>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/карусель2.png)">
-                <div class="carousel-caption">
-                    <div class="hero fadeInUp animated">
-                        <hgroup>
-                            <h1>Военно-политическая работа</h1>
-                            <h3>События факультета</h3>
-                        </hgroup>
-                        <button class="btn btn-hero btn-lg zoomIn animated" role="button">Читать</button>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/карусель3.png)">
-                <div class="carousel-caption">
-                    <div class="hero rollIn animated">
-                        <hgroup class="rotateInDownRight animated">
-                            <h1>Учебно-научная деятельность</h1>
-                            <h3>События факультета</h3>
-                        </hgroup>
-                        <button class="btn btn-hero btn-lg" role="button">Читать</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Назад</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Вперёд</span>
-        </a>
-    </div>
-
-</div>
 <?php $main =
     "
 <section class=\"content\">
@@ -214,12 +156,12 @@ $this->title = '5 факультет';
 <?= \yii\bootstrap\Tabs::widget([
     'items' => [
         [
-            'label' => 'Главная',
-            'content' => $main,
-        ],
-        [
             'label' => 'Новости',
             'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
+        ],
+        [
+            'label' => 'Главная',
+            'content' => $main,
         ],
         [
             'label' => 'История факультета',
@@ -228,76 +170,3 @@ $this->title = '5 факультет';
     ],
 ]);
 ?>
-<style>
-
-    .carousel-animate .carousel-indicators > li {
-        margin: 0 2px;
-        background-color: #fff;
-        border-color: rgb(58, 36, 83);
-        opacity: .7;
-    }
-
-    .carousel-animate .carousel-indicators > li.active {
-        width: 10px;
-        height: 10px;
-        opacity: 1;
-    }
-
-    .carousel-animate .hero {
-        color: #fff;
-        text-align: center;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
-    }
-
-    .btn.btn-lg {
-        padding: 10px 40px;
-    }
-
-    .btn.btn-hero,
-    .btn.btn-hero:hover,
-    .btn.btn-hero:focus {
-        color: #fff;
-        background-color: #694198;
-        border-color: rgb(67, 41, 97);
-        outline: none;
-        margin: 20px auto;
-    }
-
-    @media screen and (max-width: 640px) {
-        .hero h1 {
-            font-size: 2em;
-        }
-    }
-
-    .carousel-fade .carousel-inner .item {
-        transition-property: opacity;
-    }
-
-    .carousel-fade .carousel-inner .item,
-    .carousel-fade .carousel-inner .active.left,
-    .carousel-fade .carousel-inner .active.right {
-        opacity: 0;
-    }
-
-    .carousel-fade .carousel-inner .active,
-    .carousel-fade .carousel-inner .next.left,
-    .carousel-fade .carousel-inner .prev.right {
-        opacity: 1;
-    }
-
-    .carousel-fade .carousel-inner .next,
-    .carousel-fade .carousel-inner .prev,
-    .carousel-fade .carousel-inner .active.left,
-    .carousel-fade .carousel-inner .active.right {
-        left: 0;
-        transform: translate3d(0, 0, 0);
-    }
-
-    .carousel-bg .carousel-inner .item {
-        background-color: darkslategrey;
-        background-size: cover;
-        background-position: center;
-        min-height: 480px;
-    }
-</style>

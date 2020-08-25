@@ -61,8 +61,15 @@ class CommonController extends Controller
     public function actionIndex()
     {
         $model = Page::find()->where(['alias' => 'main_fak_general'])->one();
+        $content = Page::find()->where(['alias' => 'main'])->one();
+        $history = Page::find()->where(['alias' => 'history-main'])->one();
+
+        $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
 
         return $this->render('index', [
+            'content' => $content,
+            'history' => $history,
+            'news' => $news,
             'model' => $model
         ]);
     }

@@ -7,30 +7,131 @@ use yii\helpers\Html;
 ?>
 
 
+<style>
+    .carousel{
+        height: 25vh;
+    }
+    .carousel-caption{
+        top: 0%;
+    }
+    .carousel-animate .carousel-indicators > li {
+        margin: 0 2px;
+        background-color: #fff;
+        border-color: rgb(58,36,83);
+        opacity: .7;
+    }
+    .carousel-animate .carousel-indicators > li.active {
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+    .carousel-animate .hero {
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+
+    }
+
+    @media screen and (max-width: 640px) {
+        .hero h1 {
+            font-size: 2em;
+        }
+    }
+    .carousel-fade .carousel-inner .item {
+        transition-property: opacity;
+        height: 25vh;
+    }
+    .carousel-fade .carousel-inner .item,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        opacity: 0;
+    }
+    .carousel-fade .carousel-inner .active,
+    .carousel-fade .carousel-inner .next.left,
+    .carousel-fade .carousel-inner .prev.right {
+        opacity: 1;
+    }
+    .carousel-fade .carousel-inner .next,
+    .carousel-fade .carousel-inner .prev,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        left: 0;
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-bg .carousel-inner .item {
+        background-color: darkslategrey;
+        background-size: cover;
+        background-position: center;
+        min-height: 100%;
+    }
+</style>
 <div class="background_header">
     <div class="col-sm-2">
         <div style="text-align: left;">
-            <?= \frontend\widget\EmblemaWidget::widget()?>
+            <?= \frontend\widget\EmblemaWidget::widget() ?>
         </div>
 
     </div>
     <div class="col-sm-8">
-        <div style="text-align: center; display: block; height: 25vh; margin: 0">
-            <h1 style="color: white; z-index: 2; text-align: center; position: absolute; top: 40%; left: 50%; margin-right: -50%;
-transform: translate(-50%, -50%);">
-                <?= \frontend\widget\LabelFullWidget::widget()?>
-            </h1>
-            <div style="position: relative;text-align: center;width: auto;height: 20vw;">
-                <img src="/img/1.gif" style="border-radius: 50px; position: inherit;width: 100%;height: 25vh;">
-            </div>
-        </div>
+        <div id="carousel-example-generic" class="carousel slide carousel-fade carousel-animate carousel-bg"
+             data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" style="background-image: url(/img/карусель1.png)">
+                    <div class="carousel-caption">
+                        <div class="hero">
+                            <hgroup class="zoomInDown animated">
+                                <h1>Факультет сбора и обработки информации</h1>
+                            </hgroup>
 
-    </div>
-    <div class="col-sm-2">
-        <div style="text-align: right; ">
-            <img src="/img/эмбвка.png" style="  width: auto;  height: 25vh; position: relative;">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(/img/карусель2.png)">
+                    <div class="carousel-caption">
+                        <div class="hero fadeInUp animated">
+                            <hgroup>
+                                <h1>Факультет сбора и обработки информации</h1>
+                            </hgroup>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(/img/карусель3.png)">
+                    <div class="carousel-caption">
+                        <div class="hero rollIn animated">
+                            <hgroup class="rotateInDownRight animated">
+                                <h1>Факультет сбора и обработки информации</h1>
+
+                            </hgroup>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Назад</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Вперёд</span>
+            </a>
         </div>
     </div>
+<div class="col-sm-2">
+    <div style="text-align: right; ">
+        <img src="/img/эмбвка.png" style="  width: auto;  height: 25vh; position: relative;">
+    </div>
+</div>
 </div>
 
 <div class="wrapper">
