@@ -252,7 +252,7 @@ use yii\helpers\Html;
                     <?php else: ?>
                         <li class="dropdown messages-menu">
                             <a href="/lk/profile/view?id=<?= Yii::$app->user->identity->base->id ?>">
-                                Личный кабинет(<?= Yii::$app->user->identity->username ?>)
+                                Личный кабинет(<?= Yii::$app->user->identity->base->fio ?>)
                             </a>
                         </li>
                         <li class="dropdown messages-menu">

@@ -2,6 +2,8 @@
 /**
  * @var $this \yii\web\View
  * @var $model \bupy7\pages\models\Page
+ * @var $content \bupy7\pages\models\Page
+ * @var $history \bupy7\pages\models\Page
  */
 
 $this->title = 'Управление факультетом';
@@ -163,3 +165,5 @@ $this->title = 'Управление факультетом';
     ],
 ]);
 ?>
+
+<?= $content->content ?>

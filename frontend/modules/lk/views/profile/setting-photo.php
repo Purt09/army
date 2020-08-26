@@ -32,9 +32,5 @@ use yii\widgets\ActiveForm;
                 </div>
             </div>
         </div>
-        <!-- /.box-body -->
-    </div>form-group">
-        <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
-    </div>
 
 <?php ActiveForm::end(); ?>
