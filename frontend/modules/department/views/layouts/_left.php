@@ -14,6 +14,11 @@ use core\helpers\user\RbacHelpers;
                 'icon' => 'star',
                 'url' => ['index'],
             ],
+            [
+                'label' => 'УМБ',
+                'icon' => 'pencil-square-o',
+                'url' => ['ymb'],
+            ],
         ];
         if (RbacHelpers::checkRole(RbacHelpers::$MANAGER) || RbacHelpers::checkRole(RbacHelpers::$ADMIN)) {
             array_push($items,[

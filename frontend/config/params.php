@@ -41,11 +41,6 @@ return [
             'url' => ['/sport/index'],
         ],
         [
-            'label' => 'УМБ',
-            'icon' => 'star',
-            'url' => ['/'],
-        ],
-        [
             'label' => 'Документы',
             'icon' => 'file',
             'url' => '#',

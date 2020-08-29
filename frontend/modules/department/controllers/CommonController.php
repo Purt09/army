@@ -288,4 +288,10 @@ class CommonController extends Controller
             'model' => $model
         ]);
     }
+
+    public function actionYmb()
+    {
+        return $this->render('YMB', [
+        ]);
+    }
 }

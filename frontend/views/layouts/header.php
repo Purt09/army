@@ -9,9 +9,6 @@ use yii\helpers\Html;
 
 
 <style>
-    .carousel{
-        height: 25vh;
-    }
     .carousel-caption{
         top: 0%;
     }
@@ -162,23 +159,28 @@ use yii\helpers\Html;
                     </li>
                     <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                            Образовательная деятельность
+                            Планы
                         </a>
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/education/main">
-                                        Аттестация
+                                    <a href="/time/plan/fakultet">
+                                        План факультета на месяц
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/education/main">
-                                        Сессия
+                                    <a href="/time/plan/fakultet-year">
+                                        План факультета на год
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/education/main">
-                                        Учебный год
+                                    <a href="/time/plan/yms">
+                                        Планы УМС
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/plan/academy">
+                                        Планы академии на месяц
                                     </a>
                                 </li>
                             </ul>
@@ -191,28 +193,28 @@ use yii\helpers\Html;
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/site/method">
-                                        Подготовка и повышение квалификации
+                                    <a href="/time/method/cel-academy">
+                                        Целевые показатели академии
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/site/method">
+                                    <a href="/time/method/cel-fakultet">
+                                        Целевые показатели факультета
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/method/pisp">
+                                        План ПП и ПК на 2020
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/method/plans">
                                         Планы
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/site/method">
-                                        Писп(РИР)
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/site/method"">
-                                    Индивиндуальные планы
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/site/method">
-                                        Целевые показатели
+                                    <a href="/time/method/pp">
+                                        ПИСП
                                     </a>
                                 </li>
                             </ul>
@@ -220,24 +222,18 @@ use yii\helpers\Html;
                     </li>
                     <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-
                             Научная работа
                         </a>
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/site/nayka">
+                                    <a href="/time/science/vno">
                                         ВНО
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/site/nayka">
-                                        Конкурсы
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/site/nayka">
-                                        Выставки
+                                    <a href="/time/science/pisp">
+                                        ПИСП
                                     </a>
                                 </li>
                             </ul>
