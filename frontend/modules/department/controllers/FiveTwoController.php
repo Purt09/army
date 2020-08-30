@@ -80,6 +80,7 @@ class FiveTwoController extends Controller
         $publications = new NewsPublications();
 
         if ($model->load(Yii::$app->request->post()) && $publications->load(Yii::$app->request->post())) {
+
             $this->newsService->createNews($model, $publications);
             Yii::$app->session->setFlash('success', 'Новость опубликована');
             return $this->redirect(['index']);

@@ -357,7 +357,6 @@ h3.w3ls_pvt-title span {
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), local('Roboto-Regular'), url('https://bootstraptema.ru/snippets/font/2016/roboto/roboto.woff2') format('woff2'), url('https://bootstraptema.ru/snippets/font/2016/roboto/roboto.woff') format('woff'), url('https://bootstraptema.ru/snippets/font/2016/roboto/roboto.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }

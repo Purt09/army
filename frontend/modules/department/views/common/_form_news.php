@@ -27,6 +27,7 @@ use core\entities\News\NewsPublications;
         <?= $form->field($publications, '52_cafedra')->checkbox() ?>
         <?= $form->field($publications, '53_cafedra')->checkbox() ?>
         <?= $form->field($publications, '54_cafedra')->checkbox() ?>
+        <?= $form->field($model, 'important')->checkbox() ?>
     </div>
     <div class="col-sm-3">
         <?= $form->field($publications, 'course51')->checkbox() ?>
@@ -36,8 +37,6 @@ use core\entities\News\NewsPublications;
         <?= $form->field($publications, 'course55')->checkbox() ?>
     </div>
     <div class="col-sm-12">
-        <?= $form->field($model, 'img')->textInput(['maxlength' => true]) ?>
-
         <?= $form->field($model, 'content')->widget(CKEditor::className(),[
             'editorOptions' => [
                 'preset' => 'full', //разработанны стандартные настройки basic, standard, full данную возможность не обязательно использовать
@@ -46,6 +45,13 @@ use core\entities\News\NewsPublications;
         ]); ?>
 
         <?= $form->field($model, 'status')->dropDownList(NewsHelpers::statusList()) ?>
+
+        <?= $form->field($model, 'img')->widget(\kartik\widgets\FileInput::className(), [
+            'pluginOptions' => [
+                'maxFileSize' => 2800,
+            ],
+            'options' => ['multiple' => false]
+        ]) ?>
 
         <div class="form-group">
             <?= Html::submitButton('Создать', ['class' => 'btn btn-success']) ?>
