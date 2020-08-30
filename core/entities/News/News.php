@@ -16,6 +16,7 @@ use Yii;
  * @property int $created_at
  * @property int $updated_at
  * @property int|null $publications
+ * @property bool $important
  *
  * @property NewsPublications $publications0
  */
@@ -39,10 +40,11 @@ class News extends \yii\db\ActiveRecord
     {
         return [
             [['title', 'created_at', 'updated_at'], 'required'],
-            [['description', 'content'], 'string'],
+            [['description', 'content', 'img'], 'string'],
+            [['important'], 'boolean'],
             [['status', 'created_at', 'updated_at', 'publications'], 'default', 'value' => null],
             [['status', 'created_at', 'updated_at', 'publications'], 'integer'],
-            [['title', 'img'], 'string', 'max' => 255],
+            [['title'], 'string', 'max' => 255],
             [['publications'], 'exist', 'skipOnError' => true, 'targetClass' => NewsPublications::className(), 'targetAttribute' => ['publications' => 'id']],
         ];
     }
@@ -62,6 +64,7 @@ class News extends \yii\db\ActiveRecord
             'created_at' => 'Создано',
             'updated_at' => 'Изменено',
             'publications' => 'Опубликовано',
+            'important' => 'Опубликовать в шапке',
         ];
     }
 

@@ -14,7 +14,6 @@ $this->title = '5 факультет';
 
 ?>
 
-
 <?php $main =
     "
 <section class=\"content\">
@@ -160,7 +159,7 @@ $this->title = '5 факультет';
             'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
         ],
         [
-            'label' => 'Главная',
+            'label' => 'О факультете',
             'content' => $main,
         ],
         [

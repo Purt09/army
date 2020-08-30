@@ -1,9 +1,12 @@
 <?php
 
+use core\entities\News\News;
 use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
+
+$news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')->all();
 
 ?>
 
@@ -76,43 +79,23 @@ use yii\helpers\Html;
              data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <?php foreach ($news as $key =>$item): ?>
+                <li data-target="#carousel-example-generic" data-slide-to="<?= $key ?>" class="active"></li>
+                <?php endforeach; ?>
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active" style="background-image: url(/img/карусель1.png)">
-                    <div class="carousel-caption">
-                        <div class="hero">
-                            <hgroup class="zoomInDown animated">
-                                <h1>Факультет сбора и обработки информации</h1>
-                            </hgroup>
-
+                <?php foreach ($news as $item): ?>
+                    <div class="item active" style="background-image: url(<?= $item->img ?>)">
+                        <div class="carousel-caption">
+                            <div class="hero">
+                                <hgroup class="zoomInDown animated">
+                                    <h1><?= $item->title ?></h1>
+                                </hgroup>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item" style="background-image: url(/img/карусель2.png)">
-                    <div class="carousel-caption">
-                        <div class="hero fadeInUp animated">
-                            <hgroup>
-                                <h1>Факультет сбора и обработки информации</h1>
-                            </hgroup>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(/img/карусель3.png)">
-                    <div class="carousel-caption">
-                        <div class="hero rollIn animated">
-                            <hgroup class="rotateInDownRight animated">
-                                <h1>Факультет сбора и обработки информации</h1>
-
-                            </hgroup>
-
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">

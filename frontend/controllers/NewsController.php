@@ -34,6 +34,14 @@ class NewsController extends Controller
         $publications = NewsPublications::findOne($model->publications);
 
         if ($model->load(Yii::$app->request->post()) && $publications->load(Yii::$app->request->post())) {
+            if(!empty($_FILES['News']['name']['img'])){
+                $file = file_get_contents($_FILES['News']['tmp_name']['img']);
+                $type = $_FILES['News']['type']['img'];
+                $imageData = base64_encode($file);
+                $src = 'data: '. $type.';base64,'.$imageData;
+                $model->img = $src;
+            }
+
             $model->save();
             $publications->save();
             Yii::$app->session->setFlash('success', 'Новость сохранена');
