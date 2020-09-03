@@ -14,6 +14,7 @@ use yii\web\UploadedFile;
 
 class ProfileController extends Controller
 {
+
     public function actionView($id)
     {
         $staff = $this->findModel($id);

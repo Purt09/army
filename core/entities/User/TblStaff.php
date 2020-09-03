@@ -3,6 +3,8 @@
 namespace core\entities\User;
 
 use Yii;
+use core\entities\User\Vpr\TblStaffPenalty;
+use core\entities\User\Vpr\TblStaffPromotion;
 
 /**
  * This is the model class for table "tbl_staff".

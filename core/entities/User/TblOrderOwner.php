@@ -2,7 +2,11 @@
 
 namespace core\entities\User;
 
+use core\entities\User\Vpr\TblStaffPenalty;
+use core\entities\User\Vpr\TblStaffPromotion;
 use Yii;
+use yii\helpers\ArrayHelper;
+use yii\helpers\Html;
 
 /**
  * This is the model class for table "tbl_order_owner".
@@ -33,6 +37,45 @@ use Yii;
 class TblOrderOwner extends \yii\db\ActiveRecord
 {
     /**
+     * Возвращает список типов
+     *
+     * @return array
+     */
+    public static function typeList(): array
+    {
+        $types = self::find()->all();
+        $types = ArrayHelper::toArray($types);
+        $types = ArrayHelper::map($types, 'id', 'name');
+        return $types;
+    }
+
+    /**
+     * Выводитт имя типа по ид
+     *
+     * @param $type
+     * @return mixed|null
+     * @throws \Exception
+     */
+    public static function typeName($type)
+    {
+        return ArrayHelper::getValue(self::typeList(), $type);
+    }
+
+    /**
+     * Красивое оформление
+     *
+     * @param $type
+     * @return string
+     * @throws \Exception
+     */
+    public static function typeLabel($type)
+    {
+        return Html::tag('span', ArrayHelper::getValue(self::typeList(), $type), [
+            'class' => 'label label-success',
+        ]);
+    }
+
+    /**
      * {@inheritdoc}
      */
     public static function tableName()
@@ -46,7 +89,7 @@ class TblOrderOwner extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'name', 'short_name'], 'required'],
+            [['name', 'short_name'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'name', 'short_name'], 'string'],
             [['last_update'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color'], 'default', 'value' => null],
@@ -72,8 +115,8 @@ class TblOrderOwner extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'name' => 'Name',
-            'short_name' => 'Short Name',
+            'name' => 'Название',
+            'short_name' => 'Краткое название должности',
         ];
     }
 
