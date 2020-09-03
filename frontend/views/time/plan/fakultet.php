@@ -57,7 +57,7 @@ $this->title = "Планы академии по месяцам";
                     </li>
                 </ul>
                 <div class="pricingTable-signup">
-                    <a href="#"><span>Открыть</span></a>
+                    <a href="http://5f.vka/file_manager/files/fakultet/plany/F.07-08.2020.doc"><span>Открыть</span></a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@ $this->title = "Планы академии по месяцам";
                     </li>
                 </ul>
                 <div class="pricingTable-signup">
-                    <a href="#"><span>Открыть</span></a>
+                    <a href="http://5f.vka/file_manager/files/fakultet/plany/f06.2020.doc"><span>Открыть</span></a>
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@ $this->title = "Планы академии по месяцам";
                     </li>
                 </ul>
                 <div class="pricingTable-signup">
-                    <a href="#"><span>Открыть</span></a>
+                    <a href="http://5f.vka/file_manager/files/fakultet/plany/F03.2020-1.doc"><span>Открыть</span></a>
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@ $this->title = "Планы академии по месяцам";
                     </li>
                 </ul>
                 <div class="pricingTable-signup">
-                    <a href="#"><span>Открыть</span></a>
+                    <a href="http://5f.vka/file_manager/files/fakultet/plany/f2.2020%202.doc"><span>Открыть</span></a>
                 </div>
             </div>
         </div>
