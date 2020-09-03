@@ -1,8 +1,10 @@
 <?php
 
-namespace core\entities\User;
+namespace core\entities\User\Vpr;
 
-use Yii;
+use core\entities\User\IoStates;
+use core\entities\User\TblOrderOwner;
+use core\entities\User\TblStaff;
 
 /**
  * This is the model class for table "tbl_staff_penalty".
@@ -46,7 +48,7 @@ class TblStaffPenalty extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'id_penalty_type', 'id_staff', 'id_order_owner', 'order_date', 'order_number'], 'required'],
+            [['id_order_owner', 'order_date', 'order_number'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'order_number', 'notes'], 'string'],
             [['last_update', 'order_date'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_penalty_type', 'id_staff', 'id_order_owner', 'id_finish_penalty'], 'default', 'value' => null],
@@ -76,13 +78,13 @@ class TblStaffPenalty extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_penalty_type' => 'Id Penalty Type',
-            'id_staff' => 'Id Staff',
-            'id_order_owner' => 'Id Order Owner',
-            'order_date' => 'Order Date',
-            'order_number' => 'Order Number',
-            'id_finish_penalty' => 'Id Finish Penalty',
-            'notes' => 'Notes',
+            'id_staff' => 'Кому',
+            'id_order_owner' => 'Кто выдал',
+            'order_date' => 'Дата приказа',
+            'order_number' => 'Номер приказа',
+            'notes' => 'Примечание',
+            'id_penalty_type' => 'Вид',
+            'id_finish_penalty' => 'Закрыто',
         ];
     }
 

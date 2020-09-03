@@ -13,6 +13,11 @@
                     'icon' => 'eye',
                     'url' => ['profile/view', 'id' => Yii::$app->request->get('id')],
                 ],
+                [
+                    'label' => 'Служебная карточка',
+                    'icon' => 'star',
+                    'url' => ['vpr/index', 'id' => Yii::$app->request->get('id')],
+                ],
             ];
             $items = array_merge($items, Yii::$app->params['left_menu']);
             ?>
