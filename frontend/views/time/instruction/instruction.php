@@ -12,6 +12,7 @@ $this->title = "Инструкция для начальников кафедр 
 	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
 	<TITLE></TITLE>
 	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
+    <META NAME="UPLOADER" CONTENT="Григорян Игорь">
 	<META NAME="AUTHOR" CONTENT="Александр Пуртов">
 	<META NAME="CREATED" CONTENT="20200903;171400000000000">
 	<META NAME="CHANGEDBY" CONTENT="Александр Пуртов">

@@ -241,7 +241,7 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         </li>
                     <?php endif; ?>
                     <li class="dropdown messages-menu">
-                        <a href="#">
+                        <a href="/time/instruction/instruction">
                             Инструкция
                         </a>
                     </li>
