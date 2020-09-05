@@ -63,7 +63,10 @@ class NewsController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $news = $this->findModel($id);
+        $publications = NewsPublications::findOne($news->publications);
+        $publications->delete();
+        $news->delete();
 
         return $this->redirect(Yii::$app->request->referrer);
     }

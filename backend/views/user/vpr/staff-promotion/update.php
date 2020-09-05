@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Vpr\TblStaffPromotion */
 
-$this->title = 'Update Tbl Staff Promotion: ' . $model->id;
+$this->title = 'Редактировать Tbl Staff Promotion: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Tbl Staff Promotions', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Редактировать';
 ?>
 <div class="tbl-staff-promotion-update">
 

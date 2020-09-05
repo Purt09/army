@@ -11,7 +11,9 @@ $this->title = 'Главная 54 курса';
     'items' => [
         [
             'label' => 'Новости',
-            'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
+            'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
+                'news' => $news,
+                'role' => \core\helpers\user\RbacHelpers::$COURSE54]),
         ],
         [
             'label' => 'Главная 54 курса',

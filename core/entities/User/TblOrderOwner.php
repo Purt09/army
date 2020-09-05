@@ -2,9 +2,13 @@
 
 namespace core\entities\User;
 
+use core\entities\Rubish\IoStates;
+use core\entities\User\MilitaryRank\TblStaffMilitaryRank;
+use core\entities\User\Position\TblStaffMilPosition;
+use core\entities\User\Science\TblStaffScienceGraduate;
+use core\entities\User\Science\TblStaffScienceRank;
 use core\entities\User\Vpr\TblStaffPenalty;
 use core\entities\User\Vpr\TblStaffPromotion;
-use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 

@@ -11,10 +11,13 @@
 
 use yii\grid\GridView;
 use yii\helpers\Html;
+use kartik\date\DatePicker;
 
 $this->title = 'УЧЕТ ПООЩРЕНИЙ И ДИСЦИПЛИНАРНЫХ ВЗЫСКАНИЙ';
 
 ?>
+<br><br><br>
+
 <div class="col-sm-6">
     <div class="box box-primary">
         <div class="box-header with-border">
@@ -36,14 +39,37 @@ $this->title = 'УЧЕТ ПООЩРЕНИЙ И ДИСЦИПЛИНАРНЫХ ВЗ
                         },
                         'format' => 'raw'
                     ],
-                    'id_order_owner',
-                    'order_date',
+                    [
+                        'attribute' => 'id_order_owner',
+                        'filter' => \core\entities\User\TblOrderOwner::typeList(),
+                        'value' => function ($model) {
+                            return \core\entities\User\TblOrderOwner::typeLabel($model->id_order_owner);
+                        },
+                        'format' => 'raw'
+                    ],
+                    [
+                        'attribute' => 'order_date',
+                        'filter' => DatePicker::widget([
+                            'model' => $promotionSearch,
+                            'attribute' => 'date_from',
+                            'attribute2' => 'date_to',
+                            'type' => DatePicker::TYPE_RANGE,
+                            'separator' => '-',
+                            'pluginOptions' => [
+                                'autoclose' => true,
+                                'format' => 'yyyy-mm-dd'
+                            ]
+                        ]),
+                        'format' => ['date', 'php:Y-m-d H:i:s']
+                    ],
                     'order_number',
                     'notes:ntext',
                 ],
             ]); ?>
 
-            <?= Html::a('Добавить', ['add-promotion', 'id' => $user->id], ['class' => 'btn btn-success']) ?>
+            <?php if(\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                <?= Html::a('Добавить поощерение', ['add-promotion', 'id' => $user->id], ['class' => 'btn btn-success']) ?>
+            <?php endif; ?>
         </div>
     </div>
 </div>
@@ -66,15 +92,38 @@ $this->title = 'УЧЕТ ПООЩРЕНИЙ И ДИСЦИПЛИНАРНЫХ ВЗ
                         },
                         'format' => 'raw'
                     ],
-                    'id_order_owner',
-                    'order_date',
+                    [
+                        'attribute' => 'id_order_owner',
+                        'filter' => \core\entities\User\TblOrderOwner::typeList(),
+                        'value' => function ($model) {
+                            return \core\entities\User\TblOrderOwner::typeLabel($model->id_order_owner);
+                        },
+                        'format' => 'raw'
+                    ],
+                    [
+                        'attribute' => 'order_date',
+                        'filter' => DatePicker::widget([
+                            'model' => $penaltySearch,
+                            'attribute' => 'date_from',
+                            'attribute2' => 'date_to',
+                            'type' => DatePicker::TYPE_RANGE,
+                            'separator' => '-',
+                            'pluginOptions' => [
+                                'autoclose' => true,
+                                'format' => 'yyyy-mm-dd'
+                            ]
+                        ]),
+                        'format' => ['date', 'php:Y-m-d H:i:s']
+                    ],
                     'order_number',
                     'id_finish_penalty',
                     'notes:ntext',
                 ],
             ]); ?>
 
-            <?= Html::a('Добавить', ['add-penalty', 'id' => $user->id], ['class' => 'btn btn-success']) ?>
+            <?php if(\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                <?= Html::a('Добавить взыскание', ['add-penalty', 'id' => $user->id], ['class' => 'btn btn-success']) ?>
+            <?php endif; ?>
             <br>
         </div>
     </div>

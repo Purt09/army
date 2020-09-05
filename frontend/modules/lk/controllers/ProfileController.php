@@ -12,63 +12,49 @@ use yii\web\Controller;
 use Yii;
 use yii\web\UploadedFile;
 
-class ProfileController extends Controller
+class ProfileController extends MainController
 {
 
     public function actionView($id)
     {
-        $staff = $this->findModel($id);
-        $user = User::find()->where(['user_base_id' => $staff->id])->one();
-        $roles = Yii::$app->authManager->getRolesByUser($user->id);
+        $roles = Yii::$app->authManager->getRolesByUser($this->staff->user->id);
         if (!isset($roles))
             $roles = ['description' => 'Ролей пока нет'];
         return $this->render('view', [
-            'user' => $staff,
+            'user' => $this->staff,
             'roles' => $roles
         ]);
     }
 
     public function actionSettingPhoto($id)
     {
-        $staff = $this->findModel($id);
-
-        if ($staff->load(Yii::$app->request->post()) && $staff->validate()){
+        if ($this->staff->load(Yii::$app->request->post()) && $this->staff->validate()){
                 $file = file_get_contents($_FILES['TblStaff']['tmp_name']['foto']);
                 $type = $_FILES['TblStaff']['type']['foto'];
                 $imageData = base64_encode($file);
                 $src = 'data: '. $type.';base64,'.$imageData;
-                $staff->foto = $src;
+                $this->staff->foto = $src;
 
-            if ($staff->save())
+            if ($this->staff->save())
                 Yii::$app->session->setFlash('success', 'Настройки сохранены');
         }
 
 
         return $this->render('setting-photo', [
-            'model' => $staff
+            'model' => $this->staff
         ]);
     }
 
     public function actionSetting($id)
     {
-        $staff = $this->findModel($id);
-
-        if ($staff->load(Yii::$app->request->post()) && $staff->validate()){
-            if ($staff->save())
+        if ($this->staff->load(Yii::$app->request->post()) && $this->staff->validate()){
+            if ($this->staff->save())
                 Yii::$app->session->setFlash('success', 'Настройки сохранены');
         }
 
 
         return $this->render('setting', [
-            'model' => $staff
+            'model' => $this->staff
         ]);
-    }
-
-    private function findModel($id)
-    {
-        $user = TblStaff::find()->with('user')->where(['id' => $id])->one();
-        if (!isset($user))
-            throw new NotFoundException('Пользователь не найден');
-        return $user;
     }
 }

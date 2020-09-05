@@ -19,16 +19,14 @@ $this->title = 'Выдача взыскания: ' . $user->fio
 
     <?= $form->field($model, 'id_order_owner')->dropDownList(\core\entities\User\TblOrderOwner::typeList()) ?>
 
-    <?= $form->field($model, 'order_date')->textInput() ?>
+    <?= $form->field($model, 'order_date')->widget(\kartik\widgets\DateTimePicker::className()) ?>
 
     <?= $form->field($model, 'order_number')->textInput() ?>
-
-    <?= $form->field($model, 'id_finish_penalty')->textInput() ?>
 
     <?= $form->field($model, 'notes')->textarea(['rows' => 6]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

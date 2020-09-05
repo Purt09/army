@@ -26,7 +26,6 @@ return [
             'url' => '#',
             'items' => [
                 ['label' => 'Учебные группы', 'icon' => 'star', 'url' => ['/list-lessons/cadet'],],
-                ['label' => 'ППС', 'icon' => '', 'url' => ['/list-lessons/teacher'],],
                 ['label' => 'Сводное по кафедрам', 'icon' => '', 'url' => ['/list-lessons/common'],],
             ],
         ],

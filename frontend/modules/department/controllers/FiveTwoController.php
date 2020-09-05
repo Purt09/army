@@ -40,7 +40,7 @@ class FiveTwoController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index'],
+                'except' => ['index', 'ymb'],
                 'rules' => [
                     [
                         'allow' => true,

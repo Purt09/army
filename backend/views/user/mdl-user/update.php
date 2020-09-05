@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\MdlUser */
 
-$this->title = 'Update Mdl User: ' . $model->id;
+$this->title = 'Редактировать Mdl User: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Mdl Users', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Редактировать';
 ?>
 <div class="mdl-user-update">
 

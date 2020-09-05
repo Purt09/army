@@ -156,7 +156,9 @@ $this->title = '5 факультет';
     'items' => [
         [
             'label' => 'Новости',
-            'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
+            'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
+                'news' => $news,
+                'role' => \core\helpers\user\RbacHelpers::$FAKULTET]),
         ],
         [
             'label' => 'О факультете',

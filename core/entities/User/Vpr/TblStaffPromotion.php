@@ -2,7 +2,7 @@
 
 namespace core\entities\User\Vpr;
 
-use core\entities\User\IoStates;
+use core\entities\Rubish\IoStates;
 use core\entities\User\TblOrderOwner;
 use core\entities\User\TblStaff;
 

@@ -41,7 +41,7 @@ class FiveFiveController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index'],
+                'except' => ['index', 'ymb'],
                 'rules' => [
                     [
                         'allow' => true,
@@ -191,7 +191,7 @@ class FiveFiveController extends Controller
         $provider = new ArrayDataProvider([
             'allModels' => $users,
             'sort' => [
-                'attributes' => ['id', 'fio', 'mobile_phone', 'birthday_date'],
+                'attributes' => ['id', 'fio', 'mobile_phone', 'birthday_date', 'id_current_mil_rank'],
             ],
             'pagination' => [
                 'pageSize' => 20,

@@ -20,7 +20,7 @@ $this->title = 'Выдача поощерения: ' . $user->fio
 
     <?= $form->field($model, 'id_order_owner')->dropDownList(\core\entities\User\TblOrderOwner::typeList()) ?>
 
-    <?= $form->field($model, 'order_date')->textInput() ?>
+    <?= $form->field($model, 'order_date')->widget(\kartik\widgets\DateTimePicker::className()) ?>
 
     <?= $form->field($model, 'order_number')->textInput() ?>
 

@@ -10,11 +10,6 @@ use core\helpers\user\RbacHelpers;
         $items = [
             ['label' => \frontend\widget\LabelEmblemaWidget::widget(), 'options' => ['class' => 'header']],
             [
-                'label' => 'Главная кафедры',
-                'icon' => 'star',
-                'url' => ['index'],
-            ],
-            [
                 'label' => 'УМБ',
                 'icon' => 'pencil-square-o',
                 'url' => ['ymb'],

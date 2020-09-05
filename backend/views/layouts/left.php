@@ -21,11 +21,33 @@
                     ['label' => 'Новости', 'icon' => 'list', 'url' => ['/news/index'],],
                     ['label' => 'Файлы', 'icon' => 'file', 'url' => ['/common/file'],],
                     [
+                        'label' => 'Общие настройки',
+                        'icon' => 'cog',
+                        'url' => '#',
+                        'items' => [
+                            ['label' => 'Страны', 'icon' => '', 'url' => ['/common/country'],],
+                            ['label' => 'Города', 'icon' => '', 'url' => ['/common/city'],],
+                        ],
+                    ],
+                    [
+                        'label' => 'Наука',
+                        'icon' => 'graduation-cap',
+                        'url' => '#',
+                        'items' => [
+                            ['label' => 'Ученые степени', 'icon' => '', 'url' => ['/user/science/science-gradiate'],],
+                            ['label' => 'Ученые степени все', 'icon' => '', 'url' => ['/user/science/staff-science-graduate'],],
+                            ['label' => 'Ученые звания', 'icon' => '', 'url' => ['/user/science/science-rank'],],
+                            ['label' => 'Ученые звания все', 'icon' => '', 'url' => ['/user/science/staff-science-rank'],],
+                            ['label' => 'Конференции', 'icon' => '', 'url' => ['/user/science/staff-science-conference'],],
+                        ],
+                    ],
+                    [
                         'label' => 'Пользователи',
                         'icon' => 'user',
                         'url' => '#',
                         'items' => [
                             ['label' => 'Пользователи', 'icon' => 'user', 'url' => ['/user/user'],],
+                            ['label' => 'Подразделения', 'icon' => 'user', 'url' => ['/user/mil-unit'],],
                             [
                                 'label' => 'Роли',
                                 'icon' => 'user',
@@ -47,9 +69,46 @@
                                     ['label' => 'Все взысканий', 'icon' => '', 'url' => ['/user/vpr/staff-penalty/'],],
                                 ],
                             ],
-                            ['label' => 'Должности', 'icon' => '', 'url' => ['/user/order-owner'],],
-                            ['label' => 'Звания', 'icon' => '', 'url' => ['/user/tbl-military-rank'],],
-                            ['label' => 'Приказы званий', 'icon' => '', 'url' => ['/user/tbl-staff-military-rank'],],
+                            [
+                                'label' => 'Звания',
+                                'icon' => 'user',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Звания', 'icon' => '', 'url' => ['/user/rank/tbl-military-rank/'],],
+                                    ['label' => 'Приказы званий', 'icon' => '', 'url' => ['/user/rank/tbl-staff-military-rank'],],
+                                ],
+                            ],
+                            [
+                                'label' => 'Должности',
+                                'icon' => 'user',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Должности', 'icon' => '', 'url' => ['/user/position/mil-position'],],
+                                    ['label' => 'Приказы должностей', 'icon' => '', 'url' => ['/user/position/staff-mil-position'],],
+                                    ['label' => 'Должностные лица', 'icon' => '', 'url' => ['/user/order-owner'],],
+                                ],
+                            ],
+                            [
+                                'label' => 'Образование',
+                                'icon' => 'user',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Образование', 'icon' => '', 'url' => ['/user/education/education/'],],
+                                    ['label' => 'Уровни', 'icon' => '', 'url' => ['/user/education/education-level'],],
+                                    ['label' => 'Университеты', 'icon' => '', 'url' => ['/user/education/univercity'],],
+                                ],
+                            ],
+                            [
+                                'label' => 'Научные конференции',
+                                'icon' => 'user',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Конференции', 'icon' => '', 'url' => ['/user/science/science-conference'],],
+                                    ['label' => 'Организаторы', 'icon' => '', 'url' => ['/user/science/conference-owner'],],
+                                    ['label' => 'Уровень конференции', 'icon' => '', 'url' => ['/user/science/conference-rank'],],
+                                    ['label' => 'Тип участия', 'icon' => '', 'url' => ['/user/science/conference-result-type'],],
+                                ],
+                            ],
                         ],
                     ],
                     ['label' => 'Menu Yii12', 'options' => ['class' => 'header']],

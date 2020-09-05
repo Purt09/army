@@ -1,6 +1,7 @@
 <?php
 /**
  * @var $news NewsPublications[]
+ * @var $users \core\entities\User\TblStaff[]
  */
 
 use core\entities\News\NewsPublications;
@@ -9,13 +10,13 @@ use core\entities\News\NewsPublications;
 <div class="col-sm-9">
     <?php foreach ($news as $item): ?>
         <div class="row">
-            <div class="col-md-3 blog_box">
+            <div class="col-md-2 blog_box">
                 <a href="/news/<?= $item->articles->id ?>" class="mask">
                     <img src="<?= $item->articles->img ?>"
                          alt="<?= $item->articles->title ?>" class="img-responsive zoom-img"/>
                 </a>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-10">
                 <h3 style="margin-top: 0px"><a href="/news/<?= $item->articles->id ?>"><?= $item->articles->title ?></a></h3>
                 <div class="links">
                     <ul>
@@ -34,8 +35,12 @@ use core\entities\News\NewsPublications;
 <div class="col-md-3">
     <ul class="menu-birthday">
         <li>Дни рождения:</li>
-        <li><span>П-к Карин А.В.</span><em>26 июля 2020</em></li>
-        <li><span>П-к Карин А.В.</span><em>28 июля 2020</em></li>
-        <li><span>П-к Карин А.В.</span><em>30 июля 2020</em></li>
+        <?php if(isset($users)): ?>
+        <?php foreach ($users as $user): ?>
+                <li><span><?= $user->fio ?></span>
+                    <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
+                </li>
+        <?php endforeach; ?>
+        <?php endif; ?>
     </ul>
 </div>

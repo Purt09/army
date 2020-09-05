@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Vpr\TblPromotionType */
 
-$this->title = 'Update Tbl Promotion Type: ' . $model->name;
+$this->title = 'Редактировать Tbl Promotion Type: ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Tbl Promotion Types', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Редактировать';
 ?>
 <div class="tbl-promotion-type-update">
 

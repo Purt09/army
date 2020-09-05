@@ -19,6 +19,8 @@ return [
                         return true;
                     if(\core\helpers\user\RbacHelpers::checkRole(\core\helpers\user\RbacHelpers::$MANAGER))
                         return true;
+                    if(\core\helpers\user\RbacHelpers::checkRole(\core\helpers\user\RbacHelpers::$COURSE_MAIN))
+                        return true;
                     return false;
                 }
             ],

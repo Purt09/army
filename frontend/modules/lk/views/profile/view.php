@@ -24,6 +24,8 @@ $this->title = 'Профиль';
                 <ul class="list-group list-group-unbordered">
                     <li class="list-group-item">
                         <b>Звание: </b>
+                        <?= $user->currentMilRank->militaryRank->name ?>
+                        <a href="<?= \yii\helpers\Url::to(['rank/history', 'id' => $user->id]) ?>">(История)</a>
                     </li>
                     <li class="list-group-item">
                         <b>Должность: </b>
@@ -41,21 +43,30 @@ $this->title = 'Профиль';
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <strong><i class="fa fa-book margin-r-5"></i> Образование</strong>
+                <strong><i class="fa fa-phone margin-r-5"></i> Номера телефонов:</strong>
 
                 <p class="text-muted">
-                    ???
+                    <?= $user->mobile_phone ?>
+                </p>
+                <p class="text-muted">
+                    <?= $user->home_phone ?>
+                </p>
+                <p class="text-muted">
+                    <?= $user->work_phone ?>
+                </p>
+                <p class="text-muted">
+                    <?= $user->wife_mobile_phone ?>
                 </p>
 
                 <hr>
 
                 <strong><i class="fa fa-map-marker margin-r-5"></i> Место проживания</strong>
 
-                <p class="text-muted">Malibu, California</p>
+                <p class="text-muted"><?= $user->address ?></p>
 
                 <hr>
 
-                <strong><i class="fa fa-pencil margin-r-5"></i> Роли</strong>
+                <strong><i class="fa fa-pencil margin-r-5"></i> Роли:</strong>
 
                 <p>
                     <?php foreach ($roles as $role): ?>
@@ -65,7 +76,7 @@ $this->title = 'Профиль';
 
                 <hr>
 
-                <strong><i class="fa fa-file-text-o margin-r-5"></i> Заметка</strong>
+                <strong><i class="fa fa-file-text-o margin-r-5"></i> Автобиография</strong>
 
                 <p>???</p>
             </div>

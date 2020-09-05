@@ -20,7 +20,7 @@ class AuthService extends MainService
 
     /**
      * @param LoginForm $form
-     * @return array|\yii\db\ActiveRecord|null
+     * @return User
      */
     public function auth($form)
     {

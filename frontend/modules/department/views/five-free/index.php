@@ -148,7 +148,9 @@ $this->title = 'Кафедра 53';
     'items' => [
         [
             'label' => 'Новости',
-            'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
+            'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
+                'news' => $news,
+                'role' => \core\helpers\user\RbacHelpers::$CAFEDRA53]),
         ],
         [
             'label' => 'Главная 53 кафедры',

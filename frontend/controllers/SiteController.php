@@ -5,6 +5,8 @@ namespace frontend\controllers;
 use bupy7\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
+use core\entities\User\TblStaff;
+use core\helpers\user\RbacHelpers;
 use yii\web\Controller;
 
 /**
@@ -37,9 +39,10 @@ class SiteController extends Controller
         $history = Page::find()->where(['alias' => 'history-main'])->one();
 
         $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
+
         return $this->render('index', [
             'content' => $content,
-           'history' => $history,
+            'history' => $history,
             'news' => $news
         ]);
     }
@@ -50,7 +53,7 @@ class SiteController extends Controller
     public function actionContact()
     {
         $info = Page::find()->where(['alias' => 'contacts-info'])->one();
-        return $this->render('contact',[
+        return $this->render('contact', [
             'info' => $info,
         ]);
     }
@@ -61,7 +64,7 @@ class SiteController extends Controller
     public function actionContactList()
     {
         $abonents = Page::find()->where(['alias' => 'contacts-abonent'])->one();
-        return $this->render('contact-list',[
+        return $this->render('contact-list', [
             'abonents' => $abonents,
         ]);
     }

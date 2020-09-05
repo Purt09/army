@@ -11,6 +11,8 @@ use core\entities\User\Vpr\TblStaffPromotion;
  */
 class TblStaffPromotionSearch extends TblStaffPromotion
 {
+    public $date_from;
+    public $date_to;
     /**
      * {@inheritdoc}
      */
@@ -19,6 +21,7 @@ class TblStaffPromotionSearch extends TblStaffPromotion
         return [
             [['unique_id', 'last_update', 'uuid_t', 'rr_name', 'r_icon', 'order_date', 'order_number', 'notes'], 'safe'],
             [['id', 'id_io_state', 'record_fill_color', 'record_text_color', 'id_promotion_type', 'id_staff', 'id_order_owner'], 'integer'],
+            [['date_from', 'date_to'], 'date', 'format' => 'php:Y-m-d']
         ];
     }
 
@@ -47,6 +50,10 @@ class TblStaffPromotionSearch extends TblStaffPromotion
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'sort' =>
+                [
+                    'defaultOrder'=>'id desc'
+                ]
         ]);
 
         $this->load($params);
@@ -75,7 +82,9 @@ class TblStaffPromotionSearch extends TblStaffPromotion
             ->andFilterWhere(['ilike', 'rr_name', $this->rr_name])
             ->andFilterWhere(['ilike', 'r_icon', $this->r_icon])
             ->andFilterWhere(['ilike', 'order_number', $this->order_number])
-            ->andFilterWhere(['ilike', 'notes', $this->notes]);
+            ->andFilterWhere(['ilike', 'notes', $this->notes])
+            ->andFilterWhere(['>=', 'created_at', $this->date_from ? strtotime($this->date_from . ' 00:00:00') : null])
+            ->andFilterWhere(['<=', 'created_at', $this->date_to ? strtotime($this->date_to . ' 23:59:59') : null]);
 
         return $dataProvider;
     }

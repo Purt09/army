@@ -10,15 +10,11 @@ $this->title = 'Управление факультетом';
 
 ?>
 
-
-<?= $model->content ?>
-
-
 <?php $main =
     "
 <section class=\"content\">
     <div class=\"col-sm-6 cafedra_block\">
-        $content->content
+        $model->content
     </div>
     <div class=\"col-sm-6\">
         <div style=\"text-align: center;\">
@@ -156,14 +152,14 @@ $this->title = 'Управление факультетом';
     'items' => [
         [
             'label' => 'Новости',
-            'content' => \frontend\modules\department\widget\NewsAllWidget::widget(['news' => $news]),
+            'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
+                'news' => $news,
+                'role' => \core\helpers\user\RbacHelpers::$FAKULTET]),
         ],
         [
-            'label' => 'Главная',
+            'label' => 'О факультете',
             'content' => $main,
         ],
     ],
 ]);
 ?>
-
-<?= $content->content ?>

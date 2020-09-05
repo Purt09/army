@@ -2,6 +2,7 @@
 
 namespace core\helpers\user;
 
+use core\entities\User\TblStaff;
 use core\entities\User\User;
 use phpDocumentor\Reflection\Types\Self_;
 use yii\helpers\ArrayHelper;
@@ -184,5 +185,26 @@ class RbacHelpers
 
         $roles = ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user->id), 'name');
         return array_key_exists($role, $roles);
+    }
+
+    /**
+     * Врменное разграничение доступа, конечно, надо учитывать все, а не просто роль менеджера или нач курса
+     * @param TblStaff $staff
+     * @return bool
+     */
+    public static function checkAccessManageUser(TblStaff $staff)
+    {
+        $manager = User::findOne(\Yii::$app->user->id);
+
+        $roles = ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($manager->id), 'name');
+        foreach ($roles as $role){
+            if(RbacHelpers::$ADMIN == $role)
+                return true;
+            if(RbacHelpers::$COURSE_MAIN == $role)
+                return true;
+            if(RbacHelpers::$MANAGER == $role)
+                return true;
+        }
+        return  false;
     }
 }
