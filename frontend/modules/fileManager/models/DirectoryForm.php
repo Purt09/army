@@ -32,10 +32,7 @@ class DirectoryForm extends Model
     public function rules()
     {
         return [
-            [['name', 'path'], 'required'],
-            ['name', 'match', 'pattern' => '/\//', 'not' => true],
-            ['path', 'match', 'pattern' => '/..\//', 'not' => true],
-            ['oldName', 'safe'],
+            [['path'], 'required'],
         ];
     }
 
