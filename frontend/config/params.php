@@ -44,8 +44,8 @@ return [
             'icon' => 'file',
             'url' => '#',
             'items' => [
-                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=10'],],
                 ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=11'],],
+                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=10'],],
                 ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=12'],],
             ],
         ],

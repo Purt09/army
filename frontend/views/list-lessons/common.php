@@ -117,7 +117,7 @@ $this->title = '';
 <style type="text/css">
     .user_photo {
         border-radius: 12px;
-        width: 220px;
+        width: 240px;
         margin: auto;
         margin-top: 0;
         height: 300px;

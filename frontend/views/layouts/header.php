@@ -86,7 +86,7 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <?php foreach ($news as $item): ?>
-                    <div class="item active" style="background-image: url(<?= $item->img ?>)">
+                    <div class="item active" style="background-image: url('<?= $item->img ?>')">
                         <div class="carousel-caption">
                             <div class="hero">
                                 <hgroup class="zoomInDown animated">
