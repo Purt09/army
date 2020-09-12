@@ -3,6 +3,7 @@
 namespace core\entities\User\Science;
 
 use core\entities\Rubish\IoStates;
+use core\entities\User\Vpr\ViewTypeTrait;
 use Yii;
 
 /**
@@ -24,6 +25,8 @@ use Yii;
  */
 class TblScienceGradiate extends \yii\db\ActiveRecord
 {
+    use ViewTypeTrait;
+
     /**
      * {@inheritdoc}
      */

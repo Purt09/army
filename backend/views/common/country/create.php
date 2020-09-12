@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\Common\TblCountry */
 
-$this->title = 'Create Tbl Country';
+$this->title = 'Добавить страну';
 $this->params['breadcrumbs'][] = ['label' => 'Страны', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

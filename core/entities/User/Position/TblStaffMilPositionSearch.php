@@ -33,20 +33,23 @@ class TblStaffMilPositionSearch extends TblStaffMilPosition
     }
 
     /**
-     * Creates data provider instance with search query applied
-     *
-     * @param array $params
-     *
-     * @return ActiveDataProvider
+     * @param $params
+     * @param $staff_id
      */
-    public function search($params)
+    public function search($params, $staff_id = null)
     {
-        $query = TblStaffMilPosition::find();
+        if($staff_id != null)
+            $query = TblStaffMilPosition::find()->where(['id_staff' => $staff_id]);
+        else
+            $query = TblStaffMilPosition::find();
 
         // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'sort'=> ['defaultOrder' =>
+                ['order_date' => SORT_DESC]
+            ],
         ]);
 
         $this->load($params);

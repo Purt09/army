@@ -2,6 +2,7 @@
 
 namespace core\entities\User;
 
+use core\entities\Rubish\IoStates;
 use Yii;
 
 /**
@@ -40,7 +41,7 @@ class TblStaffJobAssignment extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'id_staff', 'date_start'], 'required'],
+            [['id_staff', 'date_start'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'notes'], 'string'],
             [['last_update', 'date_start', 'date_end'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_staff'], 'default', 'value' => null],
@@ -67,10 +68,10 @@ class TblStaffJobAssignment extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_staff' => 'Id Staff',
-            'date_start' => 'Date Start',
-            'date_end' => 'Date End',
-            'notes' => 'Notes',
+            'id_staff' => 'Сотрудник',
+            'date_start' => 'Дата начала',
+            'date_end' => 'Дата окончания',
+            'notes' => 'Информация',
         ];
     }
 

@@ -20,10 +20,12 @@ class RankController extends MainController
                 $this->staff->id_current_mil_rank = $model->id;
                 $this->staff->save();
                 \Yii::$app->session->setFlash('success', 'Звание обновлено на ' . $model->militaryRank->name);
+                return $this->redirect(Yii::$app->request->referrer ?: Yii::$app->homeUrl);
             }
         }
         return $this->render('index', [
-            'model' => $model
+            'model' => $model,
+            'staff' => $this->staff
         ]);
     }
 
@@ -35,6 +37,7 @@ class RankController extends MainController
         return $this->render('history', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'staff' => $this->staff
         ]);
     }
 }

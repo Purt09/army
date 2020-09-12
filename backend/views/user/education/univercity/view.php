@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model core\entities\User\Education\TblUnivercity */
 
 $this->title = $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Univercities', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Университеты', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Удалить', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => 'Дейстивтельно удалить',
                 'method' => 'post',
             ],
         ]) ?>

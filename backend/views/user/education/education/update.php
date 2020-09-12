@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model core\entities\User\Education\TblEducation */
 
 $this->title = 'Редактировать Tbl Education: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Educations', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Образование', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Редактировать';
 ?>

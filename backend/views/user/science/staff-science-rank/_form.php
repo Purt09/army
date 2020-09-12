@@ -1,5 +1,6 @@
 <?php
 
+use kartik\date\DatePicker;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -12,29 +13,18 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'unique_id')->textInput() ?>
-
-    <?= $form->field($model, 'last_update')->textInput() ?>
-
-    <?= $form->field($model, 'id_io_state')->textInput() ?>
-
-    <?= $form->field($model, 'uuid_t')->textInput() ?>
-
-    <?= $form->field($model, 'rr_name')->textInput() ?>
-
-    <?= $form->field($model, 'r_icon')->textInput() ?>
-
-    <?= $form->field($model, 'record_fill_color')->textInput() ?>
-
-    <?= $form->field($model, 'record_text_color')->textInput() ?>
-
     <?= $form->field($model, 'id_staff')->textInput() ?>
 
-    <?= $form->field($model, 'id_science_rank')->textInput() ?>
+    <?= $form->field($model, 'id_science_rank')->dropDownList(\core\entities\User\Science\TblScienceRank::typeList()) ?>
 
-    <?= $form->field($model, 'id_order_owner')->textInput() ?>
+    <?= $form->field($model, 'id_order_owner')->dropDownList(\core\entities\User\TblOrderOwner::typeList()) ?>
 
-    <?= $form->field($model, 'order_date')->textInput() ?>
+    <?= $form->field($model, 'order_date')->widget(DatePicker::className(), [
+        'pluginOptions' => [
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true
+        ]
+    ]) ?>
 
     <?= $form->field($model, 'order_number')->textInput() ?>
 

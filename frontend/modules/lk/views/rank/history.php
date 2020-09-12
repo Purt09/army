@@ -6,8 +6,11 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $searchModel core\entities\User\MilitaryRank\TblStaffMilitaryRankSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+/**
+ * @var $staff \core\entities\User\TblStaff
+ */
 
-$this->title = 'История званий';
+$this->title = 'История званий у ' . $staff->fio;
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-staff-military-rank-index">

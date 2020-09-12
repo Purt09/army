@@ -1,13 +1,15 @@
 <?php
 /**
  * @var $this \yii\web\View
- * @var $model \core\entities\User\TblStaff
+ * @var $model TblStaffMilitaryRank
+ * @var $staff \core\entities\User\TblStaff
  */
 
+use core\entities\User\MilitaryRank\TblStaffMilitaryRank;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
-$this->title = "Обновление звания";
+$this->title = "Обновление звания у " . $staff->fio;
 
 ?>
 

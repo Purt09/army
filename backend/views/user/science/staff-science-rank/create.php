@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Science\TblStaffScienceRank */
 
-$this->title = 'Create Tbl Staff Science Rank';
+$this->title = 'Добавить ученое звание';
 $this->params['breadcrumbs'][] = ['label' => 'Tbl Staff Science Ranks', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

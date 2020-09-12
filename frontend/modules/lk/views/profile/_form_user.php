@@ -20,7 +20,7 @@ use yii\widgets\MaskedInput;
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <a class="btn btn-primary" href="/lk/profile/setting-photo?id=<?= Yii::$app->user->identity->base->id ?>"> Изменить фото </a>
+                <a class="btn btn-primary" href="<?= \yii\helpers\Url::to(['profile/setting-photo', 'id' => $model->id])?>"> Изменить фото </a>
 
                 <?= $form->field($model, 'firstname')->textInput() ?>
                 <?= $form->field($model, 'lastname')->textInput() ?>

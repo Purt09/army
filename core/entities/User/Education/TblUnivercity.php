@@ -5,6 +5,7 @@ namespace core\entities\User\Education;
 use core\entities\Common\TblCity;
 use core\entities\Common\TblCountry;
 use core\entities\Rubish\IoStates;
+use core\entities\User\Vpr\ViewTypeTrait;
 use Yii;
 
 /**
@@ -36,6 +37,8 @@ use Yii;
  */
 class TblUnivercity extends \yii\db\ActiveRecord
 {
+    use ViewTypeTrait;
+
     /**
      * {@inheritdoc}
      */
@@ -50,7 +53,7 @@ class TblUnivercity extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'name', 'title'], 'required'],
+            [['name', 'title'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'name', 'title', 'postcode', 'phone', 'fax', 'email', 'note'], 'string'],
             [['last_update'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_country', 'id_city'], 'default', 'value' => null],
@@ -78,15 +81,15 @@ class TblUnivercity extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_country' => 'Id Country',
-            'id_city' => 'Id City',
-            'name' => 'Name',
-            'title' => 'Title',
-            'postcode' => 'Postcode',
-            'phone' => 'Phone',
-            'fax' => 'Fax',
+            'id_country' => 'Страна',
+            'id_city' => 'Город',
+            'name' => 'Название',
+            'title' => 'Официальное название',
+            'postcode' => 'Почтовый индекс',
+            'phone' => 'Телефон',
+            'fax' => 'Факс',
             'email' => 'Email',
-            'note' => 'Note',
+            'note' => 'Информация',
         ];
     }
 

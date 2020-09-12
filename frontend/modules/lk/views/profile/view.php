@@ -8,14 +8,14 @@
 $this->title = 'Профиль';
 
 ?>
-
 <div class="row">
     <div class="col-md-3">
 
         <!-- Profile Image -->
         <div class="box box-primary">
             <div class="box-body box-profile">
-                <img class="profile-user-img img-responsive img-circle" src="<?= $user->foto ?>" alt="User profile picture">
+                <img class="profile-user-img img-responsive img-circle" src="<?= $user->foto ?>"
+                     alt="User profile picture">
 
                 <h3 class="profile-username text-center"><?= $user->firstname ?> <?= $user->sirname ?></h3>
 
@@ -24,13 +24,29 @@ $this->title = 'Профиль';
                 <ul class="list-group list-group-unbordered">
                     <li class="list-group-item">
                         <b>Звание: </b>
-                        <?= $user->currentMilRank->militaryRank->name ?>
+                        <?= $user->getRank() ?>
                         <a href="<?= \yii\helpers\Url::to(['rank/history', 'id' => $user->id]) ?>">(История)</a>
                     </li>
                     <li class="list-group-item">
                         <b>Должность: </b>
+                        <?= $user->getPosition() ?>
+                        <a href="<?= \yii\helpers\Url::to(['position/history', 'id' => $user->id]) ?>">(История)</a>
                     </li>
+                    <?= \core\helpers\user\UserHelper::getScienceGraduates($user) ?>
+                    <?= \core\helpers\user\UserHelper::getScienceRanks($user) ?>
+
                 </ul>
+            </div>
+            <div class="box-footer box-comments">
+                <?php if (\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                    <b>Панель управления пользователем: </b>
+                    <ul>
+                        <li><a href="<?= \yii\helpers\Url::to(['rank/index', 'id' => $user->id]) ?>">Изменить звание</a></li>
+                        <li><a href="<?= \yii\helpers\Url::to(['position/add', 'id' => $user->id]) ?>">Изменить должность</a></li>
+                        <li><a href="<?= \yii\helpers\Url::to(['science-graduate/add', 'id' => $user->id]) ?>">Добавить ученую степень</a></li>
+                        <li><a href="<?= \yii\helpers\Url::to(['science-rank/add', 'id' => $user->id]) ?>">Добавить ученый ранк </a></li>
+                    </ul>
+                <?php endif; ?>
             </div>
             <!-- /.box-body -->
         </div>
@@ -66,14 +82,16 @@ $this->title = 'Профиль';
 
                 <hr>
 
+                <?php if(isset($roles)):?>
                 <strong><i class="fa fa-pencil margin-r-5"></i> Роли:</strong>
 
                 <p>
-                    <?php foreach ($roles as $role): ?>
-                    <span class="label label-success"><?= $role->description ?></span>
-                    <?php endforeach; ?>
+                        <?php foreach ($roles as $role): ?>
+                            <span class="label label-success"><?= $role->description ?></span>
+                        <?php endforeach; ?>
                 </p>
 
+                <?php endif; ?>
                 <hr>
 
                 <strong><i class="fa fa-file-text-o margin-r-5"></i> Автобиография</strong>
@@ -84,5 +102,105 @@ $this->title = 'Профиль';
         </div>
         <!-- /.box -->
     </div>
+    <div class="col-md-9">
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title">Личные данные</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <?php if (\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                    <a href="<?= \yii\helpers\Url::to(['education/add', 'id' => $user->id]) ?>" class="btn btn-info">Добавить
+                        образование</a>
+                    <br>
+                <?php endif; ?>
+                <?php if (count($user->tblEducations) != 0): ?>
+                    <b>Образование:</b> <br>
+                    <div class="row">
+                        <?php foreach ($user->tblEducations as $education): ?>
+                            <ul class="col-sm-4" style="list-style: none">
+                                <li>Уровень: <?= $education->edicationLevel->name ?></li>
+                                <li>Учебное заведение: <?= $education->univercity->name ?></li>
+                                <li>Дата поступления: <?= Yii::$app->formatter->asDate($education->datestart) ?></li>
+                                <li>Дата окончания: <?= Yii::$app->formatter->asDate($education->dateend) ?></li>
+                                <li>Номер диплома: <?= $education->diplom_number ?></li>
+                            </ul>
+                        <?php endforeach; ?>
+                    </div>
+
+                    <hr>
+                <?php endif; ?>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title">Календарь</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <?php if (\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                    <a href="<?= \yii\helpers\Url::to(['duty/add', 'id' => $user->id]) ?>" class="btn btn-info">Добавить
+                        наряд</a>
+                    <a href="<?= \yii\helpers\Url::to(['vacation/add', 'id' => $user->id]) ?>" class="btn btn-info">Добавить
+                        отпуск</a>
+                    <a href="<?= \yii\helpers\Url::to(['duty/add-journey', 'id' => $user->id]) ?>" class="btn btn-info">Добавить
+                        командировку</a>
+                <?php endif; ?>
+                <?php if (count($user->tblStaffDuties) != 0): ?>
+                    <div class="col-sm-12">
+                        <div class="row ">
+                            <b>Наряды:</b> <br>
+                            <?php foreach ($user->tblStaffDuties as $staffDuty): ?>
+                                <ul class="col-sm-4" style="list-style: none">
+                                    <li><b>Тип наряды:</b> <?= $staffDuty->dutyType->name ?></li>
+                                    <li><b>Начало наряда:</b> <?= Yii::$app->formatter->asDate($staffDuty->date_start) ?></li>
+                                    <li><b>Конец отпуска:</b> <?= Yii::$app->formatter->asDate($staffDuty->date_end) ?></li>
+                                </ul>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                <?php endif; ?>
+                <?php if (count($user->tblStaffVacations) != 0): ?>
+                <div class="col-sm-12">
+                    <div class="row ">
+                    <b>Отпуска:</b> <br>
+                        <?php foreach ($user->tblStaffVacations as $staffVacation): ?>
+                            <ul class="col-sm-4" style="list-style: none">
+                                <li><b>Тип отпуска:</b> <?= $staffVacation->vacationType->name ?></li>
+                                <li><b>Начало отпуска:</b> <?= Yii::$app->formatter->asDate($staffVacation->date_start) ?></li>
+                                <li><b>Конец отпуска:</b> <?= Yii::$app->formatter->asDate($staffVacation->date_end) ?></li>
+                                <li><b>Приказ подписал:</b> <?= $staffVacation->orderOwner->name ?></li>
+                                <li><b>Номер приказа:</b> <?= $staffVacation->order_number ?></li>
+                                <li><b>Дата приказа:</b> <?= Yii::$app->formatter->asDate($staffVacation->order_date) ?></li>
+                            </ul>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <?php endif; ?>
+
+                <?php if (count($user->tblStaffDutyJourneys) != 0): ?>
+                    <div class="col-sm-12">
+                        <div class="row ">
+                            <b>Командировки:</b> <br>
+                            <?php foreach ($user->tblStaffDutyJourneys as $dutyJourney): ?>
+                                <ul class="col-sm-4" style="list-style: none">
+                                    <li><b>Город:</b> <?= $dutyJourney->city->name ?></li>
+                                    <li><b>Начало командировки:</b> <?= Yii::$app->formatter->asDate($dutyJourney->date_start) ?></li>
+                                    <li><b>Конец командировки:</b> <?= Yii::$app->formatter->asDate($dutyJourney->date_end) ?></li>
+                                    <li><b>Приказ подписал:</b> <?= $dutyJourney->orderOwner->name ?></li>
+                                    <li><b>Номер приказа:</b> <?= $dutyJourney->order_number ?></li>
+                                    <li><b>Дата приказа:</b> <?= Yii::$app->formatter->asDate($dutyJourney->order_date) ?></li>
+                                    <li><b>Организация:</b> <?= $dutyJourney->organization ?></li>
+                                </ul>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                <?php endif; ?>
+            </div>
+            <!-- /.box-body -->
+        </div>
+    </div>
     <!-- /.col -->
 </div>
+

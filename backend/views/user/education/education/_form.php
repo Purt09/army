@@ -1,5 +1,6 @@
 <?php
 
+use kartik\date\DatePicker;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -12,31 +13,25 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'unique_id')->textInput() ?>
+    <?= $form->field($model, 'id_edication_level')->dropDownList(\core\entities\User\Education\TblEducationLevel::typeList()) ?>
 
-    <?= $form->field($model, 'last_update')->textInput() ?>
-
-    <?= $form->field($model, 'id_io_state')->textInput() ?>
-
-    <?= $form->field($model, 'uuid_t')->textInput() ?>
-
-    <?= $form->field($model, 'rr_name')->textInput() ?>
-
-    <?= $form->field($model, 'r_icon')->textInput() ?>
-
-    <?= $form->field($model, 'record_fill_color')->textInput() ?>
-
-    <?= $form->field($model, 'record_text_color')->textInput() ?>
-
-    <?= $form->field($model, 'id_edication_level')->textInput() ?>
-
-    <?= $form->field($model, 'id_univercity')->textInput() ?>
+    <?= $form->field($model, 'id_univercity')->dropDownList(\core\entities\User\Education\TblUnivercity::typeList()) ?>
 
     <?= $form->field($model, 'id_staff')->textInput() ?>
 
-    <?= $form->field($model, 'datestart')->textInput() ?>
+    <?= $form->field($model, 'datestart')->widget(DatePicker::className(), [
+        'pluginOptions' => [
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true
+        ]
+    ]) ?>
 
-    <?= $form->field($model, 'dateend')->textInput() ?>
+    <?= $form->field($model, 'dateend')->widget(DatePicker::className(), [
+        'pluginOptions' => [
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true
+        ]
+    ]) ?>
 
     <?= $form->field($model, 'diplom_number')->textInput() ?>
 

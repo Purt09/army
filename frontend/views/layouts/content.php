@@ -9,6 +9,7 @@ use dmstr\widgets\Alert;
             <h1><?= $this->blocks['content-header'] ?></h1>
         <?php } else { ?>
             <h1>
+                <a onclick="javascript:history.back(); return false;" class="btn btn-warning">Назад</a>
                 <?php
                 if ($this->title !== null) {
                     echo \yii\helpers\Html::encode($this->title);

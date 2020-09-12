@@ -4,6 +4,7 @@ namespace core\entities\Common;
 
 use core\entities\Rubish\IoStates;
 use core\entities\User\Education\TblUnivercity;
+use core\entities\User\Vpr\ViewTypeTrait;
 use Yii;
 
 /**
@@ -25,6 +26,7 @@ use Yii;
  */
 class TblCountry extends \yii\db\ActiveRecord
 {
+    use ViewTypeTrait;
     /**
      * {@inheritdoc}
      */

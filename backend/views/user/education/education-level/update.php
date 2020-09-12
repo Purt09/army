@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Education\TblEducationLevel */
 
-$this->title = 'Редактировать Tbl Education Level: ' . $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Education Levels', 'url' => ['index']];
+$this->title = 'Редактировать Tbl Education Уровень: ' . $model->name;
+$this->params['breadcrumbs'][] = ['label' => 'Уровни образования', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Редактировать';
 ?>

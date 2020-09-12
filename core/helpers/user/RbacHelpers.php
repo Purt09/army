@@ -117,6 +117,23 @@ class RbacHelpers
     }
 
     /**
+     * @param string $role
+     * @param string $role2
+     * @return TblStaff[]
+     */
+    public static function getByTwoRole(string $role, string $role2)
+    {
+        $users1 = \Yii::$app->authManager->getUserIdsByRole($role);
+        $users2 = \Yii::$app->authManager->getUserIdsByRole($role2);
+        $users = array_intersect($users1, $users2);
+        $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();
+        $result = [];
+        foreach ($users as $user)
+            array_push($result, $user['user_base_id']);
+        return TblStaff::find()->where(['id' => $result])->all();
+    }
+
+    /**
      * @param string $role_name
      * @param User $user
      * @throws \Exception

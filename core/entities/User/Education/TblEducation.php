@@ -47,7 +47,7 @@ class TblEducation extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'id_edication_level', 'id_univercity', 'id_staff', 'datestart', 'dateend', 'diplom_number', 'is_military'], 'required'],
+            [['id_edication_level', 'id_univercity', 'id_staff', 'datestart', 'dateend', 'diplom_number', 'is_military'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'diplom_number'], 'string'],
             [['last_update', 'datestart', 'dateend'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_edication_level', 'id_univercity', 'id_staff'], 'default', 'value' => null],
@@ -77,13 +77,13 @@ class TblEducation extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_edication_level' => 'Id Edication Level',
-            'id_univercity' => 'Id Univercity',
-            'id_staff' => 'Id Staff',
-            'datestart' => 'Datestart',
-            'dateend' => 'Dateend',
-            'diplom_number' => 'Diplom Number',
-            'is_military' => 'Is Military',
+            'id_edication_level' => 'Уровень образования',
+            'id_univercity' => 'Учебное заведение',
+            'id_staff' => 'Сотрудник',
+            'datestart' => 'Дата поступления',
+            'dateend' => 'Дата окончания',
+            'diplom_number' => 'Номер диплома',
+            'is_military' => 'Военный ВУЗ?',
         ];
     }
 

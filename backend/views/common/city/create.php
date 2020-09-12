@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\Common\TblCity */
 
-$this->title = 'Create Tbl City';
+$this->title = 'Добавить город';
 $this->params['breadcrumbs'][] = ['label' => 'Города', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

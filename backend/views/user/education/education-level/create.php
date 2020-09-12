@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Education\TblEducationLevel */
 
-$this->title = 'Create Tbl Education Level';
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Education Levels', 'url' => ['index']];
+$this->title = 'Добавить образование Уровень';
+$this->params['breadcrumbs'][] = ['label' => 'Уровни образования', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-education-level-create">

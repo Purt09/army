@@ -549,3 +549,8 @@ li.menu:hover{
     background-position: 0 0;
     background-size: cover;
 }
+
+.link:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

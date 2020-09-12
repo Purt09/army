@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\TblMilUnit */
 
-$this->title = 'Update Tbl Mil Unit: ' . $model->name;
+$this->title = 'Редактировать Tbl Mil Unit: ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Поразделения', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Редактировать';
 ?>
 <div class="tbl-mil-unit-update">
 

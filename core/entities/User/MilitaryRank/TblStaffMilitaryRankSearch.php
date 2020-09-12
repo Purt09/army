@@ -46,6 +46,9 @@ class TblStaffMilitaryRankSearch extends TblStaffMilitaryRank
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'sort'=> ['defaultOrder' =>
+                ['order_date' => SORT_DESC]
+            ],
         ]);
 
         $this->load($params);

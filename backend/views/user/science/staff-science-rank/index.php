@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Tbl Staff Science Rank', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить ученое звание', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -26,23 +26,23 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'unique_id',
-            'last_update',
+//            'unique_id',
+//            'last_update',
             'id',
-            'id_io_state',
-            'uuid_t',
+//            'id_io_state',
+//            'uuid_t',
             //'rr_name',
             //'r_icon',
             //'record_fill_color',
             //'record_text_color',
-            //'id_staff',
-            //'id_science_rank',
-            //'id_order_owner',
-            //'order_date',
-            //'order_number',
-            //'number',
-            //'speciality',
-            //'speciality_code',
+            'id_staff',
+            'id_science_rank',
+            'id_order_owner',
+            'order_date',
+            'order_number',
+            'number',
+            'speciality',
+            'speciality_code',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

@@ -27,22 +27,18 @@ $this->title = $title;
         [
             'attribute' => 'id_current_mil_position',
             'value' => function (\core\entities\User\TblStaff $model) {
-                    $rank = $model->currentMilPosition->milPosition->name;
-                if(isset($rank))
-                    return $rank;
-                else
-                    return 'Не задана';
+                $position = $model->getPosition();
+                $url = \yii\helpers\Url::to(['/lk/position/add', 'id' => $model->id]);
+                return $position . "<br> <a href='{$url}'>(Изменить)</a>";
             },
             'format' => 'raw'
         ],
         [
             'attribute' => 'id_current_mil_rank',
             'value' => function (\core\entities\User\TblStaff $model) {
-                $rank = $model->currentMilRank->militaryRank->name;
-                if(isset($rank))
-                    return $model->currentMilRank->militaryRank->name;
-                else
-                    return 'Не задан';
+                $rank = $model->getRank();
+                $url = \yii\helpers\Url::to(['/lk/rank/index', 'id' => $model->id]);
+                return $rank . "<br> <a href='{$url}'>(Изменить)</a>";
             },
             'format' => 'raw'
         ],
@@ -55,7 +51,7 @@ $this->title = $title;
         ],
         [
             'class' => ActionColumn::className(),
-            'template' => '{view}  {info}  {rank}  {position}',
+            'template' => '{view}  {info}  {vpr}',
             'buttons' => [
                 'view' => function ($url, $model) {
                     $url = \yii\helpers\Url::to(['/lk/profile/view', 'id' => $model->id]);
@@ -69,16 +65,10 @@ $this->title = $title;
                         'title' => Yii::t('app', 'Редактировать профиль'),
                     ]);
                 },
-                'rank' => function ($url, $model) {
-                    $url = \yii\helpers\Url::to(['/lk/rank/index', 'id' => $model->id]);
-                    return Html::a('<i class="fa fa-legal"></i>', $url, [
-                        'title' => Yii::t('app', 'Изменить звание'),
-                    ]);
-                },
-                'position' => function ($url, $model) {
-                    $url = \yii\helpers\Url::to(['/lk/position/add', 'id' => $model->id]);
-                    return Html::a('<i class="fa fa-lightbulb-o"></i>', $url, [
-                        'title' => Yii::t('app', 'Изменить должность'),
+                'vpr' => function ($url, $model) {
+                    $url = \yii\helpers\Url::to(['/lk/vpr/index', 'id' => $model->id]);
+                    return Html::a('<i class="fa fa-id-card"></i>', $url, [
+                        'title' => Yii::t('app', 'Посмотреть личную карточку'),
                     ]);
                 },
 

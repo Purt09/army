@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Education\TblUnivercity */
 
-$this->title = 'Create Tbl Univercity';
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Univercities', 'url' => ['index']];
+$this->title = 'Добавить университет';
+$this->params['breadcrumbs'][] = ['label' => 'Университеты', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-univercity-create">

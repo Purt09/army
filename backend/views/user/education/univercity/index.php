@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel core\entities\User\Education\TblUnivercitySearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Tbl Univercities';
+$this->title = 'Университеты';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-univercity-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Tbl Univercity', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить университет', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -26,24 +26,34 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'unique_id',
-            'last_update',
+//            'unique_id',
+//            'last_update',
             'id',
-            'id_io_state',
-            'uuid_t',
+//            'id_io_state',
+//            'uuid_t',
             //'rr_name',
             //'r_icon',
             //'record_fill_color',
             //'record_text_color',
-            //'id_country',
-            //'id_city',
-            //'name',
-            //'title',
-            //'postcode',
-            //'phone',
-            //'fax',
-            //'email:email',
-            //'note:ntext',
+            [
+                    'attribute' => 'id_country',
+                'value' => function ( \core\entities\User\Education\TblUnivercity $model) {
+                    return $model->country->name;
+                }
+            ],
+            [
+                'attribute' => 'id_city',
+                'value' => function ( \core\entities\User\Education\TblUnivercity $model) {
+                    return $model->city->name;
+                }
+            ],
+            'name',
+            'title',
+            'postcode',
+            'phone',
+            'fax',
+            'email:email',
+            'note:ntext',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

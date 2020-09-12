@@ -3,13 +3,16 @@
 namespace core\entities\User;
 
 use core\entities\Rubish\IoStates;
+use core\entities\User\Duty\TblStaffDuty;
+use core\entities\User\Duty\TblStaffDutyJourney;
 use core\entities\User\Education\TblEducation;
 use core\entities\User\MilitaryRank\TblStaffMilitaryRank;
 use core\entities\User\Position\TblStaffMilPosition;
+use core\entities\User\Science\Publication\TblStaffPublication;
 use core\entities\User\Science\TblStaffScienceConference;
 use core\entities\User\Science\TblStaffScienceGraduate;
 use core\entities\User\Science\TblStaffScienceRank;
-use Yii;
+use core\entities\User\Vacation\TblStaffVacation;
 use core\entities\User\Vpr\TblStaffPenalty;
 use core\entities\User\Vpr\TblStaffPromotion;
 
@@ -63,9 +66,30 @@ use core\entities\User\Vpr\TblStaffPromotion;
  */
 class TblStaff extends \yii\db\ActiveRecord
 {
+    /**
+     * @return string текущая позиция
+     */
+    public function getPosition()
+    {
+        if(isset($this->currentMilPosition->milPosition))
+            return $this->currentMilPosition->milPosition->name;
+        else
+            return 'Не задана';
+    }
+
+    /**
+     * @return string Текущее звание
+     */
+    public function getRank()
+    {
+        if (isset($this->currentMilRank->militaryRank))
+            return $this->currentMilRank->militaryRank->name;
+        else
+            return 'Не задано';
+    }
 
     public static function create(string $firstName, string $lastName, string $sirName, string $passport_number, string $mobile_phone,
-string $address, string $birthday_date, string $udl_number)
+                                  string $address, string $birthday_date, string $udl_number)
     {
         $user = new self();
         $user->firstname = $firstName;
@@ -83,12 +107,13 @@ string $address, string $birthday_date, string $udl_number)
 
     public function beforeSave($insert)
     {
-        if(parent::beforeSave($insert)){
-          $this->fio = $this->lastname . ' ' . mb_substr($this->firstname, 0, 1) . '.' . mb_substr($this->sirname, 0, 1) . '.';
-          return true;
+        if (parent::beforeSave($insert)) {
+            $this->fio = $this->lastname . ' ' . mb_substr($this->firstname, 0, 1) . '.' . mb_substr($this->sirname, 0, 1) . '.';
+            return true;
         }
         return false;
     }
+
     /**
      * {@inheritdoc}
      */
@@ -103,7 +128,7 @@ string $address, string $birthday_date, string $udl_number)
     public function rules()
     {
         return [
-            [[ 'lastname', 'firstname', 'sirname', 'passport_number', 'mobile_phone', 'address', 'birthday_date', 'udl_number'], 'required'],
+            [['lastname', 'firstname', 'sirname', 'passport_number', 'mobile_phone', 'address', 'birthday_date', 'udl_number'], 'required'],
             [['rr_name', 'r_icon', 'fio', 'lastname', 'firstname', 'sirname', 'passport_number', 'email', 'mobile_phone', 'wife_mobile_phone', 'home_phone', 'work_phone', 'address', 'udl_number', 'foto'], 'string'],
             [['last_update', 'birthday_date'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_current_mil_rank', 'id_current_mil_position'], 'default', 'value' => null],

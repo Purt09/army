@@ -66,9 +66,12 @@ class CourseOneController extends Controller
 
         $news = NewsPublications::find()->where(['course51' => 1])->with('articles')->orderBy('id desc')->all();
 
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$COURSE51, RbacHelpers::$COURSE_MAIN);
+
         return $this->render('index', [
             'content' => $content,
             'news' => $news,
+            'users' => $users
         ]);
     }
 

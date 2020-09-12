@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Position\TblStaffMilPosition */
 
-$this->title = 'Create Tbl Staff Mil Position';
+$this->title = 'Добавить приказ на должность';
 $this->params['breadcrumbs'][] = ['label' => 'Приказы должностей', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

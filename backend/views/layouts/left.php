@@ -30,15 +30,14 @@
                         ],
                     ],
                     [
-                        'label' => 'Наука',
+                        'label' => 'Конференции',
                         'icon' => 'graduation-cap',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Ученые степени', 'icon' => '', 'url' => ['/user/science/science-gradiate'],],
-                            ['label' => 'Ученые степени все', 'icon' => '', 'url' => ['/user/science/staff-science-graduate'],],
-                            ['label' => 'Ученые звания', 'icon' => '', 'url' => ['/user/science/science-rank'],],
-                            ['label' => 'Ученые звания все', 'icon' => '', 'url' => ['/user/science/staff-science-rank'],],
-                            ['label' => 'Конференции', 'icon' => '', 'url' => ['/user/science/staff-science-conference'],],
+                            ['label' => 'Конференции', 'icon' => '', 'url' => ['/user/science/science-conference'],],
+                            ['label' => 'Организаторы', 'icon' => '', 'url' => ['/user/science/conference-owner'],],
+                            ['label' => 'Уровень конференции', 'icon' => '', 'url' => ['/user/science/conference-rank'],],
+                            ['label' => 'Тип участия', 'icon' => '', 'url' => ['/user/science/conference-result-type'],],
                         ],
                     ],
                     [
@@ -48,6 +47,7 @@
                         'items' => [
                             ['label' => 'Пользователи', 'icon' => 'user', 'url' => ['/user/user'],],
                             ['label' => 'Подразделения', 'icon' => 'user', 'url' => ['/user/mil-unit'],],
+                            ['label' => 'Служебные задания', 'icon' => 'bars', 'url' => ['/user/tbl-staff-job-assignment'],],
                             [
                                 'label' => 'Роли',
                                 'icon' => 'user',
@@ -79,6 +79,25 @@
                                 ],
                             ],
                             [
+                                'label' => 'Отпуска',
+                                'icon' => 'user',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Виды отпусков', 'icon' => '', 'url' => ['/user/vacation/vacation-type'],],
+                                    ['label' => 'Все отпуска', 'icon' => '', 'url' => ['/user/vacation/staff-vacation'],],
+                                ],
+                            ],
+                            [
+                                'label' => 'Наряды',
+                                'icon' => 'user',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Типы нарядов', 'icon' => '', 'url' => ['/user/duty/duty-type'],],
+                                    ['label' => 'Все наряды', 'icon' => '', 'url' => ['/user/duty/staff-duty'],],
+                                    ['label' => 'Командировки', 'icon' => '', 'url' => ['/user/duty/staff-duty-journey'],],
+                                ],
+                            ],
+                            [
                                 'label' => 'Должности',
                                 'icon' => 'user',
                                 'url' => '#',
@@ -99,14 +118,24 @@
                                 ],
                             ],
                             [
-                                'label' => 'Научные конференции',
-                                'icon' => 'user',
+                                'label' => 'Наука',
+                                'icon' => 'graduation-cap',
                                 'url' => '#',
                                 'items' => [
-                                    ['label' => 'Конференции', 'icon' => '', 'url' => ['/user/science/science-conference'],],
-                                    ['label' => 'Организаторы', 'icon' => '', 'url' => ['/user/science/conference-owner'],],
-                                    ['label' => 'Уровень конференции', 'icon' => '', 'url' => ['/user/science/conference-rank'],],
-                                    ['label' => 'Тип участия', 'icon' => '', 'url' => ['/user/science/conference-result-type'],],
+                                    ['label' => 'Ученые степени', 'icon' => '', 'url' => ['/user/science/science-gradiate'],],
+                                    ['label' => 'Ученые степени все', 'icon' => '', 'url' => ['/user/science/staff-science-graduate'],],
+                                    ['label' => 'Ученые звания', 'icon' => '', 'url' => ['/user/science/science-rank'],],
+                                    ['label' => 'Ученые звания все', 'icon' => '', 'url' => ['/user/science/staff-science-rank'],],
+                                    ['label' => 'Конференции пользователей', 'icon' => '', 'url' => ['/user/science/staff-science-conference'],],
+                                    [
+                                        'label' => 'Публикации',
+                                        'icon' => 'graduation-cap',
+                                        'url' => '#',
+                                        'items' => [
+                                            ['label' => 'Все публикации', 'icon' => '', 'url' => ['/user/science/publication/staff-publication'],],
+                                            ['label' => 'Журналы', 'icon' => '', 'url' => ['/user/science/publication/science-magazine'],],
+                                        ],
+                                    ],
                                 ],
                             ],
                         ],

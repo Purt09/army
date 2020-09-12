@@ -49,7 +49,7 @@ class TblStaffScienceRank extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'id_staff', 'id_science_rank', 'id_order_owner', 'order_date', 'order_number'], 'required'],
+            [['id_staff', 'id_science_rank', 'id_order_owner', 'order_date', 'order_number'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'order_number', 'number', 'speciality', 'speciality_code'], 'string'],
             [['last_update', 'order_date'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_staff', 'id_science_rank', 'id_order_owner'], 'default', 'value' => null],
@@ -78,14 +78,14 @@ class TblStaffScienceRank extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_staff' => 'Id Staff',
-            'id_science_rank' => 'Id Science Rank',
-            'id_order_owner' => 'Id Order Owner',
-            'order_date' => 'Order Date',
-            'order_number' => 'Order Number',
-            'number' => 'Number',
-            'speciality' => 'Speciality',
-            'speciality_code' => 'Speciality Code',
+            'id_staff' => 'Сотрудник',
+            'id_science_rank' => 'Ученое звание',
+            'id_order_owner' => 'Приказ подписал',
+            'order_date' => 'Дата приказа',
+            'order_number' => 'Номер приказа',
+            'number' => 'Номер',
+            'speciality' => 'Специалитет',
+            'speciality_code' => 'Специальный код',
         ];
     }
 

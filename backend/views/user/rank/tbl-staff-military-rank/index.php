@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel core\entities\User\TblStaffMilitaryRankSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Tbl Staff Military Ranks';
+$this->title = 'Приказы званий';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-staff-military-rank-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Tbl Staff Military Rank', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить приказ на звание', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

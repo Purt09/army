@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model core\entities\User\TblStaffJobAssignment */
 
 $this->title = 'Редактировать Tbl Staff Job Assignment: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Staff Job Assignments', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Служебнаые задания', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Редактировать';
 ?>

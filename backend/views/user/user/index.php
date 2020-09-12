@@ -2,7 +2,6 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use kartik\date\DatePicker;
 use yii\grid\ActionColumn;
 
 /* @var $this yii\web\View */

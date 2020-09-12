@@ -1,5 +1,6 @@
 <?php
 
+use kartik\date\DatePicker;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -12,27 +13,21 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'unique_id')->textInput() ?>
-
-    <?= $form->field($model, 'last_update')->textInput() ?>
-
-    <?= $form->field($model, 'id_io_state')->textInput() ?>
-
-    <?= $form->field($model, 'uuid_t')->textInput() ?>
-
-    <?= $form->field($model, 'rr_name')->textInput() ?>
-
-    <?= $form->field($model, 'r_icon')->textInput() ?>
-
-    <?= $form->field($model, 'record_fill_color')->textInput() ?>
-
-    <?= $form->field($model, 'record_text_color')->textInput() ?>
-
     <?= $form->field($model, 'id_staff')->textInput() ?>
 
-    <?= $form->field($model, 'date_start')->textInput() ?>
+    <?= $form->field($model, 'date_start')->widget(DatePicker::className(), [
+        'pluginOptions' => [
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true
+        ]
+    ]) ?>
 
-    <?= $form->field($model, 'date_end')->textInput() ?>
+    <?= $form->field($model, 'date_end')->widget(DatePicker::className(), [
+        'pluginOptions' => [
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true
+        ]
+    ]) ?>
 
     <?= $form->field($model, 'notes')->textarea(['rows' => 6]) ?>
 
