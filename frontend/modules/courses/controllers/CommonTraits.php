@@ -5,6 +5,7 @@ namespace frontend\modules\courses\controllers;
 
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
+use core\entities\News\NewsSearch;
 use frontend\modules\department\useCases\NewsService;
 use Yii;
 

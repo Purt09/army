@@ -9,6 +9,7 @@ use backend\services\user\UserServices;
 use bupy7\pages\models\Page;
 use common\forms\auth\LoginForm;
 use core\entities\News\NewsPublications;
+use core\entities\News\NewsSearch;
 use core\entities\User\TblStaff;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
@@ -65,22 +66,29 @@ class CourseTwoController extends Controller
         $content = Page::find()->where(['alias' => 'main_52course'])->one();
 
         $news = NewsPublications::find()->where(['course52' => 1])->with('articles')->orderBy('id desc')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$COURSE52, RbacHelpers::$COURSE_MAIN);
 
         return $this->render('index', [
             'content' => $content,
             'news' => $news,
+            'users' => $users
         ]);
     }
+
+    public function actionNews()
+    {
+        $searchModel = new NewsSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, 'course52');
+
+        return $this->render('news', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
     public function actionUsers()
     {
-        $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$COURSE52);
-        $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$CADET);
-        $users = array_intersect($users1, $users2);
-        $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();
-        $result = [];
-        foreach ($users as $user)
-            array_push($result, $user['user_base_id']);
-        $users = TblStaff::find()->where(['id' => $result])->with('currentMilRank')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$COURSE52, RbacHelpers::$CADET);
 
         $provider = new ArrayDataProvider([
             'allModels' => $users,

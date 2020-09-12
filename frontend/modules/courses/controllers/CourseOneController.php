@@ -9,6 +9,7 @@ use backend\services\user\UserServices;
 use bupy7\pages\models\Page;
 use common\forms\auth\LoginForm;
 use core\entities\News\NewsPublications;
+use core\entities\News\NewsSearch;
 use core\entities\User\TblStaff;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
@@ -75,16 +76,20 @@ class CourseOneController extends Controller
         ]);
     }
 
+    public function actionNews()
+    {
+        $searchModel = new NewsSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, 'course51');
+
+        return $this->render('news', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
     public function actionUsers()
     {
-        $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$COURSE51);
-        $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$CADET);
-        $users = array_intersect($users1, $users2);
-        $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();
-        $result = [];
-        foreach ($users as $user)
-            array_push($result, $user['user_base_id']);
-        $users = TblStaff::find()->where(['id' => $result])->with('currentMilRank')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$COURSE51, RbacHelpers::$CADET);
 
         $provider = new ArrayDataProvider([
             'allModels' => $users,

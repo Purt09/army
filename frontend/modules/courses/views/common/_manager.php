@@ -33,3 +33,43 @@
     <!-- /.box-body -->
 </div>
 
+<div class="box box-success">
+    <div class="box-header with-border">
+        <h3 class="box-title">Новости</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to("/courses/{$controllers}/create-news") ?>">
+                <div class="info-box bg-green">
+                    <span class="info-box-icon"><i class="fa fa-align-left"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Добавить новость</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to("/courses/{$controllers}/news") ?>">
+                <div class="info-box bg-green">
+                    <span class="info-box-icon"><i class="fa fa-align-left"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Управление новостями</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- /.box-body -->
+</div>

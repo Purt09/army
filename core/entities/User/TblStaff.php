@@ -45,6 +45,7 @@ use core\entities\User\Vpr\TblStaffPromotion;
  * @property string $udl_number Номер удостоверения личности
  * @property string|null $foto Фото
  *
+ * @property User $user
  * @property TblEducation[] $tblEducations
  * @property TblEioTable334[] $tblEioTable334s
  * @property TblMilUnit[] $tblMilUnits
@@ -176,13 +177,12 @@ class TblStaff extends \yii\db\ActiveRecord
     }
 
     /**
-     * Gets query for [[TblEducations]].
      *
      * @return \yii\db\ActiveQuery
      */
     public function getUser()
     {
-        return $this->hasMany(User::className(), ['user_base_id' => 'id']);
+        return $this->hasOne(User::className(), ['user_base_id' => 'id']);
     }
 
     /**

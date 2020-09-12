@@ -9,7 +9,7 @@ use Yii;
 
 class UserInfoWidget extends Widget
 {
-    public $user = 'Факультет сбора и обработки информации';
+    public $user;
 
     public function run()
     {
