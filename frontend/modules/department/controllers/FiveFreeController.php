@@ -42,7 +42,7 @@ class FiveFreeController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb'],
+                'except' => ['index', 'ymb', 'immortal-regiment-view'],
                 'rules' => [
                     [
                         'allow' => true,
@@ -149,6 +149,33 @@ class FiveFreeController extends Controller
         return $this->render('main', [
             'model' => $model,
             'title' => 'Управление выпускиниками 53 кафедры'
+        ]);
+    }
+
+    public function actionImmortalRegimentView()
+    {
+        $model = Page::find()->where(['alias' => 'immortal_regiment_53kaf'])->one();
+
+        return $this->render('../common/immortal-regiment', [
+            'model' => $model,
+            'title' => 'Бессмертный полк 53 кафеддры'
+        ]);
+    }
+
+    public function actionImmortalRegiment()
+    {
+        $model = Page::find()->where(['alias' => 'immortal_regiment_53kaf'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('../common/_form_main', [
+            'model' => $model,
+            'title' => 'Управление бессмертным полком 53 кафеддры'
         ]);
     }
 

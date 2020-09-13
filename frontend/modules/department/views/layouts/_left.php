@@ -14,6 +14,11 @@ use core\helpers\user\RbacHelpers;
                 'icon' => 'pencil-square-o',
                 'url' => ['ymb'],
             ],
+            [
+                'label' => 'ВПР',
+                'icon' => 'user',
+                'url' => ['immortal-regiment-view'],
+            ]
         ];
         if (RbacHelpers::checkRole(RbacHelpers::$MANAGER) || RbacHelpers::checkRole(RbacHelpers::$ADMIN)) {
             array_push($items,[
@@ -26,11 +31,6 @@ use core\helpers\user\RbacHelpers;
                     'icon' => 'users',
                     'url' => ['users'],
                 ]);
-            array_push($items, [
-                'label' => 'ВПР(скоро)',
-                'icon' => 'user',
-                'url' => ['qweqwe'],
-            ]);
         }
         $items = array_merge($items, Yii::$app->params['left_menu']);
         ?>

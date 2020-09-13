@@ -14,10 +14,10 @@ use yii\web\UploadedFile;
 
 class ProfileController extends MainController
 {
-
     public function actionView($id)
     {
-        $roles = Yii::$app->authManager->getRolesByUser($this->staff->user->id);
+        if (isset($this->staff->user->id))
+            $roles = Yii::$app->authManager->getRolesByUser($this->staff->user->id);
         if (!isset($roles))
             $roles = ['description' => 'Ролей пока нет'];
         return $this->render('view', [

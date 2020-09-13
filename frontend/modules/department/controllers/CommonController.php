@@ -41,7 +41,7 @@ class CommonController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb'],
+                'except' => ['index', 'ymb', 'immortal-regiment-view'],
                 'rules' => [
                     [
                         'allow' => true,
@@ -151,6 +151,33 @@ class CommonController extends Controller
         ]);
     }
 
+    public function actionImmortalRegimentView()
+    {
+        $model = Page::find()->where(['alias' => 'immortal_regiment_main'])->one();
+
+        return $this->render('../common/immortal-regiment', [
+            'model' => $model,
+            'title' => 'Бессмертный полк факультета'
+        ]);
+    }
+
+    public function actionImmortalRegiment()
+    {
+        $model = Page::find()->where(['alias' => 'immortal_regiment_main'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('_form_main', [
+            'model' => $model,
+            'title' => 'Управление бессмертным полком факультета'
+        ]);
+    }
+
     public function actionHistory()
     {
         $model = Page::find()->where(['alias' => 'history-main'])->one();
@@ -170,9 +197,17 @@ class CommonController extends Controller
 
     public function actionViewGraduate()
     {
+        $cafedra51 = Page::find()->where(['alias' => 'department_51kaf'])->one();
+        $cafedra52 = Page::find()->where(['alias' => 'department_52kaf'])->one();
+        $cafedra53 = Page::find()->where(['alias' => 'department_53kaf'])->one();
+        $cafedra55 = Page::find()->where(['alias' => 'department_55kaf'])->one();
 
 
         return $this->render('view-graduate', [
+            'cafedra51' => $cafedra51,
+            'cafedra52' => $cafedra52,
+            'cafedra53' => $cafedra53,
+            'cafedra55' => $cafedra55,
         ]);
     }
 

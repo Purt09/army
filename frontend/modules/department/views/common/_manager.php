@@ -123,6 +123,23 @@ $this->title = 'Управление ' . $title;
                 </div>
             </a>
         </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/immortal-regiment") ?>">
+                <div class="info-box bg-green">
+                    <span class="info-box-icon"><i class="fa fa-flag"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Управление выпускниками</span>
+                        <span class="info-box-number">Редактирование</span>
+                        <span class="info-box-number">страницы</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
     <!-- /.box-body -->
 </div>
