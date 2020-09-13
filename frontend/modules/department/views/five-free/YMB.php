@@ -69,7 +69,7 @@ $one = ' <div class="col-sm-8 cafedra_block">
                     <div class="box-body box-profile">
 
                         <div class="user_photo">
-                            <img class="user_photo img-responsive" src="/img/ymb/радонеж.png" alt="User profile picture">
+                            <img class="user_photo img-responsive" src="/img/ymb/Радонеж.png" alt="User profile picture">
                         </div>
 
                         <h3 class="profile-username text-center">Капитан<br>РОДОНЕЖСКИЙ<br>Руслан Валерьевич</h3>

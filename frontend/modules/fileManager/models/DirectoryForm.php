@@ -57,8 +57,15 @@ class DirectoryForm extends Model
             }
             return;
         }
+        try {
+            FileHelper::createDirectory($this->directory->fullPath . $this->name);
+        } catch (\Exception $e){
 
-        FileHelper::createDirectory($this->directory->fullPath . $this->name);
+        } finally {
+            FileHelper::createSubDirectory($this->directory->fullPath . $this->name);
+        }
+
+
     }
 
     /**

@@ -42,7 +42,6 @@ class DirectoryController extends Controller
               $model->path = $parent_dir->path;
         }
 
-
         if ($model->load(Yii::$app->request->post())) {
             try {
                 $file = FileYii::createDirectory($model->name, $model->path);
@@ -53,7 +52,13 @@ class DirectoryController extends Controller
             } catch (\Exception $e) {
                 yii::$app->session->setFlash('error', $e->getMessage());
             }
-        }
+        } /*elseif ($parent_dir->parent_id != 0) {
+            $file = FileYii::createSubDirectory($model->name, $model->path);
+            $file->parent_id = $id;
+            $model->save();
+            $file->save();
+            return $this->redirect(['default/index', 'id' => $file->id]);
+        }*/
 
         return $this->render('create', [
             'model' => $model,

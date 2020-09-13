@@ -66,7 +66,8 @@ $one = ' <div class="col-sm-8 cafedra_block">
         <div style="text-align: center;">
             <h2>НАЧАЛЬНИК ЛАБОРАТОРИИ</h2>
         </div>
-        <div>
+        <div style=" white-space: nowrap;
+    overflow: hidden;">
             <div class="col-sm-12">
                 <div class="box box-primary">
                     <div class="box-body box-profile">
@@ -96,11 +97,8 @@ $one = ' <div class="col-sm-8 cafedra_block">
                                         <h5 class="modal-title" id="staticBackdropLabel">Биография</h5>
                                     </div>
                                     <div class="modal-body">
-                                         Дата рождения – 28 августа 1992 года. Окончила ВКА имени А.Ф.Можайского в 2014 году.<br> 
-                                         Специальность: инженер, метеоролог;<br>
-Специализация: метеоролог<br>
-
-На кафедре с 2016 года.<br>
+                                         Дата рождения – 28 августа 1992 года. Окончила ВКА имени А.Ф.Можайского в 2014 году. 
+На кафедре с 2016 года.
 Не замужем.
 
 
@@ -119,8 +117,11 @@ $one = ' <div class="col-sm-8 cafedra_block">
             </div>
 
  </div>
- </div>  
-  <div class="col-md-8 col-md-offset-2">
+ </div>            
+
+
+
+ <div class="col-md-8 col-md-offset-2">
  <div id="carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
  <div class="carousel-inner">
  <div class="item active">
@@ -160,7 +161,7 @@ $one = ' <div class="col-sm-8 cafedra_block">
 
 
 
-</div> ';
+</div>';
 ?>
 <?php
 $two = '      

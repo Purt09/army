@@ -36,9 +36,22 @@ class File extends \yii\db\ActiveRecord
         $file = new self();
         $file->title = $title;
         $file->name = Inflector::slug($title, '_');
-        if($path != '/')
+        if ($path != '/')
             $path .= '/';
         $file->path = $path . $file->name;
+        $file->size = 0;
+        $file->type = self::TYPE_DIR;
+        return self::create($file);
+    }
+
+    public static function createSubDirectory(string $title, string $path)
+    {
+        $file = new self();
+        $file->title = $title;
+        $file->name = Inflector::slug($title, '_');
+        if (substr($path, 0, -1) != "/") {
+            $path .= "/" . $file->name;
+        }
         $file->size = 0;
         $file->type = self::TYPE_DIR;
         return self::create($file);
@@ -51,7 +64,7 @@ class File extends \yii\db\ActiveRecord
         $extantion = stristr($title, '.');
         $name = stristr($title, '.', true);
         $file->name = Inflector::slug($name, '_', false) . $extantion;
-        if($path != '/')
+        if ($path != '/')
             $path .= '/';
         $file->path = $path . $file->name;
         $file->size = $size;
@@ -62,7 +75,7 @@ class File extends \yii\db\ActiveRecord
     public function deleteFile()
     {
         $this->delete_id = Yii::$app->user->id;
-        if(!$this->save())
+        if (!$this->save())
             throw new \RuntimeException('Удаление не удалось');
     }
 
@@ -77,35 +90,35 @@ class File extends \yii\db\ActiveRecord
     public static function getByPath($id)
     {
         $files = self::find()->where(['delete_id' => null])
-          ->andWhere(['parent_id' => $id])
-          ->with('user.base')->asArray()->all();
+            ->andWhere(['parent_id' => $id])
+            ->with('user.base')->asArray()->all();
 
         $results = [];
-        if($id != 0){
-          $parent = self::findOne($id);
-              array_push($results, [
-                  'title' => "<i class='fa fa-reply-all'> </i> Назад",
-                  'block' => true,
-                  'parent_id' => $parent->parent_id,
-                  'type' => 'back'
-              ]);
+        if ($id != 0) {
+            $parent = self::findOne($id);
+            array_push($results, [
+                'title' => "<i class='fa fa-reply-all'> </i> Назад",
+                'block' => true,
+                'parent_id' => $parent->parent_id,
+                'type' => 'back'
+            ]);
         }
-            foreach ($files as $file)
-              array_push($results, $file);
+        foreach ($files as $file)
+            array_push($results, $file);
 
         return $results;
     }
 
     public static function getBreadCrumbs($id)
     {
-      if($id == 0)
-          return 'Главная';
-      $file = self::findOne($id);
-      self::$link =  " <a href=\"index?id={$file->id}\">{$file->title}</a> >" . self::$link;
-      if($file->parent_id != 0)
-        self::getBreadCrumbs($file->parent_id);
-      self::$link = substr(self::$link,0,-1);
-      return self::$link;
+        if ($id == 0)
+            return 'Главная';
+        $file = self::findOne($id);
+        self::$link = " <a href=\"index?id={$file->id}\">{$file->title}</a> >" . self::$link;
+        if ($file->parent_id != 0)
+            self::getBreadCrumbs($file->parent_id);
+        self::$link = substr(self::$link, 0, -1);
+        return self::$link;
     }
 
     /**
