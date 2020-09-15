@@ -164,7 +164,7 @@ $one = ' <div class="col-sm-8 cafedra_block">
 ?>
 <?php
 $two = '      
-<div class="col-sm-8 cafedra_block">
+ <div class="col-sm-8 cafedra_block">
         <div class="col-sm-9 cafedra_title">
             <h2>
                  522 учебная лаборатория
@@ -218,8 +218,7 @@ $two = '
         <div style="text-align: center;">
             <h2>НАЧАЛЬНИК ЛАБОРАТОРИИ</h2>
         </div>
-        <div style=" white-space: nowrap;
-    overflow: hidden;">
+        <div>
             <div class="col-sm-12">
                 <div class="box box-primary">
                     <div class="box-body box-profile">
@@ -228,15 +227,15 @@ $two = '
                             <img class="user_photo img-responsive" src="/img/ymb/филиппёнок.png" alt="User profile picture">
                         </div>
 
-                        <h3 class="profile-username text-center">Майор<br>ФИЛЛИПЁНОК<br>Виктор Викторович</h3>
+                        <h3 class="profile-username text-center">Майор<br>ФИЛЛИПЕНОК<br>Виктор Викторович</h3>
 
 
                         <button type="button" class="btn btn-primary btn-block" data-toggle="modal"
-                                data-target="#staticBackdrop">
+                                data-target="#staticBackdrop2">
                             Узнать больше
                         </button>
 
-                        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                        <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false"
                              tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel"
                              aria-hidden="true">
                             <div class="modal-dialog">
@@ -246,12 +245,16 @@ $two = '
                                                 aria-label="Close">
                                             <span aria-hidden="true">×</span>
                                         </button>
-                                        <h5 class="modal-title" id="staticBackdropLabel">Биография</h5>
+                                        <h5 class="modal-title" id="staticBackdrop2Label">Биография</h5>
                                     </div>
                                     <div class="modal-body">
-                                         Дата рождения: 24 сентября 1981 г.  Окончил ВКА имени А.Ф.Можайского в 2006 г.
-На кафедре с 2015 года.
+  Дата рождения: 24 сентября 1981 г.  Окончил ВКА имени А.Ф.Можайского в 2006 г.<br>
+  Специальность: инженер, метеоролог;<br>
+Специализация: геофизическое и гидрометеорологическое обеспечение войск;<br>
+
+На кафедре с 2015 года.<br>
 Не женат.
+
 
 
 
@@ -311,7 +314,7 @@ $two = '
 </div>
  </div>
  </div>
- </div>
+ </div>   
      
 
 
