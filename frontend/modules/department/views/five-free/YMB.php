@@ -62,8 +62,7 @@ $one = ' <div class="col-sm-8 cafedra_block">
         <div style="text-align: center;">
             <h2>НАЧАЛЬНИК ЛАБОРАТОРИИ</h2>
         </div>
-        <div style=" white-space: nowrap;
-    overflow: hidden;">
+        <div>
             <div class="col-sm-12">
                 <div class="box box-primary">
                     <div class="box-body box-profile">
@@ -73,6 +72,12 @@ $one = ' <div class="col-sm-8 cafedra_block">
                         </div>
 
                         <h3 class="profile-username text-center">Капитан<br>РОДОНЕЖСКИЙ<br>Руслан Валерьевич</h3>
+
+
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal"
+                                data-target="#staticBackdrop">
+                            Узнать больше
+                        </button>
 
                         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
                              tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel"
@@ -87,8 +92,11 @@ $one = ' <div class="col-sm-8 cafedra_block">
                                         <h5 class="modal-title" id="staticBackdropLabel">Биография</h5>
                                     </div>
                                     <div class="modal-body">
-                                        Дата рождения – 26 декабря 1982 года. Окончил Российский государственный гидрометеорологический университет в 2005 г.
-                                        На кафедре с 2007 года.
+                                         Дата рождения – 26 декабря 1982 года. Окончил Российский государственный гидрометеорологический университет в 2005 г.<br>
+                                         06.2005 -11.2007 г.    -   дежурный синоптик ГУ «Санкт-Петербургского ЦГМС-Р» (распределение после выпуска, г. Санкт-Петербург)<br>
+                                        11.2007 -09.2009 г. -   инженер 1 отделения 571 учебной лаборатории   Военно-космической академии имени А.Ф.Можайского (призван РВК г.Тосно Ленинградской обл.)<br>
+                                        09.2009 - 08.2011 г.    -   начальник 572 учебной лаборатории Военно-космической академии имени А.Ф.Можайского.<br>
+                                        08.2011 -по наст. вр.   -   начальник 531 учебной лаборатории Военно-космической академии имени А.Ф.Можайского.<br>
                                         Не женат.
 
 
@@ -107,56 +115,57 @@ $one = ' <div class="col-sm-8 cafedra_block">
                 </div>
             </div>
 
-        </div>
-    </div>
+ </div>
+ </div>            
 
 
 
-    <div class="col-md-8 col-md-offset-2">
-        <div id="carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="/img/ymb/211.png" style="width: 800;height: 400">
-                </div>
-                <div class="item">
-                    <img src="/img/ymb/212.png">
-                </div>
-                <div class="item">
-                    <img src="/img/ymb/213.png">
-                </div>
-                <div class="item">
-                    <img src="/img/ymb/214.png">
-                </div>
+ <div class="col-md-8 col-md-offset-2">
+ <div id="carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+ <div class="carousel-inner">
+ <div class="item active">
+ <img src="/img/ymb/211.png" style="width: 800;height: 400">
+ </div>
+ <div class="item">
+ <img src="/img/ymb/212.png">
+ </div>
+ <div class="item">
+<img src="/img/ymb/213.png">
+ </div>
+ <div class="item">
+<img src="/img/ymb/214.png">
+ </div>
 
-            </div>
-        </div>
-        <div class="clearfix">
-            <div id="thumbcarousel" class="carousel slide" data-interval="12000" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="/img/ymb/211.png"></div>
-                        <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="/img/ymb/212.png"></div>
-                        <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="/img/ymb/213.png"></div>
-                        <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="/img/ymb/214.png"></div>
-                    </div>
+ </div>
+ </div>
+ <div class="clearfix">
+ <div id="thumbcarousel" class="carousel slide" data-interval="12000" data-ride="carousel">
+ <div class="carousel-inner">
+ <div class="item active">
+ <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="/img/ymb/211.png"></div>
+ <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="/img/ymb/212.png"></div>
+ <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="/img/ymb/213.png"></div>
+ <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="/img/ymb/214.png"></div>
+ </div>
+ 
+ <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+ <span class="glyphicon glyphicon-chevron-left"></span>
+ </a>
+ <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+ <span class="glyphicon glyphicon-chevron-right"></span>
+ </a>
+ </div>
+ </div>
+ </div>
 
-                    <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
 
 
-
-    </div>';
+</div>
+';
 ?>
 <?php
 $two = '      
- <div class="col-sm-8 cafedra_block">
+<div class="col-sm-8 cafedra_block">
         <div class="col-sm-9 cafedra_title">
             <h2>
                  532 учебная лаборатория
@@ -208,8 +217,7 @@ $two = '
         <div style="text-align: center;">
             <h2>НАЧАЛЬНИК ЛАБОРАТОРИИ</h2>
         </div>
-        <div style=" white-space: nowrap;
-    overflow: hidden;">
+        <div>
             <div class="col-sm-12">
                 <div class="box box-primary">
                     <div class="box-body box-profile">
@@ -218,10 +226,15 @@ $two = '
                             <img class="user_photo img-responsive" src="/img/ymb/начлаб532.png" alt="User profile picture">
                         </div>
 
-                        <h3 class="profile-username text-center">Майор<br>ФИЛЛИПЁНОК<br>Виктор Викторович</h3>
+                        <h3 class="profile-username text-center">Майор<br>ВЯЗГИЧЕВ<br> Андрей Константинович</h3>
 
 
-                        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal"
+                                data-target="#staticBackdrop2">
+                            Узнать больше
+                        </button>
+
+                        <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false"
                              tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel"
                              aria-hidden="true">
                             <div class="modal-dialog">
@@ -231,7 +244,7 @@ $two = '
                                                 aria-label="Close">
                                             <span aria-hidden="true">×</span>
                                         </button>
-                                        <h5 class="modal-title" id="staticBackdropLabel">Биография</h5>
+                                        <h5 class="modal-title" id="staticBackdrop2Label">Биография</h5>
                                     </div>
                                     <div class="modal-body">
    Дата рождения: 10 февраля 1979 г.
@@ -298,9 +311,7 @@ $two = '
 </div>
  </div>
  </div>
- </div>           
-
-
+ </div>     
 ';
 ?>
 <?= \yii\bootstrap\Tabs::widget([
@@ -318,10 +329,8 @@ $two = '
 ?>
 
 
-
-
 <style type="text/css">
-    .head-content{
+    .head-content {
         top: 0;
         left: 0;
         z-index: 0;
@@ -341,7 +350,7 @@ $two = '
         height: 100%;
     }
 
-    .text h2{
+    .text h2 {
         margin: 0;
         position: absolute;
         top: 50%;
@@ -352,39 +361,43 @@ $two = '
 
 
     .content-umb {
-        position:relative;
-        margin:0 auto;
-        overflow:hidden;
-        padding:5px;
-        height:50px;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 5px;
+        height: 50px;
 
     }
+
     .list {
-        position:absolute;
-        left:0px;
-        top:0px;
-        min-width:3500px;
-        margin-top:0px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        min-width: 3500px;
+        margin-top: 0px;
     }
-    .list li{
-        display:table-cell;
-        position:relative;
-        text-align:center;
-        cursor:grab;
-        cursor:-webkit-grab;
-        color:#efefef;
-        vertical-align:middle;
+
+    .list li {
+        display: table-cell;
+        position: relative;
+        text-align: center;
+        cursor: grab;
+        cursor: -webkit-grab;
+        color: #efefef;
+        vertical-align: middle;
     }
+
     .scroller {
-        text-align:center;
-        cursor:pointer;
-        display:none;
-        padding:7px;
-        padding-top:13px;
-        white-space:no-wrap;
-        vertical-align:middle;
-        background-color:#fff;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+        padding: 7px;
+        padding-top: 13px;
+        white-space: no-wrap;
+        vertical-align: middle;
+        background-color: #fff;
     }
+
     .user_photo {
         border-radius: 12px;
         width: 220px;
@@ -423,20 +436,22 @@ $two = '
         border-bottom: 1px solid #ccc;
     }
 
-    .cafedra_title h2{
+    .cafedra_title h2 {
         color: #6b6c6d;
         font-style: italic;
         font-family: initial;
     }
 
-    .cafedra_title span{
+    .cafedra_title span {
         color: gray;
     }
-    .thead-inverse{
+
+    .thead-inverse {
         background: black;
 
     }
-    .thead-inverse tr{
+
+    .thead-inverse tr {
         color: white;
 
     }
@@ -444,15 +459,18 @@ $two = '
     .carousel.carousel slide {
         margin-top: 20px;
     }
+
     .item .thumb {
         width: 25%;
         cursor: pointer;
         float: left;
     }
+
     .item .thumb img {
         width: 100%;
         margin: 2px;
     }
+
     .item img {
         width: 100%;
         height: 100px;
@@ -460,89 +478,85 @@ $two = '
 </style>
 
 <script>
-  var hidWidth;
-  var scrollBarWidths = 40;
+    var hidWidth;
+    var scrollBarWidths = 40;
 
-  var widthOfList = function(){
-    var itemsWidth = 0;
-    $('.list a').each(function(){
-      var itemWidth = $(this).outerWidth();
-      itemsWidth+=itemWidth;
-    });
-    return itemsWidth;
-  };
+    var widthOfList = function () {
+        var itemsWidth = 0;
+        $('.list a').each(function () {
+            var itemWidth = $(this).outerWidth();
+            itemsWidth += itemWidth;
+        });
+        return itemsWidth;
+    };
 
-  var widthOfHidden = function(){
-    var ww = 0 - $('.wrapper').outerWidth();
-    var hw = (($('.wrapper').outerWidth())-widthOfList()-getLeftPosi())-scrollBarWidths;
-    var rp = $(document).width() - ($('.nav-item.nav-link').last().offset().left + $('.nav-item.nav-link').last().outerWidth());
+    var widthOfHidden = function () {
+        var ww = 0 - $('.wrapper').outerWidth();
+        var hw = (($('.wrapper').outerWidth()) - widthOfList() - getLeftPosi()) - scrollBarWidths;
+        var rp = $(document).width() - ($('.nav-item.nav-link').last().offset().left + $('.nav-item.nav-link').last().outerWidth());
 
-    if (ww>hw) {
-      //return ww;
-      return (rp>ww?rp:ww);
+        if (ww > hw) {
+            //return ww;
+            return (rp > ww ? rp : ww);
+        } else {
+            //return hw;
+            return (rp > hw ? rp : hw);
+        }
+    };
+
+    var getLeftPosi = function () {
+
+        var ww = 0 - $('.wrapper').outerWidth();
+        var lp = $('.list').position().left;
+
+        if (ww > lp) {
+            return ww;
+        } else {
+            return lp;
+        }
+    };
+
+    var reAdjust = function () {
+
+        // check right pos of last nav item
+        var rp = $(document).width() - ($('.nav-item.nav-link').last().offset().left + $('.nav-item.nav-link').last().outerWidth());
+        if (($('.wrapper').outerWidth()) < widthOfList() && (rp < 0)) {
+            $('.scroller-right').show().css('display', 'flex');
+        } else {
+            $('.scroller-right').hide();
+        }
+
+        if (getLeftPosi() < 0) {
+            $('.scroller-left').show().css('display', 'flex');
+        } else {
+            $('.item').animate({left: "-=" + getLeftPosi() + "px"}, 'slow');
+            $('.scroller-left').hide();
+        }
     }
-    else {
-      //return hw;
-      return (rp>hw?rp:hw);
-    }
-  };
 
-  var getLeftPosi = function(){
-
-    var ww = 0 - $('.wrapper').outerWidth();
-    var lp = $('.list').position().left;
-
-    if (ww>lp) {
-      return ww;
-    }
-    else {
-      return lp;
-    }
-  };
-
-  var reAdjust = function(){
-
-    // check right pos of last nav item
-    var rp = $(document).width() - ($('.nav-item.nav-link').last().offset().left + $('.nav-item.nav-link').last().outerWidth());
-    if (($('.wrapper').outerWidth()) < widthOfList() && (rp<0)) {
-      $('.scroller-right').show().css('display', 'flex');
-    }
-    else {
-      $('.scroller-right').hide();
-    }
-
-    if (getLeftPosi()<0) {
-      $('.scroller-left').show().css('display', 'flex');
-    }
-    else {
-      $('.item').animate({left:"-="+getLeftPosi()+"px"},'slow');
-      $('.scroller-left').hide();
-    }
-  }
-
-  reAdjust();
-
-  $(window).on('resize',function(e){
     reAdjust();
-  });
 
-  $('.scroller-right').click(function() {
-
-    $('.scroller-left').fadeIn('slow');
-    $('.scroller-right').fadeOut('slow');
-
-    $('.list').animate({left:"+="+widthOfHidden()+"px"},'slow',function(){
-      reAdjust();
+    $(window).on('resize', function (e) {
+        reAdjust();
     });
-  });
 
-  $('.scroller-left').click(function() {
+    $('.scroller-right').click(function () {
 
-    $('.scroller-right').fadeIn('slow');
-    $('.scroller-left').fadeOut('slow');
+        $('.scroller-left').fadeIn('slow');
+        $('.scroller-right').fadeOut('slow');
 
-    $('.list').animate({left:"-="+getLeftPosi()+"px"},'slow',function(){
-      reAdjust();
+        $('.list').animate({left: "+=" + widthOfHidden() + "px"}, 'slow', function () {
+            reAdjust();
+        });
     });
-  });
+
+    $('.scroller-left').click(function () {
+
+        $('.scroller-right').fadeIn('slow');
+        $('.scroller-left').fadeOut('slow');
+
+        $('.list').animate({left: "-=" + getLeftPosi() + "px"}, 'slow', function () {
+            reAdjust();
+        });
+    });
 </script>
