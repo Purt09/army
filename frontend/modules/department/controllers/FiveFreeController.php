@@ -67,12 +67,14 @@ class FiveFreeController extends Controller
         $main = Page::find()->where(['alias' => 'main_53kaf_general'])->one();
 
         $news = $this->news->getNewsByType('53_cafedra')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA55, RbacHelpers::$FAKULTET);
 
         return $this->render('index', [
+            'news' => $news,
             'content' => $content,
             'history' => $history,
-            'news' => $news,
-            'main' => $main
+            'main' => $main,
+            'user' => $users
         ]);
     }
 
@@ -158,7 +160,7 @@ class FiveFreeController extends Controller
 
         return $this->render('../common/immortal-regiment', [
             'model' => $model,
-            'title' => 'Бессмертный полк 53 кафеддры'
+            'title' => 'Бессмертный полк 53 кафедры'
         ]);
     }
 
@@ -175,7 +177,7 @@ class FiveFreeController extends Controller
 
         return $this->render('../common/_form_main', [
             'model' => $model,
-            'title' => 'Управление бессмертным полком 53 кафеддры'
+            'title' => 'Управление бессмертным полком 53 кафедры'
         ]);
     }
 

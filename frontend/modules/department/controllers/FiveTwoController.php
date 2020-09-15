@@ -65,12 +65,14 @@ class FiveTwoController extends Controller
 
 
         $news = $this->news->getNewsByType('52_cafedra')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA55, RbacHelpers::$FAKULTET);
 
         return $this->render('index', [
+            'news' => $news,
             'content' => $content,
             'history' => $history,
-            'news' => $news,
-            'main' => $main
+            'main' => $main,
+            'user' => $users
         ]);
     }
 
@@ -167,7 +169,7 @@ class FiveTwoController extends Controller
 
         return $this->render('../common/immortal-regiment', [
             'model' => $model,
-            'title' => 'Бессмертный полк 52 кафеддры'
+            'title' => 'Бессмертный полк 52 кафедры'
         ]);
     }
 
@@ -184,7 +186,7 @@ class FiveTwoController extends Controller
 
         return $this->render('../common/_form_main', [
             'model' => $model,
-            'title' => 'Управление бессмертным полком 52 кафеддры'
+            'title' => 'Управление бессмертным полком 52 кафедры'
         ]);
     }
 
