@@ -74,7 +74,7 @@ class FiveOneController extends Controller
             'content' => $content,
             'history' => $history,
             'main' => $main,
-            'user' => $users
+            'users' => $users
         ]);
     }
 

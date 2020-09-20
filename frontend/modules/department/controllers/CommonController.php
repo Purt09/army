@@ -68,7 +68,7 @@ class CommonController extends Controller
         return $this->render('index', [
             'news' => $news,
             'model' => $model,
-            'user' => $users
+            'users' => $users
         ]);
     }
 
