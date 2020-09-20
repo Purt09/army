@@ -23,6 +23,7 @@ class NewsAllWidget extends Widget
             ->orderBy('birthday_date')
             ->limit(10)->all();
 
+
         return $this->render('news-all', [
             'news' => $this->news,
             'users' => $users

@@ -2,7 +2,7 @@
 /**
  * @var $this \yii\web\View
  * @var $model \bupy7\pages\models\Page
- * @var $users \core\entities\User\TblStaff[]
+ * @var $users array
  * @var $news \core\entities\News\NewsPublications[]
  */
 
