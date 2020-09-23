@@ -24,7 +24,7 @@
                     'url' => ['users'],
                 ]);
             }
-            $items = array_merge($items, Yii::$app->params['left_menu']);
+            $items = array_merge(Yii::$app->params['left_menu'], $items);
             ?>
         <?= dmstr\widgets\Menu::widget(
             [

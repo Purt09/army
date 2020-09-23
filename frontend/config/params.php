@@ -59,7 +59,7 @@ return [
                 ['label' => '52 кафедры', 'icon' => '', 'url' => ['/department/five-two/view-graduate'],],
                 ['label' => '53 кафедры', 'icon' => '', 'url' => ['/department/five-free/view-graduate'],],
                 ['label' => '55 кафедры', 'icon' => '', 'url' => ['/department/five-five/view-graduate'],],
-                ['label' => 'Достижения', 'icon' => 'star', 'url' => ['/department/common/view-graduate-stars'],],
+                ['label' => 'Выдающиеся', 'icon' => 'star', 'url' => ['/department/common/view-graduate-stars'],],
             ],
         ],
         [
