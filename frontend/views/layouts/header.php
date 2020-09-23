@@ -9,198 +9,6 @@ use yii\helpers\Html;
 $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')->all();
 
 ?>
-<!--<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
-<link rel="stylesheet" type="text/css" href="/img/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="/img/slick/slick-theme.css">
-<script src="/img/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-    $(document).on('ready', function() {
-        $(".variable").slick({
-
-            infinite: true,
-            centerMode: true,
-            variableWidth: true,
-            slidesToShow: 3,
-            autoplay: false,
-            autoplaySpeed: 1500
-        });
-    });
-</script>
-<style type="text/css">
-    html, body {
-        margin: 0;
-        padding: 0;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    .slider {
-        width: 50%;
-        margin: 100px auto;
-    }
-
-    .slick-slide {
-        margin: 0px 20px;
-    }
-
-    .slick-slide img {
-        width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-        color: black;
-    }
-
-
-    .slick-slide {
-        transition: all ease-in-out .3s;
-        opacity: .2;
-    }
-
-    .slick-active {
-        opacity: .5;
-    }
-
-    .slick-current {
-        opacity: 1;
-    }
-
-
-</style>
-<style>
-
-
-    .btn-grd-danger,
-    .btn-grd-disabled,
-    .btn-grd-info,
-    .btn-grd-inverse,
-    .btn-grd-primary,
-    .btn-grd-success,
-    .btn-grd-warning,
-    .btn-grd-warning {
-        background-size: 100% auto;
-        -webkit-transition: 0.5s ease-in-out;
-        transition: 0.5s ease-in-out;
-        color: #fff;
-    }
-
-    .btn-grd-danger:hover,
-    .btn-grd-disabled:hover,
-    .btn-grd-info:hover,
-    .btn-grd-inverse:hover,
-    .btn-grd-primary:hover,
-    .btn-grd-success:hover,
-    .btn-grd-warning:hover,
-    .btn-grd-warning:hover {
-        background-position: right center;
-    }
-
-    .btn-grd-danger.hor-grd,
-    .btn-grd-disabled.hor-grd,
-    .btn-grd-info.hor-grd,
-    .btn-grd-inverse.hor-grd,
-    .btn-grd-primary.hor-grd,
-    .btn-grd-success.hor-grd,
-    .btn-grd-warning.hor-grd,
-    .btn-grd-warning.hor-grd {
-        background-size: auto 100%;
-    }
-
-    .btn-grd-danger.hor-grd:hover,
-    .btn-grd-disabled.hor-grd:hover,
-    .btn-grd-info.hor-grd:hover,
-    .btn-grd-inverse.hor-grd:hover,
-    .btn-grd-primary.hor-grd:hover,
-    .btn-grd-success.hor-grd:hover,
-    .btn-grd-warning.hor-grd:hover,
-    .btn-grd-warning.hor-grd:hover {
-        background-position: bottom center;
-    }
-
-    .btn-grd-primary {
-        background-image: -webkit-gradient(linear, left top, right top, from(#77aaff), color-stop(51%, #0764ff), to(#77aaff));
-        background-image: linear-gradient(to right, #77aaff 0%, #0764ff 51%, #77aaff 100%);
-        position: absolute;
-        margin-top: 8em;
-        margin-left: -2em;
-    }
-
-    .slad {
-        text-align: center;
-        position: relative;
-    }
-
-
-</style>
-
-<style>
-    .carousel-caption {
-        top: 0%;
-    }
-
-    .carousel-animate .carousel-indicators > li {
-        margin: 0 2px;
-        background-color: #fff;
-        border-color: rgb(58, 36, 83);
-        opacity: .7;
-    }
-
-    .carousel-animate .carousel-indicators > li.active {
-        width: 10px;
-        height: 10px;
-        opacity: 1;
-    }
-
-    .carousel-animate .hero {
-        color: #fff;
-        text-align: center;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
-
-    }
-
-    @media screen and (max-width: 640px) {
-        .hero h1 {
-            font-size: 2em;
-        }
-    }
-
-    .carousel-fade .carousel-inner .item {
-        transition-property: opacity;
-        height: 25vh;
-    }
-
-    .carousel-fade .carousel-inner .item,
-    .carousel-fade .carousel-inner .active.left,
-    .carousel-fade .carousel-inner .active.right {
-        opacity: 0;
-    }
-
-    .carousel-fade .carousel-inner .active,
-    .carousel-fade .carousel-inner .next.left,
-    .carousel-fade .carousel-inner .prev.right {
-        opacity: 1;
-    }
-
-    .carousel-fade .carousel-inner .next,
-    .carousel-fade .carousel-inner .prev,
-    .carousel-fade .carousel-inner .active.left,
-    .carousel-fade .carousel-inner .active.right {
-        left: 0;
-        transform: translate3d(0, 0, 0);
-    }
-
-    .carousel-bg .carousel-inner .item {
-        background-color: darkslategrey;
-        background-size: cover;
-        background-position: center;
-        min-height: 100%;
-    }
-</style>
 <div class="background_header">
     <div class="col-sm-2">
         <div style="text-align: left;">
@@ -211,37 +19,33 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
     <?php /*
     <СЛАЙДЕР>
 */ ?>
-    <section class="variable slider" style="margin-top: 0">
-        <div class="slad slider col-sm-8" style="margin-top: 0">
+    <div class="col-sm-8">
 
-            <button class="btn waves-effect waves-light btn-grd-primary ">Читать</button>
-
-            <img src="/img/kar1.png" style="width: 250px; height: 180px">
+        <div>
+            <div  class="carousel" data-ride="carousel" id="mySlider" data-interval="false">
+                <div class="row carousel-inner center-block">
+                    <?php foreach ($news as $new): ?>
+                        <a href="<?= '/news/' . $new->id ?>">
+                            <div class="col-md-4 item active">
+                                <img src="<?= $new->img ?>" class="img-responsive center-block" style="height: 25vh;">
+                                <div class="carousel-caption">
+                                    <h3><?= mb_strimwidth($new->title, 0, 50, "..."); ?></h3>
+                                </div>
+                            </div>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+                <a class="left carousel-control" href="#mySlider" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#mySlider" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-        <div class="slad">
-            <button class="btn waves-effect waves-light btn-grd-primary ">Читать</button>
-
-            <img src="/img/kar1.png" style="width: 250px; height: 180px">
-        </div>
-        <div class="slad">
-
-            <button class="btn waves-effect waves-light btn-grd-primary">Читать</button>
-
-            <img src="/img/kar1.png" style="width: 250px; height: 180px">
-        </div>
-        <div class="slad">
-
-            <button class="btn waves-effect waves-light btn-grd-primary">Читать</button>
-
-            <img src="/img/kar1.png" style="width: 250px; height: 180px">
-        </div>
-        <div class="slad">
-
-            <button class="btn waves-effect waves-light btn-grd-primary">Читать</button>
-
-            <img src="/img/kar1.png" style="width: 250px; height: 180px">
-        </div>
-    </section>
+    </div>
     <?php /*
 <!СЛАЙДЕР>
 */ ?>

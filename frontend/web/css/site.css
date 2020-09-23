@@ -554,3 +554,56 @@ li.menu:hover{
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
+
+/**
+--------------------------------------------------------------------------
+ */
+.carousel .carousel-inner{
+    height: 25vh;
+}
+.carousel-inner > .item {
+    height: 25vh;
+    cursor: pointer;
+}
+.img-responsive {
+    height: 25vh;
+}
+
+.item:hover .carousel-caption h3{
+    color: #3c8dbc;
+}
+@media (min-width: 992px) {
+    .item.active-next {
+        display: block;
+    }
+}
+
+.carousel-inner > .item.active,
+.carousel-inner > .item.active-next {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.carousel-inner > .item:not(.active):not(.active-next) {
+    opacity: 0.5;
+
+}
+
+.carousel-inner > .item.transitioning {
+    opacity: 0.2;
+    transition: all 0.4s ease;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-color: black;
+    z-index: 99;
+}
+
+.carousel-inner > .item.active {
+    transform: translate3d(0,0,0);
+}
+.carousel-inner > .item.active.col-md-pull-4,
+.carousel-inner > .item.active.col-md-pull-8 {
+    left:initial;
+}

@@ -1,6 +1,5 @@
 <?php
 
-use mihaildev\ckeditor\CKEditor;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -18,13 +17,10 @@ $this->title = $title;
     <?php $form = ActiveForm::begin(); ?>
 
 
-    <?= $form->field($model, 'content')->widget(CKEditor::className(), [
-        'editorOptions' => [
-            'preset' => 'full', //разработанны стандартные настройки basic, standard, full данную возможность не обязательно использовать
-            'inline' => false, //по умолчанию false
-        ],
-    ])->label('Главная'); ?>
+    <?= $form->field($model, 'content')->widget(\stkevich\ckeditor5\EditorClassic::className(),
+        [
 
+        ])->label('Главная'); ?>
 
 
     <div class="form-group">

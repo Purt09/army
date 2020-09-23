@@ -37,12 +37,9 @@ use core\entities\News\NewsPublications;
         <?= $form->field($publications, 'course55')->checkbox() ?>
     </div>
     <div class="col-sm-12">
-        <?= $form->field($model, 'content')->widget(CKEditor::className(),[
-            'editorOptions' => [
-                'preset' => 'full', //разработанны стандартные настройки basic, standard, full данную возможность не обязательно использовать
-                'inline' => false, //по умолчанию false
-            ],
-        ]); ?>
+        <?= $form->field($model, 'content')->widget(\stkevich\ckeditor5\EditorClassic::className(),
+            [
+            ])->label('Главная'); ?>
 
         <?= $form->field($model, 'status')->dropDownList(NewsHelpers::statusList()) ?>
 

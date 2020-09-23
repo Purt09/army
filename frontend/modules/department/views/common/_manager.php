@@ -129,7 +129,7 @@ $this->title = 'Управление ' . $title;
                     <span class="info-box-icon"><i class="fa fa-flag"></i></span>
 
                     <div class="info-box-content">
-                        <span class="info-box-text">Управление выпускниками</span>
+                        <span class="info-box-text">Управление впр</span>
                         <span class="info-box-number">Редактирование</span>
                         <span class="info-box-number">страницы</span>
 
