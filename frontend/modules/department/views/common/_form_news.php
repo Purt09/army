@@ -45,7 +45,8 @@ use core\entities\News\NewsPublications;
 
         <?= $form->field($model, 'img')->widget(\kartik\widgets\FileInput::className(), [
             'pluginOptions' => [
-                'maxFileSize' => 2800,
+                'maxFileSize' => 1000,
+                'allowedFileExtensions'=>['jpg', 'jpeg', 'gif','png']
             ],
             'options' => ['multiple' => false]
         ]) ?>

@@ -41,7 +41,7 @@ class FiveFiveController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb', 'immortal-regiment-view'],
+                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-graduate' ],
                 'rules' => [
                     [
                         'allow' => true,

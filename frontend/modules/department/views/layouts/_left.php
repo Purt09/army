@@ -10,15 +10,15 @@ use core\helpers\user\RbacHelpers;
         $items = [
             ['label' => \frontend\widget\LabelEmblemaWidget::widget(), 'options' => ['class' => 'header']],
             [
+                'label' => 'ВПР',
+                'icon' => 'user',
+                'url' => ['immortal-regiment-view'],
+            ],
+            [
                 'label' => 'УМБ',
                 'icon' => 'pencil-square-o',
                 'url' => ['ymb'],
             ],
-            [
-                'label' => 'ВПР',
-                'icon' => 'user',
-                'url' => ['immortal-regiment-view'],
-            ]
         ];
         if (RbacHelpers::checkRole(RbacHelpers::$MANAGER) || RbacHelpers::checkRole(RbacHelpers::$ADMIN)) {
             array_push($items,[

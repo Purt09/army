@@ -36,7 +36,11 @@ trait CommonTraits
         $publications = new NewsPublications();
 
         if ($model->load(Yii::$app->request->post()) && $publications->load(Yii::$app->request->post())) {
-            $this->newsService->createNews($model, $publications);
+            try {
+                $this->newsService->createNews($model, $publications);
+            } catch (\Exception $e) {
+                \Yii::$app->session->setFlash('error', $e->getMessage());
+            }
             Yii::$app->session->setFlash('success', 'Новость опубликована');
             return $this->redirect(['index']);
         }
