@@ -1,7 +1,6 @@
 <?php
 
 use core\helpers\NewsHelpers;
-use mihaildev\ckeditor\CKEditor;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use core\entities\News\NewsPublications;
@@ -37,9 +36,13 @@ use core\entities\News\NewsPublications;
         <?= $form->field($publications, 'course55')->checkbox() ?>
     </div>
     <div class="col-sm-12">
+
+
+
         <?= $form->field($model, 'content')->widget(\stkevich\ckeditor5\EditorClassic::className(),
             [
-            ])->label('Главная'); ?>
+
+            ])->label('Главная'); ?>c
 
         <?= $form->field($model, 'status')->dropDownList(NewsHelpers::statusList()) ?>
 

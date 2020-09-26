@@ -10,6 +10,7 @@ return [
         '<_a:about>' => 'site/<_a>',
         'contact' => 'contact/index',
         'signup' => 'auth/signup/request',
+        'site/login' => 'lk/auth/login',
         'signup/<_a:[\w-]+>' => 'auth/signup/<_a>',
         '<_a:login|logout>' => 'lk/auth/<_a>',
         '<_c:[\w\-]+>' => '<_c>/index',

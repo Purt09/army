@@ -73,5 +73,25 @@ return [
             'class' => 'frontend\modules\fileManager\SimpleFilemanagerModule',
         ],
     ],
+    'controllerMap' => [
+        'elfinder' => [
+            'class' => 'mihaildev\elfinder\Controller',
+            'access' => ['read' => '@', 'write' => 'officer'],
+            'roots' => [
+                [
+                    'path' => 'files/fakultet',
+                    'name' => 'Факультет' //перевод Yii::t($category, $message)
+                ],
+                [
+                    'path'   => 'files/podrazdelenia',
+                    'name'   => 'Подразделения', // Yii::t($category, $message)
+                ],
+                [
+                    'path'   => 'files/prikaz',
+                    'name'   => 'Приказания', // Yii::t($category, $message)
+                ]
+            ],
+        ]
+    ],
     'params' => $params,
 ];

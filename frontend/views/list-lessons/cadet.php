@@ -163,7 +163,7 @@ $this->title = '';
 
     <div class="container mb-3">
 
-        <h1 class="text-center mt-3">Расписание занятий Весна 2020-2021</h1><hr />
+        <h1 class="text-center mt-3">Расписание занятий Весна 2019-2020</h1><hr />
     </div>
     <div class="col-sm-12">
         <div class="col-sm-3 kafedra_block">

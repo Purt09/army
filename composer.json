@@ -34,7 +34,8 @@
         "codemix/yii2-excelexport": "^2.7",
         "mihaildev/yii2-ckeditor": "*",
         "ext-mbstring": "*",
-        "harunmahfud/yii2-ckeditor5": "dev-master"
+        "harunmahfud/yii2-ckeditor5": "dev-master",
+        "mihaildev/yii2-elfinder": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

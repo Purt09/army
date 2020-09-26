@@ -1,6 +1,7 @@
 <?php
 
 use core\helpers\user\RbacHelpers;
+use mihaildev\elfinder\InputFile;
 use yii\grid\GridView;
 use yii\helpers\Html;
 use \frontend\modules\fileManager\models\Directory;
@@ -18,6 +19,17 @@ if (!isset($this->params['breadcrumbs'])) {
     $this->params['breadcrumbs'] = [];
 }
 $path = $directory->path;
+?>
+
+<?php
+
+echo InputFile::widget([
+    'language'   => 'ru',
+    'controller' => 'elfinder', // вставляем название контроллера, по умолчанию равен elfinder
+    'filter'     => 'image',    // фильтр файлов, можно задать массив фильтров https://github.com/Studio-42/elFinder/wiki/Client-configuration-options#wiki-onlyMimes
+    'name'       => 'myinput',
+    'value'      => '',
+]);
 ?>
 <div class="simple-filemanager">
     <p>

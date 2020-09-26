@@ -44,9 +44,9 @@ return [
             'icon' => 'file',
             'url' => '#',
             'items' => [
-                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=11'],],
-                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=10'],],
-                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=12'],],
+                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/elfinder/manager'], 'itemOptions' => ['target' => '_blank']],
+                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['elfinder/manager'],],
+                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['elfinder/manager'],],
             ],
         ],
         [
