@@ -72,11 +72,14 @@ return [
         'fileManager' => [
             'class' => 'frontend\modules\fileManager\SimpleFilemanagerModule',
         ],
+        'api' => [
+            'class' => 'frontend\modules\api\Module',
+        ],
     ],
     'controllerMap' => [
         'elfinder' => [
             'class' => 'mihaildev\elfinder\Controller',
-            'access' => ['read' => '@', 'write' => 'officer'],
+            'access' => ['read' => '*', 'write' => 'officer'],
             'roots' => [
                 [
                     'path' => 'files/fakultet',
@@ -90,6 +93,88 @@ return [
                     'path'   => 'files/prikaz',
                     'name'   => 'Приказания', // Yii::t($category, $message)
                 ]
+            ],
+            'managerOptions' => [
+                'handlers' => [
+                    'open' => 'function(event, elfinderInstance) {
+                                    console.log(elfinderInstance);
+                                    $.ajax({
+                                      url: \'http://5f.vka/api/files/open\',
+                                      data: event.data, 
+                                      success: function(data){
+                                        console.log(\'open\');
+                                        console.log(data);
+                                      },
+                                      error: function(data){
+                                      }
+                                    });
+                                }',
+                    'rename' => 'function(event, elfinderInstance) {
+                                    console.log(elfinderInstance);
+                                    $.ajax({
+                                      url: \'http://5f.vka/api/files/rename\',
+                                      data: event.data, 
+                                      success: function(data){
+                                        console.log(\'rename\');
+                                        console.log(data);
+                                      },
+                                      error: function(data){
+                                      }
+                                    });
+                                }',
+                    'remove' => 'function(event, elfinderInstance) {
+                                    console.log(elfinderInstance);
+                                    $.ajax({
+                                      url: \'http://5f.vka/api/files/remove\',
+                                      data: event.data, 
+                                      success: function(data){
+                                        console.log(\'remove\');
+                                        console.log(data);
+                                      },
+                                      error: function(data){
+                                      }
+                                    });
+                                }',
+                    'download' => 'function(event, elfinderInstance) {
+                                    console.log(elfinderInstance);
+                                    $.ajax({
+                                      url: \'http://5f.vka/api/files/download\',
+                                      data: event.data, 
+                                      success: function(data){
+                                        console.log(\'download\');
+                                        console.log(data);
+                                      },
+                                      error: function(data){
+                                      }
+                                    });
+                                }',
+                    'upload' => 'function(event, elfinderInstance) {
+                                    console.log(elfinderInstance);
+                                    $.ajax({
+                                      url: \'http://5f.vka/api/files/upload\',
+                                      data: event.data, 
+                                      success: function(data){
+                                        console.log(\'upload\');
+                                        console.log(data);
+                                      },
+                                      error: function(data){
+                                      }
+                                    });
+                                }',
+                    'add' => 'function(event, elfinderInstance) {
+                                    console.log(elfinderInstance);
+                                    $.ajax({
+                                      url: \'http://5f.vka/api/files/add\',
+                                      data: event.data, 
+                                      success: function(data){
+                                        console.log(\'add\');
+                                        console.log(data);
+                                      },
+                                      error: function(data){
+                                      }
+                                    });
+                                }',
+                ],
             ],
         ]
     ],

@@ -19,7 +19,7 @@
                 'items' => [
                     ['label' => 'Страницы', 'icon' => 'list', 'url' => ['/pages/manager/index'],],
                     ['label' => 'Новости', 'icon' => 'list', 'url' => ['/news/index'],],
-                    ['label' => 'Файлы', 'icon' => 'file', 'url' => ['/common/file'],],
+                    ['label' => 'Файлы', 'icon' => 'file', 'url' => ['/common/files'],],
                     [
                         'label' => 'Общие настройки',
                         'icon' => 'cog',

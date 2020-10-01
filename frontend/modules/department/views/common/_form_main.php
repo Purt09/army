@@ -17,10 +17,7 @@ $this->title = $title;
     <?php $form = ActiveForm::begin(); ?>
 
 
-    <?= $form->field($model, 'content')->widget(\stkevich\ckeditor5\EditorClassic::className(),
-        [
-
-        ])->label('Главная'); ?>
+    <?= $form->field($model, 'content')->widget(\stkevich\ckeditor5\EditorClassic::className())->label('Главная'); ?>
 
 
     <div class="form-group">

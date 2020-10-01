@@ -66,7 +66,7 @@ class FiveFiveController extends Controller
         $main = Page::find()->where(['alias' => 'main_55kaf_general'])->one();
 
         $news = $this->news->getNewsByType('54_cafedra')->all();
-        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA55, RbacHelpers::$FAKULTET);
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA55, RbacHelpers::$MANAGER);
 
         return $this->render('index', [
             'news' => $news,
