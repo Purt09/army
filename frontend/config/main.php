@@ -92,6 +92,10 @@ return [
                 [
                     'path'   => 'files/prikaz',
                     'name'   => 'Приказания', // Yii::t($category, $message)
+                ],
+                [
+                    'path'   => 'files/test',
+                    'name'   => 'test', // Yii::t($category, $message)
                 ]
             ],
             'managerOptions' => [
@@ -100,7 +104,7 @@ return [
                                     console.log(elfinderInstance);
                                     $.ajax({
                                       url: \'http://5f.vka/api/files/open\',
-                                      data: event.data, 
+                                      data: event.data,
                                       success: function(data){
                                         console.log(\'open\');
                                         console.log(data);
@@ -113,7 +117,7 @@ return [
                                     console.log(elfinderInstance);
                                     $.ajax({
                                       url: \'http://5f.vka/api/files/rename\',
-                                      data: event.data, 
+                                      data: event.data,
                                       success: function(data){
                                         console.log(\'rename\');
                                         console.log(data);
@@ -126,7 +130,7 @@ return [
                                     console.log(elfinderInstance);
                                     $.ajax({
                                       url: \'http://5f.vka/api/files/remove\',
-                                      data: event.data, 
+                                      data: event.data,
                                       success: function(data){
                                         console.log(\'remove\');
                                         console.log(data);
@@ -139,7 +143,7 @@ return [
                                     console.log(elfinderInstance);
                                     $.ajax({
                                       url: \'http://5f.vka/api/files/download\',
-                                      data: event.data, 
+                                      data: event.data,
                                       success: function(data){
                                         console.log(\'download\');
                                         console.log(data);
@@ -152,7 +156,7 @@ return [
                                     console.log(elfinderInstance);
                                     $.ajax({
                                       url: \'http://5f.vka/api/files/upload\',
-                                      data: event.data, 
+                                      data: event.data,
                                       success: function(data){
                                         console.log(\'upload\');
                                         console.log(data);
@@ -165,7 +169,7 @@ return [
                                     console.log(elfinderInstance);
                                     $.ajax({
                                       url: \'http://5f.vka/api/files/add\',
-                                      data: event.data, 
+                                      data: event.data,
                                       success: function(data){
                                         console.log(\'add\');
                                         console.log(data);
