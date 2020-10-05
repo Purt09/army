@@ -89,6 +89,7 @@ use dmstr\widgets\Alert;
                                 'url' => '#',
                                 'items' => [
                                     ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii'],],
+                                    ['label' => 'log', 'icon' => 'file', 'url' => ['/common/log'],],
                                     ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug'],],
                                 ],
                             ],
