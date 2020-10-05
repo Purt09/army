@@ -65,7 +65,7 @@ class FiveTwoController extends Controller
 
 
         $news = $this->news->getNewsByType('52_cafedra')->all();
-        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA55, RbacHelpers::$MANAGER);
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA52, RbacHelpers::$MANAGER);
 
         return $this->render('index', [
             'news' => $news,

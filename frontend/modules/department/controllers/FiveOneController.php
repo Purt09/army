@@ -67,7 +67,7 @@ class FiveOneController extends Controller
 
 
         $news = $this->news->getNewsByType('51_cafedra')->all();
-        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA55, RbacHelpers::$MANAGER);
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA51, RbacHelpers::$MANAGER);
 
         return $this->render('index', [
             'news' => $news,
@@ -212,7 +212,7 @@ class FiveOneController extends Controller
     {
         $searchModel = new NewsSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams, '51_cafedra');
-        
+
 
         return $this->render('news', [
             'searchModel' => $searchModel,
