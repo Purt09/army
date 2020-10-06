@@ -19,7 +19,7 @@ $this->title = 'Профиль';
 
                 <h3 class="profile-username text-center"><?= $user->firstname ?> <?= $user->sirname ?></h3>
 
-                <p class="text-muted text-center"><?= $user->lastname ?>r</p>
+                <p class="text-muted text-center"><?= $user->lastname ?></p>
 
                 <ul class="list-group list-group-unbordered">
                     <li class="list-group-item">
@@ -62,16 +62,16 @@ $this->title = 'Профиль';
                 <strong><i class="fa fa-phone margin-r-5"></i> Номера телефонов:</strong>
 
                 <p class="text-muted">
-                    <?= $user->mobile_phone ?>
+                    Мобильный: <?= $user->mobile_phone ?>
                 </p>
                 <p class="text-muted">
-                    <?= $user->home_phone ?>
+                    Домашний: <?= $user->home_phone ?>
                 </p>
                 <p class="text-muted">
-                    <?= $user->work_phone ?>
+                    Рабочий: <?= $user->work_phone ?>
                 </p>
                 <p class="text-muted">
-                    <?= $user->wife_mobile_phone ?>
+                    Жена: <?= $user->wife_mobile_phone ?>
                 </p>
 
                 <hr>
