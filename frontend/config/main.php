@@ -80,6 +80,13 @@ return [
         'elfinder' => [
             'class' => 'mihaildev\elfinder\Controller',
             'access' => ['read' => '*', 'write' => 'officer'],
+            'plugin' => [
+                [
+                    'class'=>'\mihaildev\elfinder\plugin\Sluggable',
+                    'lowercase' => true,
+                    'replacement' => '-'
+                ]
+            ],
             'roots' => [
                 [
                     'path' => 'files/fakultet',
