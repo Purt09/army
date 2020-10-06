@@ -8,7 +8,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
-$this->title = "Обновление звания у " . $staff->fio;
+$this->title = "Обновление должности у " . $staff->fio;
 
 ?>
 

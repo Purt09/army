@@ -14,8 +14,8 @@ $this->title = 'Профиль';
         <!-- Profile Image -->
         <div class="box box-primary">
             <div class="box-body box-profile">
-                <img class="profile-user-img img-responsive img-circle" src="<?= $user->foto ?>"
-                     alt="User profile picture">
+                <img class="profile-user-img img-responsive" src="<?= $user->foto ?>"
+                     alt="User profile picture" style="height: auto">
 
                 <h3 class="profile-username text-center"><?= $user->firstname ?> <?= $user->sirname ?></h3>
 
@@ -44,7 +44,7 @@ $this->title = 'Профиль';
                         <li><a href="<?= \yii\helpers\Url::to(['rank/index', 'id' => $user->id]) ?>">Изменить звание</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['position/add', 'id' => $user->id]) ?>">Изменить должность</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['science-graduate/add', 'id' => $user->id]) ?>">Добавить ученую степень</a></li>
-                        <li><a href="<?= \yii\helpers\Url::to(['science-rank/add', 'id' => $user->id]) ?>">Добавить ученый ранк </a></li>
+                        <li><a href="<?= \yii\helpers\Url::to(['science-rank/add', 'id' => $user->id]) ?>">Добавить ученое звание </a></li>
                     </ul>
                 <?php endif; ?>
             </div>

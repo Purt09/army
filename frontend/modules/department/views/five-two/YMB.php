@@ -194,20 +194,20 @@ $two = '
         <div class="col-sm-3 caferdra_emblema">
             <img src="/img/эмб52.png" alt="Эмблема" height="70px">
         </div>
-                 <div class="col-sm-12 karusel-umb">
+             <div class="col-sm-12 karusel-umb">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4" class=""></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
-        <div class="item active">
+        <div class="item">
           <img src="/img/ymb/111.png" alt="...">
           <div class="carousel-caption">
             <h4>Доклад курсанта 5 курса о метеорологической обстановке 
@@ -229,7 +229,7 @@ $two = '
             <h4>Обработка метеорологических данных</h4>
           </div>
         </div>
-         <div class="item">
+         <div class="item active">
           <img src="/img/ymb/122.png" alt="...">
           <div class="carousel-caption">
             <h4>Сбор метеорологических данных </h4>

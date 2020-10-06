@@ -34,11 +34,11 @@ class NewsController extends Controller
         $publications = NewsPublications::findOne($model->publications);
 
         if ($model->load(Yii::$app->request->post()) && $publications->load(Yii::$app->request->post())) {
-            if(!empty($_FILES['News']['name']['img'])){
+            if (!empty($_FILES['News']['name']['img'])) {
                 $file = file_get_contents($_FILES['News']['tmp_name']['img']);
                 $type = $_FILES['News']['type']['img'];
                 $imageData = base64_encode($file);
-                $src = 'data: '. $type.';base64,'.$imageData;
+                $src = 'data: ' . $type . ';base64,' . $imageData;
                 $model->img = $src;
             }
 
@@ -65,9 +65,10 @@ class NewsController extends Controller
     {
         $news = $this->findModel($id);
         $publications = NewsPublications::findOne($news->publications);
-        $publications->delete();
-        $news->delete();
-
+        Yii::$app->db->transaction(function ($db) use ($publications, $news) {
+            $publications->delete();
+            $news->delete();
+        });
         return $this->redirect(Yii::$app->request->referrer);
     }
 

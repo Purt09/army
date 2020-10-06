@@ -65,7 +65,7 @@ $one = '
                <div class="item" style="left: 0px;">
           <img src="/img/ymb/224.png" alt="...">
           <div class="carousel-caption">
-            <h4>ККурсанты на практических занятиях изучают изделие </h4>
+            <h4>Курсанты на практических занятиях изучают изделие </h4>
           </div>
         </div>
       </div>
@@ -237,7 +237,7 @@ $two = '   <section>
                <div class="item" style="left: 0px;">
           <img src="/img/ymb/224.png" alt="...">
           <div class="carousel-caption">
-            <h4>ККурсанты на практических занятиях изучают изделие </h4>
+            <h4>Курсанты на практических занятиях изучают изделие </h4>
           </div>
         </div>
       </div>
