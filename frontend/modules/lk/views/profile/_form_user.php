@@ -21,6 +21,7 @@ use yii\widgets\MaskedInput;
             <!-- /.box-header -->
             <div class="box-body">
                 <a class="btn btn-primary" href="<?= \yii\helpers\Url::to(['profile/setting-photo', 'id' => $model->id])?>"> Изменить фото </a>
+                <a class="btn btn-primary" href="<?= \yii\helpers\Url::to(['profile/setting-password', 'id' => $model->id])?>"> Сбросить пароль </a>
 
                 <?= $form->field($model, 'firstname')->textInput() ?>
                 <?= $form->field($model, 'lastname')->textInput() ?>

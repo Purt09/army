@@ -5,6 +5,7 @@ namespace frontend\modules\lk\controllers;
 
 
 use common\repositories\NotFoundException;
+use core\entities\User\MdlUser;
 use core\entities\User\TblStaff;
 use core\entities\User\User;
 use core\helpers\user\RbacHelpers;
@@ -42,6 +43,23 @@ class ProfileController extends MainController
 
         return $this->render('setting-photo', [
             'model' => $this->staff
+        ]);
+    }
+
+    public function actionSettingPassword($id)
+    {
+        if ($this->staff->user->load(Yii::$app->request->post()) && $this->staff->user->validate()){
+            $this->staff->user->password_hash = Yii::$app->getSecurity()->generatePasswordHash($this->staff->user->password);
+            $moodle = MdlUser::findOne($this->staff->user->user_moodle_id);
+            $moodle->password = Yii::$app->getSecurity()->generatePasswordHash($this->staff->user->password);
+            if ($this->staff->user->save() && $moodle->save()){
+                Yii::$app->session->setFlash('success', 'Пароль сброшен');
+            }
+        }
+
+
+        return $this->render('setting-password', [
+            'model' => $this->staff->user
         ]);
     }
 

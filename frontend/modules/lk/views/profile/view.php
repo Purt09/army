@@ -24,12 +24,24 @@ $this->title = 'Профиль';
                 <ul class="list-group list-group-unbordered">
                     <li class="list-group-item">
                         <b>Звание: </b>
-                        <?= $user->getRank() ?>
+                        <?php if (\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                            <a href="<?= \yii\helpers\Url::to(['rank/edit', 'id' => $user->id, 'rank_id' => $user->id_current_mil_rank]) ?>">
+                                <?= $user->getRank() ?>
+                            </a>
+                        <?php else: ?>
+                            <?= $user->getRank() ?>
+                        <?php endif; ?>
                         <a href="<?= \yii\helpers\Url::to(['rank/history', 'id' => $user->id]) ?>">(История)</a>
                     </li>
                     <li class="list-group-item">
                         <b>Должность: </b>
-                        <?= $user->getPosition() ?>
+                        <?php if (\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                            <a href="<?= \yii\helpers\Url::to(['position/edit', 'id' => $user->id, 'position_id' => $user->id_current_mil_position]) ?>">
+                                <?= $user->getPosition() ?>
+                            </a>
+                        <?php else: ?>
+                            <?= $user->getPosition() ?>
+                        <?php endif; ?>
                         <a href="<?= \yii\helpers\Url::to(['position/history', 'id' => $user->id]) ?>">(История)</a>
                     </li>
                     <?= \core\helpers\user\UserHelper::getScienceGraduates($user) ?>
@@ -41,8 +53,8 @@ $this->title = 'Профиль';
                 <?php if (\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
                     <b>Панель управления пользователем: </b>
                     <ul>
-                        <li><a href="<?= \yii\helpers\Url::to(['rank/index', 'id' => $user->id]) ?>">Изменить звание</a></li>
-                        <li><a href="<?= \yii\helpers\Url::to(['position/add', 'id' => $user->id]) ?>">Изменить должность</a></li>
+                        <li><a href="<?= \yii\helpers\Url::to(['rank/index', 'id' => $user->id]) ?>">Добавить звание</a></li>
+                        <li><a href="<?= \yii\helpers\Url::to(['position/add', 'id' => $user->id]) ?>"> Добавить должность</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['science-graduate/add', 'id' => $user->id]) ?>">Добавить ученую степень</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['science-rank/add', 'id' => $user->id]) ?>">Добавить ученое звание </a></li>
                     </ul>

@@ -8,8 +8,8 @@ $this->title = " Учебно-материальная база";
 ?>
 
 <?php
-$one = '<img src="/img/ymb/5.png" class="img-responsive image" alt="1">';
-$two = '<img src="/img/ymb/51.png" class="img-responsive image" alt="2">';
+$one = '<img src="/img/ymb/5.png" class="image" alt="1">';
+$two = '<img src="/img/ymb/51.png" class="image" alt="2">';
 $free = 'Не заполнено';
     $four = 'Не заполнено';
 ?>

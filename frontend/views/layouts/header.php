@@ -26,12 +26,13 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                 <div class="row carousel-inner center-block">
                     <?php foreach ($news as $new): ?>
                         <a href="<?= '/news/' . $new->id ?>">
-                            <div class="col-md-4 item active">
+                            <div class="col-md-3 item active">
                                 <img src="<?= $new->img ?>" class="img-responsive center-block" style="height: 25vh;">
                                 <div class="carousel-caption">
                                     <h3><?= mb_strimwidth($new->title, 0, 50, "..."); ?></h3>
                                 </div>
                             </div>
+                            <div class="col-md-1"></div>
                         </a>
                     <?php endforeach; ?>
                 </div>

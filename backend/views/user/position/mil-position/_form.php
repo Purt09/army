@@ -25,8 +25,6 @@ use yii\widgets\ActiveForm;
 <!--    --><?//= $form->field($model, 'r_icon')->textInput() ?>
 <!---->
 <!--    --><?//= $form->field($model, 'record_fill_color')->textInput() ?>
-<!---->
-<!--    --><?//= $form->field($model, 'record_text_color')->textInput() ?>
 
     <?= $form->field($model, 'name')->textInput() ?>
 

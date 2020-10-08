@@ -4,9 +4,10 @@
  * @var $model \bupy7\pages\models\Page
  * @var $users array
  * @var $news \core\entities\News\NewsPublications[]
+ * @var $history \bupy7\pages\models\Page
  */
 
-$this->title = 'Управление факультетом';
+$this->title = '5 факультет';
 
 ?>
 
@@ -35,14 +36,18 @@ $main .= '
 <?= \yii\bootstrap\Tabs::widget([
     'items' => [
         [
-            'label' => 'Новости',
+            'label' => 'О факультете',
+            'content' => $main,
+        ],
+        [
+            'label' => 'Новости 5 факультета',
             'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
                 'news' => $news,
                 'role' => \core\helpers\user\RbacHelpers::$FAKULTET]),
         ],
         [
-            'label' => 'О факультете',
-            'content' => $main,
+            'label' => 'История факультета',
+            'content' => $history->content,
         ],
     ],
 ]);

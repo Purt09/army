@@ -9,6 +9,9 @@ use core\entities\News\NewsPublications;
 ?>
 <div class="col-sm-9">
     <?php foreach ($news as $item): ?>
+    <?php if($item->articles->status != \core\entities\News\News::STATUS_ACTIVE) {
+        continue;
+    } ?>
         <div class="row">
             <div class="col-md-2 blog_box">
                 <a href="/news/<?= $item->articles->id ?>" class="mask">

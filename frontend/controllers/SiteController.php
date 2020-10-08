@@ -35,15 +35,17 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $content = Page::find()->where(['alias' => 'main'])->one();
+        $model = Page::find()->where(['alias' => 'main_fak_general'])->one();
         $history = Page::find()->where(['alias' => 'history-main'])->one();
 
         $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$MANAGER, RbacHelpers::$FAKULTET);
 
         return $this->render('index', [
-            'content' => $content,
-            'history' => $history,
-            'news' => $news
+            'news' => $news,
+            'model' => $model,
+            'users' => $users,
+            'history' => $history
         ]);
     }
 

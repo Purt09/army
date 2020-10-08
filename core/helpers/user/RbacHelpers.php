@@ -130,7 +130,9 @@ class RbacHelpers
         $result = [];
         foreach ($users as $user)
             array_push($result, $user['user_base_id']);
-        return TblStaff::find()->where(['id' => $result])->all();
+        $users = TblStaff::find()->where(['id' => $result])->with('currentMilPosition.milPosition')->all();
+        ArrayHelper::multisort($users, 'currentMilPosition.milPosition.id', SORT_DESC);
+        return $users;
     }
 
     /**
