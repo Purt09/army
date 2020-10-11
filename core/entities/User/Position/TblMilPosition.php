@@ -19,6 +19,7 @@ use Yii;
  * @property int|null $record_fill_color
  * @property int|null $record_text_color
  * @property string $name Название
+ * @property int|null $position
  *
  * @property TblEioTable334[] $tblEioTable334s
  * @property IoStates $ioState
@@ -46,7 +47,7 @@ class TblMilPosition extends \yii\db\ActiveRecord
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'name'], 'string'],
             [['last_update'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color'], 'default', 'value' => null],
-            [['id_io_state', 'record_fill_color', 'record_text_color'], 'integer'],
+            [['id_io_state', 'record_fill_color', 'record_text_color', 'position'], 'integer'],
             [['unique_id'], 'unique'],
             [['uuid_t'], 'unique'],
             [['id_io_state'], 'exist', 'skipOnError' => true, 'targetClass' => IoStates::className(), 'targetAttribute' => ['id_io_state' => 'id']],
@@ -69,6 +70,7 @@ class TblMilPosition extends \yii\db\ActiveRecord
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
             'name' => 'Должность',
+            'position' => 'Сортировка'
         ];
     }
 

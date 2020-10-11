@@ -9,8 +9,6 @@ use common\forms\auth\LoginForm;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use core\entities\News\NewsSearch;
-use core\entities\User\TblStaff;
-use core\entities\User\User;
 use core\repositories\news\NewsRepository;
 use core\helpers\user\RbacHelpers;
 use core\services\auth\AuthService;
@@ -155,7 +153,7 @@ class CommonController extends Controller
     {
         $model = Page::find()->where(['alias' => 'immortal_regiment_main'])->one();
 
-        return $this->render('../common/immortal-regiment', [
+        return $this->render('immortal-regiment', [
             'model' => $model,
             'title' => 'Бессмертный полк факультета'
         ]);
@@ -274,20 +272,17 @@ class CommonController extends Controller
 
     public function actionUsers()
     {
-        $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$FAKULTET);
-        $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$OFFICER);
-        $users = array_intersect($users1, $users2);
-        $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();
-        $result = [];
-        foreach ($users as $user)
-            array_push($result, $user['user_base_id']);
-        $users = TblStaff::find()->where(['id' => $result])->with('currentMilRank')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$FAKULTET, RbacHelpers::$OFFICER);
 
+        $fio = Yii::$app->request->post('fio');
+        if(!is_null($fio) & !empty($fio)) {
+            foreach ($users as $key => $user)
+                if(strripos($user->fio, $fio) === false)
+                    unset($users[$key]);
+
+        }
         $provider = new ArrayDataProvider([
             'allModels' => $users,
-            'sort' => [
-                'attributes' => ['id', 'fio', 'mobile_phone', 'birthday_date'],
-            ],
             'pagination' => [
                 'pageSize' => 20,
             ],

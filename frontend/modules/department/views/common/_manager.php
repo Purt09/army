@@ -11,7 +11,6 @@ $this->title = 'Управление ' . $title;
     <div class="box-header with-border">
         <h3 class="box-title">Новости</h3>
     </div>
-    <!-- /.box-header -->
     <div class="box-body">
 
         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -46,13 +45,11 @@ $this->title = 'Управление ' . $title;
             </a>
         </div>
     </div>
-    <!-- /.box-body -->
 </div>
 <div class="box box-success">
     <div class="box-header with-border">
         <h3 class="box-title">Статичные страницы</h3>
     </div>
-    <!-- /.box-header -->
     <div class="box-body">
 
         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -107,23 +104,6 @@ $this->title = 'Управление ' . $title;
             </a>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/graduate") ?>">
-                <div class="info-box bg-green">
-                    <span class="info-box-icon"><i class="fa fa-graduation-cap"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text">Управление выпускниками</span>
-                        <span class="info-box-number">Редактирование</span>
-                        <span class="info-box-number">страницы</span>
-
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
             <a class="box_link" href="<?= \yii\helpers\Url::to("/department/$controller/immortal-regiment") ?>">
                 <div class="info-box bg-green">
                     <span class="info-box-icon"><i class="fa fa-flag"></i></span>
@@ -141,5 +121,4 @@ $this->title = 'Управление ' . $title;
             </a>
         </div>
     </div>
-    <!-- /.box-body -->
 </div>

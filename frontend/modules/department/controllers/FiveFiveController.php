@@ -208,20 +208,18 @@ class FiveFiveController extends Controller
 
     public function actionUsers()
     {
-        $users1 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$CAFEDRA55);
-        $users2 = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$OFFICER);
-        $users = array_intersect($users1, $users2);
-        $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();
-        $result = [];
-        foreach ($users as $user)
-            array_push($result, $user['user_base_id']);
-        $users = TblStaff::find()->where(['id' => $result])->with('currentMilRank')->all();
+        $users = RbacHelpers::getByTwoRole(RbacHelpers::$CAFEDRA55, RbacHelpers::$OFFICER);
+
+        $fio = Yii::$app->request->post('fio');
+        if(!is_null($fio) & !empty($fio)) {
+            foreach ($users as $key => $user)
+                if(strripos($user->fio, $fio) === false)
+                    unset($users[$key]);
+
+        }
 
         $provider = new ArrayDataProvider([
             'allModels' => $users,
-            'sort' => [
-                'attributes' => ['id', 'fio', 'mobile_phone', 'birthday_date', 'id_current_mil_rank'],
-            ],
             'pagination' => [
                 'pageSize' => 20,
             ],

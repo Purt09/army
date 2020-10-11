@@ -36,6 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'record_fill_color',
             //'record_text_color',
             'name',
+            'position',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

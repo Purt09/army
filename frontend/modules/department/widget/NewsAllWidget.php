@@ -23,6 +23,9 @@ class NewsAllWidget extends Widget
             ->orderBy('birthday_date')
             ->limit(10)->all();
 
+        /**
+         * Здесь надо отстортировать по дате рождения. но не учитывать год рождения
+         */
 
         return $this->render('news-all', [
             'news' => $this->news,

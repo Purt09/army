@@ -9,12 +9,28 @@
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\helpers\Html;
+use yii\widgets\ActiveForm;
 
 $this->title = $title;
 
 ?>
 
-    <a href="<?= \yii\helpers\Url::to('add-user') ?>" class="btn btn-success">Добавить пользователя</a>
+    <div class="col-sm-2">
+        <a href="<?= \yii\helpers\Url::to('add-user') ?>" class="btn btn-success">Добавить пользователя</a>
+    </div>
+    <div class="col-sm-4">
+        <?php $form = ActiveForm::begin(); ?>
+
+        <div class="input-group">
+            <?= Html::textInput('fio', '', ['placeholder' => 'Поиск по ФИО', 'class' => 'form-control']) ?>
+            <span class="input-group-btn">
+            <?= Html::submitButton('Поиск', ['class' => 'btn btn-success']) ?>
+        </span>
+        </div>
+
+
+        <?php ActiveForm::end(); ?>
+    </div>
 
 
 <?= GridView::widget([

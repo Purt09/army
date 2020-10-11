@@ -35,6 +35,11 @@ return [
             'url' => ['/site/army'],
         ],
         [
+            'label' => 'ВПР',
+            'icon' => 'star',
+            'url' => ['/department/common/immortal-regiment-view'],
+        ],
+        [
             'label' => 'Спортивная работа',
             'icon' => 'trophy',
             'url' => ['/sport/index'],

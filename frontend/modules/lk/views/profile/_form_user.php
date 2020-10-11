@@ -79,6 +79,7 @@ use yii\widgets\MaskedInput;
                 <?= $form->field($model, 'passport_number')->widget(MaskedInput::className(), [
                     'mask' => '9999 999999',
                 ]) ?>
+                <?= $form->field($model, 'passport_adderss')->textInput() ?>
             </div>
         </div>
     </div>
@@ -93,12 +94,24 @@ use yii\widgets\MaskedInput;
                 <?= $form->field($model, 'udl_number')->widget(MaskedInput::className(), [
                     'mask' => 'AA9999999',
                 ]) ?>
-                <div class="form-group">
-                    <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
-                </div>
             </div>
         </div>
     </div>
+<div class="col-sm-6">
+    <div class="box box-success">
+        <div class="box-header with-border">
+            <h3 class="box-title">Автобюиография</h3>
+
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+            <?= $form->field($model, 'autobiography')->textarea() ?>
+            <div class="form-group">
+                <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php ActiveForm::end(); ?>

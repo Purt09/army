@@ -15,7 +15,7 @@ $this->title = 'Выпускники факультета';
 <?= $cafedra51->content ?>
 <?= $cafedra52->content ?>
 <?= $cafedra53->content ?>
-<?= $cafedra55->content ?>
+<?//= $cafedra55->content ?>
 
 
 

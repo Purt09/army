@@ -45,6 +45,10 @@ use core\entities\User\Vpr\TblStaffPromotion;
  * @property string $udl_number Номер удостоверения личности
  * @property string|null $foto Фото
  *
+ ***** Добавлялись уже после основго дампа
+ * @property string|null $autobiography
+ * @property string|null $passport_adderss
+ *
  * @property User $user
  * @property TblEducation[] $tblEducations
  * @property TblEioTable334[] $tblEioTable334s
@@ -93,6 +97,8 @@ class TblStaff extends \yii\db\ActiveRecord
                                   string $address, string $birthday_date, string $udl_number)
     {
         $user = new self();
+        $user->autobiography = 'Автобиография';
+        $user->passport_adderss = 'Прописка';
         $user->firstname = $firstName;
         $user->lastname = $lastName;
         $user->sirname = $sirName;
@@ -131,7 +137,7 @@ class TblStaff extends \yii\db\ActiveRecord
         return [
             [['lastname', 'firstname', 'sirname', 'passport_number', 'mobile_phone', 'address', 'birthday_date', 'udl_number'], 'required'],
             [['rr_name', 'r_icon', 'fio', 'lastname', 'firstname', 'sirname', 'passport_number', 'email', 'mobile_phone', 'wife_mobile_phone', 'home_phone', 'work_phone', 'address', 'udl_number', 'foto'], 'string'],
-            [['last_update', 'birthday_date'], 'safe'],
+            [['last_update', 'birthday_date', 'autobiography', 'passport_adderss'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_current_mil_rank', 'id_current_mil_position'], 'default', 'value' => null],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_current_mil_rank', 'id_current_mil_position'], 'integer'],
             [['unique_id'], 'unique'],
@@ -173,6 +179,8 @@ class TblStaff extends \yii\db\ActiveRecord
             'birthday_date' => 'Дата рождения',
             'udl_number' => 'Номер военного билета',
             'foto' => 'Фото',
+            'passport_adderss' => 'Прописка',
+            'autobiography' => 'Автобиография',
         ];
     }
 

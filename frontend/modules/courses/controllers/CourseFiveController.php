@@ -78,11 +78,16 @@ class CourseFiveController extends Controller
     {
         $users = RbacHelpers::getByTwoRole(RbacHelpers::$COURSE55, RbacHelpers::$CADET);
 
+        $fio = Yii::$app->request->post('fio');
+        if(!is_null($fio) & !empty($fio)) {
+            foreach ($users as $key => $user)
+                if(strripos($user->fio, $fio) === false)
+                    unset($users[$key]);
+
+        }
+
         $provider = new ArrayDataProvider([
             'allModels' => $users,
-            'sort' => [
-                'attributes' => ['id', 'fio', 'mobile_phone', 'birthday_date'],
-            ],
             'pagination' => [
                 'pageSize' => 20,
             ],
