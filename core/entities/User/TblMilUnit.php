@@ -2,10 +2,12 @@
 
 namespace core\entities\User;
 
+use core\entities\Education\Timetable;
 use core\entities\Rubish\IoStates;
 use core\entities\User\Position\TblStaffMilPosition;
 use core\entities\User\Vpr\ViewTypeTrait;
 use yii\helpers\ArrayHelper;
+use yii\helpers\Html;
 
 /**
  * This is the model class for table "tbl_mil_unit".
@@ -31,6 +33,7 @@ use yii\helpers\ArrayHelper;
  * @property TblEioTable334[] $tblEioTable334s
  * @property IoStates $ioState
  * @property TblMilUnit $parent
+ * @property Timetable[] $timetables
  * @property TblMilUnit[] $tblMilUnits
  * @property TblStaff $chief
  * @property TblStaffMilPosition[] $tblStaffMilPositions
@@ -44,6 +47,33 @@ class TblMilUnit extends \yii\db\ActiveRecord
     const FAKULTET5 = 1;
 
     use ViewTypeTrait;
+
+    /**
+     * Возвращает список типов
+     *
+     * @return array
+     */
+    public static function typeShortList(): array
+    {
+        $types = self::find()->all();
+        $types = ArrayHelper::toArray($types);
+        $types = ArrayHelper::map($types, 'id', 'short_name');
+        return $types;
+    }
+
+    /**
+     * Красивое оформление
+     *
+     * @param $type
+     * @return string
+     * @throws \Exception
+     */
+    public static function typeShortLabel($type)
+    {
+        return Html::tag('span', ArrayHelper::getValue(self::typeShortList(), $type), [
+            'class' => 'label label-success',
+        ]);
+    }
 
     /**
      * {@inheritdoc}
@@ -156,5 +186,15 @@ class TblMilUnit extends \yii\db\ActiveRecord
     public function getTblStaffMilPositions()
     {
         return $this->hasMany(TblStaffMilPosition::className(), ['id_mil_unit' => 'id']);
+    }
+
+    /**
+     * Gets query for [[TblStaffMilPositions]].
+     *
+     * @return \yii\db\ActiveQuery
+     */
+    public function getTimetables()
+    {
+        return $this->hasMany(Timetable::className(), ['unit_id' => 'id']);
     }
 }

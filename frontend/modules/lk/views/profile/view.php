@@ -108,7 +108,7 @@ $this->title = 'Профиль';
 
                 <strong><i class="fa fa-file-text-o margin-r-5"></i> Автобиография</strong>
 
-                <p>???</p>
+                <p><?= $user->autobiography ?></p>
             </div>
             <!-- /.box-body -->
         </div>
@@ -121,6 +121,11 @@ $this->title = 'Профиль';
             </div>
             <!-- /.box-header -->
             <div class="box-body">
+                <?php if(Yii::$app->user->id == $user->user->id || \core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
+                <a href="<?= \yii\helpers\Url::to(['setting', 'id' => $user->id]) ?>" class="btn btn-success">
+                    Редактировать профиль <i class="fa fa-pencil"></i>
+                </a> <br>
+                <?php endif; ?>
                 <?php if (\core\helpers\user\RbacHelpers::checkAccessManageUser($user)): ?>
                     <a href="<?= \yii\helpers\Url::to(['education/add', 'id' => $user->id]) ?>" class="btn btn-info">Добавить
                         образование</a>
@@ -136,6 +141,7 @@ $this->title = 'Профиль';
                                 <li>Дата поступления: <?= Yii::$app->formatter->asDate($education->datestart) ?></li>
                                 <li>Дата окончания: <?= Yii::$app->formatter->asDate($education->dateend) ?></li>
                                 <li>Номер диплома: <?= $education->diplom_number ?></li>
+                                <li><a href="<?= \yii\helpers\Url::to('/lk/education/edit?education_id=' . $education->id . '&id=' . $user->id)?>">Редактировать</a></li>
                             </ul>
                         <?php endforeach; ?>
                     </div>

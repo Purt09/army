@@ -6,6 +6,7 @@ namespace frontend\modules\department\controllers;
 
 use bupy7\pages\models\Page;
 use common\forms\auth\LoginForm;
+use core\entities\Education\Timetable;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use core\entities\News\NewsSearch;
@@ -21,6 +22,7 @@ use Yii;
 
 class CommonController extends Controller
 {
+    use CommonTimeTableTrait;
 
     private $newsService;
     private $news;
@@ -32,6 +34,34 @@ class CommonController extends Controller
         $this->newsService = new NewsService();
         $this->authService = new AuthService();
         parent::__construct($id, $module, $config);
+    }
+
+    public function actions()
+    {
+        return [
+            'file-upload-time' => [
+                'class' => \pantera\media\actions\kartik\MediaUploadActionKartik::className(),
+                'model' => function () {
+                    if (Yii::$app->request->get('id')) {
+                        return Timetable::findOne(Yii::$app->request->get('id'));
+                    } else {
+                        return new Test();
+                    }
+                }
+            ],
+            'file-delete-time' => [
+                'class' => \pantera\media\actions\kartik\MediaDeleteActionKartik::className(),
+                'model' => function () {
+                    return \pantera\media\models\Media::findOne(Yii::$app->request->get('id'));
+                }
+            ],
+            'file-sort-time' => [
+                'class' => \pantera\media\actions\kartik\MediaSortActionKartik::className(),
+                'model' => function () {
+                    return Timetable::findOne(Yii::$app->request->get('id'));
+                }
+            ],
+        ];
     }
 
     public function behaviors()
@@ -324,4 +354,22 @@ class CommonController extends Controller
         return $this->render('YMB', [
         ]);
     }
+
+    public function actionAnnouncement()
+    {
+        $model = Page::find()->where(['alias' => 'fakultet_announcement'])->one();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
+
+            Yii::$app->session->setFlash('success', 'Сохранено');
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('_form_main', [
+            'model' => $model,
+            'title' => 'Управление объявлениями(Оставьте пустым, чтобы не отображать)'
+        ]);
+    }
+
 }

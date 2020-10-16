@@ -25,4 +25,20 @@ class EducationController extends MainController
             'staff' => $this->staff
         ]);
     }
+
+    public function actionEdit($education_id)
+    {
+        $model = TblEducation::findOne($education_id);
+
+        if($model->load(\Yii::$app->request->post()) && $model->validate()){
+            if($model->save()){
+                \Yii::$app->session->setFlash('success', 'Образование изменено');
+                return $this->redirect(Yii::$app->request->referrer ?: Yii::$app->homeUrl);
+            }
+        }
+        return $this->render('add', [
+            'model' => $model,
+            'staff' => $this->staff
+        ]);
+    }
 }

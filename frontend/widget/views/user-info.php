@@ -13,8 +13,8 @@
                 <img class="user_photo img-responsive" src="<?= $user->foto ?>" alt="User profile picture">
             </div>
 
-            <h3 class="profile-username text-center"> <?= $user->firstname ?> <?= $user->lastname ?>
-                <br> <?= $user->sirname ?></h3>
+            <h3 class="profile-username text-center"> <?= $user->firstname ?> <?= $user->sirname ?>
+                <br> <?= $user->lastname ?> </h3>
 
             <p class="text-muted text-center">
 

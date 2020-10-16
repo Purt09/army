@@ -47,3 +47,4 @@ phpunit.phar
 /backend/web/robots.txt
 /frontend/web/file_manager
 /frontend/web/files
+/frontend/web/uploads/media
