@@ -10,6 +10,7 @@ return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'bootstrap' => [
+        'media',
         'log',
         'common\bootstrap\SetUp'
     ],
@@ -58,6 +59,10 @@ return [
         },
     ],
     'modules' => [
+        'media' => [
+            'class' => pantera\media\Module::className(),
+            'permissions' => ['admin'],
+        ],
         'lk' => [
             'class' => 'frontend\modules\lk\Module',
         ],

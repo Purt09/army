@@ -100,7 +100,7 @@ use yii\widgets\MaskedInput;
 <div class="col-sm-6">
     <div class="box box-success">
         <div class="box-header with-border">
-            <h3 class="box-title">Автобюиография</h3>
+            <h3 class="box-title">Автобиография</h3>
 
         </div>
         <!-- /.box-header -->

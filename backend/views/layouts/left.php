@@ -30,16 +30,26 @@
                         ],
                     ],
                     [
-                        'label' => 'Конференции',
+                        'label' => 'Образование',
                         'icon' => 'graduation-cap',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Конференции', 'icon' => '', 'url' => ['/user/science/science-conference'],],
-                            ['label' => 'Организаторы', 'icon' => '', 'url' => ['/user/science/conference-owner'],],
-                            ['label' => 'Уровень конференции', 'icon' => '', 'url' => ['/user/science/conference-rank'],],
-                            ['label' => 'Тип участия', 'icon' => '', 'url' => ['/user/science/conference-result-type'],],
+                            ['label' => 'Семестры', 'icon' => '', 'url' => ['/education/semester'],],
+                            ['label' => 'Расписание', 'icon' => '', 'url' => ['/education/timetable'],],
+                            [
+                                'label' => 'Конференции',
+                                'icon' => 'graduation-cap',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Конференции', 'icon' => '', 'url' => ['/user/science/science-conference'],],
+                                    ['label' => 'Организаторы', 'icon' => '', 'url' => ['/user/science/conference-owner'],],
+                                    ['label' => 'Уровень конференции', 'icon' => '', 'url' => ['/user/science/conference-rank'],],
+                                    ['label' => 'Тип участия', 'icon' => '', 'url' => ['/user/science/conference-result-type'],],
+                                ],
+                            ],
                         ],
                     ],
+
                     [
                         'label' => 'Пользователи',
                         'icon' => 'user',
