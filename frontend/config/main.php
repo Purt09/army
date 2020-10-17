@@ -62,6 +62,8 @@ return [
         'media' => [
             'class' => pantera\media\Module::className(),
             'permissions' => ['admin'],
+            'mediaUrlAlias' => '@web/upload/',
+            'mediaFileAlias' => '@webroot/upload/'
         ],
         'lk' => [
             'class' => 'frontend\modules\lk\Module',
