@@ -170,7 +170,7 @@ $this->title = '';
     <?php foreach ($semesters as $semester): ?>
         <section class="content">
 
-            <div class="container mb-3">
+            <div class= mb-3">
 
                 <h1 class="text-center mt-3"><?= $semester->title ?></h1>
                 <hr/>
@@ -191,8 +191,10 @@ $this->title = '';
                                     <?php foreach ($semester->timetables as $timetable): ?>
                                         <?php if ($timetable->unit_id == 2): ?>
                                             <li class="list-group-item" style="">
+                                                <?php if(isset($timetable->mediaMain->file)): ?>
                                                 <a download
                                                    href="/uploads/media/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
+                                                <?php endif; ?>
                                             </li>
                                         <?php endif; ?>
                                     <?php endforeach; ?>
