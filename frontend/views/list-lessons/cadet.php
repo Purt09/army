@@ -193,7 +193,7 @@ $this->title = '';
                                             <li class="list-group-item" style="">
                                                 <?php if(isset($timetable->mediaMain->file)): ?>
                                                 <a download
-                                                   href="/uploads/media/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
+                                                   href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
                                                 <?php endif; ?>
                                             </li>
                                         <?php endif; ?>
