@@ -30,6 +30,22 @@
                         ],
                     ],
                     [
+                        'label' => 'Служба войск',
+                        'icon' => 'user-secret',
+                        'url' => '#',
+                        'items' => [
+                            [
+                                'label' => 'Планы',
+                                'icon' => 'user-secret',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Все планы', 'icon' => '', 'url' => ['/army/plan'],],
+                                    ['label' => 'Категори планов', 'icon' => '', 'url' => ['/army/plan-category'],],
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
                         'label' => 'Образование',
                         'icon' => 'graduation-cap',
                         'url' => '#',

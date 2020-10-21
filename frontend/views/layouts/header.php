@@ -157,22 +157,22 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/time/plan/fakultet">
+                                    <a href="/department/common/view-plans?alias=fak_plan_month">
                                         План факультета на месяц
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/plan/fakultet-year">
+                                    <a href="/department/common/view-plans?alias=fak_plan_year">
                                         План факультета на год
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/plan/yms">
+                                    <a href="/department/common/view-plans?alias=fak_plan_yms">
                                         Планы УМС
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/plan/academy">
+                                    <a href="/department/common/view-plans?alias=academy_plan_month">
                                         Планы академии на месяц
                                     </a>
                                 </li>

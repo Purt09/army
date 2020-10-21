@@ -217,7 +217,7 @@ $this->title = '';
                                             <?php if ($timetable->unit_id == 28 && !$timetable->summary): ?>
                                                 <li class="list-group-item" style="">
                                                     <a download
-                                                       href="/uploads/media/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
+                                                       href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
                                                 </li>
                                             <?php endif; ?>
                                         <?php endforeach; ?>
@@ -241,7 +241,7 @@ $this->title = '';
                                             <?php if ($timetable->unit_id == 30 && !$timetable->summary): ?>
                                                 <li class="list-group-item" style="">
                                                     <a download
-                                                       href="/uploads/media/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
+                                                       href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
                                                 </li>
                                             <?php endif; ?>
                                         <?php endforeach; ?>
@@ -265,7 +265,7 @@ $this->title = '';
                                             <?php if ($timetable->unit_id == 31 && !$timetable->summary): ?>
                                                 <li class="list-group-item" style="">
                                                     <a download
-                                                       href="/uploads/media/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
+                                                       href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
                                                 </li>
                                             <?php endif; ?>
                                         <?php endforeach; ?>

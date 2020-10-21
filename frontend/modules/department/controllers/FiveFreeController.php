@@ -8,6 +8,7 @@ use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
 use bupy7\pages\models\Page;
 use common\forms\auth\LoginForm;
+use core\entities\Education\TimetableSearch;
 use core\entities\News\News;
 use core\entities\User\TblStaff;
 use core\entities\User\User;
@@ -25,6 +26,10 @@ use yii\web\Controller;
 
 class FiveFreeController extends Controller
 {
+    use TimeTableTrait;
+
+    const UNIT_ID = 30;
+
     private $newsService;
     private $news;
     private $authService;
@@ -273,4 +278,5 @@ class FiveFreeController extends Controller
         return $this->render('YMB', [
         ]);
     }
+
 }

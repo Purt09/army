@@ -3,25 +3,22 @@
 
 namespace frontend\modules\department\controllers;
 
+
 use core\entities\Education\Timetable;
 use core\entities\Education\TimetableSearch;
 use Yii;
 use yii\web\NotFoundHttpException;
 
-/**
- * Управление расписанием делаем отдельным трейтом, чтобы было более структурировано
- *
- * Trait CommonTimeTableTrait
- * @package frontend\modules\department\controllers
- */
-trait CommonTimeTableTrait
+trait TimeTableTrait
 {
+
+
     public function actionTimeTable()
     {
         $searchModel = new TimetableSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, self::UNIT_ID);
 
-        return $this->render('time-table/index', [
+        return $this->render('../common/time-table/index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
@@ -35,7 +32,7 @@ trait CommonTimeTableTrait
             return $this->redirect(['time-table-upload', 'id' => $model->id]);
         }
 
-        return $this->render('time-table/upload', [
+        return $this->render('../common/time-table/upload', [
             'model' => $model,
         ]);
     }
@@ -46,11 +43,11 @@ trait CommonTimeTableTrait
 
         try {
             if ($model->load(Yii::$app->request->post())) {
-                if($model->summary) {
-                    $timeTable = Timetable::find()->where(['semester_id' => $model->semester_id])->andWhere(['unit_id' => $model->unit_id])->one();
-                    if(isset($timeTable))
-                        throw new \RuntimeException('Такое сводное расписание уже существует. Не надо создавать новое, редактируйте текущее');
-                }
+                $model->summary = true;
+                $model->unit_id = self::UNIT_ID;
+                $timeTable = Timetable::find()->where(['semester_id' => $model->semester_id])->andWhere(['unit_id' => $model->unit_id])->one();
+                if(isset($timeTable))
+                    throw new \RuntimeException('Такое сводное расписание уже существует. Не надо создавать новое, редактируйте текущее');
                 if($model->save())
                     Yii::$app->session->setFlash('success', 'Расписание создано, теперь загрузите его');
                 return $this->redirect(['time-table-upload', 'id' => $model->id]);
@@ -60,7 +57,7 @@ trait CommonTimeTableTrait
             Yii::$app->session->setFlash('error', $e->getMessage());
         }
 
-        return $this->render('time-table/create', [
+        return $this->render('../common/time-table/create_cafedr', [
             'model' => $model,
         ]);
     }
@@ -73,7 +70,7 @@ trait CommonTimeTableTrait
             return $this->redirect(['time-table-upload', 'id' => $model->id]);
         }
 
-        return $this->render('time-table/update', [
+        return $this->render('../common/time-table/update', [
             'model' => $model,
         ]);
     }
@@ -86,4 +83,5 @@ trait CommonTimeTableTrait
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
 }
