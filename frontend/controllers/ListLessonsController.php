@@ -20,11 +20,13 @@ class ListLessonsController extends Controller
 
     public function actionTeacher()
     {
-        return $this->render('teacher');
     }
 
     public function actionCommon()
     {
-        return $this->render('common');
+        $semesters = Semester::find()->limit(4)->with('timetables')->orderBy('id DESC')->all();
+        return $this->render('common', [
+            'semesters' => $semesters
+        ]);
     }
 }

@@ -48,3 +48,4 @@ phpunit.phar
 /frontend/web/file_manager
 /frontend/web/files
 /frontend/web/uploads/media
+/frontend/web/upload

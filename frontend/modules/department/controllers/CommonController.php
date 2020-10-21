@@ -6,6 +6,7 @@ namespace frontend\modules\department\controllers;
 
 use bupy7\pages\models\Page;
 use common\forms\auth\LoginForm;
+use core\entities\Army\Plan;
 use core\entities\Education\Timetable;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
@@ -23,6 +24,9 @@ use Yii;
 class CommonController extends Controller
 {
     use CommonTimeTableTrait;
+    use CommonPlanTrait;
+
+    const UNIT_ID = 1;
 
     private $newsService;
     private $news;
@@ -61,6 +65,30 @@ class CommonController extends Controller
                     return Timetable::findOne(Yii::$app->request->get('id'));
                 }
             ],
+
+
+            'file-upload-plan' => [
+                'class' => \pantera\media\actions\kartik\MediaUploadActionKartik::className(),
+                'model' => function () {
+                    if (Yii::$app->request->get('id')) {
+                        return Plan::findOne(Yii::$app->request->get('id'));
+                    } else {
+                        return new Test();
+                    }
+                }
+            ],
+            'file-delete-plan' => [
+                'class' => \pantera\media\actions\kartik\MediaDeleteActionKartik::className(),
+                'model' => function () {
+                    return \pantera\media\models\Media::findOne(Yii::$app->request->get('id'));
+                }
+            ],
+            'file-sort-plan' => [
+                'class' => \pantera\media\actions\kartik\MediaSortActionKartik::className(),
+                'model' => function () {
+                    return Plan::findOne(Yii::$app->request->get('id'));
+                }
+            ],
         ];
     }
 
@@ -69,7 +97,7 @@ class CommonController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-graduate' , 'view-graduate-stars'],
+                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-graduate' , 'view-graduate-stars', 'view-plan'],
                 'rules' => [
                     [
                         'allow' => true,

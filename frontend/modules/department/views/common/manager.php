@@ -73,19 +73,60 @@ $this->title = 'Управление кафедрой ' . $title;
 
 <div class="box box-success">
     <div class="box-header with-border">
-        <h3 class="box-title">Образование</h3>
+        <h3 class="box-title">Планы</h3>
     </div>
     <!-- /.box-header -->
     <div class="box-body">
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="<?= \yii\helpers\Url::to("time-table") ?>">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'fak_plan_month']) ?>">
                 <div class="info-box bg-info">
-                    <span class="info-box-icon"><i class="fa fa-list"></i></span>
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
 
                     <div class="info-box-content">
                         <span class="info-box-text"> </span>
-                        <span class="info-box-number">Управление расписанием</span>
-                        <span class="info-box-number">факультета</span>
+                        <span class="info-box-number">Планы факультета</span>
+                        <span class="info-box-number">на месяц</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'fak_plan_year']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Планы факультета</span>
+                        <span class="info-box-number">на год</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'fak_plan_yms']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Планы факультета</span>
+                        <span class="info-box-number">УМС</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'academy_plan_month']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Планы академии</span>
+                        <span class="info-box-number">на месяц</span>
                     </div>
                 </div>
             </a>

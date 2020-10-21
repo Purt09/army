@@ -1,15 +1,15 @@
 <?php
 
-namespace core\entities\Education;
+namespace core\entities\Army;
 
-use core\entities\Education\Timetable;
+use core\entities\Army\Plan;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * TimetableSearch represents the model behind the search form of `core\entities\Education\Timetable`.
+ * PlanSearch represents the model behind the search form of `core\entities\Army\Plan`.
  */
-class TimetableSearch extends Timetable
+class PlanSearch extends Plan
 {
     /**
      * {@inheritdoc}
@@ -17,8 +17,8 @@ class TimetableSearch extends Timetable
     public function rules()
     {
         return [
-            [['id', 'semester_id', 'unit_id'], 'integer'],
-            [['title'], 'safe'],
+            [['id', 'category_id', 'unit_id', 'created_at', 'date', 'sort'], 'integer'],
+            [['title', 'text'], 'safe'],
         ];
     }
 
@@ -33,16 +33,16 @@ class TimetableSearch extends Timetable
 
     /**
      * @param $params
-     * @param null $unit_id
+     * @param int|null $category_id
      * @return ActiveDataProvider
      */
-    public function search($params, $unit_id = null)
+    public function search($params, $category_id = null)
     {
-        if(is_null($unit_id))
-            $query = Timetable::find();
-        else
-            $query = Timetable::find()->where(['unit_id' => $unit_id])->andWhere(['summary' => true]);
-
+        if(is_null($category_id))
+            $query = Plan::find();
+        else {
+            $query = Plan::find()->where(['category_id' => $category_id]);
+        }
 
         // add conditions that should always apply here
 
@@ -61,11 +61,15 @@ class TimetableSearch extends Timetable
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'semester_id' => $this->semester_id,
+            'category_id' => $this->category_id,
             'unit_id' => $this->unit_id,
+            'created_at' => $this->created_at,
+            'date' => $this->date,
+            'sort' => $this->sort,
         ]);
 
-        $query->andFilterWhere(['ilike', 'title', $this->title]);
+        $query->andFilterWhere(['ilike', 'title', $this->title])
+            ->andFilterWhere(['ilike', 'text', $this->text]);
 
         return $dataProvider;
     }

@@ -6,6 +6,7 @@ namespace frontend\modules\department\controllers;
 
 use bupy7\pages\models\Page;
 use common\forms\auth\LoginForm;
+use core\entities\Education\TimetableSearch;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use core\entities\News\NewsSearch;
@@ -24,6 +25,10 @@ use yii\web\Controller;
 
 class FiveFiveController extends Controller
 {
+    use TimeTableTrait;
+
+    const UNIT_ID = 31;
+
     private $newsService;
     private $news;
     private $authService;
