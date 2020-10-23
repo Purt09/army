@@ -9,9 +9,8 @@
  */
 
 $this->title = '5 факультет';
-
 ?>
-<?php if(!empty($announcement->content)): ?>
+<?php if(!empty($announcement->content) && time() > strtotime($announcement->updated_at)): ?>
     <div class="callout callout-info">
         <h4><i class="fa fa-info"></i> Объявление:</h4>
 

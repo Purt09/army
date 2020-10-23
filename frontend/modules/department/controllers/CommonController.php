@@ -396,7 +396,8 @@ class CommonController extends Controller
 
         return $this->render('_form_main', [
             'model' => $model,
-            'title' => 'Управление объявлениями(Оставьте пустым, чтобы не отображать)'
+            'title' => 'Управление объявлениями(Оставьте пустым, чтобы не отображать)',
+            'isDate' => true
         ]);
     }
 

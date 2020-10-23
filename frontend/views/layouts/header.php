@@ -102,7 +102,7 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                                     <div class="col-md-12 item active">
                                         <img src="<?= $new->img ?>" class="img-responsive center-block" style="height: 25vh;">
                                         <div class="carousel-caption">
-                                            <h3><?= mb_strimwidth($new->title, 0, 50, "..."); ?></h3>
+                                            <h3 style="font-size: 18px; text-shadow: 1px 1px 2px black, 0 0 1em red;"><?= mb_strimwidth($new->title, 0, 50, "..."); ?></h3>
                                         </div>
                                     </div>
                                 </a>
