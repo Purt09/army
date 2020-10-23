@@ -7,7 +7,7 @@
  * @var $main Page
  */
 
-use bupy7\pages\models\Page;
+use core\vendor\pages\models\Page;
 use core\entities\News\NewsPublications;
 
 $this->title = 'Кафедра 52';

@@ -20,10 +20,10 @@ return [
             'class' => pantera\media\Module::className(),
             'permissions' => ['admin'],
         ],
-        'pages' => 'bupy7\pages\Module',
+        'pages' => 'core\vendor\pages\Module',
         'controllerMap' => [
             'manager' => [
-                'class' => 'bupy7\pages\controllers\ManagerController',
+                'class' => 'core\vendor\pages\controllers\ManagerController',
                 'as access' => [
                     'class' => \yii\filters\AccessControl::className(),
                     'rules' => [

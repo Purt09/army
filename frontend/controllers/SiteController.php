@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use bupy7\pages\models\Page;
+use core\vendor\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use core\entities\User\TblStaff;

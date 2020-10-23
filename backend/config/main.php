@@ -24,10 +24,10 @@ return [
             'layout' => null,
         ],
         'pages' => [
-            'class' => 'bupy7\pages\Module',
+            'class' => 'core\vendor\pages\Module',
             'controllerMap' => [
                 'manager' => [
-                    'class' => 'bupy7\pages\controllers\ManagerController',
+                    'class' => 'core\vendor\pages\controllers\ManagerController',
                     'as access' => [
                         'class' => \yii\filters\AccessControl::className(),
                         'rules' => [

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model \bupy7\pages\models\Page */
+/* @var $model \core\vendor\pages\models\Page */
 /**
  * @var $title string
  */

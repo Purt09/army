@@ -3,8 +3,8 @@
 /* @var $this yii\web\View */
 
 /**
- * @var $abonents \bupy7\pages\models\Page
- * @var $info \bupy7\pages\models\Page
+ * @var $abonents \core\vendor\pages\models\Page
+ * @var $info \core\vendor\pages\models\Page
  */
 
 

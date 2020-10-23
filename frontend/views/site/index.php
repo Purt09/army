@@ -1,11 +1,11 @@
 <?php
 /**
  * @var $this \yii\web\View
- * @var $model \bupy7\pages\models\Page
+ * @var $model \core\vendor\pages\models\Page
  * @var $users array
  * @var $news \core\entities\News\NewsPublications[]
- * @var $history \bupy7\pages\models\Page
- * @var $announcement \bupy7\pages\models\Page
+ * @var $history \core\vendor\pages\models\Page
+ * @var $announcement \core\vendor\pages\models\Page
  */
 
 $this->title = '5 факультет';

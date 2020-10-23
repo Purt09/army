@@ -2,7 +2,7 @@
 /**
  * @var $this \yii\web\View
  * @var $title string
- * @var $model \bupy7\pages\models\Page
+ * @var $model \core\vendor\pages\models\Page
  */
 
 $this->title = $title;
