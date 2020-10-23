@@ -1,7 +1,7 @@
 <?php
 /**
  * @var $this \yii\web\View
- * @var $content \bupy7\pages\models\Page
+ * @var $content \core\vendor\pages\models\Page
  * @var $news array
  */
 

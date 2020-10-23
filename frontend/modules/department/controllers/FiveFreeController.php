@@ -6,7 +6,7 @@ namespace frontend\modules\department\controllers;
 
 use backend\forms\user\SignupUserForm;
 use backend\services\user\UserServices;
-use bupy7\pages\models\Page;
+use core\vendor\pages\models\Page;
 use common\forms\auth\LoginForm;
 use core\entities\Education\TimetableSearch;
 use core\entities\News\News;

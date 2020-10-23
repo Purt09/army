@@ -4,7 +4,7 @@
 namespace frontend\modules\department\controllers;
 
 
-use bupy7\pages\models\Page;
+use core\vendor\pages\models\Page;
 use common\forms\auth\LoginForm;
 use core\entities\Education\TimetableSearch;
 use core\entities\News\News;

@@ -1,10 +1,10 @@
 <?php
 /**
  * @var $this \yii\web\View
- * @var $cafedra51 \bupy7\pages\models\Page
- * @var $cafedra52 \bupy7\pages\models\Page
- * @var $cafedra53 \bupy7\pages\models\Page
- * @var $cafedra55 \bupy7\pages\models\Page
+ * @var $cafedra51 \core\vendor\pages\models\Page
+ * @var $cafedra52 \core\vendor\pages\models\Page
+ * @var $cafedra53 \core\vendor\pages\models\Page
+ * @var $cafedra55 \core\vendor\pages\models\Page
  *
  */
 

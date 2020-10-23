@@ -4,7 +4,7 @@
 namespace frontend\modules\department\controllers;
 
 
-use bupy7\pages\models\Page;
+use core\vendor\pages\models\Page;
 use common\forms\auth\LoginForm;
 use core\entities\Army\Plan;
 use core\entities\Education\Timetable;
@@ -396,7 +396,8 @@ class CommonController extends Controller
 
         return $this->render('_form_main', [
             'model' => $model,
-            'title' => 'Управление объявлениями(Оставьте пустым, чтобы не отображать)'
+            'title' => 'Управление объявлениями(Оставьте пустым, чтобы не отображать)',
+            'isDate' => true
         ]);
     }
 
