@@ -53,7 +53,7 @@ class FiveTwoController extends Controller
                     ],
                     [
                         'allow' => true,
-                        'matchCallback' => function ($rule, $action) {
+                        'matchCallback' => function () {
                             return RbacHelpers::checkRole(RbacHelpers::$CAFEDRA52) && RbacHelpers::checkRole(RbacHelpers::$MANAGER);
                         }
                     ],

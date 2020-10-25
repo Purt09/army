@@ -78,6 +78,12 @@ trait CommonTimeTableTrait
         ]);
     }
 
+    public function actionTimeTableDelete($id)
+    {
+        $this->findModelTimeTable($id)->delete();
+        return $this->redirect(['time-table']);
+    }
+
     protected function findModelTimeTable($id)
     {
         if (($model = Timetable::findOne($id)) !== null) {

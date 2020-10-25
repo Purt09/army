@@ -44,7 +44,7 @@ $main .= '
             'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
                 'news' => $news,
                 'role' => \core\helpers\user\RbacHelpers::$FAKULTET]),
-        ],
+            ],
         [
             'label' => 'История факультета',
             'content' => $history->content,
