@@ -62,6 +62,15 @@ trait CommonPlanTrait
         }
     }
 
+    public function actionDelete($id)
+    {
+        $model = Plan::findOne($id);
+        $category = PlanCategory::findOne($model->category_id);
+        $model->delete();
+
+        return $this->redirect(['plans', 'alias' => $category->alias]);
+    }
+
     public function actionPlanUpdate($id)
     {
         $model = Plan::findOne($id);

@@ -52,6 +52,8 @@
                         'items' => [
                             ['label' => 'Семестры', 'icon' => '', 'url' => ['/education/semester'],],
                             ['label' => 'Расписание', 'icon' => '', 'url' => ['/education/timetable'],],
+                            ['label' => 'Предмет', 'icon' => '', 'url' => ['/education/subject'],],
+                            ['label' => 'Оценки', 'icon' => '', 'url' => ['/education/evaluation'],],
                             [
                                 'label' => 'Конференции',
                                 'icon' => 'graduation-cap',

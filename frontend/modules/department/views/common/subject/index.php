@@ -5,18 +5,18 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel core\entities\Education\TimetableSearch */
+/* @var $searchModel core\entities\Education\SubjectSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Расписание';
+$this->title = 'Предметы';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="timetable-index">
+<div class="subject-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Добавить расписание', ['time-table-create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить предмет', ['subject-create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -27,15 +27,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'title',
-            [
-                'attribute' => 'semester_id',
-                'filter' => \core\entities\Education\Semester::typeList(),
-                'value' => function ($model) {
-                    return \core\entities\Education\Semester::typeLabel($model->semester_id);
-                },
-                'format' => 'raw'
-            ],
+            'id',
+            'name',
+            'description:ntext',
             [
                 'attribute' => 'unit_id',
                 'filter' => \core\entities\User\TblMilUnit::typeShortList(),
@@ -44,26 +38,20 @@ $this->params['breadcrumbs'][] = $this->title;
                 },
                 'format' => 'raw'
             ],
-            'summary',
+            'special:boolean',
 
             [
                 'class' => ActionColumn::className(),
-                'template' => '{update}  {upload} {delete}',
+                'template' => '{update}  {delete}',
                 'buttons' => [
                     'update' => function ($url, $model) {
-                        $url = \yii\helpers\Url::to(['/department/common/time-table-update', 'id' => $model->id]);
+                        $url = \yii\helpers\Url::to(['/department/common/subject-update', 'id' => $model->id]);
                         return Html::a('<i class="fa fa-pencil"></i>', $url, [
                             'title' => Yii::t('app', 'Редактировать'),
                         ]);
                     },
-                    'upload' => function ($url, $model) {
-                        $url = \yii\helpers\Url::to(['/department/common/time-table-upload', 'id' => $model->id]);
-                        return Html::a('<i class="fa fa-download"></i>', $url, [
-                            'title' => Yii::t('app', 'Загрузить новое расписание'),
-                        ]);
-                    },
                     'delete' => function ($url, $model) {
-                        $url = \yii\helpers\Url::to(['/department/common/time-table-delete', 'id' => $model->id]);
+                        $url = \yii\helpers\Url::to(['/department/common/subject-delete', 'id' => $model->id]);
                         return Html::a('<i class="fa fa-remove"></i>', $url, [
                             'title' => Yii::t('app', 'Удалить'),
                         ]);

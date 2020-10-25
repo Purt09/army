@@ -103,13 +103,13 @@ $this->title = 'Выпускники 51 кафедры';
                         <div class="col-md-4 col-sm-6">
                             <div class="box">
                                 <div class="box-img">
-                                    <img src="/img/a.jpg" alt="demo image 3">
+                                    <img src="/img/v/51 Полковник Земсков Владимир Фёдорович.jpg" alt="demo image 3">
                                     <div style="text-align: center;">
                                         <h4> Полковник ЗЕМСКОВ Владимир<br>Федорович</h4>
                                     </div>
                                 </div>
                                 <div class="box-content">
-                                    <img src="/img/a.jpg" alt="demo image 2" style="width: 110px; height: 130px">
+                                    <img src="/img/v/51 Полковник Земсков Владимир Фёдорович.jpg" alt="demo image 2" style="width: 110px; height: 130px">
                                     <h4 class="title">Полковник ЗЕМСКОВ Владимир Федорович
                                     </h4>
                                     <p class="description">Окончил кафедру с отличием в 1979 году.

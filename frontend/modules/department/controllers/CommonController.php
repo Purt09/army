@@ -25,6 +25,7 @@ class CommonController extends Controller
 {
     use CommonTimeTableTrait;
     use CommonPlanTrait;
+    use CommonSubjectTrait;
 
     const UNIT_ID = 1;
 
@@ -119,7 +120,7 @@ class CommonController extends Controller
         $model = Page::find()->where(['alias' => 'main_fak_general'])->one();
         $history = Page::find()->where(['alias' => 'history-main'])->one();
 
-        $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
+        $news = $this->news->getNewsByType('main')->all();
         $users = RbacHelpers::getByTwoRole(RbacHelpers::$MANAGER, RbacHelpers::$FAKULTET);
 
         return $this->render('index', [
