@@ -29,7 +29,13 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'title',
-            'text:ntext',
+            [
+                'attribute' => 'text',
+                'value' => function (\core\entities\Army\Plan $plan) {
+                    return mb_substr($plan->text, 0, 50);
+                },
+                'format' => 'raw'
+            ],
             [
                 'class' => ActionColumn::className(),
                 'template' => '{update}  {upload} {delete}',

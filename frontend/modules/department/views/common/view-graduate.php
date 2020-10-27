@@ -11,7 +11,11 @@
 $this->title = 'Выпускники факультета';
 
 ?>
-
+<style>
+    .content-wrapper {
+        height: 7000px;
+    }
+</style>
 <section class="content">
     <div class="container">
         <div class="col-sm-12 head_inf">

@@ -84,38 +84,38 @@ $this->title = " Учебно-материальная база";
                         Подробнее
                     </button>
 
-                    <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                    <h5 class="modal-title" id="staticBackdropLabel2"></h5>
-                                </div>
-                                <div class="modal-body">
-                                    Дата рождения – 15 июля 1984 года. Окончил Московский авиационный институт (государственный технический университет) в 2007 г.
-                                    На кафедре с 2012 года.
-                                    Женат.
-
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                        Закрыть
-                                    </button>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
 
 
                 </div>
             </div>
         </div>
 
+    </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h5 class="modal-title" id="staticBackdropLabel2"></h5>
+            </div>
+            <div class="modal-body">
+                Дата рождения – 15 июля 1984 года. Окончил Московский авиационный институт (государственный технический университет) в 2007 г.
+                На кафедре с 2012 года.
+                Женат.
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Закрыть
+                </button>
+
+            </div>
+        </div>
     </div>
 </div>
 
