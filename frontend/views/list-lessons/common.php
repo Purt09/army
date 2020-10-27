@@ -2,6 +2,7 @@
 /**
  * @var $this \yii\web\View
  * @var $semesters \core\entities\Education\Semester[]
+ * @var $timetables array
  */
 
 $this->title = '';
@@ -28,8 +29,8 @@ $this->title = '';
                                     <h3 class="profile-username text-center">51 КАФЕДРА</h3>
 
                                     <ul class="list-group list-group-unbordered">
-                                        <?php foreach ($semester->timetables as $timetable): ?>
-                                            <?php if ($timetable->unit_id == 2 && $timetable->summary): ?>
+                                        <?php foreach ($timetables[$semester->id] as $timetable): ?>
+                                            <?php if ($timetable->unit_id == 2): ?>
                                                 <li class="list-group-item" style="">
                                                     <?php if (isset($timetable->mediaMain->file)): ?>
                                                         <a href="/upload/<?= $timetable->mediaMain->file ?>" class="btn btn-primary" style="display: block"> Скачать <i class="fa fa-download"></i></a>
@@ -54,7 +55,7 @@ $this->title = '';
 
                                     <ul class="list-group list-group-unbordered">
 
-                                        <?php foreach ($semester->timetables as $timetable): ?>
+                                        <?php foreach ($timetables[$semester->id] as $timetable): ?>
                                             <?php if ($timetable->unit_id == 28 && $timetable->summary): ?>
                                                 <li class="list-group-item" style="">
                                                     <?php if (isset($timetable->mediaMain->file)): ?>
@@ -79,7 +80,7 @@ $this->title = '';
                                     <h3 class="profile-username text-center">53 КАФЕДРА</h3>
 
                                     <ul class="list-group list-group-unbordered">
-                                        <?php foreach ($semester->timetables as $timetable): ?>
+                                        <?php foreach ($timetables[$semester->id] as $timetable): ?>
                                             <?php if ($timetable->unit_id == 30 && $timetable->summary): ?>
                                                 <li class="list-group-item" style="">
                                                     <?php if (isset($timetable->mediaMain->file)): ?>
@@ -104,7 +105,7 @@ $this->title = '';
                                     <h3 class="profile-username text-center">55 КАФЕДРА</h3>
 
                                     <ul class="list-group list-group-unbordered">
-                                        <?php foreach ($semester->timetables as $timetable): ?>
+                                        <?php foreach ($timetables[$semester->id] as $timetable): ?>
                                             <?php if ($timetable->unit_id == 31 && $timetable->summary): ?>
                                                 <li class="list-group-item" style="">
                                                     <?php if (isset($timetable->mediaMain->file)): ?>
@@ -122,11 +123,6 @@ $this->title = '';
             </div>
         <?php endforeach; ?>
     <?php endif; ?>
-</section>
-999
-<section class="content">
-
-
 </section>
 <style type="text/css">
     .user_photo {
