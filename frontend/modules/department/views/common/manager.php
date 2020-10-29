@@ -47,7 +47,7 @@ $this->title = 'Управление кафедрой ' . $title;
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="#">
+            <a class="box_link" href="<?= \yii\helpers\Url::to("evaluations") ?>">
                 <div class="info-box bg-info">
                     <span class="info-box-icon"><i class="fa fa-graduation-cap"></i></span>
 

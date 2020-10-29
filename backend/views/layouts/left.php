@@ -34,6 +34,7 @@
                         'icon' => 'user-secret',
                         'url' => '#',
                         'items' => [
+                            ['label' => 'Задачи', 'icon' => '', 'url' => ['/army/task-common'],],
                             [
                                 'label' => 'Планы',
                                 'icon' => 'user-secret',

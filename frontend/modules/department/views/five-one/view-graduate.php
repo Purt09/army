@@ -22,7 +22,7 @@ $this->title = 'Выпускники 51 кафедры';
             </div>
 
         </div>
-        <div class="col-sm-12 inf_block">
+        <div class="col-sm-12 inf_block" style="height: 1000px;">
 
             <div>
                 <div class="row">

@@ -16,7 +16,7 @@ $this->title = 'Выпускники факультета';
         height: 7000px;
     }
 </style>
-<section class="content">
+<section class="content" style="">
     <div class="container">
         <div class="col-sm-12 head_inf">
             <div class="col-sm-9">
@@ -28,7 +28,7 @@ $this->title = 'Выпускники факультета';
             </div>
 
         </div>
-        <div class="col-sm-12 inf_block">
+        <div class="col-sm-12 inf_block" style="height: 1000px;">
 
             <div>
                 <div class="row">

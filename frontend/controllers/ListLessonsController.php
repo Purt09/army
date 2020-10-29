@@ -12,10 +12,10 @@ class ListLessonsController extends Controller
 {
     public function actionCadet()
     {
-        $semesters = Semester::find()->limit(4)->orderBy('id ASC')->all();
+        $semesters = Semester::find()->limit(4)->orderBy('id DESC')->all();
         $timetables = [];
         foreach ($semesters as $semester){
-            $timetable = Timetable::find()->where(['semester_id' => $semester->id])->all();
+            $timetable = Timetable::find()->where(['semester_id' => $semester->id])->orderBy('title ASC')->all();
             $timetables += [
                 $semester->id => $timetable
             ];
@@ -29,7 +29,7 @@ class ListLessonsController extends Controller
 
     public function actionCommon()
     {
-        $semesters = Semester::find()->limit(4)->orderBy('id ASC')->all();
+        $semesters = Semester::find()->limit(4)->orderBy('id DESC')->all();
         $timetables = [];
         foreach ($semesters as $semester){
             $timetable = Timetable::find()->where(['semester_id' => $semester->id])->andWhere(['summary' => true])->all();

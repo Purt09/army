@@ -33,7 +33,7 @@ $this->title = '';
                                     <ul class="list-group list-group-unbordered">
                                         <?php foreach ($timetables[$semester->id] as $timetable): ?>
                                             <?php if ($timetable->unit_id == 2 && !$timetable->summary): ?>
-                                                <li class="list-group-item" style="">
+                                                <li class="list-group-item lesson" style="">
                                                     <?php if (isset($timetable->mediaMain->file)): ?>
                                                         <a download
                                                            href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
@@ -60,8 +60,7 @@ $this->title = '';
 
                                         <?php foreach ($timetables[$semester->id] as $timetable): ?>
                                             <?php if ($timetable->unit_id == 28 && !$timetable->summary): ?>
-                                                <?php vardump($timetable) ?>
-                                                <li class="list-group-item" style="">
+                                                <li class="list-group-item lesson" style="">
                                                     <a download
                                                        href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
                                                 </li>
@@ -85,7 +84,7 @@ $this->title = '';
                                     <ul class="list-group list-group-unbordered">
                                         <?php foreach ($timetables[$semester->id] as $timetable): ?>
                                             <?php if ($timetable->unit_id == 30 && !$timetable->summary): ?>
-                                                <li class="list-group-item" style="">
+                                                <li class="list-group-item lesson" style="">
                                                     <a download
                                                        href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
                                                 </li>
@@ -109,7 +108,7 @@ $this->title = '';
                                     <ul class="list-group list-group-unbordered">
                                         <?php foreach ($timetables[$semester->id] as $timetable): ?>
                                             <?php if ($timetable->unit_id == 31 && !$timetable->summary): ?>
-                                                <li class="list-group-item" style="">
+                                                <li class="list-group-item lesson" style="">
                                                     <a download
                                                        href="/upload/<?= $timetable->mediaMain->file ?>"><?= $timetable->title ?></a>
                                                 </li>
@@ -127,6 +126,10 @@ $this->title = '';
 
 </section>
 <style type="text/css">
+    .lesson {
+        font-size: 18px;
+    }
+
     .user_photo {
         border-radius: 12px;
         width: 240px;

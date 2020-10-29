@@ -13,7 +13,18 @@ use yii\widgets\ActiveForm;
 
 $this->title = $title;
 ?>
-
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/assets/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/build-image-source/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-toolbar/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-insert-via-url/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-style/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-style-presentational/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-resize/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-resize-buttons-dropdown/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-resize-buttons/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-resize-px/snippet.js"></script>
+<script src="https://ckeditor.com/docs/ckeditor5/latest/features/snippets/features/image-link/snippet.js"></script>
 <div class="news-form">
 
     <?php $form = ActiveForm::begin(); ?>
