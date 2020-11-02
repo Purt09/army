@@ -35,11 +35,11 @@ class RbacHelpers
 //        $admin = \Yii::$app->authManager->createRole(self::$ADMIN);
 //        $admin->description = 'Администратор';
 //        \Yii::$app->authManager->add($admin);
-//
+
 //        $cadet = \Yii::$app->authManager->createRole(self::$CADET);
 //        $cadet->description = 'Курсант';
 //        \Yii::$app->authManager->add($cadet);
-//
+
 //        $officer = \Yii::$app->authManager->createRole(self::$OFFICER);
 //        $officer->description = 'Офицер';
 //        \Yii::$app->authManager->add($officer);
@@ -104,16 +104,16 @@ class RbacHelpers
 //        \Yii::$app->authManager->addChild($course53, $cadet);
 //        \Yii::$app->authManager->addChild($course54, $cadet);
 //        \Yii::$app->authManager->addChild($course55, $cadet);
-//
-//        // Привязываем пользователей
-//        $user = User::findOne(1);
-//        self::setRoleUser(self::$CADET, $user);
-//        $user = User::findOne(2);
-//        self::setRoleUser(self::$ADMIN, $user);
 
-        $role = \Yii::$app->authManager->createRole(self::$FAKULTET);
-        $role->description = 'ФаАкультет';
-        \Yii::$app->authManager->add($role);
+        // Привязываем пользователей
+        $user = User::findOne(1);
+        self::setRoleUser(self::$CADET, $user);
+        $user = User::findOne(2);
+        self::setRoleUser(self::$ADMIN, $user);
+
+//        $role = \Yii::$app->authManager->createRole(self::$FAKULTET);
+//        $role->description = 'ФаАкультет';
+//        \Yii::$app->authManager->add($role);
     }
 
     /**

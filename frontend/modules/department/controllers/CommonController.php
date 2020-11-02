@@ -26,6 +26,7 @@ class CommonController extends Controller
     use CommonTimeTableTrait;
     use CommonPlanTrait;
     use CommonSubjectTrait;
+    use CommonEvaluationTrait;
 
     const UNIT_ID = 1;
 

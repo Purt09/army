@@ -49,3 +49,10 @@ phpunit.phar
 /frontend/web/files
 /frontend/web/uploads/media
 /frontend/web/upload
+
+# other
+composer.json
+composer.lock
+
+# ignore backend/
+/backend/config/main.php
