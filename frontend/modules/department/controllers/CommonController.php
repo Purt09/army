@@ -387,18 +387,24 @@ class CommonController extends Controller
 
     public function actionAnnouncement()
     {
-        $model = Page::find()->where(['alias' => 'fakultet_announcement'])->one();
+        $model = new News();
+        $publications = new NewsPublications();
 
         if ($model->load(Yii::$app->request->post())) {
-            $model->save();
+            $model->title = 'Объявление';
+            $model->created_at = time();
+            $model->updated_at = strtotime($model->updated_at);
+            $publications->announcement = true;
 
-            Yii::$app->session->setFlash('success', 'Сохранено');
+
+            $this->newsService->createNews($model, $publications);
+            Yii::$app->session->setFlash('success', 'Объявление опубликовано');
             return $this->redirect(['index']);
         }
 
         return $this->render('_form_main', [
             'model' => $model,
-            'title' => 'Управление объявлениями(Оставьте пустым, чтобы не отображать)',
+            'title' => 'Добавить объявление',
             'isDate' => true
         ]);
     }

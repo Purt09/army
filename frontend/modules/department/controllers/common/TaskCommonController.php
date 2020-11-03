@@ -1,18 +1,17 @@
 <?php
 
-namespace backend\controllers;
 
+namespace frontend\modules\department\controllers\common;
+
+
+use core\entities\Army\TaskCommon;
+use core\entities\Army\TaskCommonSearch;
 use Yii;
-use core\entities\News\News;
-use core\entities\News\NewsSearch;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
 
-/**
- * NewsController implements the CRUD actions for News model.
- */
-class NewsController extends Controller
+class TaskCommonController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -30,44 +29,34 @@ class NewsController extends Controller
     }
 
     /**
-     * Lists all News models.
+     * Lists all TaskCommon models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new NewsSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, 'announcement');
+        $searchModel = new TaskCommonSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }
-
     /**
-     * Displays a single News model.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
-     */
-    public function actionView($id)
-    {
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
-    }
-
-    /**
-     * Creates a new News model.
+     * Creates a new TaskCommon model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new News();
+        $model = new TaskCommon();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if ($model->load(Yii::$app->request->post())) {
+            $model->order_date_finish = strtotime($model->order_date_finish);
+            $model->date_finish = strtotime($model->date_finish);
+            $model->created_at = time();
+            $model->save();
+            return $this->redirect(['index']);
         }
 
         return $this->render('create', [
@@ -76,7 +65,7 @@ class NewsController extends Controller
     }
 
     /**
-     * Updates an existing News model.
+     * Updates an existing TaskCommon model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -87,7 +76,7 @@ class NewsController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['index']);
         }
 
         return $this->render('update', [
@@ -96,7 +85,7 @@ class NewsController extends Controller
     }
 
     /**
-     * Deletes an existing News model.
+     * Deletes an existing TaskCommon model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -108,20 +97,20 @@ class NewsController extends Controller
 
         return $this->redirect(['index']);
     }
-
     /**
-     * Finds the News model based on its primary key value.
+     * Finds the TaskCommon model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return News the loaded model
+     * @return TaskCommon the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = News::findOne($id)) !== null) {
+        if (($model = TaskCommon::findOne($id)) !== null) {
             return $model;
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
 }

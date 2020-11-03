@@ -5,19 +5,27 @@
  * @var $users array
  * @var $news \core\entities\News\NewsPublications[]
  * @var $history \core\vendor\pages\models\Page
- * @var $announcement \core\vendor\pages\models\Page
+ * @var $announcements \core\entities\News\NewsPublications[]
  */
-
 $this->title = '5 факультет';
 ?>
-<?php if(!empty($announcement->content) && time() < strtotime($announcement->updated_at)): ?>
-    <div class="callout callout-info">
-        <h4><i class="fa fa-info"></i> Объявление:</h4>
+<?php if (isset($announcements)): ?>
+    <?php foreach ($announcements as $announcement): ?>
+        <?php if (isset($announcement->articles)): ?>
+            <?php if ($announcement->articles->updated_at > time()): ?>
 
-        <p>
-            <?= $announcement->content ?>
-        </p>
-    </div>
+                <div class="callout callout-info">
+                    <h4><i class="fa fa-info"></i> Объявление:</h4>
+
+                    <p>
+                        <?= $announcement->articles->content ?>
+                    </p>
+                </div>
+            <?php endif; ?>
+        <?php endif; ?>
+    <?php endforeach; ?>
+<?php endif; ?>
+<?php if (!empty($announcement->ar) && time() < $announcement->updated_at): ?>
 <?php endif; ?>
 <?php $main = '<section class="content">
     <div class="col-sm-6" style=" margin-top: 60px; background-color: white;border-radius: 20px;
