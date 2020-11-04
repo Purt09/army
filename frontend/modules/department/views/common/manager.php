@@ -128,6 +128,20 @@ $this->title = 'Управление кафедрой ' . $title;
     <!-- /.box-header -->
     <div class="box-body">
         <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/task-common/index"]) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Задачи</span>
+                        <span class="info-box-number">(НОВОЕ)</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
             <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'fak_plan_month']) ?>">
                 <div class="info-box bg-info">
                     <span class="info-box-icon"><i class="fa fa-tasks"></i></span>

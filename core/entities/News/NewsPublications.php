@@ -18,6 +18,7 @@ use Yii;
  * @property bool|null $52_cafedra
  * @property bool|null $53_cafedra
  * @property bool|null $54_cafedra Это 55 кафедра, просто не хочу менять бд
+ * @property bool|null $announcement Для объявлений на главной
  *
  * @property News[] $articles
  */
@@ -38,7 +39,7 @@ class NewsPublications extends \yii\db\ActiveRecord
     {
         return [
             [['main', '51_cafedra', '52_cafedra', '53_cafedra', '54_cafedra', 'course51',
-                'course52', 'course53', 'course54', 'course55'], 'boolean'],
+                'course52', 'course53', 'course54', 'course55', 'announcement'], 'boolean'],
         ];
     }
 

@@ -37,7 +37,7 @@ class SiteController extends Controller
     {
         $model = Page::find()->where(['alias' => 'main_fak_general'])->one();
         $history = Page::find()->where(['alias' => 'history-main'])->one();
-        $announcement = Page::find()->where(['alias' => 'fakultet_announcement'])->one();
+        $announcements = NewsPublications::find()->where(['announcement' => 1])->with('articles')->all();
 
         $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
         $users = RbacHelpers::getByTwoRole(RbacHelpers::$MANAGER, RbacHelpers::$FAKULTET);
@@ -47,7 +47,7 @@ class SiteController extends Controller
             'model' => $model,
             'users' => $users,
             'history' => $history,
-            'announcement' => $announcement
+            'announcements' => $announcements
         ]);
     }
 

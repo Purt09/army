@@ -151,7 +151,11 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         </li>
                     <?php else: ?>
                         <li class="dropdown messages-menu">
+<<<<<<< HEAD
                             <form action="http://5f.vka/moodle/autoauth.php">
+=======
+                            <form action="https://5f.vka/moodle/autoauth.php">
+>>>>>>> 137fea962eb71a72fc6b334f36da150718de07db
                                 <input type="text" name="username" value="<?= Yii::$app->user->identity->username ?>"
                                        style="display: none">
                                 <input type="text" name="password" value="<?= Yii::$app->user->identity->password ?>"
