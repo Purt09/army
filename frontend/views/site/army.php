@@ -449,28 +449,12 @@ $this->title = 'Служба войск';
 
 <style>
     /* Button */
-    .btn {
-        border-radius: 100px;
-        font-size: 13px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        padding: 17px 39px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
-        text-transform: uppercase;
-        box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
-    }
     .btn-primary {
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5a7ce2+0,8283e8+50,5c5de8+51,565bd8+71,575cdb+100 */
         background: #5a7ce2;
-        /* Old browsers */
         background: -moz-linear-gradient(-45deg, #5a7ce2 0%, #8283e8 50%, #5c5de8 51%, #565bd8 71%, #575cdb 100%);
-        /* FF3.6-15 */
         background: -webkit-linear-gradient(-45deg, #5a7ce2 0%,#8283e8 50%,#5c5de8 51%,#565bd8 71%,#575cdb 100%);
-        /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(135deg, #5a7ce2 0%,#8283e8 50%,#5c5de8 51%,#565bd8 71%,#575cdb 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a7ce2', endColorstr='#575cdb',GradientType=1 );
-        /* IE6-9 fallback on horizontal gradient */
         background-size: 400% 400%;
         -webkit-animation: AnimationName 3s ease infinite;
         -moz-animation: AnimationName 3s ease infinite;

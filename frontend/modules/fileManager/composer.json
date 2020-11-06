@@ -1,31 +1,27 @@
 {
-    "name": "mihaildev/yii2-elfinder",
-    "keywords": ["yii", "elfinder", "filemanager"],
-    "description": "Yii2 ElFinder",
-    "homepage": "https://github.com/MihailDev/yii2-elfinder",
-    "type": "yii2-extension",
-    "license": "BSD-3-Clause",
-    "minimum-stability":"stable",
-    "authors": [
-        {
-            "name": "Mihail",
-            "email": "mihail.kucher@gmail.com",
-            "homepage": "https://github.com/MihailDev",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-4": {"mihaildev\\elfinder\\": ""}
-    },
-    "require": {
-        "yiisoft/yii2": "~2.0.13",
-        "yiisoft/yii2-jui": "*",
-        "studio-42/elfinder": "^2.1.10"
-    },
-    "extra": {
-      "asset-installer-paths": {
-        "npm-asset-library": "vendor/npm",
-        "bower-asset-library": "vendor/bower"
-      }
+  "name": "de-luxis/yii2-simple-filemanager",
+  "description": "Simple filemanager for yii2 framework",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii",
+    "filemanager"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "*",
+    "components/font-awesome": ">=4.0"
+  },
+  "authors": [
+    {
+      "name": "Stepan Ipatyev",
+      "email": "istepan@yandex.ru"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DeLuxis\\Yii2SimpleFilemanager\\": "/"
+    }
+  }
 }

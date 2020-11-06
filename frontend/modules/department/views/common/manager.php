@@ -127,22 +127,9 @@ $this->title = 'Управление кафедрой ' . $title;
     </div>
     <!-- /.box-header -->
     <div class="box-body">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/task-common/index"]) ?>">
-                <div class="info-box bg-info">
-                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text"> </span>
-                        <span class="info-box-number">Задачи</span>
-                        <span class="info-box-number">(НОВОЕ)</span>
-                    </div>
-                </div>
-            </a>
-        </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'fak_plan_month']) ?>">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'fak_plan_month']) ?>">
                 <div class="info-box bg-info">
                     <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
 
@@ -155,7 +142,7 @@ $this->title = 'Управление кафедрой ' . $title;
             </a>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'fak_plan_year']) ?>">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'fak_plan_year']) ?>">
                 <div class="info-box bg-info">
                     <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
 
@@ -169,7 +156,7 @@ $this->title = 'Управление кафедрой ' . $title;
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'fak_plan_yms']) ?>">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'fak_plan_yms']) ?>">
                 <div class="info-box bg-info">
                     <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
 
@@ -183,7 +170,7 @@ $this->title = 'Управление кафедрой ' . $title;
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a class="box_link" href="<?= \yii\helpers\Url::to(["plans", 'alias' => 'academy_plan_month']) ?>">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'academy_plan_month']) ?>">
                 <div class="info-box bg-info">
                     <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
 
@@ -191,6 +178,46 @@ $this->title = 'Управление кафедрой ' . $title;
                         <span class="info-box-text"> </span>
                         <span class="info-box-number">Планы академии</span>
                         <span class="info-box-number">на месяц</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'learning_advice']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Планы учебного</span>
+                        <span class="info-box-number">совета на год</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'VNO']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Планы ВНО</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'PISP']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">ПИСП</span>
                     </div>
                 </div>
             </a>

@@ -24,7 +24,6 @@ use Yii;
 class CommonController extends Controller
 {
     use CommonTimeTableTrait;
-    use CommonPlanTrait;
     use CommonSubjectTrait;
     use CommonEvaluationTrait;
 

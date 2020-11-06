@@ -2,6 +2,8 @@
 
 namespace frontend\controllers;
 
+use core\entities\Army\Plan;
+use core\entities\Army\PlanCategory;
 use core\vendor\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
@@ -109,5 +111,17 @@ class SiteController extends Controller
     public function actionListLessons()
     {
         return $this->render('list-lessons');
+    }
+
+    public function actionViewPlan($alias)
+    {
+        $category = PlanCategory::find()->where(['alias' => $alias])->one();
+        $models = Plan::find()->where(['category_id' => $category->id])->limit(10)->orderBy('date')->all();
+
+
+        return $this->render('view-plans', [
+            'models' => $models,
+            'category' => $category
+        ]);
     }
 }

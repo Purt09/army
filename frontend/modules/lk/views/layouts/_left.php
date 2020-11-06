@@ -18,6 +18,11 @@
                     'icon' => 'star',
                     'url' => ['vpr/index', 'id' => Yii::$app->request->get('id')],
                 ],
+                [
+                    'label' => 'Зачетная книжка',
+                    'icon' => 'star',
+                    'url' => ['study/index', 'id' => Yii::$app->request->get('id')],
+                ],
             ];
             $items = array_merge(Yii::$app->params['left_menu'], $items);
             ?>

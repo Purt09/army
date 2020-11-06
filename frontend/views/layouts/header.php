@@ -174,23 +174,72 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/department/common/view-plans?alias=fak_plan_month">
+                                    <a href="/site/view-plan?alias=fak_plan_month">
                                         План факультета на месяц
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/department/common/view-plans?alias=fak_plan_year">
+                                    <a href="/site/view-plan?alias=fak_plan_year">
                                         План факультета на год
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/department/common/view-plans?alias=fak_plan_yms">
+                                    <a href="/site/view-plan?alias=fak_plan_yms">
                                         Планы УМС
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/department/common/view-plans?alias=academy_plan_month">
+                                    <a href="/site/view-plan?alias=academy_plan_month">
                                         Планы академии на месяц
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/site/view-plan?alias=learning_advice">
+                                        План уч. совета на год
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/site/view-plan?alias=VNO">
+                                        ВНО
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/site/view-plan?alias=PISP">
+                                        ПИСП
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="dropdown notifications-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                            Образовательная деятельность
+                        </a>
+                        <ul class="dropdown-menu">
+                            <ul class="menu">
+                                <li>
+                                    <a href="/time/method/cel-academy">
+                                        Итоги успеваемости за факультет
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/method/cel-fakultet">
+                                        Итоги успеваемости по курсам
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/method/pisp">
+                                        Итоги успеваемости по уч. гр. на факультете
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/method/plans">
+                                        Итоги успеваемости по уч. гр. в подразделении
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/method/pp">
+                                        Общий рейтинг курсантов
                                     </a>
                                 </li>
                             </ul>
@@ -204,27 +253,17 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                             <ul class="menu">
                                 <li>
                                     <a href="/time/method/cel-academy">
-                                        Целевые показатели академии
+                                        График контроля
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/time/method/cel-fakultet">
-                                        Целевые показатели факультета
+                                        Открытые и показательные занятия
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/time/method/pisp">
-                                        План ПП и ПК на 2020
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/time/method/plans">
-                                        Планы
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/time/method/pp">
-                                        ПИСП
+                                        Повышение квалификации
                                     </a>
                                 </li>
                             </ul>
@@ -238,12 +277,17 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                             <ul class="menu">
                                 <li>
                                     <a href="/time/science/vno">
-                                        ВНО
+                                        Конференции
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/time/science/pisp">
-                                        ПИСП
+                                        Конкурсы
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/time/science/pisp">
+                                        Олимпиады
                                     </a>
                                 </li>
                             </ul>

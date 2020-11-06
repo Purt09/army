@@ -48,8 +48,9 @@ trait CommonTimeTableTrait
             if ($model->load(Yii::$app->request->post())) {
                 if($model->summary) {
                     $timeTable = Timetable::find()->where(['semester_id' => $model->semester_id])->andWhere(['unit_id' => $model->unit_id])->one();
-                    if(isset($timeTable))
-                        throw new \RuntimeException('Такое сводное расписание уже существует. Не надо создавать новое, редактируйте текущее');
+                    if(isset($timeTable)){
+                        return $this->redirect(['time-table-upload', 'id' => $timeTable->id]);
+                    }
                 }
                 if($model->save())
                     Yii::$app->session->setFlash('success', 'Расписание создано, теперь загрузите его');

@@ -1,20 +1,16 @@
 <?php
 
 
-namespace frontend\modules\department\controllers;
+namespace frontend\modules\department\controllers\common;
+
 
 use core\entities\Army\Plan;
 use core\entities\Army\PlanCategory;
 use core\entities\Army\PlanSearch;
+use frontend\modules\department\controllers\CommonController;
 use Yii;
 
-/**
- * Управление планами делаем отдельным трейтом, чтобы было более структурировано
- *
- * Trait CommonTimeTableTrait
- * @package frontend\modules\department\controllers
- */
-trait CommonPlanTrait
+class PlanController extends CommonController
 {
     /**
      * Lists all Plan models.
@@ -26,7 +22,7 @@ trait CommonPlanTrait
         $searchModel = new PlanSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams, $category->id);
 
-        return $this->render('plan/plans', [
+        return $this->render('plans', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
             'category' => $category
@@ -55,7 +51,7 @@ trait CommonPlanTrait
             case 'fak_plan_year':
             case 'academy_plan_month':
             case 'fak_plan_yms':
-                return $this->render('plan/create-plan', [
+                return $this->render('create-plan', [
                     'category' => $category,
                     'model' => $model
                 ]);
@@ -80,7 +76,7 @@ trait CommonPlanTrait
             return $this->redirect(['plans', 'alias' => $category->alias]);
         }
 
-        return $this->render('plan/create-plan', [
+        return $this->render('create-plan', [
             'model' => $model,
             'category' => $category
         ]);
@@ -95,20 +91,8 @@ trait CommonPlanTrait
             return $this->redirect(['plans', 'alias' => $category->alias]);
         }
 
-        return $this->render('plan/upload', [
+        return $this->render('upload', [
             'model' => $model,
-            'category' => $category
-        ]);
-    }
-
-    public function actionViewPlans($alias)
-    {
-        $category = PlanCategory::find()->where(['alias' => $alias])->one();
-        $models = Plan::find()->where(['category_id' => $category->id])->limit(10)->orderBy('date')->all();
-
-
-        return $this->render('plan/view-plans', [
-            'models' => $models,
             'category' => $category
         ]);
     }
