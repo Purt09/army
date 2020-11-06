@@ -207,6 +207,17 @@ class RbacHelpers
     }
 
     /**
+     * @param string $role
+     * @param integer $user_id
+     * @return bool
+     */
+    public static function checkRoleUser(string $role, int $user_id)
+    {
+        $roles = ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user_id), 'name');
+        return array_key_exists($role, $roles);
+    }
+
+    /**
      * Врменное разграничение доступа, конечно, надо учитывать все, а не просто роль менеджера или нач курса
      * @param TblStaff $staff
      * @return bool
@@ -222,6 +233,8 @@ class RbacHelpers
             if(RbacHelpers::$COURSE_MAIN == $role)
                 return true;
             if(RbacHelpers::$MANAGER == $role)
+                return true;
+            if(RbacHelpers::$OFFICER == $role && \Yii::$app->user->id == $staff->user->id)
                 return true;
         }
         return  false;
