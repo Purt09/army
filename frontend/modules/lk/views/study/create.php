@@ -14,20 +14,15 @@ use yii\widgets\ActiveForm;
 <div class="evaluation-form">
 
     <?php $form = ActiveForm::begin(); ?>
-    <?= $form->field($model, 'result')->textInput() ?>
-
-    <?= $form->field($model, 'semester_id')->dropDownList(\core\entities\Education\Semester::typeList()) ?>
-
-    <?= $form->field($model, 'user_id')->widget(\kartik\select2\Select2::className(), [
-        'data' => $users,
-        ]) ?>
 
     <?= $form->field($model, 'subject_id')->widget(\kartik\select2\Select2::className(), [
         'data' => \core\entities\Education\Subject::getList(),
     ]) ?>
 
+    <?= $form->field($model, 'result')->textInput() ?>
+
     <div class="form-group">
-        <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Добавить', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
