@@ -11,12 +11,11 @@ use core\entities\Army\TaskCommon;
  */
 class TaskCommonSearch extends TaskCommon
 {
-<<<<<<< HEAD
-=======
+
     public $date_from;
     public $date_to;
 
->>>>>>> 137fea962eb71a72fc6b334f36da150718de07db
+
     /**
      * {@inheritdoc}
      */
@@ -26,10 +25,9 @@ class TaskCommonSearch extends TaskCommon
             [['id', 'order_date_finish', 'date_finish', 'created_at'], 'integer'],
             [['order_id', 'name', 'description'], 'safe'],
             [['is_complete_cafedra_51', 'is_complete_cafedra_52', 'is_complete_cafedra_53', 'is_complete_cafedra_55', 'is_complete_course_51', 'is_complete_course_52', 'is_complete_course_53', 'is_complete_course_54', 'is_complete_course_55', 'is_complete_manager_cv', 'is_complete_manager_vpr', 'is_complete_manager_teacher'], 'boolean'],
-<<<<<<< HEAD
-=======
+
             [['date_from', 'date_to'], 'date', 'format' => 'php:Y-m-d']
->>>>>>> 137fea962eb71a72fc6b334f36da150718de07db
+
         ];
     }
 
@@ -57,10 +55,9 @@ class TaskCommonSearch extends TaskCommon
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
-<<<<<<< HEAD
-=======
+
             'sort' => ['defaultOrder'=>'id DESC']
->>>>>>> 137fea962eb71a72fc6b334f36da150718de07db
+
         ]);
 
         $this->load($params);
@@ -93,11 +90,10 @@ class TaskCommonSearch extends TaskCommon
 
         $query->andFilterWhere(['ilike', 'order_id', $this->order_id])
             ->andFilterWhere(['ilike', 'name', $this->name])
-<<<<<<< HEAD
-=======
+
             ->andFilterWhere(['>=', 'order_date_finish', $this->date_from ? strtotime($this->date_from . ' 00:00:00') : null])
             ->andFilterWhere(['<=', 'order_date_finish', $this->date_to ? strtotime($this->date_to . ' 23:59:59') : null])
->>>>>>> 137fea962eb71a72fc6b334f36da150718de07db
+
             ->andFilterWhere(['ilike', 'description', $this->description]);
 
         return $dataProvider;

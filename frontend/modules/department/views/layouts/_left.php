@@ -15,11 +15,6 @@ else
         $items = [
             ['label' => \frontend\widget\LabelEmblemaWidget::widget(), 'options' => ['class' => 'header']],
             [
-                'label' => 'ВПР',
-                'icon' => 'user',
-                'url' => ['immortal-regiment-view'],
-            ],
-            [
                 'label' => 'УМБ',
                 'icon' => 'pencil-square-o',
                 'url' => ['ymb'],

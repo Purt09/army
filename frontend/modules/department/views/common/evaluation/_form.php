@@ -22,7 +22,9 @@ use yii\widgets\ActiveForm;
         'data' => $users,
         ]) ?>
 
-    <?= $form->field($model, 'subject_id')->dropDownList(\core\entities\Education\Subject::typeList()) ?>
+    <?= $form->field($model, 'subject_id')->widget(\kartik\select2\Select2::className(), [
+        'data' => \core\entities\Education\Subject::getList(),
+    ]) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>

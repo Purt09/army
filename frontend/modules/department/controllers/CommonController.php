@@ -24,7 +24,6 @@ use Yii;
 class CommonController extends Controller
 {
     use CommonTimeTableTrait;
-    use CommonPlanTrait;
     use CommonSubjectTrait;
     use CommonEvaluationTrait;
 
@@ -163,9 +162,12 @@ class CommonController extends Controller
         $publications = new NewsPublications();
 
         if ($model->load(Yii::$app->request->post()) && $publications->load(Yii::$app->request->post())) {
-            $this->newsService->createNews($model, $publications);
-            Yii::$app->session->setFlash('success', 'Новость опубликована');
-            return $this->redirect(['index']);
+          try {
+                          $this->newsService->createNews($model, $publications);
+                          Yii::$app->session->setFlash('success', 'Новость опубликована');
+                      } catch (\RuntimeException $e) {
+                          Yii::$app->session->setFlash('error', $e->getMessage());
+                      }
         }
 
         return $this->render('_form_news', [

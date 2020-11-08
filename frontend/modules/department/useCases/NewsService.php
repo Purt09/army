@@ -33,6 +33,7 @@ class NewsService extends MainService
 
         $news->status = News::STATUS_ACTIVE;
         $news->created_at = time();
+        $news->updated_at = time();
         $this->transaction(function () use ($news, $publications) {
             if(!$publications->save())
                 throw new RuntimeException('Сохранить не удалось данные где публиковать');

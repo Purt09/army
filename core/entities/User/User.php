@@ -55,6 +55,11 @@ class User extends ActiveRecord implements IdentityInterface
         return $this->status === self::STATUS_ACTIVE;
     }
 
+    public static function getByBaseId($id)
+    {
+        return self::find()->where(['user_base_id' => $id])->one();
+    }
+
     /**
      * @inheritdoc
      */

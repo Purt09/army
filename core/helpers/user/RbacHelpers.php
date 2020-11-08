@@ -35,11 +35,11 @@ class RbacHelpers
 //        $admin = \Yii::$app->authManager->createRole(self::$ADMIN);
 //        $admin->description = 'Администратор';
 //        \Yii::$app->authManager->add($admin);
-
+//
 //        $cadet = \Yii::$app->authManager->createRole(self::$CADET);
 //        $cadet->description = 'Курсант';
 //        \Yii::$app->authManager->add($cadet);
-
+//
 //        $officer = \Yii::$app->authManager->createRole(self::$OFFICER);
 //        $officer->description = 'Офицер';
 //        \Yii::$app->authManager->add($officer);
@@ -104,16 +104,16 @@ class RbacHelpers
 //        \Yii::$app->authManager->addChild($course53, $cadet);
 //        \Yii::$app->authManager->addChild($course54, $cadet);
 //        \Yii::$app->authManager->addChild($course55, $cadet);
+//
+//        // Привязываем пользователей
+//        $user = User::findOne(1);
+//        self::setRoleUser(self::$CADET, $user);
+//        $user = User::findOne(2);
+//        self::setRoleUser(self::$ADMIN, $user);
 
-        // Привязываем пользователей
-        $user = User::findOne(1);
-        self::setRoleUser(self::$CADET, $user);
-        $user = User::findOne(2);
-        self::setRoleUser(self::$ADMIN, $user);
-
-//        $role = \Yii::$app->authManager->createRole(self::$FAKULTET);
-//        $role->description = 'ФаАкультет';
-//        \Yii::$app->authManager->add($role);
+        $role = \Yii::$app->authManager->createRole(self::$FAKULTET);
+        $role->description = 'ФаАкультет';
+        \Yii::$app->authManager->add($role);
     }
 
     /**
@@ -207,6 +207,17 @@ class RbacHelpers
     }
 
     /**
+     * @param string $role
+     * @param integer $user_id
+     * @return bool
+     */
+    public static function checkRoleUser(string $role, int $user_id)
+    {
+        $roles = ArrayHelper::getColumn(\Yii::$app->authManager->getRolesByUser($user_id), 'name');
+        return array_key_exists($role, $roles);
+    }
+
+    /**
      * Врменное разграничение доступа, конечно, надо учитывать все, а не просто роль менеджера или нач курса
      * @param TblStaff $staff
      * @return bool
@@ -222,6 +233,8 @@ class RbacHelpers
             if(RbacHelpers::$COURSE_MAIN == $role)
                 return true;
             if(RbacHelpers::$MANAGER == $role)
+                return true;
+            if(RbacHelpers::$OFFICER == $role && \Yii::$app->user->id == $staff->user->id)
                 return true;
         }
         return  false;

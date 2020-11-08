@@ -67,11 +67,6 @@ return [
         ],
         'gridview' => [
             'class' => '\kartik\grid\Module'
-            // enter optional module parameters below - only if you need to
-            // use your own export download action or custom translation
-            // message source
-            // 'downloadAction' => 'gridview/export/download',
-            // 'i18n' => []
         ],
         'lk' => [
             'class' => 'frontend\modules\lk\Module',
@@ -94,115 +89,6 @@ return [
         'api' => [
             'class' => 'frontend\modules\api\Module',
         ],
-    ],
-    'controllerMap' => [
-        'elfinder' => [
-            'class' => 'frontend\modules\fileManager\Controller',
-            'access' => ['read' => '*', 'write' => 'officer'],
-            'plugin' => [
-                [
-                    'class'=>'frontend\modules\fileManager\plugin\Sluggable',
-                    'lowercase' => true,
-                    'replacement' => '-'
-                ]
-            ],
-            'roots' => [
-                [
-                    'path' => 'files/fakultet',
-                    'name' => 'Факультет' //перевод Yii::t($category, $message)
-                ],
-                [
-                    'path'   => 'files/podrazdelenia',
-                    'name'   => 'Подразделения', // Yii::t($category, $message)
-                ],
-                [
-                    'path'   => 'files/prikaz',
-                    'name'   => 'Приказания', // Yii::t($category, $message)
-                ]
-            ],
-            'managerOptions' => [
-                'handlers' => [
-//                    'open' => 'function(event, elfinderInstance) {
-//                                    console.log(elfinderInstance);
-//                                    $.ajax({
-//                                      url: \'http://5f.vka/api/files/open\',
-//                                      data: event.data,
-//                                      success: function(data){
-//                                        console.log(\'open\');
-//                                        console.log(data);
-//                                      },
-//                                      error: function(data){
-//                                      }
-//                                    });
-//                                }',
-//                    'rename' => 'function(event, elfinderInstance) {
-//                                    console.log(elfinderInstance);
-//                                    $.ajax({
-//                                      url: \'http://5f.vka/api/files/rename\',
-//                                      data: event.data,
-//                                      success: function(data){
-//                                        console.log(\'rename\');
-//                                        console.log(data);
-//                                      },
-//                                      error: function(data){
-//                                      }
-//                                    });
-//                                }',
-//                    'remove' => 'function(event, elfinderInstance) {
-//                                    console.log(elfinderInstance);
-//                                    $.ajax({
-//                                      url: \'http://5f.vka/api/files/remove\',
-//                                      data: event.data,
-//                                      success: function(data){
-//                                        console.log(\'remove\');
-//                                        console.log(data);
-//                                      },
-//                                      error: function(data){
-//                                      }
-//                                    });
-//                                }',
-//                    'download' => 'function(event, elfinderInstance) {
-//                                    console.log(elfinderInstance);
-//                                    $.ajax({
-//                                      url: \'http://5f.vka/api/files/download\',
-//                                      data: event.data,
-//                                      success: function(data){
-//                                        console.log(\'download\');
-//                                        console.log(data);
-//                                      },
-//                                      error: function(data){
-//                                      }
-//                                    });
-//                                }',
-//                    'upload' => 'function(event, elfinderInstance) {
-//                                    console.log(elfinderInstance);
-//                                    $.ajax({
-//                                      url: \'http://5f.vka/api/files/upload\',
-//                                      data: event.data,
-//                                      success: function(data){
-//                                        console.log(\'upload\');
-//                                        console.log(data);
-//                                      },
-//                                      error: function(data){
-//                                      }
-//                                    });
-//                                }',
-//                    'add' => 'function(event, elfinderInstance) {
-//                                    console.log(elfinderInstance);
-//                                    $.ajax({
-//                                      url: \'http://5f.vka/api/files/add\',
-//                                      data: event.data,
-//                                      success: function(data){
-//                                        console.log(\'add\');
-//                                        console.log(data);
-//                                      },
-//                                      error: function(data){
-//                                      }
-//                                    });
-//                                }',
-                ],
-            ],
-        ]
     ],
     'params' => $params,
 ];
