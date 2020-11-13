@@ -9,12 +9,19 @@ use yii\widgets\ActiveForm;
 /**
  * @var $users array
  */
+
+$result = [
+    4 => 4,
+    2 => 2,
+    3 => 3,
+    5 => 5,
+];
 ?>
 
 <div class="evaluation-form">
 
     <?php $form = ActiveForm::begin(); ?>
-    <?= $form->field($model, 'result')->textInput() ?>
+    <?= $form->field($model, 'result')->dropDownList($result) ?>
 
     <?= $form->field($model, 'semester_id')->dropDownList(\core\entities\Education\Semester::typeList()) ?>
 

@@ -26,16 +26,24 @@ $this->title = "Объявления"
                 }
             ],
             [
+                'attribute' => 'updated_at',
+                'label' => 'Объявление активно до',
+                'filter' => false,
+                'format' => 'raw',
+                'value' => function ($model) {
+                    return Yii::$app->formatter->asDatetime($model->updated_at);
+                }
+            ],
+            [
                 'class' => 'yii\grid\ActionColumn',
                 'template' => '{update} {delete}',
                 'buttons' =>
                     [
                         'update' => function ($url, $model, $key) {
-                            /*$url = '/department/common/announcement/update?id=' . $model->id;*/
                             return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url);
                         },
                         'delete' => function ($url, $model, $key) {
-                            /*$url = '/department/common/announcement/delete?id=' . $model->id;*/
+                            $url = '/news/delete?id=' . $model->id;
                             return Html::a('<span class="glyphicon glyphicon-remove"></span>', $url);
                         },
                     ],

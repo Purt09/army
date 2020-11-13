@@ -37,7 +37,8 @@
         "harunmahfud/yii2-ckeditor5": "dev-master",
         "mihaildev/yii2-elfinder": "*",
         "npm-asset/ckeditor5-image": "*",
-        "kartik-v/yii2-grid": "dev-master"
+        "kartik-v/yii2-grid": "dev-master",
+        "nesbot/carbon": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

@@ -47,8 +47,10 @@ trait CommonTimeTableTrait
         try {
             if ($model->load(Yii::$app->request->post())) {
                 if($model->summary) {
-                    $timeTable = Timetable::find()->where(['semester_id' => $model->semester_id])->andWhere(['unit_id' => $model->unit_id])->one();
+                    $timeTable = Timetable::find()->where(['semester_id' => $model->semester_id])->andWhere(['unit_id' => $model->unit_id])
+                        ->andWhere(['summary' => true])->one();
                     if(isset($timeTable)){
+                        Yii::$app->session->setFlash('warning', 'Расписание не создано, мы нашли такое уже загруженное, вы можете изменить его');
                         return $this->redirect(['time-table-upload', 'id' => $timeTable->id]);
                     }
                 }

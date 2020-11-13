@@ -8,23 +8,8 @@ use yii\web\Controller;
 
 class PlanController extends Controller
 {
-    public function actionAcademy()
+    public function actionTest()
     {
-        return $this->render('academy');
-    }
-
-    public function actionFakultet()
-    {
-        return $this->render('fakultet');
-    }
-
-    public function actionFakultetYear()
-    {
-        return $this->render('fakultet-year');
-    }
-
-    public function actionYms()
-    {
-        return $this->render('yms');
+        return $this->render('test');
     }
 }

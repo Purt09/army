@@ -44,9 +44,11 @@ return [
             'icon' => 'file',
             'url' => '#',
             'items' => [
-                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=11'],],
-                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=10'],],
-                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=12'],],
+                ['label' => 'Управление', 'icon' => 'file', 'url' => ['/moodle/mod/folder/view.php?id=1550'],],
+                ['label' => '51 кафедра', 'icon' => 'file', 'url' => ['/moodle/mod/folder/view.php?id=1546'],],
+                ['label' => '52 кафедра', 'icon' => 'file', 'url' => ['/moodle/mod/folder/view.php?id=1547'],],
+                ['label' => '53 кафедра', 'icon' => 'file', 'url' => ['/moodle/mod/folder/view.php?id=1548'],],
+                ['label' => '55 кафедра', 'icon' => 'file', 'url' => ['/moodle/mod/folder/view.php?id=1549'],],
             ],
         ],
         [

@@ -9,6 +9,7 @@ use core\entities\News\NewsPublications;
 /* @var $model core\entities\News\News */
 /* @var $form yii\widgets\ActiveForm */
 /* @var $publications NewsPublications; */
+$this->title = 'Форма добавления новости';
 ?>
 
 <div class="news-form">
@@ -37,11 +38,11 @@ use core\entities\News\NewsPublications;
     </div>
     <div class="col-sm-12">
 
-
-
         <?= $form->field($model, 'content')->widget(\stkevich\ckeditor5\EditorClassic::className(),
             [
-
+                'clientOptions' => [
+                    'rows' => 5
+                ]
             ])->label('Главная'); ?>c
 
         <?= $form->field($model, 'status')->dropDownList(NewsHelpers::statusList()) ?>
@@ -49,7 +50,7 @@ use core\entities\News\NewsPublications;
         <?= $form->field($model, 'img')->widget(\kartik\widgets\FileInput::className(), [
             'pluginOptions' => [
                 'maxFileSize' => 1000,
-                'allowedFileExtensions'=>['jpg', 'jpeg', 'gif','png']
+                'allowedFileExtensions' => ['jpg', 'jpeg', 'gif', 'png']
             ],
             'options' => ['multiple' => false]
         ]) ?>

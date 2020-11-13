@@ -40,7 +40,7 @@ use core\entities\News\NewsPublications;
         <li>Дни рождения:</li>
         <?php if(isset($users)): ?>
         <?php foreach ($users as $user): ?>
-                <li><span><?= $user->fio ?></span>
+                <li><span><?= $user->fio ?> <i style="font-size: 12px">Осталось: </i></span>
                     <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
                 </li>
         <?php endforeach; ?>

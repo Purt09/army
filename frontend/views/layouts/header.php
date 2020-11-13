@@ -144,7 +144,7 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
 
                 <ul class="nav navbar-nav">
                     <?php if (Yii::$app->user->isGuest): ?>
-                        <li class="dropdown messages-menu">
+                        <li class="dropdown messages-menu"  style="background-color: #D81B60;">
                             <a href="/moodle/index.php">
                                 Онлайн обучение
                             </a>
@@ -156,7 +156,7 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                                        style="display: none">
                                 <input type="text" name="password" value="<?= Yii::$app->user->identity->password ?>"
                                        style="display: none">
-                                <button type="submit" style="height: 50px;" class="btn btn-info">
+                                <button type="submit" style="height: 50px;" class="btn bg-maroon">
                                     Онлайн обучение
                                 </button>
                             </form>
@@ -218,27 +218,27 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/time/method/cel-academy">
+                                    <a href="/time/plan/test">
                                         Итоги успеваемости за факультет
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/method/cel-fakultet">
+                                    <a href="/time/plan/test">
                                         Итоги успеваемости по курсам
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/method/pisp">
+                                    <a href="/time/plan/test">
                                         Итоги успеваемости по уч. гр. на факультете
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/method/plans">
+                                    <a href="/time/plan/test">
                                         Итоги успеваемости по уч. гр. в подразделении
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/method/pp">
+                                    <a href="/time/plan/test">
                                         Общий рейтинг курсантов
                                     </a>
                                 </li>

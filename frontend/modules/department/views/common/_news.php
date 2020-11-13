@@ -4,6 +4,7 @@
 /* @var $searchModel core\entities\News\NewsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
+
 use yii\helpers\Html;
 use yii\grid\GridView;
 ?>

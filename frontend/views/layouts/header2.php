@@ -48,7 +48,7 @@ transform: translate(-50%, -50%);">
             <div class="navbar-custom-menu" style="float: left">
 
                 <ul class="nav navbar-nav">
-                    <li class="dropdown messages-menu" style="background-color: #cc00cc;">
+                    <li class="dropdown messages-menu" style="background-color: #D81B60;">
                         <a href="/moodle/">
                             Онлайн обучение
                         </a>

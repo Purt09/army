@@ -66,6 +66,7 @@ class AnnouncementController extends Controller
                 Yii::$app->session->setFlash('success','Объявление изменено');
             return $this->redirect(['index']);
         };
+        $model->updated_at = null;
 
         return $this->render('update', [
             'model'=>$model,

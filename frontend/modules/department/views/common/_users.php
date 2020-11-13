@@ -48,7 +48,7 @@ $this->title = $title;
             'value' => function (\core\entities\User\TblStaff $model) {
                 $position = $model->getPosition();
                 $url = \yii\helpers\Url::to(['/lk/position/add', 'id' => $model->id]);
-                return $position . "<br> <a href='{$url}'>(Изменить)</a>";
+                return $position . "<br> <a href='{$url}'>(Добавить новое звание)</a>";
             },
             'format' => 'raw'
         ],
@@ -57,7 +57,7 @@ $this->title = $title;
             'value' => function (\core\entities\User\TblStaff $model) {
                 $rank = $model->getRank();
                 $url = \yii\helpers\Url::to(['/lk/rank/index', 'id' => $model->id]);
-                return $rank . "<br> <a href='{$url}'>(Изменить)</a>";
+                return $rank . "<br> <a href='{$url}'>(Добавить новое звание)</a>";
             },
             'format' => 'raw'
         ],

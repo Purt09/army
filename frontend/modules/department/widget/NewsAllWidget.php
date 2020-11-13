@@ -32,9 +32,6 @@ class NewsAllWidget extends Widget
         }
         ArrayHelper::multisort($user_birth, 'birth');
 
-        /**
-         * Здесь надо отстортировать по дате рождения. но не учитывать год рождения
-         */
         return $this->render('news-all', [
             'news' => $this->news,
             'users' => $users,
