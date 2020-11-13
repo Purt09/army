@@ -1,7 +1,12 @@
 <?php
 
 use core\helpers\user\RbacHelpers;
-
+$url = Yii::$app->request->pathInfo;
+$url_array = explode("/", $url);
+if(count($url_array) == 3)
+    $link = '';
+else
+    $link = $url_array[1] . '/';
 ?>
 
 <aside class="main-sidebar">
@@ -9,11 +14,6 @@ use core\helpers\user\RbacHelpers;
         <?php
         $items = [
             ['label' => \frontend\widget\LabelEmblemaWidget::widget(), 'options' => ['class' => 'header']],
-            [
-                'label' => 'ВПР',
-                'icon' => 'user',
-                'url' => ['immortal-regiment-view'],
-            ],
             [
                 'label' => 'УМБ',
                 'icon' => 'pencil-square-o',
@@ -24,7 +24,7 @@ use core\helpers\user\RbacHelpers;
             array_push($items,[
                 'label' => 'Обновление данных',
                 'icon' => 'list',
-                'url' => ['manager'],
+                'url' => [$link . 'manager'],
             ]);
             array_push($items, [
                     'label' => 'Кадровая работа',

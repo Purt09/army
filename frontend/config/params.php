@@ -21,6 +21,11 @@ return [
             ],
         ],
         [
+            'label' => 'Служба войск',
+            'icon' => 'star',
+            'url' => ['/site/army'],
+        ],
+        [
             'label' => 'Расписание занятий',
             'icon' => 'pencil',
             'url' => '#',
@@ -30,9 +35,19 @@ return [
             ],
         ],
         [
-            'label' => 'Служба войск',
+            'label' => 'Задачи и приказания',
             'icon' => 'star',
-            'url' => ['/site/army'],
+            'url' => ['/tasks'],
+        ],
+        [
+            'label' => 'Документы',
+            'icon' => 'file',
+            'url' => '#',
+            'items' => [
+                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=11'],],
+                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=10'],],
+                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['/fileManager/default/index?id=12'],],
+            ],
         ],
         [
             'label' => 'ВПР',
@@ -44,29 +59,19 @@ return [
             'icon' => 'trophy',
             'url' => ['/sport/index'],
         ],
-        [
-            'label' => 'Документы',
-            'icon' => 'file',
-            'url' => '#',
-            'items' => [
-                ['label' => 'Факультета', 'icon' => 'file', 'url' => ['/elfinder/manager'], 'itemOptions' => ['target' => '_blank']],
-                ['label' => 'Подразделений', 'icon' => 'file', 'url' => ['elfinder/manager'],],
-                ['label' => 'Приказания', 'icon' => 'file', 'url' => ['elfinder/manager'],],
-            ],
-        ],
-        [
-            'label' => 'Выпускники',
-            'icon' => 'child',
-            'url' => '#',
-            'items' => [
-                ['label' => 'Все', 'icon' => 'users', 'url' => ['/department/common/view-graduate'],],
-                ['label' => '51 кафедры', 'icon' => '', 'url' => ['/department/five-one/view-graduate'],],
-                ['label' => '52 кафедры', 'icon' => '', 'url' => ['/department/five-two/view-graduate'],],
-                ['label' => '53 кафедры', 'icon' => '', 'url' => ['/department/five-free/view-graduate'],],
-                ['label' => '55 кафедры', 'icon' => '', 'url' => ['/department/five-five/view-graduate'],],
-                ['label' => 'Выдающиеся', 'icon' => 'star', 'url' => ['/department/common/view-graduate-stars'],],
-            ],
-        ],
+//        [
+//            'label' => 'Выпускники',
+//            'icon' => 'child',
+//            'url' => '#',
+//            'items' => [
+//                ['label' => 'Все', 'icon' => 'users', 'url' => ['/department/common/view-graduate'],],
+//                ['label' => '51 кафедры', 'icon' => '', 'url' => ['/department/five-one/view-graduate'],],
+//                ['label' => '52 кафедры', 'icon' => '', 'url' => ['/department/five-two/view-graduate'],],
+//                ['label' => '53 кафедры', 'icon' => '', 'url' => ['/department/five-free/view-graduate'],],
+//                ['label' => '55 кафедры', 'icon' => '', 'url' => ['/department/five-five/view-graduate'],],
+//                ['label' => 'Выдающиеся', 'icon' => 'star', 'url' => ['/department/common/view-graduate-stars'],],
+//            ],
+//        ],
         [
             'label' => 'Контакты',
             'icon' => 'star',

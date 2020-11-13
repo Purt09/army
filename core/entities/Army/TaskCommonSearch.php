@@ -11,6 +11,11 @@ use core\entities\Army\TaskCommon;
  */
 class TaskCommonSearch extends TaskCommon
 {
+
+    public $date_from;
+    public $date_to;
+
+
     /**
      * {@inheritdoc}
      */
@@ -20,6 +25,9 @@ class TaskCommonSearch extends TaskCommon
             [['id', 'order_date_finish', 'date_finish', 'created_at'], 'integer'],
             [['order_id', 'name', 'description'], 'safe'],
             [['is_complete_cafedra_51', 'is_complete_cafedra_52', 'is_complete_cafedra_53', 'is_complete_cafedra_55', 'is_complete_course_51', 'is_complete_course_52', 'is_complete_course_53', 'is_complete_course_54', 'is_complete_course_55', 'is_complete_manager_cv', 'is_complete_manager_vpr', 'is_complete_manager_teacher'], 'boolean'],
+
+            [['date_from', 'date_to'], 'date', 'format' => 'php:Y-m-d']
+
         ];
     }
 
@@ -47,6 +55,9 @@ class TaskCommonSearch extends TaskCommon
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+
+            'sort' => ['defaultOrder'=>'id DESC']
+
         ]);
 
         $this->load($params);
@@ -79,6 +90,10 @@ class TaskCommonSearch extends TaskCommon
 
         $query->andFilterWhere(['ilike', 'order_id', $this->order_id])
             ->andFilterWhere(['ilike', 'name', $this->name])
+
+            ->andFilterWhere(['>=', 'order_date_finish', $this->date_from ? strtotime($this->date_from . ' 00:00:00') : null])
+            ->andFilterWhere(['<=', 'order_date_finish', $this->date_to ? strtotime($this->date_to . ' 23:59:59') : null])
+
             ->andFilterWhere(['ilike', 'description', $this->description]);
 
         return $dataProvider;

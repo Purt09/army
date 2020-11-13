@@ -60,7 +60,6 @@ class NewsSearch extends News
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
-            'defaultOrder'=>'id DESC',
         ]);
 
         $this->load($params);
@@ -78,7 +77,7 @@ class NewsSearch extends News
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
             'publications' => $this->publications,
-        ]);
+        ])->orderBy('id DESC');
 
         $query->andFilterWhere(['ilike', 'title', $this->title])
             ->andFilterWhere(['ilike', 'description', $this->description])

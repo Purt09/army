@@ -43,8 +43,9 @@ class News extends \yii\db\ActiveRecord
             [['description', 'content', 'img'], 'string'],
             [['important'], 'boolean'],
             [['status', 'created_at', 'updated_at', 'publications'], 'default', 'value' => null],
-            [['status', 'created_at', 'updated_at', 'publications'], 'integer'],
+            [['status', 'created_at', 'publications'], 'integer'],
             [['title'], 'string', 'max' => 255],
+            [['updated_at'], 'safe'],
             [['publications'], 'exist', 'skipOnError' => true, 'targetClass' => NewsPublications::className(), 'targetAttribute' => ['publications' => 'id']],
         ];
     }

@@ -13,6 +13,7 @@ use core\entities\traits\ViewTitleTrait;
  * @property string $title
  *
  * @property Timetable[] $timetables
+ * @property Evaluation[] $evaluations
  */
 class Semester extends \yii\db\ActiveRecord
 {
@@ -71,6 +72,11 @@ class Semester extends \yii\db\ActiveRecord
     public function getTimetables()
     {
         return $this->hasMany(Timetable::className(), ['unit_id' => 'id']);
+    }
+
+    public function getEvaluations()
+    {
+        return $this->hasMany(Evaluation::className(), ['semester_id' => 'id']);
     }
 
 }

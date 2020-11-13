@@ -2,6 +2,8 @@
 
 namespace frontend\controllers;
 
+use core\entities\Army\Plan;
+use core\entities\Army\PlanCategory;
 use core\vendor\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
@@ -37,7 +39,7 @@ class SiteController extends Controller
     {
         $model = Page::find()->where(['alias' => 'main_fak_general'])->one();
         $history = Page::find()->where(['alias' => 'history-main'])->one();
-        $announcement = Page::find()->where(['alias' => 'fakultet_announcement'])->one();
+        $announcements = NewsPublications::find()->where(['announcement' => 1])->with('articles')->all();
 
         $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
         $users = RbacHelpers::getByTwoRole(RbacHelpers::$MANAGER, RbacHelpers::$FAKULTET);
@@ -47,7 +49,7 @@ class SiteController extends Controller
             'model' => $model,
             'users' => $users,
             'history' => $history,
-            'announcement' => $announcement
+            'announcements' => $announcements
         ]);
     }
 
@@ -109,5 +111,17 @@ class SiteController extends Controller
     public function actionListLessons()
     {
         return $this->render('list-lessons');
+    }
+
+    public function actionViewPlan($alias)
+    {
+        $category = PlanCategory::find()->where(['alias' => $alias])->one();
+        $models = Plan::find()->where(['category_id' => $category->id])->limit(10)->orderBy('date')->all();
+
+
+        return $this->render('view-plans', [
+            'models' => $models,
+            'category' => $category
+        ]);
     }
 }

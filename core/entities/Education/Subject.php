@@ -5,6 +5,7 @@ namespace core\entities\Education;
 use core\entities\User\TblMilUnit;
 use core\entities\User\Vpr\ViewTypeTrait;
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "yii_subject".
@@ -21,6 +22,13 @@ use Yii;
 class Subject extends \yii\db\ActiveRecord
 {
     use ViewTypeTrait;
+    public static function getList()
+    {
+        $subjects = self::find()->asArray()->all();
+
+        $subjects = ArrayHelper::map($subjects, 'id', 'name');
+        return array_filter($subjects);
+    }
 
     /**
      * {@inheritdoc}

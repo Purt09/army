@@ -35,7 +35,9 @@
         "mihaildev/yii2-ckeditor": "*",
         "ext-mbstring": "*",
         "harunmahfud/yii2-ckeditor5": "dev-master",
-        "mihaildev/yii2-elfinder": "*"
+        "mihaildev/yii2-elfinder": "*",
+        "npm-asset/ckeditor5-image": "*",
+        "kartik-v/yii2-grid": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
