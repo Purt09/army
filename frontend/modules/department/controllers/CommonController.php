@@ -149,6 +149,7 @@ class CommonController extends Controller
         $newsPublications = NewsPublications::find()->where(['main' => true])->with('articles')->all();
         return $this->render('manager', [
             'newsPublications' => $newsPublications,
+            'unit_id' => self::UNIT_ID,
             'controller' => 'common',
             'title' => 'факультетом'
         ]);

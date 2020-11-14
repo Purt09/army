@@ -1,18 +1,17 @@
 <?php
 
-namespace backend\controllers\common;
 
+namespace frontend\modules\education\controllers;
+
+
+use core\entities\Common\Sport;
+use core\entities\Common\SportSearch;
 use Yii;
-use core\entities\Common\FileLog;
-use core\entities\Common\FileLogSearch;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
 
-/**
- * FilesController implements the CRUD actions for FileLog model.
- */
-class FilesController extends Controller
+class SportController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -30,12 +29,12 @@ class FilesController extends Controller
     }
 
     /**
-     * Lists all FileLog models.
+     * Lists all Sport models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new FileLogSearch();
+        $searchModel = new SportSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +44,7 @@ class FilesController extends Controller
     }
 
     /**
-     * Displays a single FileLog model.
+     * Displays a single Sport model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -58,16 +57,18 @@ class FilesController extends Controller
     }
 
     /**
-     * Creates a new FileLog model.
+     * Creates a new Sport model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    public function actionCreate($unit_id)
     {
-        $model = new FileLog();
+        $model = new Sport();
+        $model->unit_id = $unit_id;
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            Yii::$app->session->setFlash('success', 'Ведомость добавлена');
+            return $this->redirect(['index', 'id' => $model->id]);
         }
 
         return $this->render('create', [
@@ -76,7 +77,7 @@ class FilesController extends Controller
     }
 
     /**
-     * Updates an existing FileLog model.
+     * Updates an existing Sport model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -96,7 +97,7 @@ class FilesController extends Controller
     }
 
     /**
-     * Deletes an existing FileLog model.
+     * Deletes an existing Sport model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -110,15 +111,15 @@ class FilesController extends Controller
     }
 
     /**
-     * Finds the FileLog model based on its primary key value.
+     * Finds the Sport model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return FileLog the loaded model
+     * @return Sport the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = FileLog::findOne($id)) !== null) {
+        if (($model = Sport::findOne($id)) !== null) {
             return $model;
         }
 

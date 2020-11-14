@@ -252,17 +252,22 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/time/method/cel-academy">
-                                        График контроля
+                                    <a href="/site/view-plan?alias=method_control_oc">
+                                        График контроля Осень 20/21
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/method/cel-fakultet">
+                                    <a href="/site/view-plan?alias=method_control_ves">
+                                        График контроля Весна 20/21
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/site/view-plan?alias=method_open_lessons">
                                         Открытые и показательные занятия
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/method/pisp">
+                                    <a href="/site/view-plan?alias=method_up_skill">
                                         Повышение квалификации
                                     </a>
                                 </li>
@@ -276,17 +281,17 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         <ul class="dropdown-menu">
                             <ul class="menu">
                                 <li>
-                                    <a href="/time/science/vno">
+                                    <a href="/time/plan/science">
                                         Конференции
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/science/pisp">
+                                    <a href="/time/plan/science">
                                         Конкурсы
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/time/science/pisp">
+                                    <a href="/time/plan/science">
                                         Олимпиады
                                     </a>
                                 </li>

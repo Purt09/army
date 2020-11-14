@@ -16,7 +16,7 @@ trait ViewTitleTrait
      */
     public static function typeList(): array
     {
-        $types = self::find()->all();
+        $types = self::find()->limit(10)->all();
         $types = ArrayHelper::toArray($types);
         $types = ArrayHelper::map($types, 'id', 'title');
         return $types;

@@ -103,7 +103,8 @@ class FiveTwoController extends Controller
     {
         $newsPublications = NewsPublications::find()->where(['52_cafedra' => true])->with('articles')->all();
         return $this->render('manager', [
-            'newsPublications' => $newsPublications
+            'newsPublications' => $newsPublications,
+            'unit_id' => self::UNIT_ID
         ]);
     }
 

@@ -2,6 +2,7 @@
 /**
  * @var $controller string
  * @var $title string
+ * @var $unit_id integer
  * @var $newsPublications \core\entities\News\NewsPublications
  */
 
@@ -10,6 +11,7 @@ $this->title = 'Управление кафедрой ' . $title;
 <?= $this->render('_manager', [
     'controller' => 'common',
     'title' => 'факультета',
+    'unit_id' => $unit_id,
     'newsPublications' => $newsPublications
 ]) ?>
 
@@ -218,6 +220,109 @@ $this->title = 'Управление кафедрой ' . $title;
                     <div class="info-box-content">
                         <span class="info-box-text"> </span>
                         <span class="info-box-number">ПИСП</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <!-- /.box-body -->
+</div>
+
+<div class="box box-success">
+    <div class="box-header with-border">
+        <h3 class="box-title">Физическая подготовка</h3>
+    </div>
+    <div class="box-body">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to("/education/sport/create?unit_id=" . $unit_id) ?>">
+                <div class="info-box bg-green">
+                    <span class="info-box-icon"><i class="fa fa-flag"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Добавить ведомость фп</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to("/education/sport/index") ?>">
+                <div class="info-box bg-green">
+                    <span class="info-box-icon"><i class="fa fa-flag"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Все ведомости по фп</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="box box-success">
+    <div class="box-header with-border">
+        <h3 class="box-title">Методическая деятельность</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'method_control_oc']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">График контроля </span>
+                        <span class="info-box-number">Осень 20/21</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'method_control_ves']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">График контроля </span>
+                        <span class="info-box-number">Весна 20/21</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'method_open_lessons']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Открытые и  </span>
+                        <span class="info-box-number">показательные занятия</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <a class="box_link" href="<?= \yii\helpers\Url::to(["common/plan/plans", 'alias' => 'method_up_skill']) ?>">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fa fa-tasks"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"> </span>
+                        <span class="info-box-number">Повышении  </span>
+                        <span class="info-box-number">квалификации</span>
                     </div>
                 </div>
             </a>

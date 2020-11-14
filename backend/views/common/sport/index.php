@@ -4,18 +4,18 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel core\entities\Common\FileSearch */
+/* @var $searchModel core\entities\Common\SportSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Files';
+$this->title = 'Ведомости по фп';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="file-index">
+<div class="sport-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create File', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавит ведомость по фп', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -28,14 +28,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'title',
-            'name',
-            'user_id',
-            'path',
-            //'create_at',
-            //'size',
-            //'delete_id',
-            //'block:boolean',
-            //'type',
+            'text:ntext',
+            'semester_id',
+            'unit_id',
+            //'created_at',
+            //'sort',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

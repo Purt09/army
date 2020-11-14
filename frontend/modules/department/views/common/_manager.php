@@ -2,6 +2,7 @@
 /**
  * @var $controller string
  * @var $title string
+ * @var $unit_id int
  * @var $newsPublications \core\entities\News\NewsPublications
  */
 

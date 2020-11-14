@@ -12,4 +12,9 @@ class PlanController extends Controller
     {
         return $this->render('test');
     }
+
+    public function actionScience()
+    {
+        return $this->render('science');
+    }
 }

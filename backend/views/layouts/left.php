@@ -19,7 +19,6 @@
                 'items' => [
                     ['label' => 'Страницы', 'icon' => 'list', 'url' => ['/pages/manager/index'],],
                     ['label' => 'Новости', 'icon' => 'list', 'url' => ['/news/index'],],
-                    ['label' => 'Файлы', 'icon' => 'file', 'url' => ['/common/files'],],
                     [
                         'label' => 'Общие настройки',
                         'icon' => 'cog',
@@ -27,6 +26,7 @@
                         'items' => [
                             ['label' => 'Страны', 'icon' => '', 'url' => ['/common/country'],],
                             ['label' => 'Города', 'icon' => '', 'url' => ['/common/city'],],
+                            ['label' => 'Ведомости ФП', 'icon' => '', 'url' => ['/common/sport'],],
                         ],
                     ],
                     [

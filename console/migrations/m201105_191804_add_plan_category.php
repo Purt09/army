@@ -12,7 +12,6 @@ class m201105_191804_add_plan_category extends Migration
      */
     public function safeUp()
     {
-
         $this->insert('{{%plan_category}}', [
             'name' => 'План учебного совета на год',
             'alias' => 'learning_advice',

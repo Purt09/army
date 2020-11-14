@@ -141,45 +141,6 @@ $this->title = '';
     }
     .kafedra_block h2{
     }
-    .btn{
-
-        color:#fff;
-        border-radius:30px;
-        text-transform: uppercase;
-        transform: scale(1.1,1.1);
-        transition:all 0.3s ease-out 0s;
-    }
-    .btn:hover{
-        transform: scale(1,1);
-        color:#fff;
-    }
-    .btn i{
-        margin-right:15px;
-        color:#fff;
-    }
-    .btn:before {
-        content: "";
-        position: absolute;
-        bottom: -8px;
-        left:0px;
-        width:100%;
-        height: 10px;
-        filter: blur(20px);
-        border-radius: 30px;
-        display: inline-block;
-        z-index: -1;
-        transition: all 0.3s ease-out 0s;
-    }
-    .btn:hover:before{
-        bottom:0;
-        filter: blur(10px);
-    }
-    .btn.blue{
-        background: linear-gradient(to left, #7474bf , #348ac7);
-    }
-    .btn.blue:before{
-        background: linear-gradient(to right,#7474bf,#348ac7);
-    }
 
 </style>
 
