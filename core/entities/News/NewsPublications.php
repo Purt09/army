@@ -70,6 +70,6 @@ class NewsPublications extends \yii\db\ActiveRecord
      */
     public function getArticles()
     {
-        return $this->hasOne(News::className(), ['publications' => 'id']);
+        return $this->hasOne(News::className(), ['publications' => 'id'])->orderBy('id ASC');
     }
 }

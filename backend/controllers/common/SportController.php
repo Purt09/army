@@ -3,16 +3,16 @@
 namespace backend\controllers\common;
 
 use Yii;
-use core\entities\Common\File;
-use core\entities\Common\FileSearch;
+use core\entities\Common\Sport;
+use core\entities\Common\SportSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * FileController implements the CRUD actions for File model.
+ * SportController implements the CRUD actions for Sport model.
  */
-class FileController extends Controller
+class SportController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -30,12 +30,12 @@ class FileController extends Controller
     }
 
     /**
-     * Lists all File models.
+     * Lists all Sport models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new FileSearch();
+        $searchModel = new SportSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +45,7 @@ class FileController extends Controller
     }
 
     /**
-     * Displays a single File model.
+     * Displays a single Sport model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -58,13 +58,13 @@ class FileController extends Controller
     }
 
     /**
-     * Creates a new File model.
+     * Creates a new Sport model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new File();
+        $model = new Sport();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -76,7 +76,7 @@ class FileController extends Controller
     }
 
     /**
-     * Updates an existing File model.
+     * Updates an existing Sport model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -96,7 +96,7 @@ class FileController extends Controller
     }
 
     /**
-     * Deletes an existing File model.
+     * Deletes an existing Sport model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -110,15 +110,15 @@ class FileController extends Controller
     }
 
     /**
-     * Finds the File model based on its primary key value.
+     * Finds the Sport model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return File the loaded model
+     * @return Sport the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = File::findOne($id)) !== null) {
+        if (($model = Sport::findOne($id)) !== null) {
             return $model;
         }
 

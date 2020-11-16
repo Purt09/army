@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model core\entities\Common\FileLog */
+/* @var $model core\entities\Common\Sport */
 
-$this->title = 'Create File Log';
-$this->params['breadcrumbs'][] = ['label' => 'История действий с файлами', 'url' => ['index']];
+$this->title = 'Добавит ведомость по фп';
+$this->params['breadcrumbs'][] = ['label' => 'Ведомости по фп', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="file-log-create">
+<div class="sport-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

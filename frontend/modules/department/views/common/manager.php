@@ -192,7 +192,7 @@ $this->title = 'Управление кафедрой ' . $title;
 
                     <div class="info-box-content">
                         <span class="info-box-text"> </span>
-                        <span class="info-box-number">Планы учебного</span>
+                        <span class="info-box-number">Планы учёного</span>
                         <span class="info-box-number">совета на год</span>
                     </div>
                 </div>

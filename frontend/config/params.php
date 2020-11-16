@@ -23,7 +23,13 @@ return [
         [
             'label' => 'Служба войск',
             'icon' => 'star',
-            'url' => ['/site/army'],
+            'url' => '#',
+            'items' => [
+                ['label' => 'Командование', 'icon' => 'star', 'url' => ['/site/army'],],
+                ['label' => 'Рапорт ДФ', 'icon' => '', 'url' => ['http://5f.vka/moodle/mod/wiki/view.php?id=1351'],],
+                ['label' => 'Расход ДФ', 'icon' => '', 'url' => ['http://5f.vka/moodle/mod/wiki/view.php?id=1511'],],
+                ['label' => 'Оценки за сутки', 'icon' => '', 'url' => ['http://5f.vka/moodle/mod/wiki/view.php?id=1543'],],
+            ],
         ],
         [
             'label' => 'Расписание занятий',

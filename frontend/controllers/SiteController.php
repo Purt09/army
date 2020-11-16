@@ -41,7 +41,7 @@ class SiteController extends Controller
         $history = Page::find()->where(['alias' => 'history-main'])->one();
         $announcements = NewsPublications::find()->where(['announcement' => 1])->with('articles')->all();
 
-        $news = NewsPublications::find()->where(['main' => 1])->with('articles')->all();
+        $news = NewsPublications::find()->where(['main' => 1])->with('articles')->orderBy('id DESC')->all();
         $users = RbacHelpers::getByTwoRole(RbacHelpers::$MANAGER, RbacHelpers::$FAKULTET);
 
         return $this->render('index', [

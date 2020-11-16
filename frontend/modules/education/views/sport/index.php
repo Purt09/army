@@ -4,13 +4,13 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel core\entities\Common\FileLogSearch */
+/* @var $searchModel core\entities\Common\SportSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'История действий с файлами';
+$this->title = 'Ведомости по фп';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="file-log-index">
+<div class="sport-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -21,10 +21,16 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'user_id',
-            'type',
-            'description',
+            'title',
+            'text:ntext',
+            [
+                'attribute' => 'semester_id',
+                'filter' => \core\entities\Education\Semester::typeList()
+            ],
+            [
+                'attribute' => 'unit_id',
+                'filter' => \core\entities\User\TblMilUnit::typeList()
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

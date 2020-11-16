@@ -46,16 +46,10 @@ class PlanController extends CommonController
             return $this->redirect(['plan-upload', 'id' => $model->id]);
         }
 
-        switch ($alias) {
-            case 'fak_plan_month':
-            case 'fak_plan_year':
-            case 'academy_plan_month':
-            case 'fak_plan_yms':
-                return $this->render('create-plan', [
-                    'category' => $category,
-                    'model' => $model
-                ]);
-        }
+        return $this->render('create-plan', [
+            'category' => $category,
+            'model' => $model
+        ]);
     }
 
     public function actionDelete($id)
