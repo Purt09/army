@@ -4,11 +4,13 @@ namespace frontend\controllers;
 
 use core\entities\Army\Plan;
 use core\entities\Army\PlanCategory;
+use core\entities\User\User;
 use core\vendor\pages\models\Page;
 use core\entities\News\News;
 use core\entities\News\NewsPublications;
 use core\entities\User\TblStaff;
 use core\helpers\user\RbacHelpers;
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 
 /**
@@ -58,9 +60,21 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
+        $users = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$OFFICER);
+        $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();
+        $users = ArrayHelper::map($users, 'user_base_id', 'user_base_id');
+        $users = TblStaff::find()->where(['id' => $users])->indexBy('id')->all();
+        $users = ArrayHelper::map($users, 'id', 'fio');
+
+        if(\Yii::$app->request->isPost) {
+            $user = TblStaff::findOne(\Yii::$app->request->post('user'));
+        }
+
         $info = Page::find()->where(['alias' => 'contacts-info'])->one();
         return $this->render('contact', [
             'info' => $info,
+            'users' => $users,
+            'user' => $user
         ]);
     }
 

@@ -64,6 +64,34 @@ $this->title = 'Служба войск';
         </div>
     </div>
 </div>
+<div class="modal fade" id="staticBackdropVKS" data-backdrop="static" data-keyboard="false"
+     tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h5 class="modal-title" id="staticBackdropLabel">Биография</h5>
+            </div>
+            <div class="modal-body">
+                23 июня 2011 года назначен начальником 1-го Государственного испытательного космодрома Министерства обороны Российской Федерации и занимал эту должность до декабря 2012 года.
+
+                24 декабря 2012 года указом Президента Российской Федерации генерал-майор А. В. Головко назначен командующим Войсками воздушно-космической обороны.
+
+                После создания в Вооружённых Силах Российской Федерации нового вида войск — ВКС, Указом Президента Российской Федерации от 1 августа 2015 года № 394 генерал-лейтенант Головко назначен Командующим Космическими войсками — заместителем главнокомандующего Воздушно-космическими силами. 10 июня 2017 года присвоено воинское звание генерал-полковник
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Закрыть
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
 <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false"
      tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel"
      aria-hidden="true">
@@ -146,6 +174,26 @@ $this->title = 'Служба войск';
 
                         <button type="button" class="btn btn-primary btn-block" data-toggle="modal"
                                 data-target="#staticBackdrop2">
+                            Подробнее
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="box box-primary">
+                    <div class="box-body box-profile">
+
+                        <div class="user_photo">
+                            <img class="user_photo img-responsive" src="/img/vks.jpg" alt="User profile picture">
+                        </div>
+
+                        <h3 class="profile-username text-center">Алекса́ндр Валенти́нович Головко́</h3>
+
+                        <p class="text-muted text-center">Командующий Космическими войсками</p>
+
+
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal"
+                                data-target="#staticBackdropVKS">
                             Подробнее
                         </button>
 

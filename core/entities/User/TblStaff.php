@@ -2,6 +2,7 @@
 
 namespace core\entities\User;
 
+use Carbon\Carbon;
 use core\entities\Rubish\IoStates;
 use core\entities\User\Duty\TblStaffDuty;
 use core\entities\User\Duty\TblStaffDutyJourney;
@@ -71,6 +72,22 @@ use core\entities\User\Vpr\TblStaffPromotion;
  */
 class TblStaff extends \yii\db\ActiveRecord
 {
+    /**
+     * Сколько дней до дня рождения
+     *
+     * @param $day
+     * @return int
+     */
+    public function getDiffDay($day)
+    {
+        $dr = Carbon::createFromDate(null, intval((int) substr($this->birthday_date, 5, 7)), substr($this->birthday_date, 8, 10));
+        // Высчитываем разницу дней. Сортируем по возрастанию
+        $bd = $day->diffInDays($dr, false);
+        if($bd < -180) // Чтобы не было ошибок при переходе в новый год
+            $bd += 365;
+        return $bd;
+    }
+
     /**
      * @return string текущая позиция
      */
