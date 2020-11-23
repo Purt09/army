@@ -66,6 +66,7 @@ class SiteController extends Controller
         $users = TblStaff::find()->where(['id' => $users])->indexBy('id')->all();
         $users = ArrayHelper::map($users, 'id', 'fio');
 
+        $user = null;
         if(\Yii::$app->request->isPost) {
             $user = TblStaff::findOne(\Yii::$app->request->post('user'));
         }
