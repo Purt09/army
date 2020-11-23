@@ -6,6 +6,7 @@
 
 use core\entities\News\NewsPublications;
 
+$today_year = \Carbon\Carbon::today()->year;
 ?>
 <div class="col-sm-9">
     <?php foreach ($news as $item): ?>
@@ -40,9 +41,23 @@ use core\entities\News\NewsPublications;
         <li>Дни рождения:</li>
         <?php if(isset($users)): ?>
         <?php foreach ($users as $user): ?>
-                <li><span><?= $user->fio ?> <i style="font-size: 12px">Осталось: </i></span>
+                <?php if($user->getDiffDay(\Carbon\Carbon::today()) == 0): ?>
+                    <li style="color: #b35ede;" class="">Сегодня:</li>
+                    <li><span><?= $user->fio ?></span>
+                        <?php if($today_year - intval((int) substr($user->birthday_date, 0, 4)) % 5 == 0): ?>
+                        <em>Юбилей!</em>
+                        <?php endif; ?>
+                    </li>
+                <?php elseif ($user->getDiffDay(\Carbon\Carbon::tomorrow()) == 0): ?>
+                    <li style="color: #b35ede;" class="">Завтра:</li>
+                    <li><span><?= $user->fio ?></span>
+                        <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
+                    </li>
+                <?php else: ?>
+                <li><span><?= $user->fio ?> <i style="font-size: 12px">Осталось: <?= $user->getDiffDay(\Carbon\Carbon::today()) ?> дней</i></span>
                     <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
                 </li>
+                <?php endif; ?>
         <?php endforeach; ?>
         <?php endif; ?>
     </ul>
