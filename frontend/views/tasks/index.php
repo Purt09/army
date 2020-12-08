@@ -12,15 +12,17 @@ use yii\helpers\Html;
 $this->title = 'Задачи и приказания';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<style>
+    .datepicker {
+        z-index: 1900 !important;
+    }
+</style>
 <div class="task-common-index">
-
-    <h1><?= Html::encode($this->title) ?></h1>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
             'order_id',
             [
                 'attribute' => 'order_date_finish',
@@ -32,14 +34,26 @@ $this->params['breadcrumbs'][] = $this->title;
                     'separator' => '-',
                     'pluginOptions' => [
                         'autoclose' => true,
-                        'format' => 'yyyy-mm-dd'
+                        'format' => 'dd-mm-yyyy'
                     ]
                 ]),
-                'format' => ['date', 'php:Y-m-d']
+                'value' => function ($model) {
+                    return Yii::$app->formatter->asDate($model->date_finish);
+                }
             ],
             [
                 'attribute' => 'date_finish',
-                'filter' => false,
+                'filter' => DatePicker::widget([
+                    'model' => $searchModel,
+                    'attribute' => 'date_from_finish',
+                    'attribute2' => 'date_to_finish',
+                    'type' => DatePicker::TYPE_RANGE,
+                    'separator' => '-',
+                    'pluginOptions' => [
+                        'autoclose' => true,
+                        'format' => 'dd-mm-yyyy'
+                    ]
+                ]),
                 'value' => function ($model) {
                     return Yii::$app->formatter->asDate($model->date_finish);
                 }

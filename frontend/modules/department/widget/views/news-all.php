@@ -48,12 +48,15 @@ $today_year = \Carbon\Carbon::today()->year;
                         <em>Юбилей!</em>
                         <?php endif; ?>
                     </li>
+                    <hr>
                 <?php elseif ($user->getDiffDay(\Carbon\Carbon::tomorrow()) == 0): ?>
                     <li style="color: #b35ede;" class="">Завтра:</li>
                     <li><span><?= $user->fio ?></span>
                         <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
                     </li>
+                    <hr>
                 <?php else: ?>
+                    <li style="color: #b35ede;" class="">Ближайшие:</li>
                 <li><span><?= $user->fio ?> <i style="font-size: 12px">Осталось: <?= $user->getDiffDay(\Carbon\Carbon::today()) ?> дней</i></span>
                     <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
                 </li>

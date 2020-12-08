@@ -6,6 +6,7 @@ namespace frontend\modules\education\controllers;
 
 use core\entities\Common\Sport;
 use core\entities\Common\SportSearch;
+use core\entities\Education\Timetable;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
@@ -24,6 +25,35 @@ class SportController extends Controller
                 'actions' => [
                     'delete' => ['POST'],
                 ],
+            ],
+        ];
+    }
+
+
+    public function actions()
+    {
+        return [
+            'file-upload' => [
+                'class' => \pantera\media\actions\kartik\MediaUploadActionKartik::className(),
+                'model' => function () {
+                    if (Yii::$app->request->get('id')) {
+                        return Sport::findOne(Yii::$app->request->get('id'));
+                    } else {
+                        return new Test();
+                    }
+                }
+            ],
+            'file-delete' => [
+                'class' => \pantera\media\actions\kartik\MediaDeleteActionKartik::className(),
+                'model' => function () {
+                    return \pantera\media\models\Media::findOne(Yii::$app->request->get('id'));
+                }
+            ],
+            'file-sort' => [
+                'class' => \pantera\media\actions\kartik\MediaSortActionKartik::className(),
+                'model' => function () {
+                    return Sport::findOne(Yii::$app->request->get('id'));
+                }
             ],
         ];
     }
@@ -61,10 +91,10 @@ class SportController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate($unit_id)
+    public function actionCreate()
     {
         $model = new Sport();
-        $model->unit_id = $unit_id;
+        $model->created_at = time();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             Yii::$app->session->setFlash('success', 'Ведомость добавлена');

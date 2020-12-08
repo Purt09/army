@@ -62,7 +62,7 @@ class EvaluationSearch extends Evaluation
             'semester_id' => $this->semester_id,
             'user_id' => $this->user_id,
             'subject_id' => $this->subject_id,
-        ]);
+        ])->orderBy('id DESC');
 
         return $dataProvider;
     }

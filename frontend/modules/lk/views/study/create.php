@@ -6,9 +6,8 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model core\entities\Education\Evaluation */
 /* @var $form yii\widgets\ActiveForm */
-/**
- * @var $users array
- */
+
+$this->title = 'Зачетная книжка ';
 
 $result = [
     4 => 4,
@@ -21,6 +20,10 @@ $result = [
 <div class="evaluation-form">
 
     <?php $form = ActiveForm::begin(); ?>
+
+    <?= $form->field($model, 'semester_id')->widget(\kartik\select2\Select2::className(), [
+        'data' => \core\entities\Education\Semester::typeList(),
+    ]) ?>
 
     <?= $form->field($model, 'subject_id')->widget(\kartik\select2\Select2::className(), [
         'data' => \core\entities\Education\Subject::getList(),

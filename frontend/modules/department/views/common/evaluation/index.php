@@ -1,5 +1,6 @@
 <?php
 
+use core\entities\Education\Semester;
 use yii\helpers\Html;
 use yii\grid\GridView;
 
@@ -24,13 +25,43 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
             'result',
-            'semester_id',
-            'user_id',
-            'subject_id',
-
-            ['class' => 'yii\grid\ActionColumn'],
+            [
+                'attribute' => 'semester_id',
+                'filter' => Semester::typeList(),
+                'value' => function ($model) {
+                    return $model->semester->title;
+                }
+            ],
+            [
+                'attribute' => 'user_id',
+                'filter' => false,
+                'value' => function ($model) {
+                    return $model->user->base->fio;
+                }
+            ],
+            [
+                'attribute' => 'subject_id',
+                'filter' => \core\entities\Education\Subject::typeList(),
+                'value' => function ($model) {
+                    return $model->subject->name;
+                }
+            ],
+            [
+                'class' => 'yii\grid\ActionColumn',
+                'template' => '{update} {delete}',
+                'buttons' =>
+                    [
+                        'update' => function ($url, $model, $key) {
+                            $url = '/department/common/update-evaluation?id=' . $model->id;
+                            return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url);
+                        },
+                        'delete' => function ($url, $model, $key) {
+                            $url = '/department/common/delete-evaluation?id=' . $model->id;
+                            return Html::a('<span class="glyphicon glyphicon-remove"></span>', $url);
+                        },
+                    ],
+            ],
         ],
     ]); ?>
 

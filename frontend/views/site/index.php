@@ -14,7 +14,7 @@ $this->title = '5 факультет';
         <?php if (isset($announcement->articles)): ?>
             <?php if ($announcement->articles->updated_at > time()): ?>
 
-                <div class="callout callout-info">
+                <div class="callout callout-warning">
                     <h4><i class="fa fa-info"></i> Объявление:</h4>
 
                     <p>

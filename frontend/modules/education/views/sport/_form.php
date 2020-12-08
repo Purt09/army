@@ -17,6 +17,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'text')->textarea(['rows' => 6]) ?>
 
+    <?= $form->field($model, 'unit_id')->dropDownList(\core\entities\User\TblMilUnit::typeShortList()) ?>
+
     <?= $form->field($model, 'semester_id')->dropDownList(\core\entities\Education\Semester::typeList()) ?>
 
     <div class="form-group">
