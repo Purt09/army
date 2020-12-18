@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Science\TblConferenceOwner */
 
-$this->title = 'Редактировать Tbl Conference Owner: ' . $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Conference Owners', 'url' => ['index']];
+$this->title = 'Редактировать организатора: ' . $model->name;
+$this->params['breadcrumbs'][] = ['label' => 'Организаторы конференций', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Редактировать';
 ?>

@@ -52,7 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'title' => Yii::t('app', 'Загрузить новый план'),
                         ]);
                     },
-                    'deleete' => function ($url, $model) {
+                    'delete' => function ($url, $model) {
                         $url = \yii\helpers\Url::to(['/department/common/delete', 'id' => $model->id]);
                         return Html::a('<i class="fa fa-remove"></i>', $url, [
                             'title' => Yii::t('app', 'Удалить'),

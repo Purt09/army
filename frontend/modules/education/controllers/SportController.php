@@ -6,9 +6,11 @@ namespace frontend\modules\education\controllers;
 
 use core\entities\Common\Sport;
 use core\entities\Common\SportSearch;
+use core\entities\Education\Semester;
 use core\entities\Education\Timetable;
 use Yii;
 use yii\filters\VerbFilter;
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 
@@ -74,15 +76,16 @@ class SportController extends Controller
     }
 
     /**
-     * Displays a single Sport model.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
+     * @return string
      */
-    public function actionView($id)
+    public function actionView()
     {
+        $semesters = Semester::find()->limit(2)->orderBy('id DESC')->all();
+        $semestersArray = ArrayHelper::getColumn(ArrayHelper::toArray($semesters), 'id');
+        $sports = Sport::find()->where(['semester_id' => $semestersArray])->orderBy('title ASC')->all();
         return $this->render('view', [
-            'model' => $this->findModel($id),
+            'semesters' => $semesters,
+            'sports' => $sports
         ]);
     }
 
@@ -154,5 +157,20 @@ class SportController extends Controller
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
+    }
+
+
+
+    public function actionUpload($id)
+    {
+        $model = $this->findModel($id);
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('upload', [
+            'model' => $model,
+        ]);
     }
 }

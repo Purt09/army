@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Science\TblConferenceResultType */
 
-$this->title = 'Create Tbl Conference Result Type';
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Conference Result Types', 'url' => ['index']];
+$this->title = 'Добавление';
+$this->params['breadcrumbs'][] = ['label' => 'Типы участия', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-conference-result-type-create">

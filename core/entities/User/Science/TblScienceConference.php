@@ -72,11 +72,11 @@ class TblScienceConference extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_conference_owner' => 'Id Conference Owner',
-            'id_conference_rank' => 'Id Conference Rank',
-            'name' => 'Name',
-            'date_start' => 'Date Start',
-            'date_end' => 'Date End',
+            'id_conference_owner' => 'Организатор конфереции',
+            'id_conference_rank' => 'Уровень конференции',
+            'name' => 'Название',
+            'date_start' => 'Дата начала конференции',
+            'date_end' => 'Дата окончания конференции',
         ];
     }
 

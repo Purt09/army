@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Science\TblConferenceRank */
 
-$this->title = 'Create Tbl Conference Rank';
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Conference Ranks', 'url' => ['index']];
+$this->title = 'Добавление';
+$this->params['breadcrumbs'][] = ['label' => 'Уровни конференций', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-conference-rank-create">

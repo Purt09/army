@@ -65,7 +65,7 @@ return [
         [
             'label' => 'Спортивная работа',
             'icon' => 'trophy',
-            'url' => ['/sport/index'],
+            'url' => ['/education/sport/view'],
         ],
 //        [
 //            'label' => 'Выпускники',

@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel core\entities\User\Science\TblConferenceResultTypeSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Tbl Conference Result Types';
+$this->title = 'Типы участия';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-conference-result-type-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Tbl Conference Result Type', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -26,16 +26,16 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'unique_id',
-            'last_update',
+//            'unique_id',
+//            'last_update',
             'id',
-            'id_io_state',
-            'uuid_t',
+//            'id_io_state',
+//            'uuid_t',
             //'rr_name',
             //'r_icon',
             //'record_fill_color',
             //'record_text_color',
-            //'name',
+            'name',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

@@ -64,7 +64,7 @@ class TblConferenceRank extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'name' => 'Name',
+            'name' => 'Название',
         ];
     }
 

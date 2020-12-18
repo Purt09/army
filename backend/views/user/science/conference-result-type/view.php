@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model core\entities\User\Science\TblConferenceResultType */
 
 $this->title = $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Conference Result Types', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Типы участия', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
