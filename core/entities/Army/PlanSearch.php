@@ -66,7 +66,7 @@ class PlanSearch extends Plan
             'created_at' => $this->created_at,
             'date' => $this->date,
             'sort' => $this->sort,
-        ]);
+        ])->orderBy('id DESC');
 
         $query->andFilterWhere(['ilike', 'title', $this->title])
             ->andFilterWhere(['ilike', 'text', $this->text]);

@@ -14,13 +14,24 @@ $this->title = '5 факультет';
         <?php if (isset($announcement->articles)): ?>
             <?php if ($announcement->articles->updated_at > time()): ?>
 
-                <div class="callout callout-warning">
+                <div class="callout callout-info">
                     <h4><i class="fa fa-info"></i> Объявление:</h4>
 
-                    <p>
+                    <p class="announcement">
                         <?= $announcement->articles->content ?>
                     </p>
                 </div>
+                <style>
+                    .callout a {
+                        color: #3c8dbc; !important;
+                        text-shadow: none; !important;
+                    }
+                    .callout p {
+                        font-weight: 300;
+                        text-shadow: 1px 1px 2px black;
+                    }
+
+                </style>
             <?php endif; ?>
         <?php endif; ?>
     <?php endforeach; ?>
