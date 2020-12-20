@@ -27,6 +27,8 @@
                             ['label' => 'Страны', 'icon' => '', 'url' => ['/common/country'],],
                             ['label' => 'Города', 'icon' => '', 'url' => ['/common/city'],],
                             ['label' => 'Ведомости ФП', 'icon' => '', 'url' => ['/common/sport'],],
+                            ['label' => 'Статьи', 'icon' => '', 'url' => ['/common/article'],],
+                            ['label' => 'Категории статей', 'icon' => '', 'url' => ['/common/article-categories'],],
                         ],
                     ],
                     [

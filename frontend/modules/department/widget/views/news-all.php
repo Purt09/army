@@ -53,6 +53,7 @@ $today_year = \Carbon\Carbon::today()->year;
                     <?php if ($i['today'] == 0): ?>
                         <li style="color: #b35ede;" class="">Сегодня:</li>
                     <?php endif; ?>
+                    <?php $i['today']++ ?>
                     <li><span><?= $user->fio ?></span>
                         <?php if ($today_year - intval((int)substr($user->birthday_date, 0, 4)) % 5 == 0): ?>
                             <em>Юбилей!</em>
@@ -63,6 +64,7 @@ $today_year = \Carbon\Carbon::today()->year;
                     <?php if ($i['tomorrow'] == 0): ?>
                         <li style="color: #b35ede;" class="">Завтра:</li>
                     <?php endif; ?>
+                    <?php $i['tomorrow']++ ?>
                     <li><span><?= $user->fio ?></span>
                         <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
                     </li>
@@ -71,6 +73,7 @@ $today_year = \Carbon\Carbon::today()->year;
                     <?php if ($i['month'] == 0): ?>
                         <li style="color: #b35ede;" class="">Ближайшие:</li>
                     <?php endif; ?>
+                    <?php $i['month']++ ?>
                     <li><span><?= $user->fio ?> <i
                                     style="font-size: 12px">Осталось: <?= $user->getDiffDay(\Carbon\Carbon::today()) ?> дней</i></span>
                         <em><?= Yii::$app->formatter->asDate($user->birthday_date) ?></em>
