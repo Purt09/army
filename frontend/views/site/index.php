@@ -66,7 +66,7 @@ $main .= '
             'label' => 'Новости 5 факультета',
             'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
                 'news' => $news,
-                'role' => \core\helpers\user\RbacHelpers::$FAKULTET]),
+                'role' => \core\helpers\user\RbacHelpers::$OFFICER]),
         ],
         [
             'label' => 'О факультете',

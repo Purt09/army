@@ -39,12 +39,11 @@ class AnnouncementController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
             $model->title = 'Объявление';
-            $model->created_at = time();
-            $model->updated_at = strtotime($model->updated_at);
+            $time = $model->updated_at;
             $publications->announcement = true;
-
-
             $this->newsService->createNews($model, $publications);
+            $model->updated_at = strtotime($time);
+            $model->save();
             Yii::$app->session->setFlash('success', 'Объявление опубликовано');
             return $this->redirect(['index']);
         }

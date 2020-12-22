@@ -61,11 +61,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'name',
             [
                 'attribute' => 'description',
-                'value' => function ($model) {
-                    return mb_strimwidth($model->description,0,80);
-                }
             ],
-
             [
                 'class' => 'common\components\grid\CombinedDataColumn',
                 'labelTemplate' => '{0}  | {1} | {2} | {3}',
