@@ -35,9 +35,6 @@ $this->params['breadcrumbs'][] = $this->title;
         <p class="text-muted">
             Рабочий: <?= $user->work_phone ?>
         </p>
-        <p class="text-muted">
-            Жена: <?= $user->wife_mobile_phone ?>
-        </p>
 
         <hr>
 

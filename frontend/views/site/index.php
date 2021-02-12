@@ -22,7 +22,7 @@ $this->title = '5 факультет';
                     </p>
                 </div>
                 <style>
-                    .callout a {
+                    .announcement a {
                         color: #3c8dbc; !important;
                         text-shadow: none; !important;
                     }

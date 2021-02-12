@@ -99,7 +99,7 @@ class CommonController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-graduate' , 'view-graduate-stars', 'view-plan'],
+                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-graduate' , 'view-graduate-stars', 'view-plan', 'users'],
                 'rules' => [
                     [
                         'allow' => true,
