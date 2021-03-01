@@ -28,7 +28,7 @@ return [
                 ['label' => 'Командование', 'icon' => 'star', 'url' => ['/site/army'],],
                 ['label' => 'Рапорт ДФ', 'icon' => '', 'url' => ['/moodle/mod/wiki/view.php?id=1351'],],
                 ['label' => 'Расход ДФ', 'icon' => '', 'url' => ['/moodle/mod/wiki/view.php?id=1511'],],
-                ['label' => 'Оценки за сутки', 'icon' => '', 'url' => ['/moodle/mod/wiki/view.php?id=1543'],],
+                ['label' => 'Оценки ДФ за сутки', 'icon' => '', 'url' => ['/moodle/mod/wiki/view.php?id=1543'],],
             ],
         ],
         [

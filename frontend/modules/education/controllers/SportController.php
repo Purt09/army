@@ -80,7 +80,7 @@ class SportController extends Controller
      */
     public function actionView()
     {
-        $semesters = Semester::find()->limit(2)->orderBy('id DESC')->all();
+        $semesters = Semester::find()->limit(2)->orderBy('id ASC')->all();
         $semestersArray = ArrayHelper::getColumn(ArrayHelper::toArray($semesters), 'id');
         $sports = Sport::find()->where(['semester_id' => $semestersArray])->orderBy('title ASC')->all();
         return $this->render('view', [

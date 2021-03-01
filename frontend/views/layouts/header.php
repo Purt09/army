@@ -162,10 +162,24 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                             </form>
                         </li>
                     <?php endif; ?>
-                    <li class="dropdown messages-menu">
-                        <a href="http://rashod.vka/">
+                    <li class="dropdown notifications-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
                             Расход
                         </a>
+                        <ul class="dropdown-menu">
+                            <ul class="menu">
+                                <li>
+                                    <a href="http://rashod.vka/">
+                                        Офицерский
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://rashodkurs.vka/">
+                                        Курсантский
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
                     </li>
                     <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
