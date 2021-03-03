@@ -44,7 +44,7 @@ class TblScienceConference extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'id_conference_owner', 'id_conference_rank', 'name', 'date_start'], 'required'],
+            [['id_conference_owner', 'id_conference_rank', 'name', 'date_start'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'name'], 'string'],
             [['last_update', 'date_start', 'date_end'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_conference_owner', 'id_conference_rank'], 'default', 'value' => null],

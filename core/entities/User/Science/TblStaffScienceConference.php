@@ -44,7 +44,7 @@ class TblStaffScienceConference extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'id_science_conference', 'id_staff'], 'required'],
+            [['id_science_conference', 'id_staff'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'result'], 'string'],
             [['last_update'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_science_conference', 'id_staff', 'id_conference_result_type'], 'default', 'value' => null],

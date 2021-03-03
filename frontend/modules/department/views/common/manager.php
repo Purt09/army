@@ -257,7 +257,54 @@ $this->title = 'Управление кафедрой ' . $title;
             </div>
             <!-- /.box-header -->
             <div class="box-body border">
-                Скоро появится
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/science-conference", 'alias' => 'method_up_skill']) ?>">
+                        <div class="info-box bg-info">
+                            <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-number">Конференции </span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/conference-owner", 'alias' => 'method_up_skill']) ?>">
+                        <div class="info-box bg-info">
+                            <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-number">Организаторы </span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/conference-rank", 'alias' => 'method_up_skill']) ?>">
+                        <div class="info-box bg-info">
+                            <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-number">Уровень конференции </span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/conference-result-type", 'alias' => 'method_up_skill']) ?>">
+                        <div class="info-box bg-info">
+                            <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-number">Тип участия </span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
             </div>
             <!-- /.box-body -->
