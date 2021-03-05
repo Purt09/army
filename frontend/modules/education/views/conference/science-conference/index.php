@@ -3,6 +3,7 @@
 use core\entities\User\Science\TblConferenceOwner;
 use core\entities\User\Science\TblConferenceRank;
 use core\entities\User\Science\TblScienceConference;
+use core\helpers\user\RbacHelpers;
 use yii\helpers\Html;
 use yii\grid\GridView;
 
@@ -17,9 +18,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
+    <?php if(RbacHelpers::checkRole(RbacHelpers::$MANAGER)): ?>
     <p>
         <?= Html::a('Добавить', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
+    <?php endif; ?>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
@@ -53,12 +56,14 @@ $this->params['breadcrumbs'][] = $this->title;
                 'buttons' =>
                     [
                         'update' => function ($url, $model, $key) {
-                            return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url);
+                            if (RbacHelpers::checkRole(RbacHelpers::$MANAGER))
+                                return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url);
                         },
                         'users' => function ($url, $model, $key) {
                             return Html::a('<span class="glyphicon glyphicon-user"></span>', $url);
                         },
                         'delete' => function ($url, $model, $key) {
+                            if (RbacHelpers::checkRole(RbacHelpers::$MANAGER))
                             return Html::a('<span class="glyphicon glyphicon-remove"></span>', $url);
                         },
                     ],

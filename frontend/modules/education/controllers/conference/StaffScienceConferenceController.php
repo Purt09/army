@@ -1,18 +1,18 @@
 <?php
 
-namespace frontend\modules\department\controllers\common\conference;
+namespace frontend\modules\education\controllers\conference;
 
 use Yii;
-use core\entities\User\Science\TblConferenceResultType;
-use core\entities\User\Science\TblConferenceResultTypeSearch;
+use core\entities\User\Science\TblStaffScienceConference;
+use core\entities\User\Science\TblStaffScienceConferenceSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ConferenceResultTypeController implements the CRUD actions for TblConferenceResultType model.
+ * StaffScienceConferenceController implements the CRUD actions for TblStaffScienceConference model.
  */
-class ConferenceResultTypeController extends Controller
+class StaffScienceConferenceController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -30,12 +30,12 @@ class ConferenceResultTypeController extends Controller
     }
 
     /**
-     * Lists all TblConferenceResultType models.
+     * Lists all TblStaffScienceConference models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new TblConferenceResultTypeSearch();
+        $searchModel = new TblStaffScienceConferenceSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +45,7 @@ class ConferenceResultTypeController extends Controller
     }
 
     /**
-     * Displays a single TblConferenceResultType model.
+     * Displays a single TblStaffScienceConference model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -58,13 +58,13 @@ class ConferenceResultTypeController extends Controller
     }
 
     /**
-     * Creates a new TblConferenceResultType model.
+     * Creates a new TblStaffScienceConference model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new TblConferenceResultType();
+        $model = new TblStaffScienceConference();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['index']);
@@ -76,7 +76,7 @@ class ConferenceResultTypeController extends Controller
     }
 
     /**
-     * Updates an existing TblConferenceResultType model.
+     * Updates an existing TblStaffScienceConference model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -96,7 +96,7 @@ class ConferenceResultTypeController extends Controller
     }
 
     /**
-     * Deletes an existing TblConferenceResultType model.
+     * Deletes an existing TblStaffScienceConference model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -110,15 +110,15 @@ class ConferenceResultTypeController extends Controller
     }
 
     /**
-     * Finds the TblConferenceResultType model based on its primary key value.
+     * Finds the TblStaffScienceConference model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return TblConferenceResultType the loaded model
+     * @return TblStaffScienceConference the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = TblConferenceResultType::findOne($id)) !== null) {
+        if (($model = TblStaffScienceConference::findOne($id)) !== null) {
             return $model;
         }
 

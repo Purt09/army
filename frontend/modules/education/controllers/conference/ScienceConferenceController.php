@@ -1,18 +1,22 @@
 <?php
 
-namespace frontend\modules\department\controllers\common\conference;
+namespace frontend\modules\education\controllers\conference;
 
+use core\entities\User\Science\TblStaffScienceConference;
+use core\entities\User\Science\TblStaffScienceConferenceSearch;
+use core\entities\User\TblStaff;
 use Yii;
-use core\entities\User\Science\TblConferenceOwner;
-use core\entities\User\Science\TblConferenceOwnerSearch;
+use core\entities\User\Science\TblScienceConference;
+use core\entities\User\Science\TblScienceConferenceSearch;
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ConferenceOwnerController implements the CRUD actions for TblConferenceOwner model.
+ * ScienceConferenceController implements the CRUD actions for TblScienceConference model.
  */
-class ConferenceOwnerController extends Controller
+class ScienceConferenceController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -30,12 +34,12 @@ class ConferenceOwnerController extends Controller
     }
 
     /**
-     * Lists all TblConferenceOwner models.
+     * Lists all TblScienceConference models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new TblConferenceOwnerSearch();
+        $searchModel = new TblScienceConferenceSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,29 +49,59 @@ class ConferenceOwnerController extends Controller
     }
 
     /**
-     * Displays a single TblConferenceOwner model.
+     * Displays a single TblScienceConference model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($id)
+    public function actionUsers($id)
     {
-        return $this->render('view', [
+        $searchModel = new TblStaffScienceConferenceSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, $id);
+
+
+        return $this->render('users', [
             'model' => $this->findModel($id),
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
         ]);
     }
 
     /**
-     * Creates a new TblConferenceOwner model.
+     * Creates a new TblScienceConference model.
+     * If creation is successful, the browser will be redirected to the 'view' page.
+     * @return mixed
+     */
+    public function actionUserAdd($id)
+    {
+        $model = new TblStaffScienceConference();
+
+        $users = TblStaff::find()->asArray()->all();
+        $users = ArrayHelper::map($users, 'id', 'fio');
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->id_staff = Yii::$app->request->post('staff_id');
+            $model->id_science_conference = $id;
+            $model->save();
+            return $this->redirect(['users', 'id' => $id]);
+        }
+
+        return $this->render('user_add', [
+            'model' => $model,
+            'users' => $users
+        ]);
+    }
+
+    /**
+     * Creates a new TblScienceConference model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new TblConferenceOwner();
+        $model = new TblScienceConference();
 
-        if ($model->load(Yii::$app->request->post())) {
-            $model->save();
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['index']);
         }
 
@@ -77,7 +111,7 @@ class ConferenceOwnerController extends Controller
     }
 
     /**
-     * Updates an existing TblConferenceOwner model.
+     * Updates an existing TblScienceConference model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -97,7 +131,7 @@ class ConferenceOwnerController extends Controller
     }
 
     /**
-     * Deletes an existing TblConferenceOwner model.
+     * Deletes an existing TblScienceConference model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -111,15 +145,15 @@ class ConferenceOwnerController extends Controller
     }
 
     /**
-     * Finds the TblConferenceOwner model based on its primary key value.
+     * Finds the TblScienceConference model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return TblConferenceOwner the loaded model
+     * @return TblScienceConference the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = TblConferenceOwner::findOne($id)) !== null) {
+        if (($model = TblScienceConference::findOne($id)) !== null) {
             return $model;
         }
 

@@ -294,21 +294,17 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                         </a>
                         <ul class="dropdown-menu">
                             <ul class="menu">
-                                <li>
-                                    <a href="/time/plan/science">
-                                        Конференции
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/time/plan/science">
-                                        Конкурсы
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/time/plan/science">
-                                        Олимпиады
-                                    </a>
-                                </li>
+                                <?php
+                                $items = \core\entities\User\Science\TblConferenceRank::find()->asArray()->all();
+                                $items = \yii\helpers\ArrayHelper::map($items, 'id', 'name');
+                                ?>
+                                <?php foreach ($items as $key => $item): ?>
+                                    <li>
+                                        <a href="<?= \yii\helpers\Url::to(['/education/conference/science-conference', 'TblScienceConferenceSearch[id_conference_rank]' => $key]) ?>">
+                                            <?= $item ?>
+                                        </a>
+                                    </li>
+                                <?php endforeach; ?>
                             </ul>
                         </ul>
                     </li>

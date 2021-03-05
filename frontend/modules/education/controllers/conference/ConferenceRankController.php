@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\modules\department\controllers\common\conference;
+namespace frontend\modules\education\controllers\conference;
 
 use Yii;
 use core\entities\User\Science\TblConferenceRank;

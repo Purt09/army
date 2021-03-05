@@ -258,7 +258,7 @@ $this->title = 'Управление кафедрой ' . $title;
             <!-- /.box-header -->
             <div class="box-body border">
                 <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/science-conference", 'alias' => 'method_up_skill']) ?>">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["/education/conference/science-conference"]) ?>">
                         <div class="info-box bg-info">
                             <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
 
@@ -270,7 +270,7 @@ $this->title = 'Управление кафедрой ' . $title;
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/conference-owner", 'alias' => 'method_up_skill']) ?>">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["/education/conference/conference-owner"]) ?>">
                         <div class="info-box bg-info">
                             <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
 
@@ -282,7 +282,7 @@ $this->title = 'Управление кафедрой ' . $title;
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/conference-rank", 'alias' => 'method_up_skill']) ?>">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["/education/conference/conference-rank"]) ?>">
                         <div class="info-box bg-info">
                             <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
 
@@ -294,7 +294,7 @@ $this->title = 'Управление кафедрой ' . $title;
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a class="box_link" href="<?= \yii\helpers\Url::to(["common/conference/conference-result-type", 'alias' => 'method_up_skill']) ?>">
+                    <a class="box_link" href="<?= \yii\helpers\Url::to(["/education/conference/conference-result-type"]) ?>">
                         <div class="info-box bg-info">
                             <span class="info-box-icon"><i class="fa fa-mortar-board"></i></span>
 

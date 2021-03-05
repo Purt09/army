@@ -73,10 +73,10 @@ class TblStaffScienceConference extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_science_conference' => 'Id Science Conference',
-            'id_staff' => 'Id Staff',
-            'id_conference_result_type' => 'Id Conference Result Type',
-            'result' => 'Result',
+            'id_science_conference' => 'Конференция',
+            'id_staff' => 'Участник',
+            'id_conference_result_type' => 'Тип участия',
+            'result' => 'Результат',
         ];
     }
 
