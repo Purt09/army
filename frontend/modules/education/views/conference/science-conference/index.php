@@ -1,5 +1,6 @@
 <?php
 
+use common\components\column\ShowMoreColumn;
 use core\entities\User\Science\TblConferenceOwner;
 use core\entities\User\Science\TblConferenceRank;
 use core\entities\User\Science\TblScienceConference;
@@ -10,8 +11,13 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $searchModel core\entities\User\Science\TblScienceConferenceSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-
-$this->title = 'Научные конференции';
+/**
+ * @var $rank TblConferenceRank
+ */
+if(isset($rank))
+    $this->title = $rank->name;
+else
+    $this->title = 'Научные конференции';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-science-conference-index">
@@ -40,16 +46,23 @@ $this->params['breadcrumbs'][] = $this->title;
                 'format' => 'raw'
             ],
             [
-                'attribute' => 'id_conference_rank',
-                'filter' => TblConferenceRank::typeList(),
-                'value' => function (TblScienceConference $model) {
-                    return $model->conferenceRank->name;
-                },
-                'format' => 'raw'
+                'class' => ShowMoreColumn::className(),
+                'size' => 50,
+                'textMore' => 'Раскрыть',
+                'textLow' => 'Скрыть',
+                'attribute' => 'description',
+                'format' => 'raw',
+                'maxWidth' => 350,
             ],
             'name',
-            'date_start',
-            'date_end',
+            [
+                'attribute' => 'date_start',
+                'filter' => false
+            ],
+            [
+                'attribute' => 'date_start',
+                'filter' => false
+            ],
             [
                 'class' => 'yii\grid\ActionColumn',
                 'template' => '{update} {users} {delete}',

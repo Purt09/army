@@ -4,6 +4,9 @@ use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $model core\entities\User\Science\TblScienceConference */
+/**
+ * @var $users array
+ */
 
 $this->title = 'Создание конференции';
 $this->params['breadcrumbs'][] = ['label' => 'Научные конференции', 'url' => ['index']];
@@ -15,6 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= $this->render('_form', [
         'model' => $model,
+        'users' => $users
     ]) ?>
 
 </div>

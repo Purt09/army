@@ -3,6 +3,7 @@
 namespace core\entities\User\Science;
 
 use core\entities\Rubish\IoStates;
+use core\entities\User\TblStaff;
 use core\entities\User\Vpr\ViewTypeTrait;
 use Yii;
 
@@ -21,6 +22,7 @@ use Yii;
  * @property string $name Название
  *
  * @property IoStates $ioState
+ * @property TblStaff $responsible
  * @property TblScienceConference[] $tblScienceConferences
  */
 class TblConferenceRank extends \yii\db\ActiveRecord
@@ -69,6 +71,16 @@ class TblConferenceRank extends \yii\db\ActiveRecord
             'record_text_color' => 'Record Text Color',
             'name' => 'Название',
         ];
+    }
+
+    /**
+     * Gets query for [[IoState]].
+     *
+     * @return \yii\db\ActiveQuery
+     */
+    public function getResponsible()
+    {
+        return $this->hasOne(TblStaff::className(), ['id' => 'responsible_id']);
     }
 
     /**

@@ -31,15 +31,6 @@ class NewsAllWidget extends Widget
             }
         }
 
-//        $user_birth = [];
-//        foreach ($users as $key => &$user) {
-//            array_push($user_birth, [
-//                'birth' => intval((int) substr($user->birthday_date, 5, 7) . substr($user->birthday_date, 8, 10)),
-//                'id' => $key
-//            ]);
-//        }
-//        ArrayHelper::multisort($user_birth, 'birth');
-
         return $this->render('news-all', [
             'news' => $this->news,
             'users' => $result,

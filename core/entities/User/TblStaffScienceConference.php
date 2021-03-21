@@ -2,6 +2,8 @@
 
 namespace core\entities\User;
 
+use core\entities\User\Science\TblConferenceResultType;
+use core\entities\User\Science\TblScienceConference;
 use Yii;
 
 /**

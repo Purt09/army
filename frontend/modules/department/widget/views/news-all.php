@@ -4,7 +4,9 @@
  * @var $users \core\entities\User\TblStaff[]
  */
 
+use Carbon\Carbon;
 use core\entities\News\NewsPublications;
+
 
 $today_year = \Carbon\Carbon::today()->year;
 ?>
@@ -47,18 +49,21 @@ $today_year = \Carbon\Carbon::today()->year;
                 'today' => 0,
                 'tomorrow' => 0,
                 'month' => 0
-            ]; // Счетчик для вывода ближайшиз дней рждений?>
+            ]; // Счетчик для вывода текста> ?>
             <?php foreach ($users as $user): ?>
+            <?php $dr = Carbon::createFromDate(null, intval((int) substr($user->birthday_date, 5, 7)), substr($user->birthday_date, 8, 10)); ?>
                 <?php if ($user->getDiffDay(\Carbon\Carbon::today()) == 0): ?>
-                    <?php if ($i['today'] == 0): ?>
-                        <li style="color: #b35ede;" class="">Сегодня:</li>
-                    <?php endif; ?>
-                    <?php $i['today']++ ?>
-                    <li><span><?= $user->fio ?></span>
-                        <?php if ($today_year - intval((int)substr($user->birthday_date, 0, 4)) % 5 == 0): ?>
-                            <em>Юбилей!</em>
+                    <?php if ($dr->format("Y-m-d") == \Carbon\Carbon::today()->format("Y-m-d")): ?>
+                        <?php if ($i['today'] == 0): ?>
+                            <li style="color: #b35ede;" class="">Сегодня:</li>
                         <?php endif; ?>
-                    </li>
+                        <?php $i['today']++ ?>
+                        <li><span><?= $user->fio ?></span>
+                            <?php if ($today_year - intval((int)substr($user->birthday_date, 0, 4)) % 5 == 0): ?>
+                                <em>Юбилей!</em>
+                            <?php endif; ?>
+                        </li>
+                    <?php endif; ?>
                     <hr>
                 <?php elseif ($user->getDiffDay(\Carbon\Carbon::tomorrow()) == 0): ?>
                     <?php if ($i['tomorrow'] == 0): ?>

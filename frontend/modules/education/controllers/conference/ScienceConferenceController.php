@@ -2,9 +2,12 @@
 
 namespace frontend\modules\education\controllers\conference;
 
+use core\entities\User\Science\TblConferenceRank;
 use core\entities\User\Science\TblStaffScienceConference;
 use core\entities\User\Science\TblStaffScienceConferenceSearch;
 use core\entities\User\TblStaff;
+use core\entities\User\User;
+use core\helpers\user\RbacHelpers;
 use Yii;
 use core\entities\User\Science\TblScienceConference;
 use core\entities\User\Science\TblScienceConferenceSearch;
@@ -42,9 +45,18 @@ class ScienceConferenceController extends Controller
         $searchModel = new TblScienceConferenceSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
+
+
+
+        if(isset(Yii::$app->request->get()['TblScienceConferenceSearch']['id_conference_rank']))
+            $rank = TblConferenceRank::findOne(Yii::$app->request->get()['TblScienceConferenceSearch']['id_conference_rank']);
+        else
+            $rank = null;
+
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'rank' => $rank,
         ]);
     }
 
@@ -100,13 +112,20 @@ class ScienceConferenceController extends Controller
     public function actionCreate()
     {
         $model = new TblScienceConference();
+        $users = \Yii::$app->authManager->getUserIdsByRole(RbacHelpers::$OFFICER);
+        $users = User::find()->where(['id' => $users])->select('user_base_id')->asArray()->all();
+        $users = ArrayHelper::map($users, 'user_base_id', 'user_base_id');
+        $users = TblStaff::find()->where(['id' => $users])->indexBy('id')->all();
+        $users = ArrayHelper::map($users, 'id', 'fio');
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save();
             return $this->redirect(['index']);
         }
 
         return $this->render('create', [
             'model' => $model,
+            'users' => $users
         ]);
     }
 

@@ -1,5 +1,6 @@
 <?php
 
+use common\components\column\ShowMoreColumn;
 use kartik\date\DatePicker;
 use kartik\grid\GridView;
 use yii\grid\ActionColumn;
@@ -60,7 +61,16 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             'name',
             [
+                'class' => ShowMoreColumn::className(),
+                'size' => 50,
+                'textMore' => 'Раскрыть',
+                'textLow' => 'Скрыть',
                 'attribute' => 'description',
+                'format' => 'raw',
+                'maxWidth' => 350,
+                'contentOptions' => [
+                    'aria-label' => 'Содержимое покупки'
+                ],
             ],
             [
                 'class' => 'common\components\grid\CombinedDataColumn',

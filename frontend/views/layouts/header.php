@@ -170,12 +170,12 @@ $news = News::find()->where(['important' => true])->limit(5)->orderBy('id DESC')
                             <ul class="menu">
                                 <li>
                                     <a href="http://rashod.vka/">
-                                        Офицерский
+                                        по офицерам
                                     </a>
                                 </li>
                                 <li>
                                     <a href="http://rashodkurs.vka/">
-                                        Курсантский
+                                        по курсантам
                                     </a>
                                 </li>
                             </ul>
