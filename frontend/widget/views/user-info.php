@@ -18,7 +18,7 @@
 
             <p class="text-muted text-center">
 
-                <?= $user->getPosition() ?></p>';
+                <?= $user->getPosition() ?></p>
 
 
             <ul class="list-group list-group-unbordered">

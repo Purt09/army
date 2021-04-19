@@ -14,13 +14,12 @@ $this->title = '5 факультет';
         <?php if (isset($announcement->articles)): ?>
             <?php if ($announcement->articles->updated_at > time()): ?>
 
-                <div class="info-box">
-                    <span class="info-box-icon bg-aqua"><i class="fa fa-info"></i></span>
+                <div class="info-box bg-aqua">
+                    <span class="info-box-icon bg-yellow"><i class="fa fa-info"></i></span>
 
-                    <div class="info-box-content">
+                    <div class="info-box-content ">
                         <?= $announcement->articles->content ?>
                     </div>
-                    <!-- /.info-box-content -->
                 </div>
                 <style>
                     .announcement a {

@@ -47,10 +47,11 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             [
                 'class' => ShowMoreColumn::className(),
-                'size' => 50,
+                'size' => 100,
                 'textMore' => 'Раскрыть',
                 'textLow' => 'Скрыть',
                 'attribute' => 'description',
+                'label' => 'Описание',
                 'format' => 'raw',
                 'maxWidth' => 350,
             ],
