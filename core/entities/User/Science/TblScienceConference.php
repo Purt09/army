@@ -22,6 +22,8 @@ use Yii;
  * @property string $name Название
  * @property string $date_start Дата начала
  * @property string|null $date_end Дата окончания
+ * @property string $description
+ * @property integer $responsible_id
  *
  * @property IoStates $ioState
  * @property TblConferenceOwner $conferenceOwner
@@ -44,11 +46,11 @@ class TblScienceConference extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'id_conference_owner', 'id_conference_rank', 'name', 'date_start'], 'required'],
-            [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'name'], 'string'],
+            [['id_conference_owner', 'id_conference_rank', 'name', 'date_start'], 'required'],
+            [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'name', 'description'], 'string'],
             [['last_update', 'date_start', 'date_end'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color', 'id_conference_owner', 'id_conference_rank'], 'default', 'value' => null],
-            [['id_io_state', 'record_fill_color', 'record_text_color', 'id_conference_owner', 'id_conference_rank'], 'integer'],
+            [['id_io_state', 'record_fill_color', 'record_text_color', 'id_conference_owner', 'id_conference_rank', 'responsible_id'], 'integer'],
             [['unique_id'], 'unique'],
             [['uuid_t'], 'unique'],
             [['id_io_state'], 'exist', 'skipOnError' => true, 'targetClass' => IoStates::className(), 'targetAttribute' => ['id_io_state' => 'id']],
@@ -72,11 +74,13 @@ class TblScienceConference extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'id_conference_owner' => 'Id Conference Owner',
-            'id_conference_rank' => 'Id Conference Rank',
-            'name' => 'Name',
-            'date_start' => 'Date Start',
-            'date_end' => 'Date End',
+            'id_conference_owner' => 'Организатор конфереции',
+            'id_conference_rank' => 'Уровень конференции',
+            'name' => 'Название',
+            'date_start' => 'Дата начала конференции',
+            'date_end' => 'Дата окончания конференции',
+            'description' => 'Описание',
+            'responsible_id' => 'Ответственный/руководитель'
         ];
     }
 

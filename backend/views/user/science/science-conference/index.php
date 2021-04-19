@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel core\entities\User\Science\TblScienceConferenceSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Tbl Science Conferences';
+$this->title = 'Научные конференции';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-science-conference-index">
@@ -25,16 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
-//            'unique_id',
-//            'last_update',
             'id',
-//            'id_io_state',
-//            'uuid_t',
-            //'rr_name',
-            //'r_icon',
-            //'record_fill_color',
-            //'record_text_color',
             'id_conference_owner',
             'id_conference_rank',
             'name',

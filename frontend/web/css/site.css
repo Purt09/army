@@ -235,7 +235,7 @@ h3.w3ls_pvt-title span {
     cursor: pointer;
 }
 .content-wrapper {
-    height: 3000px;
+    height: 4500px;
 }
 .banner_main {
     /*height: 250px;
@@ -721,4 +721,15 @@ li.menu:hover{
 }
 @media only screen and (max-width: 479px) {
     .box .box-content{ padding: 20px; }
+}
+
+
+.border {
+    border: 1px solid #dee2e6;
+}
+.border-left {
+    border-left: 1px solid #dee2e6;
+}
+.border-right {
+    border-right: 1px solid #dee2e6;
 }

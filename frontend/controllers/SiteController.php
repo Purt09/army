@@ -131,7 +131,7 @@ class SiteController extends Controller
     public function actionViewPlan($alias)
     {
         $category = PlanCategory::find()->where(['alias' => $alias])->one();
-        $models = Plan::find()->where(['category_id' => $category->id])->limit(10)->orderBy('date')->all();
+        $models = Plan::find()->where(['category_id' => $category->id])->limit(10)->orderBy('id DESC')->all();
 
 
         return $this->render('view-plans', [

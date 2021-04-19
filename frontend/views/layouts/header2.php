@@ -134,7 +134,7 @@ transform: translate(-50%, -50%);">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/site/nayka">
+                                    <a href="/site/naykaa">
                                         Выставки
                                     </a>
                                 </li>

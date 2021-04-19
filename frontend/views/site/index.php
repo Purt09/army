@@ -14,13 +14,24 @@ $this->title = '5 факультет';
         <?php if (isset($announcement->articles)): ?>
             <?php if ($announcement->articles->updated_at > time()): ?>
 
-                <div class="callout callout-info">
-                    <h4><i class="fa fa-info"></i> Объявление:</h4>
+                <div class="info-box bg-aqua">
+                    <span class="info-box-icon bg-yellow"><i class="fa fa-info"></i></span>
 
-                    <p>
+                    <div class="info-box-content ">
                         <?= $announcement->articles->content ?>
-                    </p>
+                    </div>
                 </div>
+                <style>
+                    .announcement a {
+                        color: #3c8dbc; !important;
+                        text-shadow: none; !important;
+                    }
+                    .callout p {
+                        font-weight: 300;
+                        text-shadow: 1px 1px 2px black;
+                    }
+
+                </style>
             <?php endif; ?>
         <?php endif; ?>
     <?php endforeach; ?>
@@ -55,7 +66,7 @@ $main .= '
             'label' => 'Новости 5 факультета',
             'content' => \frontend\modules\department\widget\NewsAllWidget::widget([
                 'news' => $news,
-                'role' => \core\helpers\user\RbacHelpers::$FAKULTET]),
+                'role' => \core\helpers\user\RbacHelpers::$OFFICER]),
         ],
         [
             'label' => 'О факультете',

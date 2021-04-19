@@ -26,9 +26,9 @@ return [
             'url' => '#',
             'items' => [
                 ['label' => 'Командование', 'icon' => 'star', 'url' => ['/site/army'],],
-                ['label' => 'Рапорт ДФ', 'icon' => '', 'url' => ['http://5f.vka/moodle/mod/wiki/view.php?id=1351'],],
-                ['label' => 'Расход ДФ', 'icon' => '', 'url' => ['http://5f.vka/moodle/mod/wiki/view.php?id=1511'],],
-                ['label' => 'Оценки за сутки', 'icon' => '', 'url' => ['http://5f.vka/moodle/mod/wiki/view.php?id=1543'],],
+                ['label' => 'Рапорт ДФ', 'icon' => '', 'url' => ['/moodle/mod/wiki/view.php?id=1351'],],
+                ['label' => 'Расход ДФ', 'icon' => '', 'url' => ['/moodle/mod/wiki/view.php?id=1511'],],
+                ['label' => 'Оценки ДФ за сутки', 'icon' => '', 'url' => ['/moodle/mod/wiki/view.php?id=1543'],],
             ],
         ],
         [
@@ -65,7 +65,7 @@ return [
         [
             'label' => 'Спортивная работа',
             'icon' => 'trophy',
-            'url' => ['/sport/index'],
+            'url' => ['/education/sport/view'],
         ],
 //        [
 //            'label' => 'Выпускники',

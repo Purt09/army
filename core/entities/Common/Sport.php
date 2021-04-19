@@ -22,6 +22,21 @@ use Yii;
  */
 class Sport extends \yii\db\ActiveRecord
 {
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => \pantera\media\behaviors\MediaUploadBehavior::className(),
+                'buckets' => [
+                    'mediaMain' => [],
+                    'mediaOther' => [
+                        'multiple' => false,
+                    ],
+                ],
+            ],
+        ];
+    }
+
     /**
      * {@inheritdoc}
      */

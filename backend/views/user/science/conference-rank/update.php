@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model core\entities\User\Science\TblConferenceRank */
 
 $this->title = 'Редактировать Tbl Conference Rank: ' . $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Tbl Conference Ranks', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Уровни конференций', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Редактировать';
 ?>

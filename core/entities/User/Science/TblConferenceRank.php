@@ -3,6 +3,8 @@
 namespace core\entities\User\Science;
 
 use core\entities\Rubish\IoStates;
+use core\entities\User\TblStaff;
+use core\entities\User\Vpr\ViewTypeTrait;
 use Yii;
 
 /**
@@ -20,10 +22,13 @@ use Yii;
  * @property string $name Название
  *
  * @property IoStates $ioState
+ * @property TblStaff $responsible
  * @property TblScienceConference[] $tblScienceConferences
  */
 class TblConferenceRank extends \yii\db\ActiveRecord
 {
+    use ViewTypeTrait;
+
     /**
      * {@inheritdoc}
      */
@@ -38,7 +43,7 @@ class TblConferenceRank extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['unique_id', 'id_io_state', 'uuid_t', 'rr_name', 'name'], 'required'],
+            [[ 'name'], 'required'],
             [['unique_id', 'uuid_t', 'rr_name', 'r_icon', 'name'], 'string'],
             [['last_update'], 'safe'],
             [['id_io_state', 'record_fill_color', 'record_text_color'], 'default', 'value' => null],
@@ -64,8 +69,18 @@ class TblConferenceRank extends \yii\db\ActiveRecord
             'r_icon' => 'R Icon',
             'record_fill_color' => 'Record Fill Color',
             'record_text_color' => 'Record Text Color',
-            'name' => 'Name',
+            'name' => 'Название',
         ];
+    }
+
+    /**
+     * Gets query for [[IoState]].
+     *
+     * @return \yii\db\ActiveQuery
+     */
+    public function getResponsible()
+    {
+        return $this->hasOne(TblStaff::className(), ['id' => 'responsible_id']);
     }
 
     /**

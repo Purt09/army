@@ -1,5 +1,6 @@
 <?php
 
+use common\components\column\ShowMoreColumn;
 use kartik\date\DatePicker;
 use kartik\grid\GridView;
 use yii\grid\ActionColumn;
@@ -25,8 +26,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'showFooter' => true,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
             'order_id',
             [
                 'attribute' => 'order_date_finish',
@@ -38,26 +39,43 @@ $this->params['breadcrumbs'][] = $this->title;
                     'separator' => '-',
                     'pluginOptions' => [
                         'autoclose' => true,
-                        'format' => 'yyyy-mm-dd'
+                        'format' => 'dd-mm-yyyy'
                     ]
                 ]),
-                'format' => ['date', 'php:Y-m-d']
+                'value' => function ($model) {
+                    return Yii::$app->formatter->asDate($model->date_finish);
+                }
             ],
             [
                 'attribute' => 'date_finish',
-                'filter' => false,
+                'filter' => DatePicker::widget([
+                    'model' => $searchModel,
+                    'attribute' => 'date_from_finish',
+                    'attribute2' => 'date_to_finish',
+                    'type' => DatePicker::TYPE_RANGE,
+                    'separator' => '-',
+                    'pluginOptions' => [
+                        'autoclose' => true,
+                        'format' => 'dd-mm-yyyy'
+                    ]
+                ]),
                 'value' => function ($model) {
                     return Yii::$app->formatter->asDate($model->date_finish);
                 }
             ],
             'name',
             [
+                'class' => ShowMoreColumn::className(),
+                'size' => 50,
+                'textMore' => 'Раскрыть',
+                'textLow' => 'Скрыть',
                 'attribute' => 'description',
-                'value' => function ($model) {
-                    return mb_strimwidth($model->description,0,80);
-                }
+                'format' => 'raw',
+                'maxWidth' => 350,
+                'contentOptions' => [
+                    'aria-label' => 'Содержимое покупки'
+                ],
             ],
-
             [
                 'class' => 'common\components\grid\CombinedDataColumn',
                 'labelTemplate' => '{0}  | {1} | {2} | {3}',

@@ -77,7 +77,6 @@ class UserServices extends MainService
      */
     public function delete($user)
     {
-        $this->serviceAPI->deleteUser($user->user_moodle_id);
         MdlUser::findOne($user->user_moodle_id)->delete();
         $user->delete();
     }

@@ -14,6 +14,8 @@ class TaskCommonSearch extends TaskCommon
 
     public $date_from;
     public $date_to;
+    public $date_from_finish;
+    public $date_to_finish;
 
 
     /**
@@ -26,7 +28,7 @@ class TaskCommonSearch extends TaskCommon
             [['order_id', 'name', 'description'], 'safe'],
             [['is_complete_cafedra_51', 'is_complete_cafedra_52', 'is_complete_cafedra_53', 'is_complete_cafedra_55', 'is_complete_course_51', 'is_complete_course_52', 'is_complete_course_53', 'is_complete_course_54', 'is_complete_course_55', 'is_complete_manager_cv', 'is_complete_manager_vpr', 'is_complete_manager_teacher'], 'boolean'],
 
-            [['date_from', 'date_to'], 'date', 'format' => 'php:Y-m-d']
+            [['date_from', 'date_to','date_from_finish', 'date_to_finish'], 'date', 'format' => 'php:Y-m-d']
 
         ];
     }
@@ -93,6 +95,9 @@ class TaskCommonSearch extends TaskCommon
 
             ->andFilterWhere(['>=', 'order_date_finish', $this->date_from ? strtotime($this->date_from . ' 00:00:00') : null])
             ->andFilterWhere(['<=', 'order_date_finish', $this->date_to ? strtotime($this->date_to . ' 23:59:59') : null])
+
+            ->andFilterWhere(['>=', 'date_finish', $this->date_from_finish ? strtotime($this->date_from_finish . ' 00:00:00') : null])
+            ->andFilterWhere(['<=', 'date_finish', $this->date_to_finish ? strtotime($this->date_to_finish . ' 23:59:59') : null])
 
             ->andFilterWhere(['ilike', 'description', $this->description]);
 

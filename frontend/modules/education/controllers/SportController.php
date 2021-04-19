@@ -6,8 +6,11 @@ namespace frontend\modules\education\controllers;
 
 use core\entities\Common\Sport;
 use core\entities\Common\SportSearch;
+use core\entities\Education\Semester;
+use core\entities\Education\Timetable;
 use Yii;
 use yii\filters\VerbFilter;
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 
@@ -28,6 +31,35 @@ class SportController extends Controller
         ];
     }
 
+
+    public function actions()
+    {
+        return [
+            'file-upload' => [
+                'class' => \pantera\media\actions\kartik\MediaUploadActionKartik::className(),
+                'model' => function () {
+                    if (Yii::$app->request->get('id')) {
+                        return Sport::findOne(Yii::$app->request->get('id'));
+                    } else {
+                        return new Test();
+                    }
+                }
+            ],
+            'file-delete' => [
+                'class' => \pantera\media\actions\kartik\MediaDeleteActionKartik::className(),
+                'model' => function () {
+                    return \pantera\media\models\Media::findOne(Yii::$app->request->get('id'));
+                }
+            ],
+            'file-sort' => [
+                'class' => \pantera\media\actions\kartik\MediaSortActionKartik::className(),
+                'model' => function () {
+                    return Sport::findOne(Yii::$app->request->get('id'));
+                }
+            ],
+        ];
+    }
+
     /**
      * Lists all Sport models.
      * @return mixed
@@ -44,15 +76,16 @@ class SportController extends Controller
     }
 
     /**
-     * Displays a single Sport model.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
+     * @return string
      */
-    public function actionView($id)
+    public function actionView()
     {
+        $semesters = Semester::find()->limit(2)->orderBy('id ASC')->all();
+        $semestersArray = ArrayHelper::getColumn(ArrayHelper::toArray($semesters), 'id');
+        $sports = Sport::find()->where(['semester_id' => $semestersArray])->orderBy('title ASC')->all();
         return $this->render('view', [
-            'model' => $this->findModel($id),
+            'semesters' => $semesters,
+            'sports' => $sports
         ]);
     }
 
@@ -61,10 +94,10 @@ class SportController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate($unit_id)
+    public function actionCreate()
     {
         $model = new Sport();
-        $model->unit_id = $unit_id;
+        $model->created_at = time();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             Yii::$app->session->setFlash('success', 'Ведомость добавлена');
@@ -124,5 +157,20 @@ class SportController extends Controller
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
+    }
+
+
+
+    public function actionUpload($id)
+    {
+        $model = $this->findModel($id);
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('upload', [
+            'model' => $model,
+        ]);
     }
 }

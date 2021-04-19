@@ -36,7 +36,7 @@ class CourseFreeController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'roles' => ['course53', 'admin'],
+                        'roles' => ['course53', 'admin', RbacHelpers::$OFFICER],
                     ],
                 ],
             ],

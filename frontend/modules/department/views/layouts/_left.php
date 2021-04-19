@@ -19,6 +19,11 @@ else
                 'icon' => 'pencil-square-o',
                 'url' => ['ymb'],
             ],
+            [
+                'label' => 'Кадровая работа',
+                'icon' => 'users',
+                'url' => ['users'],
+            ]
         ];
         if (RbacHelpers::checkRole(RbacHelpers::$MANAGER) || RbacHelpers::checkRole(RbacHelpers::$ADMIN)) {
             array_push($items,[
@@ -26,11 +31,6 @@ else
                 'icon' => 'list',
                 'url' => [$link . 'manager'],
             ]);
-            array_push($items, [
-                    'label' => 'Кадровая работа',
-                    'icon' => 'users',
-                    'url' => ['users'],
-                ]);
         }
         $items = array_merge(Yii::$app->params['left_menu'], $items);
         ?>

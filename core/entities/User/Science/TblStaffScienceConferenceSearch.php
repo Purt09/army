@@ -32,15 +32,13 @@ class TblStaffScienceConferenceSearch extends TblStaffScienceConference
     }
 
     /**
-     * Creates data provider instance with search query applied
-     *
-     * @param array $params
-     *
+     * @param $params
+     * @param int $id
      * @return ActiveDataProvider
      */
-    public function search($params)
+    public function search($params, int $id)
     {
-        $query = TblStaffScienceConference::find();
+        $query = TblStaffScienceConference::find()->andWhere(['id_science_conference' => $id]);
 
         // add conditions that should always apply here
 
