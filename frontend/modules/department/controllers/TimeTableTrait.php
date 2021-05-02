@@ -11,8 +11,6 @@ use yii\web\NotFoundHttpException;
 
 trait TimeTableTrait
 {
-
-
     public function actionTimeTable()
     {
         $searchModel = new TimetableSearch();
