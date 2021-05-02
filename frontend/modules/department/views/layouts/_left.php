@@ -23,6 +23,16 @@ else
                 'label' => 'Кадровая работа',
                 'icon' => 'users',
                 'url' => ['users'],
+            ],
+            [
+                'label' => 'Выпускники',
+                'icon' => 'star-half-o',
+                'url' => ['graduates'],
+            ],
+            [
+                'label' => 'Бессмертный полк',
+                'icon' => 'shield',
+                'url' => ['regiment'],
             ]
         ];
         if (RbacHelpers::checkRole(RbacHelpers::$MANAGER) || RbacHelpers::checkRole(RbacHelpers::$ADMIN)) {

@@ -26,6 +26,7 @@ use yii\web\Controller;
 class FiveFiveController extends Controller
 {
     use TimeTableTrait;
+    use GraduatesTrait;
 
     const UNIT_ID = 31;
 
@@ -46,7 +47,7 @@ class FiveFiveController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-graduate', 'users' ],
+                'except' => ['index', 'ymb', 'immortal-regiment-view', 'users' ],
                 'rules' => [
                     [
                         'allow' => true,
@@ -183,16 +184,6 @@ class FiveFiveController extends Controller
         return $this->render('../common/_form_main', [
             'model' => $model,
             'title' => 'Управление бессмертным полком 55 кафедры'
-        ]);
-    }
-
-    public function actionViewGraduate()
-    {
-        $model = Page::find()->where(['alias' => 'department_55kaf'])->one();
-
-
-        return $this->render('view-graduate', [
-            'model' => $model,
         ]);
     }
 

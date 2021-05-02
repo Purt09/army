@@ -16,6 +16,7 @@ use Yii;
  * @property int $created_at
  * @property mixed $date
  * @property int|null $sort
+ * @property string $img
  *
  * @property TblMilUnit $unit
  * @property PlanCategory $category
@@ -52,7 +53,7 @@ class Plan extends \yii\db\ActiveRecord
     {
         return [
             [['title', 'category_id', 'unit_id', 'created_at'], 'required'],
-            [['text'], 'string'],
+            [['text', 'img'], 'string'],
             [['category_id', 'unit_id', 'created_at', 'sort'], 'default', 'value' => null],
             [['category_id', 'unit_id', 'created_at', 'sort'], 'integer'],
             ['date', 'safe'],
@@ -76,6 +77,7 @@ class Plan extends \yii\db\ActiveRecord
             'created_at' => 'Дата создания',
             'date' => 'Дата',
             'sort' => 'Сортировка',
+            'img' => 'Изображение'
         ];
     }
 

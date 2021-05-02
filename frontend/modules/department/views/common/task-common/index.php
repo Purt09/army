@@ -43,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     ]
                 ]),
                 'value' => function ($model) {
-                    return Yii::$app->formatter->asDate($model->date_finish);
+                    return Yii::$app->formatter->asDate($model->order_date_finish);
                 }
             ],
             [
@@ -190,11 +190,16 @@ $this->params['breadcrumbs'][] = $this->title;
 
             [
                 'class' => ActionColumn::className(),
-                'template' => '{update}  {delete}',
+                'template' => '{download}  {update}  {delete}',
                 'buttons' => [
                     'update' => function ($url, $model) {
                         return Html::a('<i class="fa fa-pencil"></i>', $url, [
                             'title' => Yii::t('app', 'Редактировать'),
+                        ]);
+                    },
+                    'download' => function ($url, $model) {
+                        return Html::a('<i class="fa fa-download"></i>', $url, [
+                            'title' => Yii::t('app', 'Загрузить'),
                         ]);
                     },
                     'delete' => function ($url, $model) {

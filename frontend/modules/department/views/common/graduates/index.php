@@ -1,22 +1,75 @@
 <?php
 /**
- * @var $this \yii\web\View
- * @var $cafedra51 \core\vendor\pages\models\Page
- * @var $cafedra52 \core\vendor\pages\models\Page
- * @var $cafedra53 \core\vendor\pages\models\Page
- * @var $cafedra55 \core\vendor\pages\models\Page
- *
+ * @var $this View
+ * @var $milUnit TblMilUnit
+ * @var $graduates Plan[]
  */
 
-$this->title = 'Выпускники факультета';
+use core\entities\Army\Plan;
+use core\entities\User\TblMilUnit;
+use core\helpers\user\RbacHelpers;
+use yii\helpers\Url;
+use yii\web\View;
 
-?>
-<style>
-    .content-wrapper {
-        height: 7000px;
-    }
-</style>
-<section class="content" style="">
+
+$this->title = "Выдающиеся выпускники: " . $milUnit->name
+ ?>
+
+<?php if(RbacHelpers::checkRole(RbacHelpers::$MANAGER)): ?>
+    <a href="<?= Url::to('graduate-create') ?>" class="btn btn-success">Добавить выпускника</a>
+<?php endif; ?>
+
+
+<section class="content">
+    <div class="container">
+        <div class="col-sm-12 head_inf">
+            <div class="col-sm-9">
+                <h2>ВЫДАЮЩИЕСЯ ВЫПУСКНИКИ <?= mb_strtoupper($milUnit->short_name) ?><h2>
+
+            </div>
+            <div class="col-sm-3 logo">
+                <img src="/img/эмб55.jpg" alt="\">
+            </div>
+
+        </div>
+        <div class="col-sm-12 inf_block">
+
+            <div>
+                <div class="row">
+                    <?php foreach ($graduates as $graduate): ?>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="box">
+                                <div class="box-img">
+                                    <img src="<?= $graduate->img ?>" alt="<?= $graduate->title ?>">
+                                    <div style="text-align: center;">
+                                        <h4> <?= $graduate->title ?></h4>
+                                    </div>
+                                </div>
+                                <div class="box-content">
+                                    <img src="<?= $graduate->img ?>" alt="<?= $graduate->title ?>" style="width: 120px; height: 130px">
+                                    <h4 class="title"><?= $graduate->title ?>
+                                    </h4>
+                                    <div class="description">
+                                        <?= $graduate->text ?>
+                                    </div>
+
+                                    <?php if(RbacHelpers::checkRole(RbacHelpers::$MANAGER)): ?>
+                                        <a href="<?= Url::to(['graduate-update', 'id' => $graduate->id]) ?>" class="btn btn-success">Редактировать</a>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<h1>Архив:</h1>
+
+<section class="content">
     <div class="container">
         <div class="col-sm-12 head_inf">
             <div class="col-sm-9">
@@ -468,7 +521,7 @@ $this->title = 'Выпускники факультета';
     <div class="container">
         <div class="col-sm-12 head_inf">
             <div class="col-sm-9">
-                <h2>ВЫДАЮЩИЕСЯ ВЫПУСКНИКИ 55 КАФЕДРЫ<h2>
+                <h2>ВЫДАЮЩИЕСЯ ВЫПУСКНИКИ <?= mb_strtoupper($milUnit->short_name) ?><h2>
 
             </div>
             <div class="col-sm-3 logo">
@@ -525,10 +578,3 @@ $this->title = 'Выпускники факультета';
     </div>
 </section>
 
-
-
-
-
-<style type="text/css">
-
-</style>

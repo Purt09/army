@@ -27,6 +27,8 @@ class CommonController extends Controller
     use CommonSubjectTrait;
     use CommonEvaluationTrait;
     use ArticleTrait;
+    use GraduatesTrait;
+    use RegimentTrait;
 
     const UNIT_ID = 1;
 
@@ -99,7 +101,7 @@ class CommonController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-graduate' , 'view-graduate-stars', 'view-plan', 'users'],
+                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-plan', 'users'],
                 'rules' => [
                     [
                         'allow' => true,
@@ -254,32 +256,6 @@ class CommonController extends Controller
         return $this->render('_form_main', [
             'model' => $model,
             'title' => 'Управление историей факультета'
-        ]);
-    }
-
-    public function actionViewGraduate()
-    {
-        $cafedra51 = Page::find()->where(['alias' => 'department_51kaf'])->one();
-        $cafedra52 = Page::find()->where(['alias' => 'department_52kaf'])->one();
-        $cafedra53 = Page::find()->where(['alias' => 'department_53kaf'])->one();
-        $cafedra55 = Page::find()->where(['alias' => 'department_55kaf'])->one();
-
-
-        return $this->render('view-graduate', [
-            'cafedra51' => $cafedra51,
-            'cafedra52' => $cafedra52,
-            'cafedra53' => $cafedra53,
-            'cafedra55' => $cafedra55,
-        ]);
-    }
-
-    public function actionViewGraduateStars()
-    {
-        $model = Page::find()->where(['alias' => 'department_main'])->one();
-
-
-        return $this->render('view-graduate-start', [
-            'model' => $model,
         ]);
     }
 
