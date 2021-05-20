@@ -15,11 +15,13 @@ $this->title = $title;
 
 ?>
 
-<div class="col-sm-2">
-    <a href="<?= \yii\helpers\Url::to('add-user') ?>" class="btn btn-success">Добавить пользователя</a>
-</div>
-<div class="col-sm-4">
-    <?php $form = ActiveForm::begin(); ?>
+<?php if (!Yii::$app->user->isGuest): ?>
+    <div class="col-sm-2">
+        <a href="<?= \yii\helpers\Url::to('add-user') ?>" class="btn btn-success">Добавить пользователя</a>
+    </div>
+<?php endif; ?>
+    <div class="col-sm-4">
+        <?php $form = ActiveForm::begin(); ?>
 
         <div class="input-group">
             <?= Html::textInput('fio', '', ['placeholder' => 'Поиск по ФИО', 'class' => 'form-control']) ?>
@@ -29,9 +31,8 @@ $this->title = $title;
         </div>
 
 
-    <?php ActiveForm::end(); ?>
-</div>
-
+        <?php ActiveForm::end(); ?>
+    </div>
 
 
 <?= GridView::widget([

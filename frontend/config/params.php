@@ -60,26 +60,17 @@ return [
         [
             'label' => 'ВПР',
             'icon' => 'star',
-            'url' => ['/department/common/immortal-regiment-view'],
+            'url' => ['/'],
+            'items' => [
+                ['label' => 'Бессмертный полк', 'icon' => 'user-secret', 'url' => ['/department/common/regiment'],],
+                ['label' => 'Книги', 'icon' => 'book', 'url' => ['/'],],
+            ],
         ],
         [
             'label' => 'Спортивная работа',
             'icon' => 'trophy',
             'url' => ['/education/sport/view'],
         ],
-//        [
-//            'label' => 'Выпускники',
-//            'icon' => 'child',
-//            'url' => '#',
-//            'items' => [
-//                ['label' => 'Все', 'icon' => 'users', 'url' => ['/department/common/view-graduate'],],
-//                ['label' => '51 кафедры', 'icon' => '', 'url' => ['/department/five-one/view-graduate'],],
-//                ['label' => '52 кафедры', 'icon' => '', 'url' => ['/department/five-two/view-graduate'],],
-//                ['label' => '53 кафедры', 'icon' => '', 'url' => ['/department/five-free/view-graduate'],],
-//                ['label' => '55 кафедры', 'icon' => '', 'url' => ['/department/five-five/view-graduate'],],
-//                ['label' => 'Выдающиеся', 'icon' => 'star', 'url' => ['/department/common/view-graduate-stars'],],
-//            ],
-//        ],
         [
             'label' => 'Контакты',
             'icon' => 'star',

@@ -26,6 +26,7 @@ class FiveTwoController extends Controller
 {
     use TimeTableTrait;
     use GraduatesTrait;
+    use RegimentTrait;
 
     const UNIT_ID = 28;
 
@@ -46,7 +47,7 @@ class FiveTwoController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb', 'immortal-regiment-view', 'users' ],
+                'except' => ['index', 'ymb', 'immortal-regiment-view', 'users', 'graduates', 'regiment'],
                 'rules' => [
                     [
                         'allow' => true,
