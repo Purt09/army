@@ -38,10 +38,18 @@ $this->title = $category->name;
                             </div>
 
                             <?= $model->text ?>
-                            <?php if(isset($model->mediaMain->file)): ?>
-                                <div class="pricingTable-signup">
-                                    <a download href="/upload/<?= $model->mediaMain->file ?>"><span>Открыть</span></a>
-                                </div>
+                            <?php if (isset($model->mediaMain->file)): ?>
+                                <?php if (Yii::$app->user->isGuest): ?>
+                                    <div class="pricingTable-signup">
+                                        <a download
+                                           href="#"><span>Необходимо авторизоваться</span></a>
+                                    </div>
+                                <?php else: ?>
+                                    <div class="pricingTable-signup">
+                                        <a download
+                                           href="/upload/<?= $model->mediaMain->file ?>"><span>Открыть</span></a>
+                                    </div>
+                                <?php endif; ?>
                             <?php endif; ?>
                         </div>
                     </div>

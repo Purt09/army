@@ -101,7 +101,7 @@ class CommonController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-plan', 'users'],
+                'except' => ['index', 'ymb', 'immortal-regiment-view', 'view-plan', 'users', 'graduates', 'regiment'],
                 'rules' => [
                     [
                         'allow' => true,

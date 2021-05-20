@@ -58,6 +58,15 @@
                             ['label' => 'Предмет', 'icon' => '', 'url' => ['/education/subject'],],
                             ['label' => 'Оценки', 'icon' => '', 'url' => ['/education/evaluation'],],
                             [
+                                'label' => 'Книги',
+                                'icon' => 'book',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'Категории книг', 'icon' => 'support', 'url' => ['/common/books/books-category'],],
+                                    ['label' => 'Книги', 'icon' => 'book', 'url' => ['/common/books/books'],],
+                                ],
+                            ],
+                            [
                                 'label' => 'Конференции',
                                 'icon' => 'graduation-cap',
                                 'url' => '#',
