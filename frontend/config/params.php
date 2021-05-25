@@ -1,7 +1,7 @@
 <?php
 return [
     'adminEmail' => 'admin@example.com',
-    'left_menu' =>  [
+    'left_menu' => [
         ['label' => 'Главная', 'options' => ['class' => 'header']],
         [
             'label' => 'Подразделения',
@@ -63,7 +63,14 @@ return [
             'url' => ['/'],
             'items' => [
                 ['label' => 'Бессмертный полк', 'icon' => 'user-secret', 'url' => ['/department/common/regiment'],],
-                ['label' => 'Книги', 'icon' => 'book', 'url' => ['/'],],
+                [
+                    'label' => 'Книги',
+                    'icon' => 'book',
+                    'items' => [
+                        ['label' => 'Рекомендуемые', 'icon' => 'book', 'url' => ['/education/books/index?category_id=2'],],
+                        ['label' => 'Обязательные', 'icon' => 'book', 'url' => ['/education/books/index?category_id=3'],],
+                    ],
+                ],
             ],
         ],
         [
