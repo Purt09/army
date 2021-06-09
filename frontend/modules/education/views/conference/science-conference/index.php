@@ -17,7 +17,7 @@ use yii\grid\GridView;
 if(isset($rank))
     $this->title = $rank->name;
 else
-    $this->title = 'Научные конференции';
+    $this->title = 'Методическая деятельность';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tbl-science-conference-index">

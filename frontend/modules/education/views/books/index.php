@@ -43,12 +43,15 @@ $this->title = "Книги:";
                             <p class="lead"><?= $book->title ?></p>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="#">Загрузить <i class="fa fa-download"></i></a>
+                            <a download="" class="btn btn-success" href="/upload/<?= $book->mediaMain->file ?>">Загрузить <i class="fa fa-download"></i></a>
                         </div>
                     </div>
                 </div>
                 <?php if (RbacHelpers::checkRole(RbacHelpers::$MANAGER)): ?>
                     <?= Html::a('Изменить', Url::to(['update', 'id' => $book->id]), ['class' => 'btn btn-success']) ?>
+                <?php endif; ?>
+                <?php if (RbacHelpers::checkRole(RbacHelpers::$MANAGER)): ?>
+                    <?= Html::a('Загрузить книгу', Url::to(['file', 'id' => $book->id]), ['class' => 'btn btn-success']) ?>
                 <?php endif; ?>
                 <?php if (RbacHelpers::checkRole(RbacHelpers::$MANAGER)): ?>
                     <?= Html::a('Удалить', Url::to(['delete', 'id' => $book->id]), ['class' => 'btn btn-danger']) ?>

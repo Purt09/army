@@ -21,6 +21,20 @@ use Yii;
  */
 class Books extends \yii\db\ActiveRecord
 {
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => \pantera\media\behaviors\MediaUploadBehavior::className(),
+                'buckets' => [
+                    'mediaMain' => [],
+                    'mediaOther' => [
+                        'multiple' => false,
+                    ],
+                ],
+            ],
+        ];
+    }
     /**
      * {@inheritdoc}
      */
