@@ -40,7 +40,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#4472C4" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1054;&#1073;&#1097;&#1080;&#1081; &#1089;&#1088;&#1077;&#1076;&#1085;&#1080;&#1081; &#1073;&#1072;&#1083;&#1083;</font></u></i></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#4472C4" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1048;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1077; &#1089;&#1088;&#1077;&#1076;&#1085;&#1077;&#1075;&#1086; &#1073;&#1072;&#1083;&#1083;&#1072;</font></u></i></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#4472C4" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1052;&#1077;&#1089;&#1090;&#1086;</font></u></i></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
@@ -59,7 +59,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;0;0"><b><font face="Times New Roman" size=4 color="#000000">1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FF7C80" sdval="2" sdnum="1033;"><b><font face="Times New Roman" size=4>2</font></b></td>
@@ -78,7 +78,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FF7C80" sdval="3" sdnum="1033;"><b><font face="Times New Roman" size=4>3</font></b></td>
@@ -97,7 +97,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;0;0"><b><font face="Times New Roman" size=4 color="#000000">1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="4" sdnum="1033;"><b><font face="Times New Roman" size=4>4</font></b></td>
@@ -116,7 +116,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.91666666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.92</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="2" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>2</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="5" sdnum="1033;"><b><font face="Times New Roman" size=4>5</font></b></td>
@@ -135,7 +135,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.86309523809524" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.86</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.125" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="3" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>3</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="6" sdnum="1033;"><b><font face="Times New Roman" size=4>6</font></b></td>
@@ -154,7 +154,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.84166666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>4</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="7" sdnum="1033;"><b><font face="Times New Roman" size=4>7</font></b></td>
@@ -173,7 +173,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.82380952380952" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.82</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="5" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>5</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="8" sdnum="1033;"><b><font face="Times New Roman" size=4>8</font></b></td>
@@ -192,7 +192,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.82380952380952" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.82</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="5" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>5</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="9" sdnum="1033;"><b><font face="Times New Roman" size=4>9</font></b></td>
@@ -211,7 +211,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.81" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.81</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.57" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="6" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>6</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="10" sdnum="1033;"><b><font face="Times New Roman" size=4>10</font></b></td>
@@ -230,7 +230,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.80092592592593" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.80</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.222222222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.22</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="7" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>7</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="11" sdnum="1033;"><b><font face="Times New Roman" size=4>11</font></b></td>
@@ -249,7 +249,6 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.78055555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.78</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.133333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="8" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>8</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"> </font></td>
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="12" sdnum="1033;"><b><font face="Times New Roman" size=4>12</font></b></td>
@@ -268,7 +267,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.775" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.78</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="8" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>8</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="13" sdnum="1033;"><b><font face="Times New Roman" size=4>13</font></b></td>
@@ -287,7 +286,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.77142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.77</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="9" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>9</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;"><b><font face="Times New Roman" size=4>14</font></b></td>
@@ -306,7 +305,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.76309523809524" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.76</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.175" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="10" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>10</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="15" sdnum="1033;"><b><font face="Times New Roman" size=4>15</font></b></td>
@@ -325,7 +324,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.74642857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.75</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.185714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.19</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="11" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>11</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="16" sdnum="1033;"><b><font face="Times New Roman" size=4>16</font></b></td>
@@ -344,7 +343,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.73888888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.74</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.133333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="12" sdnum="1033;0;0"><b><font face="Times New Roman" size=4 color="#000000">12</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="17" sdnum="1033;"><b><font face="Times New Roman" size=4>17</font></b></td>
@@ -363,7 +362,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.71547619047619" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.72</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.175" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="13" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>13</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="18" sdnum="1033;"><b><font face="Times New Roman" size=4>18</font></b></td>
@@ -382,7 +381,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.70555555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.71</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.0333333333333332" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>14</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;"><b><font face="Times New Roman" size=4>19</font></b></td>
@@ -401,7 +400,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.66534391534392" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.67</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.0317460317460325" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="15" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>15</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;"><b><font face="Times New Roman" size=4>20</font></b></td>
@@ -420,7 +419,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.64833333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.65</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.18" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="16" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>16</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;"><b><font face="Times New Roman" size=4>21</font></b></td>
@@ -439,7 +438,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.62380952380952" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.62</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.228571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.23</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="17" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>17</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="22" sdnum="1033;"><b><font face="Times New Roman" size=4>22</font></b></td>
@@ -458,7 +457,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.60071428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.60</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.287142857142856" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.29</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="18" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>18</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="23" sdnum="1033;"><b><font face="Times New Roman" size=4>23</font></b></td>
@@ -477,7 +476,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.57222222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.133333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>19</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="24" sdnum="1033;"><b><font face="Times New Roman" size=4>24</font></b></td>
@@ -496,7 +495,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.55238095238095" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.55</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0571428571428569" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.06</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>20</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="25" sdnum="1033;"><b><font face="Times New Roman" size=4>25</font></b></td>
@@ -515,7 +514,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.54880952380952" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.55</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.128571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>20</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="26" sdnum="1033;"><b><font face="Times New Roman" size=4>26</font></b></td>
@@ -534,7 +533,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.5462962962963" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.55</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.263888888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.26</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>20</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="27" sdnum="1033;"><b><font face="Times New Roman" size=4>27</font></b></td>
@@ -553,7 +552,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.53571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.54</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.357142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.36</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>21</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="28" sdnum="1033;"><b><font face="Times New Roman" size=4>28</font></b></td>
@@ -572,7 +571,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.51833333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.52</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.32" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.32</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="22" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>22</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#FFFF00" sdval="29" sdnum="1033;"><b><font face="Times New Roman" size=4>29</font></b></td>
@@ -591,7 +590,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.51309523809524" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.51</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0142857142857142" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.01</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="23" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>23</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
@@ -610,7 +609,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.45" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.45</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="24" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>24</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="31" sdnum="1033;"><b><font face="Times New Roman" size=4>31</font></b></td>
@@ -629,7 +628,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.44907407407407" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.45</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.777777777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.78</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="24" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>24</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="32" sdnum="1033;"><b><font face="Times New Roman" size=4>32</font></b></td>
@@ -648,7 +647,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.44761904761905" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.45</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.557142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.56</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="24" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>24</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="33" sdnum="1033;"><b><font face="Times New Roman" size=4>33</font></b></td>
@@ -667,7 +666,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.43981481481482" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.0694444444444446" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="25" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>25</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="34" sdnum="1033;"><b><font face="Times New Roman" size=4>34</font></b></td>
@@ -686,7 +685,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.43928571428571" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.157142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.16</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="25" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>25</font></b></td>
-		<td align="left" valign=bottom bgcolor="#F4B183"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="35" sdnum="1033;"><b><font face="Times New Roman" size=4>35</font></b></td>
@@ -705,7 +704,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.43055555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.208333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.21</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="26" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>26</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4>36</font></b></td>
@@ -724,7 +723,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.39814814814815" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.430555555555555" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="27" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>27</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4>37</font></b></td>
@@ -743,7 +742,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.37962962962963" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.38</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-1.11111111111111" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-1.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="28" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>28</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="38" sdnum="1033;"><b><font face="Times New Roman" size=4>38</font></b></td>
@@ -762,7 +761,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.375" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.38</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.75" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.75</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="28" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>28</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="39" sdnum="1033;"><b><font face="Times New Roman" size=4>39</font></b></td>
@@ -781,7 +780,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.37023809523809" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.425" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="29" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>29</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="40" sdnum="1033;"><b><font face="Times New Roman" size=4>40</font></b></td>
@@ -800,7 +799,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.35648148148148" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.36</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.0694444444444446" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="30" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>30</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="41" sdnum="1033;"><b><font face="Times New Roman" size=4>41</font></b></td>
@@ -819,7 +818,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.34193121693122" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.34</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.206349206349206" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.21</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="31" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>31</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="42" sdnum="1033;"><b><font face="Times New Roman" size=4>42</font></b></td>
@@ -838,7 +837,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.33" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.46" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.46</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="32" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>32</font></b></td>
-		<td align="left" valign=bottom bgcolor="#70AD47"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle sdval="43" sdnum="1033;"><b><font face="Times New Roman" size=4>43</font></b></td>
@@ -857,7 +856,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.29666666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.485" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.49</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="33" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>33</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="44" sdnum="1033;"><b><font face="Times New Roman" size=4>44</font></b></td>
@@ -876,7 +875,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.28095238095238" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.28</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.9" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.90</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="33" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>33</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="45" sdnum="1033;"><b><font face="Times New Roman" size=4>45</font></b></td>
@@ -895,7 +894,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.28095238095238" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.28</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-1.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-1.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="33" sdnum="1033;0;0"><b><font face="Times New Roman" size=4 color="#000000">33</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="46" sdnum="1033;"><b><font face="Times New Roman" size=4>46</font></b></td>
@@ -914,7 +913,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.27857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.28</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.0142857142857142" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.01</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="33" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>33</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="47" sdnum="1033;"><b><font face="Times New Roman" size=4>47</font></b></td>
@@ -933,7 +932,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.2744708994709" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.27</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.412698412698412" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.41</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="35" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>35</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4>48</font></b></td>
@@ -952,7 +951,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.25952380952381" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.26</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.328571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="36" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>36</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="49" sdnum="1033;"><b><font face="Times New Roman" size=4>49</font></b></td>
@@ -971,7 +970,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.19444444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.19</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.208333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.21</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="37" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>37</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="50" sdnum="1033;"><b><font face="Times New Roman" size=4>50</font></b></td>
@@ -990,7 +989,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.18452380952381" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.428571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="38" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>38</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="51" sdnum="1033;"><b><font face="Times New Roman" size=4>51</font></b></td>
@@ -1009,7 +1008,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.15952380952381" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.16</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.128571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="39" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>39</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="52" sdnum="1033;"><b><font face="Times New Roman" size=4>52</font></b></td>
@@ -1028,7 +1027,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.13333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="40" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>40</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="53" sdnum="1033;"><b><font face="Times New Roman" size=4>53</font></b></td>
@@ -1047,7 +1046,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.10449735449735" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.507936507936508" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.51</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="41" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>41</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="54" sdnum="1033;"><b><font face="Times New Roman" size=4>54</font></b></td>
@@ -1066,7 +1065,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.09404761904762" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.09</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.175" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="42" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>42</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="55" sdnum="1033;"><b><font face="Times New Roman" size=4>55</font></b></td>
@@ -1085,7 +1084,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.09391534391534" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.09</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.253968253968254" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.25</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="42" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>42</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="56" sdnum="1033;"><b><font face="Times New Roman" size=4>56</font></b></td>
@@ -1104,7 +1103,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.08796296296296" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.09</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.361111111111111" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.36</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="42" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>42</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="57" sdnum="1033;"><b><font face="Times New Roman" size=4>57</font></b></td>
@@ -1123,7 +1122,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.08095238095238" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.185714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.19</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="43" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>43</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="58" sdnum="1033;"><b><font face="Times New Roman" size=4>58</font></b></td>
@@ -1142,7 +1141,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.07142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.50</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="44" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>44</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="59" sdnum="1033;"><b><font face="Times New Roman" size=4>59</font></b></td>
@@ -1161,7 +1160,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.06666666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="44" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>44</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="60" sdnum="1033;"><b><font face="Times New Roman" size=4>60</font></b></td>
@@ -1180,7 +1179,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.06071428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.06</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.0750000000000002" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="45" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>45</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="61" sdnum="1033;"><b><font face="Times New Roman" size=4>61</font></b></td>
@@ -1199,7 +1198,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.025" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.425" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="46" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>46</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="62" sdnum="1033;"><b><font face="Times New Roman" size=4>62</font></b></td>
@@ -1218,7 +1217,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.02333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.02</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.555" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.56</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="47" sdnum="1033;0;0"><b><font face="Times New Roman" size=4 color="#000000">47</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="63" sdnum="1033;"><b><font face="Times New Roman" size=4>63</font></b></td>
@@ -1237,7 +1236,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.02142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.02</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.15" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.15</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="47" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>47</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="64" sdnum="1033;"><b><font face="Times New Roman" size=4>64</font></b></td>
@@ -1256,7 +1255,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.01388888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.01</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.166666666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.17</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="48" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>48</font></b></td>
-		<td align="left" valign=bottom bgcolor="#5B9BD5"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle sdval="65" sdnum="1033;"><b><font face="Times New Roman" size=4>65</font></b></td>
@@ -1275,7 +1274,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.00952380952381" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.01</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="48" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>48</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="66" sdnum="1033;"><b><font face="Times New Roman" size=4>66</font></b></td>
@@ -1294,7 +1293,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.96071428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.96</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.225" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.23</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="49" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>49</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="67" sdnum="1033;"><b><font face="Times New Roman" size=4>67</font></b></td>
@@ -1313,7 +1312,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.96071428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.96</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.225" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.23</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="49" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>49</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="68" sdnum="1033;"><b><font face="Times New Roman" size=4>68</font></b></td>
@@ -1332,7 +1331,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.95238095238095" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.95</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="50" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>50</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="69" sdnum="1033;"><b><font face="Times New Roman" size=4>69</font></b></td>
@@ -1351,7 +1350,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.94642857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.95</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.285714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.29</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="50" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>50</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="70" sdnum="1033;"><b><font face="Times New Roman" size=4>70</font></b></td>
@@ -1370,7 +1369,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.94246031746032" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.94</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.619047619047619" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.62</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="51" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>51</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="71" sdnum="1033;"><b><font face="Times New Roman" size=4>71</font></b></td>
@@ -1389,7 +1388,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.94166666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.94</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.55" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.55</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="51" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>51</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="72" sdnum="1033;"><b><font face="Times New Roman" size=4>72</font></b></td>
@@ -1408,7 +1407,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.93333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.93</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="52" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>52</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="73" sdnum="1033;"><b><font face="Times New Roman" size=4>73</font></b></td>
@@ -1427,7 +1426,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.92666666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.93</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.97" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.97</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="52" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>52</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="74" sdnum="1033;"><b><font face="Times New Roman" size=4>74</font></b></td>
@@ -1446,7 +1445,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.925" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.93</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.0249999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.02</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="52" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>52</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="75" sdnum="1033;"><b><font face="Times New Roman" size=4>75</font></b></td>
@@ -1465,7 +1464,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.90740740740741" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.91</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.222222222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.22</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="53" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>53</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="76" sdnum="1033;"><b><font face="Times New Roman" size=4>76</font></b></td>
@@ -1484,7 +1483,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.9" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.90</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="54" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>54</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="77" sdnum="1033;"><b><font face="Times New Roman" size=4>77</font></b></td>
@@ -1503,7 +1502,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.89047619047619" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.89</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="55" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>55</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="78" sdnum="1033;"><b><font face="Times New Roman" size=4>78</font></b></td>
@@ -1522,7 +1521,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.83796296296296" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.0138888888888888" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.01</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="56" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>56</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="79" sdnum="1033;"><b><font face="Times New Roman" size=4>79</font></b></td>
@@ -1541,7 +1540,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.81904761904762" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.82</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="57" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>57</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="80" sdnum="1033;"><b><font face="Times New Roman" size=4>80</font></b></td>
@@ -1560,7 +1559,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.765" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.77</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.455" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.46</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="58" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>58</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="81" sdnum="1033;"><b><font face="Times New Roman" size=4>81</font></b></td>
@@ -1579,7 +1578,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.76388888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.76</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.458333333333334" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.46</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="59" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>59</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="82" sdnum="1033;"><b><font face="Times New Roman" size=4>82</font></b></td>
@@ -1598,7 +1597,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.75" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.75</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.75" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.75</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="60" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>60</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="83" sdnum="1033;"><b><font face="Times New Roman" size=4>83</font></b></td>
@@ -1617,7 +1616,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.7255291005291" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.73</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.412698412698413" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.41</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="61" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>61</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="84" sdnum="1033;"><b><font face="Times New Roman" size=4>84</font></b></td>
@@ -1636,7 +1635,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.6792328042328" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.68</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.301587301587302" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="62" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>62</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="85" sdnum="1033;"><b><font face="Times New Roman" size=4>85</font></b></td>
@@ -1655,7 +1654,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.64" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.64</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.33" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="63" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>63</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="86" sdnum="1033;"><b><font face="Times New Roman" size=4>86</font></b></td>
@@ -1674,7 +1673,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.60666666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.61</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.18" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="64" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>64</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="87" sdnum="1033;"><b><font face="Times New Roman" size=4>87</font></b></td>
@@ -1693,7 +1692,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.56" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.56</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.57" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="65" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>65</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="88" sdnum="1033;"><b><font face="Times New Roman" size=4>88</font></b></td>
@@ -1712,7 +1711,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.52857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.53</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="66" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>66</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="89" sdnum="1033;"><b><font face="Times New Roman" size=4>89</font></b></td>
@@ -1731,7 +1730,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.525" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.53</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="66" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>66</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="90" sdnum="1033;"><b><font face="Times New Roman" size=4>90</font></b></td>
@@ -1750,7 +1749,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.515" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.52</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.33" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="67" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>67</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="91" sdnum="1033;"><b><font face="Times New Roman" size=4>91</font></b></td>
@@ -1769,7 +1768,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.47420634920635" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.47</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.380952380952381" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.38</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="68" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>68</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="92" sdnum="1033;"><b><font face="Times New Roman" size=4>92</font></b></td>
@@ -1788,7 +1787,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.45833333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.46</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.125" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="69" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>69</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="93" sdnum="1033;"><b><font face="Times New Roman" size=4>93</font></b></td>
@@ -1807,7 +1806,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.43166666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.0800000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="70" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>70</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="94" sdnum="1033;"><b><font face="Times New Roman" size=4>94</font></b></td>
@@ -1826,7 +1825,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.39833333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.32" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.32</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="71" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>71</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="95" sdnum="1033;"><b><font face="Times New Roman" size=4>95</font></b></td>
@@ -1845,7 +1844,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.38955026455026" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.39</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.349206349206349" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.35</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="72" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>72</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="96" sdnum="1033;"><b><font face="Times New Roman" size=4>96</font></b></td>
@@ -1864,7 +1863,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.385" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.39</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.0949999999999998" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.09</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="73" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>73</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="97" sdnum="1033;"><b><font face="Times New Roman" size=4>97</font></b></td>
@@ -1883,7 +1882,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.35833333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.36</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.95" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.95</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="74" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>74</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="98" sdnum="1033;"><b><font face="Times New Roman" size=4>98</font></b></td>
@@ -1902,7 +1901,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.33166666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.0700000000000003" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="75" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>75</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="99" sdnum="1033;"><b><font face="Times New Roman" size=4>99</font></b></td>
@@ -1921,7 +1920,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.30833333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.31</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="76" sdnum="1033;0;0"><b><font face="Times New Roman" size=4 color="#000000">76</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="100" sdnum="1033;"><b><font face="Times New Roman" size=4>100</font></b></td>
@@ -1940,7 +1939,7 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.265" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.27</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.295" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="77" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>77</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="27" align="center" valign=middle bgcolor="#9BC2E6" sdval="101" sdnum="1033;"><b><font face="Times New Roman" size=4>101</font></b></td>
@@ -1959,1057 +1958,9 @@ $course52 = '
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.50</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="78" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>78</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-</table>
-<!-- ************************************************************************** -->
-<hr>
-<A NAME="table1"><h1>Sheet 2: <em>&#1051;&#1080;&#1089;&#1090;3</em></h1></A>
-<table cellspacing="0" border="0">
-	<colgroup width="64"></colgroup>
-	<colgroup span="4" width="77"></colgroup>
-	<colgroup width="84"></colgroup>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="63" align="center" valign=middle><font face="Times New Roman" size=3 color="#000000"> &#8470; &#1091;&#1095;&#1077;&#1073;&#1085;&#1086;&#1081; &#1075;&#1088;&#1091;&#1087;&#1087;&#1099;</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font face="Times New Roman" size=3 color="#000000">&#1057;&#1088;&#1077;&#1076;&#1085;&#1080;&#1081; &#1073;&#1072;&#1083;&#1083; &#1079;&#1072; 1 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font face="Times New Roman" size=3 color="#000000">&#1057;&#1088;&#1077;&#1076;&#1085;&#1080;&#1081; &#1073;&#1072;&#1083;&#1083; &#1079;&#1072; 2 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font face="Times New Roman" size=3 color="#000000">&#1057;&#1088;&#1077;&#1076;&#1085;&#1080;&#1081; &#1073;&#1072;&#1083;&#1083; &#1079;&#1072; 3 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font face="Times New Roman" size=3 color="#000000">&#1054;&#1073;&#1097;&#1080;&#1081; &#1089;&#1088;&#1077;&#1076;&#1085;&#1080;&#1081; &#1073;&#1072;&#1083;&#1083;</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font face="Times New Roman" size=3 color="#000000">&#1052;&#1077;&#1089;&#1090;&#1086; &#1085;&#1072; &#1082;&#1091;&#1088;&#1089;&#1077;</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#FFFFFF" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">661/1</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.77" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.77</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.91875" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.92</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.93" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.93</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.87291666666667" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.87</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="6" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">6</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#FFFFFF" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">661/2</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.58666666666667" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.59</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.91666666666667" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.92</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.81481481481482" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.81</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.77271604938272" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.77</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="7" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">7</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#FFFFFF" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">661/3</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.49333333333333" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.49</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.775" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.78</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.78518518518519" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.79</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.68450617283951" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.68</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="8" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">8</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#FFFFFF" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">661/4</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.05333333333333" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.05</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.08333333333333" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.08</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.03703703703704" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.04</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.0579012345679" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.06</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">4</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#00B050" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">662/1</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#00B050" sdval="3.82547619047619" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.83</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#00B050" sdval="4.2577" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.26</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#00B050" sdval="4.18" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.18</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#00B050" sdval="4.0877253968254" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.09</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#00B050" sdval="3" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">3</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#FF0000" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">662/2</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FF0000" sdval="4.09142857142857" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.09</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FF0000" sdval="4.4445" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.44</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FF0000" sdval="4.46" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.46</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FF0000" sdval="4.33197619047619" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.33</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FF0000" sdval="1" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">1</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#FFFF00" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">665/1</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.0472049689441" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.05</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.38186956521739" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.38</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.44" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.44</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.28969151138716" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.29</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="2" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">2</font></td>
-	</tr>
-	<tr>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=middle bgcolor="#FFFFFF" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">665/2</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.64264069264069" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.64</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.15909090909091" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.16</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.06" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">4.06</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="3.95391053391053" sdnum="1033;0;0.00"><font face="Times New Roman" size=3 color="#000000">3.95</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="5" sdnum="1033;0;0"><font face="Times New Roman" size=3 color="#000000">5</font></td>
-	</tr>
+	
 </table>';
 
 $course53 = '<table cellspacing="0" border="0">
@@ -4822,960 +3773,7 @@ $course53 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9DC3E6" sdval="0.38" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.38</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9DC3E6" sdval="72" sdnum="1033;0;0"><b><font face="Times New Roman" size=4>72</font></b></td>
 	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
+	
 </table>';
 $course54 = '<table cellspacing="0" border="0">
 	<colgroup width="53"></colgroup>
@@ -5789,11 +3787,7 @@ $course54 = '<table cellspacing="0" border="0">
 	<colgroup span="5" width="68"></colgroup>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" colspan=16 height="66" align="center" valign=middle bgcolor="#FFFFFF"><b><font face="Times New Roman" size=7 color="#000000">&#1056;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075; &#1091;&#1089;&#1087;&#1077;&#1074;&#1072;&#1077;&#1084;&#1086;&#1089;&#1090;&#1080; &#1083;&#1080;&#1095;&#1085;&#1086;&#1075;&#1086; &#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1072; 54 &#1082;&#1091;&#1088;&#1089;&#1072; &#1085;&#1072;&#1073;&#1086;&#1088;&#1072; 2017 &#1075;&#1086;&#1076;&#1072;</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="81" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#8470; &#1055;/&#1055;</font></u></i></b></td>
@@ -5812,11 +3806,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1054;&#1073;&#1097;&#1080;&#1081; &#1089;&#1088;&#1077;&#1076;&#1085;&#1080;&#1081; &#1073;&#1072;&#1083;&#1083;</font></u></i></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1048;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1077; &#1089;&#1088;&#1077;&#1076;&#1085;&#1077;&#1075;&#1086; &#1073;&#1072;&#1083;&#1083;&#1072;</font></u></i></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1052;&#1077;&#1089;&#1090;&#1086;</font></u></i></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
@@ -5835,11 +3825,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="2" sdnum="1033;"><b><font face="Times New Roman" size=4>2</font></b></td>
@@ -5858,11 +3844,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="3" sdnum="1033;"><b><font face="Times New Roman" size=4>3</font></b></td>
@@ -5881,11 +3863,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="4" sdnum="1033;"><b><font face="Times New Roman" size=4>4</font></b></td>
@@ -5904,11 +3882,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;"><b><font face="Times New Roman" size=4>5</font></b></td>
@@ -5927,11 +3901,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="6" sdnum="1033;"><b><font face="Times New Roman" size=4>6</font></b></td>
@@ -5950,10 +3920,6 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.98571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.99</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="2" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">2</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
 		<td align="center" valign=middle bgcolor="#FFFFFF" sdnum="1033;0;@"><b><font face="Times New Roman" size=4><br></font></b></td>
 	</tr>
 	<tr>
@@ -5973,11 +3939,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.98571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.99</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="2" sdnum="1033;"><b><font face="Times New Roman" size=4>2</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="8" sdnum="1033;"><b><font face="Times New Roman" size=4>8</font></b></td>
@@ -5996,11 +3958,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.97142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.97</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="3" sdnum="1033;"><b><font face="Times New Roman" size=4>3</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="9" sdnum="1033;"><b><font face="Times New Roman" size=4>9</font></b></td>
@@ -6019,11 +3977,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.95714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.96</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4" sdnum="1033;"><b><font face="Times New Roman" size=4>4</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="10" sdnum="1033;"><b><font face="Times New Roman" size=4>10</font></b></td>
@@ -6042,11 +3996,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.94857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.95</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="5" sdnum="1033;"><b><font face="Times New Roman" size=4>5</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="11" sdnum="1033;"><b><font face="Times New Roman" size=4>11</font></b></td>
@@ -6065,11 +4015,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.94285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.94</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="6" sdnum="1033;"><b><font face="Times New Roman" size=4>6</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="12" sdnum="1033;"><b><font face="Times New Roman" size=4>12</font></b></td>
@@ -6088,11 +4034,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.92714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.93</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="7" sdnum="1033;"><b><font face="Times New Roman" size=4>7</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="13" sdnum="1033;"><b><font face="Times New Roman" size=4>13</font></b></td>
@@ -6111,11 +4053,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.91428571428571" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.91</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="8" sdnum="1033;"><b><font face="Times New Roman" size=4>8</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;"><b><font face="Times New Roman" size=4>14</font></b></td>
@@ -6134,11 +4072,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.9" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.90</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="9" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">9</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"> </font></td>
+	
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="15" sdnum="1033;"><b><font face="Times New Roman" size=4>15</font></b></td>
@@ -6157,11 +4091,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.88571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.89</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="10" sdnum="1033;"><b><font face="Times New Roman" size=4>10</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="16" sdnum="1033;"><b><font face="Times New Roman" size=4>16</font></b></td>
@@ -6180,11 +4110,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.88285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.88</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="11" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">11</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="17" sdnum="1033;"><b><font face="Times New Roman" size=4>17</font></b></td>
@@ -6203,11 +4129,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.87142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.87</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="12" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">12</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="18" sdnum="1033;"><b><font face="Times New Roman" size=4>18</font></b></td>
@@ -6226,11 +4148,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.85714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.86</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="13" sdnum="1033;"><b><font face="Times New Roman" size=4>13</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;"><b><font face="Times New Roman" size=4>19</font></b></td>
@@ -6249,11 +4167,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.84285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">14</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;"><b><font face="Times New Roman" size=4>20</font></b></td>
@@ -6272,11 +4186,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.84285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;"><b><font face="Times New Roman" size=4>14</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;"><b><font face="Times New Roman" size=4>21</font></b></td>
@@ -6295,11 +4205,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.84285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">14</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="22" sdnum="1033;"><b><font face="Times New Roman" size=4>22</font></b></td>
@@ -6318,11 +4224,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.82857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.83</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="15" sdnum="1033;"><b><font face="Times New Roman" size=4>15</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="23" sdnum="1033;"><b><font face="Times New Roman" size=4>23</font></b></td>
@@ -6341,11 +4243,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.82857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.83</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="15" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">15</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="24" sdnum="1033;"><b><font face="Times New Roman" size=4>24</font></b></td>
@@ -6364,11 +4262,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.81428571428572" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.81</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.0899999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.09</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="16" sdnum="1033;"><b><font face="Times New Roman" size=4>16</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="25" sdnum="1033;"><b><font face="Times New Roman" size=4>25</font></b></td>
@@ -6387,11 +4281,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.8" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.80</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="17" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">17</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="26" sdnum="1033;"><b><font face="Times New Roman" size=4>26</font></b></td>
@@ -6410,11 +4300,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.79" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.79</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="18" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">18</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="27" sdnum="1033;"><b><font face="Times New Roman" size=4>27</font></b></td>
@@ -6433,11 +4319,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.76142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.76</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.67" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.67</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;"><b><font face="Times New Roman" size=4>19</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="28" sdnum="1033;"><b><font face="Times New Roman" size=4>28</font></b></td>
@@ -6456,11 +4338,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.7" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.70</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.300000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">20</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="29" sdnum="1033;"><b><font face="Times New Roman" size=4>29</font></b></td>
@@ -6479,11 +4357,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.67142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.67</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">21</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
@@ -6502,11 +4376,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.67" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.67</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.25" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.25</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">21</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="31" sdnum="1033;"><b><font face="Times New Roman" size=4>31</font></b></td>
@@ -6525,11 +4395,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.65571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.66</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.31" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.31</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="22" sdnum="1033;"><b><font face="Times New Roman" size=4>22</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="32" sdnum="1033;"><b><font face="Times New Roman" size=4>32</font></b></td>
@@ -6548,11 +4414,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.64285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.64</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="23" sdnum="1033;"><b><font face="Times New Roman" size=4>23</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="33" sdnum="1033;"><b><font face="Times New Roman" size=4>33</font></b></td>
@@ -6571,11 +4433,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.62571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.63</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.22" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.22</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="24" sdnum="1033;"><b><font face="Times New Roman" size=4>24</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="34" sdnum="1033;"><b><font face="Times New Roman" size=4>34</font></b></td>
@@ -6594,11 +4452,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.61428571428571" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.61</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="25" sdnum="1033;"><b><font face="Times New Roman" size=4>25</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="35" sdnum="1033;"><b><font face="Times New Roman" size=4>35</font></b></td>
@@ -6617,11 +4471,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.6" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.60</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.17" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.17</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="26" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">26</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4>36</font></b></td>
@@ -6640,11 +4490,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.58857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.59</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.12" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="27" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">27</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4>37</font></b></td>
@@ -6663,11 +4509,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.58571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.59</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.100000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="27" sdnum="1033;"><b><font face="Times New Roman" size=4>27</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="38" sdnum="1033;"><b><font face="Times New Roman" size=4>38</font></b></td>
@@ -6686,11 +4528,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.58571428571428" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.59</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="27" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">27</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="39" sdnum="1033;"><b><font face="Times New Roman" size=4>39</font></b></td>
@@ -6709,11 +4547,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.57142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="28" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">28</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="40" sdnum="1033;"><b><font face="Times New Roman" size=4>40</font></b></td>
@@ -6732,11 +4566,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.57142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="28" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">28</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="41" sdnum="1033;"><b><font face="Times New Roman" size=4>41</font></b></td>
@@ -6755,11 +4585,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.56571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="28" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">28</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="42" sdnum="1033;"><b><font face="Times New Roman" size=4>42</font></b></td>
@@ -6778,11 +4604,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.54285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.54</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="29" sdnum="1033;"><b><font face="Times New Roman" size=4>29</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="43" sdnum="1033;"><b><font face="Times New Roman" size=4>43</font></b></td>
@@ -6801,11 +4623,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.47428571428571" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.47</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.29" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.29</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="44" sdnum="1033;"><b><font face="Times New Roman" size=4>44</font></b></td>
@@ -6824,11 +4642,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.47428571428571" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.47</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.44" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="45" sdnum="1033;"><b><font face="Times New Roman" size=4>45</font></b></td>
@@ -6847,11 +4661,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.47285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.47</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.12" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">30</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="46" sdnum="1033;"><b><font face="Times New Roman" size=4>46</font></b></td>
@@ -6870,11 +4680,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.47142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.47</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="47" sdnum="1033;"><b><font face="Times New Roman" size=4>47</font></b></td>
@@ -6893,11 +4699,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.46857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.47</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.0700000000000003" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4>48</font></b></td>
@@ -6916,11 +4718,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.44285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.600000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.60</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="31" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">31</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="49" sdnum="1033;"><b><font face="Times New Roman" size=4>49</font></b></td>
@@ -6939,11 +4737,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.42857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.100000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="32" sdnum="1033;"><b><font face="Times New Roman" size=4>32</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="50" sdnum="1033;"><b><font face="Times New Roman" size=4>50</font></b></td>
@@ -6962,11 +4756,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.41571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.42</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.0300000000000002" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="33" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">33</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="51" sdnum="1033;"><b><font face="Times New Roman" size=4>51</font></b></td>
@@ -6985,11 +4775,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.41428571428571" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.41</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="34" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">34</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="52" sdnum="1033;"><b><font face="Times New Roman" size=4>52</font></b></td>
@@ -7008,11 +4794,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.39571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.17" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.17</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="35" sdnum="1033;"><b><font face="Times New Roman" size=4>35</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="53" sdnum="1033;"><b><font face="Times New Roman" size=4>53</font></b></td>
@@ -7031,11 +4813,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.39285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.39</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.55" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.55</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4>36</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="54" sdnum="1033;"><b><font face="Times New Roman" size=4>54</font></b></td>
@@ -7054,11 +4832,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.38714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.39</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.149999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.15</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4>36</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="55" sdnum="1033;"><b><font face="Times New Roman" size=4>55</font></b></td>
@@ -7077,11 +4851,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.38571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.39</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">36</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="56" sdnum="1033;"><b><font face="Times New Roman" size=4>56</font></b></td>
@@ -7100,11 +4870,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.37285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.21" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.21</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">37</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="57" sdnum="1033;"><b><font face="Times New Roman" size=4>57</font></b></td>
@@ -7123,11 +4889,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.36571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.130000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">37</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="58" sdnum="1033;"><b><font face="Times New Roman" size=4>58</font></b></td>
@@ -7146,11 +4908,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.31857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.32</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.33" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="38" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">38</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="59" sdnum="1033;"><b><font face="Times New Roman" size=4>59</font></b></td>
@@ -7169,11 +4927,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.31285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.31</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.0300000000000002" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="39" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">39</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="60" sdnum="1033;"><b><font face="Times New Roman" size=4>60</font></b></td>
@@ -7192,11 +4946,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.29857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.23" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.23</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="40" sdnum="1033;"><b><font face="Times New Roman" size=4>40</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="61" sdnum="1033;"><b><font face="Times New Roman" size=4>61</font></b></td>
@@ -7215,11 +4965,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.28285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.28</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.0800000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="41" sdnum="1033;"><b><font face="Times New Roman" size=4>41</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="62" sdnum="1033;"><b><font face="Times New Roman" size=4>62</font></b></td>
@@ -7238,11 +4984,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.27571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.28</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.43" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="41" sdnum="1033;"><b><font face="Times New Roman" size=4>41</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="63" sdnum="1033;"><b><font face="Times New Roman" size=4>63</font></b></td>
@@ -7261,11 +5003,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.27" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.27</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.350000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.35</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="42" sdnum="1033;"><b><font face="Times New Roman" size=4>42</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="64" sdnum="1033;"><b><font face="Times New Roman" size=4>64</font></b></td>
@@ -7284,11 +5022,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.22571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.23</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.39" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.39</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="43" sdnum="1033;"><b><font face="Times New Roman" size=4>43</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="65" sdnum="1033;"><b><font face="Times New Roman" size=4>65</font></b></td>
@@ -7307,11 +5041,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="44" sdnum="1033;"><b><font face="Times New Roman" size=4>44</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="66" sdnum="1033;"><b><font face="Times New Roman" size=4>66</font></b></td>
@@ -7330,11 +5060,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.18571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.19</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="45" sdnum="1033;"><b><font face="Times New Roman" size=4>45</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="67" sdnum="1033;"><b><font face="Times New Roman" size=4>67</font></b></td>
@@ -7353,11 +5079,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.18571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.19</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.50</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="45" sdnum="1033;"><b><font face="Times New Roman" size=4>45</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="68" sdnum="1033;"><b><font face="Times New Roman" size=4>68</font></b></td>
@@ -7376,11 +5098,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.18571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.19</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.199999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="45" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">45</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="69" sdnum="1033;"><b><font face="Times New Roman" size=4>69</font></b></td>
@@ -7399,11 +5117,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.17571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.13" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="46" sdnum="1033;"><b><font face="Times New Roman" size=4>46</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="70" sdnum="1033;"><b><font face="Times New Roman" size=4>70</font></b></td>
@@ -7422,11 +5136,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.15714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.16</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.16" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.16</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="47" sdnum="1033;"><b><font face="Times New Roman" size=4>47</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="71" sdnum="1033;"><b><font face="Times New Roman" size=4>71</font></b></td>
@@ -7445,11 +5155,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.15142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.15</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">48</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="72" sdnum="1033;"><b><font face="Times New Roman" size=4>72</font></b></td>
@@ -7468,11 +5174,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.14714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.15</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.17" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.17</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4>48</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="73" sdnum="1033;"><b><font face="Times New Roman" size=4>73</font></b></td>
@@ -7491,11 +5193,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.13214285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.265" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.27</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="49" sdnum="1033;"><b><font face="Times New Roman" size=4>49</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="74" sdnum="1033;"><b><font face="Times New Roman" size=4>74</font></b></td>
@@ -7514,11 +5212,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.12857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="49" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">49</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="75" sdnum="1033;"><b><font face="Times New Roman" size=4>75</font></b></td>
@@ -7537,11 +5231,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.11857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.0599999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.06</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="50" sdnum="1033;"><b><font face="Times New Roman" size=4>50</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="76" sdnum="1033;"><b><font face="Times New Roman" size=4>76</font></b></td>
@@ -7560,11 +5250,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.09571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.260000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.26</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="51" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">51</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="77" sdnum="1033;"><b><font face="Times New Roman" size=4>77</font></b></td>
@@ -7583,11 +5269,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.08285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="52" sdnum="1033;"><b><font face="Times New Roman" size=4>52</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="78" sdnum="1033;"><b><font face="Times New Roman" size=4>78</font></b></td>
@@ -7606,11 +5288,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.06785714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.0499999999999998" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.05</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="53" sdnum="1033;"><b><font face="Times New Roman" size=4>53</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle sdval="79" sdnum="1033;"><b><font face="Times New Roman" size=4>79</font></b></td>
@@ -7629,11 +5307,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.05714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.06</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="54" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">54</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle sdval="80" sdnum="1033;"><b><font face="Times New Roman" size=4>80</font></b></td>
@@ -7652,11 +5326,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.04285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.04</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="55" sdnum="1033;"><b><font face="Times New Roman" size=4>55</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle sdval="81" sdnum="1033;"><b><font face="Times New Roman" size=4>81</font></b></td>
@@ -7675,11 +5345,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4.02571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.62" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.62</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="56" sdnum="1033;"><b><font face="Times New Roman" size=4>56</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle sdval="82" sdnum="1033;"><b><font face="Times New Roman" size=4>82</font></b></td>
@@ -7698,11 +5364,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="3.99714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.72" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.72</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="57" sdnum="1033;"><b><font face="Times New Roman" size=4>57</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle sdval="83" sdnum="1033;"><b><font face="Times New Roman" size=4>83</font></b></td>
@@ -7721,11 +5383,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="3.99571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="-0.57" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="57" sdnum="1033;"><b><font face="Times New Roman" size=4>57</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle sdval="84" sdnum="1033;"><b><font face="Times New Roman" size=4>84</font></b></td>
@@ -7744,11 +5402,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="0.1" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="57" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">57</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="85" sdnum="1033;"><b><font face="Times New Roman" size=4>85</font></b></td>
@@ -7767,11 +5421,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.87142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.87</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="58" sdnum="1033;"><b><font face="Times New Roman" size=4>58</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="86" sdnum="1033;"><b><font face="Times New Roman" size=4>86</font></b></td>
@@ -7790,11 +5440,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.86714285714286" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.87</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.0800000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="58" sdnum="1033;"><b><font face="Times New Roman" size=4>58</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="87" sdnum="1033;"><b><font face="Times New Roman" size=4>87</font></b></td>
@@ -7813,11 +5459,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.83571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.25" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.25</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="59" sdnum="1033;"><b><font face="Times New Roman" size=4>59</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="88" sdnum="1033;"><b><font face="Times New Roman" size=4>88</font></b></td>
@@ -7836,11 +5478,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.79857142857143" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.80</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.59" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.59</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="60" sdnum="1033;"><b><font face="Times New Roman" size=4>60</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="89" sdnum="1033;"><b><font face="Times New Roman" size=4>89</font></b></td>
@@ -7859,11 +5497,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.75428571428571" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.75</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.00999999999999979" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.01</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="61" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">61</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="90" sdnum="1033;"><b><font face="Times New Roman" size=4>90</font></b></td>
@@ -7882,11 +5516,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.64571428571429" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.65</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.0699999999999998" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="62" sdnum="1033;"><b><font face="Times New Roman" size=4>62</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="91" sdnum="1033;"><b><font face="Times New Roman" size=4>91</font></b></td>
@@ -7905,11 +5535,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.6" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.60</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.6" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.60</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="63" sdnum="1033;"><b><font face="Times New Roman" size=4>63</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="92" sdnum="1033;"><b><font face="Times New Roman" size=4>92</font></b></td>
@@ -7928,11 +5554,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.47285714285714" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.47</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.55" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.55</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="64" sdnum="1033;"><b><font face="Times New Roman" size=4>64</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="93" sdnum="1033;"><b><font face="Times New Roman" size=4>93</font></b></td>
@@ -7951,402 +5573,7 @@ $course54 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.34" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.34</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.88" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.88</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="65" sdnum="1033;"><b><font face="Times New Roman" size=4>65</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#00B0F0"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-	</tr>
-	<tr>
-		<td height="27" align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+
 	</tr>
 </table>';
 $course55 = '<table cellspacing="0" border="0">
@@ -8361,11 +5588,7 @@ $course55 = '<table cellspacing="0" border="0">
 	<colgroup span="5" width="68"></colgroup>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" colspan=16 height="66" align="center" valign=middle bgcolor="#FFFFFF"><b><font face="Times New Roman" size=7 color="#000000">&#1056;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075; &#1091;&#1089;&#1087;&#1077;&#1074;&#1072;&#1077;&#1084;&#1086;&#1089;&#1090;&#1080; &#1083;&#1080;&#1095;&#1085;&#1086;&#1075;&#1086; &#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1072; 55 &#1082;&#1091;&#1088;&#1089;&#1072; &#1085;&#1072;&#1073;&#1086;&#1088;&#1072; 2016 &#1075;&#1086;&#1076;&#1072;</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="81" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#8470; &#1055;/&#1055;</font></u></i></b></td>
@@ -8384,11 +5607,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1054;&#1073;&#1097;&#1080;&#1081; &#1089;&#1088;&#1077;&#1076;&#1085;&#1080;&#1081; &#1073;&#1072;&#1083;&#1083;</font></u></i></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1048;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1077; &#1089;&#1088;&#1077;&#1076;&#1085;&#1077;&#1075;&#1086; &#1073;&#1072;&#1083;&#1083;&#1072;</font></u></i></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#0070C0" sdnum="1033;0;@"><b><i><u><font face="Times New Roman" size=4 color="#FFFFFF">&#1052;&#1077;&#1089;&#1090;&#1086;</font></u></i></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
@@ -8407,11 +5626,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="2" sdnum="1033;"><b><font face="Times New Roman" size=4>2</font></b></td>
@@ -8430,11 +5645,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="3" sdnum="1033;"><b><font face="Times New Roman" size=4>3</font></b></td>
@@ -8453,11 +5664,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="4" sdnum="1033;"><b><font face="Times New Roman" size=4>4</font></b></td>
@@ -8476,11 +5683,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4>1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;"><b><font face="Times New Roman" size=4>5</font></b></td>
@@ -8499,11 +5702,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>5.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FF7C80" sdval="1" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">1</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="6" sdnum="1033;"><b><font face="Times New Roman" size=4>6</font></b></td>
@@ -8522,11 +5721,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.95974444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.96</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="2" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">2</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="7" sdnum="1033;"><b><font face="Times New Roman" size=4>7</font></b></td>
@@ -8545,11 +5740,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.93333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.93</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="3" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">3</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="center" valign=middle bgcolor="#FFFFFF" sdnum="1033;0;@"><b><font face="Times New Roman" size=4><br></font></b></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="8" sdnum="1033;"><b><font face="Times New Roman" size=4>8</font></b></td>
@@ -8568,11 +5759,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.92222222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.92</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4" sdnum="1033;"><b><font face="Times New Roman" size=4>4</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="9" sdnum="1033;"><b><font face="Times New Roman" size=4>9</font></b></td>
@@ -8591,11 +5778,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.91055555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.91</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.33" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="5" sdnum="1033;"><b><font face="Times New Roman" size=4>5</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="10" sdnum="1033;"><b><font face="Times New Roman" size=4>10</font></b></td>
@@ -8614,11 +5797,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.89208888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.89</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="6" sdnum="1033;"><b><font face="Times New Roman" size=4>6</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="11" sdnum="1033;"><b><font face="Times New Roman" size=4>11</font></b></td>
@@ -8637,11 +5816,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.88977777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.89</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="6" sdnum="1033;"><b><font face="Times New Roman" size=4>6</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="12" sdnum="1033;"><b><font face="Times New Roman" size=4>12</font></b></td>
@@ -8660,11 +5835,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.87977777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.88</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="7" sdnum="1033;"><b><font face="Times New Roman" size=4>7</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="13" sdnum="1033;"><b><font face="Times New Roman" size=4>13</font></b></td>
@@ -8683,11 +5854,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.85777777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.86</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.13" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="8" sdnum="1033;"><b><font face="Times New Roman" size=4>8</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;"><b><font face="Times New Roman" size=4>14</font></b></td>
@@ -8706,11 +5873,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.85333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.85</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.125" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="9" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">9</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="15" sdnum="1033;"><b><font face="Times New Roman" size=4>15</font></b></td>
@@ -8729,11 +5892,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.845" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.85</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="9" sdnum="1033;"><b><font face="Times New Roman" size=4>9</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"> </font></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="16" sdnum="1033;"><b><font face="Times New Roman" size=4>16</font></b></td>
@@ -8752,11 +5911,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.83888888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="10" sdnum="1033;"><b><font face="Times New Roman" size=4>10</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="17" sdnum="1033;"><b><font face="Times New Roman" size=4>17</font></b></td>
@@ -8775,11 +5930,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.82777777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.83</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.15" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.15</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="11" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">11</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="18" sdnum="1033;"><b><font face="Times New Roman" size=4>18</font></b></td>
@@ -8798,11 +5949,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.79644444444445" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.80</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="12" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">12</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;"><b><font face="Times New Roman" size=4>19</font></b></td>
@@ -8821,11 +5968,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.79455555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.79</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="13" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">13</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;"><b><font face="Times New Roman" size=4>20</font></b></td>
@@ -8844,11 +5987,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.78" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.78</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="14" sdnum="1033;"><b><font face="Times New Roman" size=4>14</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;"><b><font face="Times New Roman" size=4>21</font></b></td>
@@ -8867,11 +6006,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.77" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.77</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="15" sdnum="1033;"><b><font face="Times New Roman" size=4>15</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="22" sdnum="1033;"><b><font face="Times New Roman" size=4>22</font></b></td>
@@ -8890,11 +6025,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.74111111111111" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.74</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="16" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">16</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="23" sdnum="1033;"><b><font face="Times New Roman" size=4>23</font></b></td>
@@ -8913,11 +6044,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.73888888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.74</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="16" sdnum="1033;"><b><font face="Times New Roman" size=4>16</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="24" sdnum="1033;"><b><font face="Times New Roman" size=4>24</font></b></td>
@@ -8936,11 +6063,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.71277777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.71</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="17" sdnum="1033;"><b><font face="Times New Roman" size=4>17</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="25" sdnum="1033;"><b><font face="Times New Roman" size=4>25</font></b></td>
@@ -8959,11 +6082,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.7" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.70</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="18" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">18</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="26" sdnum="1033;"><b><font face="Times New Roman" size=4>26</font></b></td>
@@ -8982,11 +6101,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.69322222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.69</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;"><b><font face="Times New Roman" size=4>19</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="27" sdnum="1033;"><b><font face="Times New Roman" size=4>27</font></b></td>
@@ -9005,11 +6120,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.68888888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.69</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">19</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="28" sdnum="1033;"><b><font face="Times New Roman" size=4>28</font></b></td>
@@ -9028,11 +6139,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.68555555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.69</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="19" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">19</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="29" sdnum="1033;"><b><font face="Times New Roman" size=4>29</font></b></td>
@@ -9051,11 +6158,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.66333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.66</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">20</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
@@ -9074,11 +6177,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.65777777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.66</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.43" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="20" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">20</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="31" sdnum="1033;"><b><font face="Times New Roman" size=4>31</font></b></td>
@@ -9097,11 +6196,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.62722222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.63</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;"><b><font face="Times New Roman" size=4>21</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="32" sdnum="1033;"><b><font face="Times New Roman" size=4>32</font></b></td>
@@ -9120,11 +6215,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.625" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.63</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.119999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="21" sdnum="1033;"><b><font face="Times New Roman" size=4>21</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="33" sdnum="1033;"><b><font face="Times New Roman" size=4>33</font></b></td>
@@ -9143,11 +6234,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.59444444444445" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.59</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="22" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">22</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="34" sdnum="1033;"><b><font face="Times New Roman" size=4>34</font></b></td>
@@ -9166,11 +6253,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.57777777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.58</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="23" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">23</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="35" sdnum="1033;"><b><font face="Times New Roman" size=4>35</font></b></td>
@@ -9189,11 +6272,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.57666666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.58</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.43" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="23" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">23</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4>36</font></b></td>
@@ -9212,11 +6291,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.56566666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.109999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="24" sdnum="1033;"><b><font face="Times New Roman" size=4>24</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4>37</font></b></td>
@@ -9235,11 +6310,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.56266666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.56</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="25" sdnum="1033;"><b><font face="Times New Roman" size=4>25</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="38" sdnum="1033;"><b><font face="Times New Roman" size=4>38</font></b></td>
@@ -9258,11 +6329,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.53288888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.53</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.35" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.35</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="26" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">26</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="39" sdnum="1033;"><b><font face="Times New Roman" size=4>39</font></b></td>
@@ -9281,11 +6348,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.51622222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.52</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="-0.33" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="27" sdnum="1033;"><b><font face="Times New Roman" size=4>27</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFF00" sdval="40" sdnum="1033;"><b><font face="Times New Roman" size=4>40</font></b></td>
@@ -9304,11 +6367,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="4.50555555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.51</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="0.35" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.35</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFF00" sdval="28" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">28</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="41" sdnum="1033;"><b><font face="Times New Roman" size=4>41</font></b></td>
@@ -9327,11 +6386,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.49355555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.49</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.50</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="29" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">29</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="42" sdnum="1033;"><b><font face="Times New Roman" size=4>42</font></b></td>
@@ -9350,11 +6405,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.49116666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.49</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.57" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.57</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="29" sdnum="1033;"><b><font face="Times New Roman" size=4>29</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="43" sdnum="1033;"><b><font face="Times New Roman" size=4>43</font></b></td>
@@ -9373,11 +6424,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.49" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.49</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.29" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.29</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="29" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">29</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="44" sdnum="1033;"><b><font face="Times New Roman" size=4>44</font></b></td>
@@ -9396,11 +6443,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.45855555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.46</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.449999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.45</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="30" sdnum="1033;"><b><font face="Times New Roman" size=4>30</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="45" sdnum="1033;"><b><font face="Times New Roman" size=4>45</font></b></td>
@@ -9419,11 +6462,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.44684444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.45</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.4" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="31" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">31</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="46" sdnum="1033;"><b><font face="Times New Roman" size=4>46</font></b></td>
@@ -9442,11 +6481,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.44111111111111" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.43" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="32" sdnum="1033;"><b><font face="Times New Roman" size=4>32</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="47" sdnum="1033;"><b><font face="Times New Roman" size=4>47</font></b></td>
@@ -9464,12 +6499,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.44" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.44055555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.449999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.45</font></b></td>
-		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="32" sdnum="1033;"><b><font face="Times New Roman" size=4>32</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4>48</font></b></td>
@@ -9488,11 +6518,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.428" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.0250000000000004" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="33" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">33</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="49" sdnum="1033;"><b><font face="Times New Roman" size=4>49</font></b></td>
@@ -9511,11 +6537,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.42142857142857" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.42</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="34" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">34</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="50" sdnum="1033;"><b><font face="Times New Roman" size=4>50</font></b></td>
@@ -9534,11 +6556,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.39838888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.40</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.0899999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.09</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="35" sdnum="1033;"><b><font face="Times New Roman" size=4>35</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="51" sdnum="1033;"><b><font face="Times New Roman" size=4>51</font></b></td>
@@ -9557,11 +6575,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.38333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.38</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.14" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.14</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">36</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="52" sdnum="1033;"><b><font face="Times New Roman" size=4>52</font></b></td>
@@ -9580,11 +6594,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.38203333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.38</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.3" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.30</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="36" sdnum="1033;"><b><font face="Times New Roman" size=4>36</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="53" sdnum="1033;"><b><font face="Times New Roman" size=4>53</font></b></td>
@@ -9603,11 +6613,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.37344444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4>37</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="54" sdnum="1033;"><b><font face="Times New Roman" size=4>54</font></b></td>
@@ -9626,11 +6632,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.37333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.21" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.21</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">37</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="55" sdnum="1033;"><b><font face="Times New Roman" size=4>55</font></b></td>
@@ -9649,11 +6651,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.36966666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4>37</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="56" sdnum="1033;"><b><font face="Times New Roman" size=4>56</font></b></td>
@@ -9672,11 +6670,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.36595555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.2" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.20</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="37" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">37</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="57" sdnum="1033;"><b><font face="Times New Roman" size=4>57</font></b></td>
@@ -9695,11 +6689,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.36466666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.36</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.34" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.34</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="38" sdnum="1033;"><b><font face="Times New Roman" size=4>38</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="58" sdnum="1033;"><b><font face="Times New Roman" size=4>58</font></b></td>
@@ -9718,11 +6708,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.36" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.36</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.43" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="38" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">38</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4><br></font></td>
+	
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="59" sdnum="1033;"><b><font face="Times New Roman" size=4>59</font></b></td>
@@ -9741,11 +6727,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.35677777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.36</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.125" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="38" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">38</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="60" sdnum="1033;"><b><font face="Times New Roman" size=4>60</font></b></td>
@@ -9764,11 +6746,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.34277777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.34</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.25" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.25</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="39" sdnum="1033;"><b><font face="Times New Roman" size=4>39</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="61" sdnum="1033;"><b><font face="Times New Roman" size=4>61</font></b></td>
@@ -9787,11 +6765,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.30777777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.31</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.15" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.15</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="40" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">40</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="62" sdnum="1033;"><b><font face="Times New Roman" size=4>62</font></b></td>
@@ -9810,11 +6784,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.23777777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.24</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.0700000000000003" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.07</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="41" sdnum="1033;"><b><font face="Times New Roman" size=4>41</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="63" sdnum="1033;"><b><font face="Times New Roman" size=4>63</font></b></td>
@@ -9833,11 +6803,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.22611111111111" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.23</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="42" sdnum="1033;"><b><font face="Times New Roman" size=4>42</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="64" sdnum="1033;"><b><font face="Times New Roman" size=4>64</font></b></td>
@@ -9856,11 +6822,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.21844444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.22</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.55" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.55</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="43" sdnum="1033;"><b><font face="Times New Roman" size=4>43</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="65" sdnum="1033;"><b><font face="Times New Roman" size=4>65</font></b></td>
@@ -9879,11 +6841,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.178" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.18</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="44" sdnum="1033;"><b><font face="Times New Roman" size=4>44</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="66" sdnum="1033;"><b><font face="Times New Roman" size=4>66</font></b></td>
@@ -9902,11 +6860,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.16733333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.17</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.425" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="45" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">45</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="67" sdnum="1033;"><b><font face="Times New Roman" size=4>67</font></b></td>
@@ -9925,11 +6879,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.15922222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.16</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.0800000000000001" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="46" sdnum="1033;"><b><font face="Times New Roman" size=4>46</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="68" sdnum="1033;"><b><font face="Times New Roman" size=4>68</font></b></td>
@@ -9948,11 +6898,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.14055555555556" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.14</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="47" sdnum="1033;"><b><font face="Times New Roman" size=4>47</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="69" sdnum="1033;"><b><font face="Times New Roman" size=4>69</font></b></td>
@@ -9971,11 +6917,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.13822222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.14</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.14" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.14</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="47" sdnum="1033;"><b><font face="Times New Roman" size=4>47</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="70" sdnum="1033;"><b><font face="Times New Roman" size=4>70</font></b></td>
@@ -9994,11 +6936,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.13333333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.22" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.22</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4>48</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="71" sdnum="1033;"><b><font face="Times New Roman" size=4>71</font></b></td>
@@ -10017,11 +6955,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.13111111111111" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.00499999999999989" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.00</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4>48</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="72" sdnum="1033;"><b><font face="Times New Roman" size=4>72</font></b></td>
@@ -10040,11 +6974,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.12888888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.43" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.43</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="48" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">48</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="73" sdnum="1033;"><b><font face="Times New Roman" size=4>73</font></b></td>
@@ -10063,11 +6993,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.12244444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.109999999999999" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="49" sdnum="1033;"><b><font face="Times New Roman" size=4>49</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="74" sdnum="1033;"><b><font face="Times New Roman" size=4>74</font></b></td>
@@ -10086,11 +7012,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.055" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.06</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.44" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.44</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="50" sdnum="1033;"><b><font face="Times New Roman" size=4>50</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="75" sdnum="1033;"><b><font face="Times New Roman" size=4>75</font></b></td>
@@ -10109,11 +7031,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.04122222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.04</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.73" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.73</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="51" sdnum="1033;"><b><font face="Times New Roman" size=4>51</font></b></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="76" sdnum="1033;"><b><font face="Times New Roman" size=4>76</font></b></td>
@@ -10132,11 +7050,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.03811111111111" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.04</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="-0.0499999999999998" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.05</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="51" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">51</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#FFFFFF" sdval="77" sdnum="1033;"><b><font face="Times New Roman" size=4>77</font></b></td>
@@ -10155,11 +7069,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="4.03366666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>4.03</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="0.0999999999999996" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.10</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#FFFFFF" sdval="52" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">52</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="78" sdnum="1033;"><b><font face="Times New Roman" size=4>78</font></b></td>
@@ -10178,11 +7088,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.99066666666667" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.99</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.325" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.33</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="53" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">53</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="79" sdnum="1033;"><b><font face="Times New Roman" size=4>79</font></b></td>
@@ -10201,11 +7107,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.98968444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.99</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.225" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.23</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="53" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">53</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="80" sdnum="1033;"><b><font face="Times New Roman" size=4>80</font></b></td>
@@ -10224,11 +7126,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.97017777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.97</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.0750000000000002" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.08</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="54" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">54</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="81" sdnum="1033;"><b><font face="Times New Roman" size=4>81</font></b></td>
@@ -10247,11 +7145,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.95233333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.95</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.51" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.51</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="55" sdnum="1033;"><b><font face="Times New Roman" size=4>55</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="82" sdnum="1033;"><b><font face="Times New Roman" size=4>82</font></b></td>
@@ -10270,11 +7164,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.952" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.95</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.67" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.67</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="55" sdnum="1033;"><b><font face="Times New Roman" size=4>55</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="83" sdnum="1033;"><b><font face="Times New Roman" size=4>83</font></b></td>
@@ -10293,11 +7183,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.88577777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.89</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.37" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="56" sdnum="1033;"><b><font face="Times New Roman" size=4>56</font></b></td>
-		<td align="left" valign=bottom bgcolor="#33F3FD"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="84" sdnum="1033;"><b><font face="Times New Roman" size=4>84</font></b></td>
@@ -10316,11 +7202,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.87184444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.87</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.22" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.22</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="57" sdnum="1033;"><b><font face="Times New Roman" size=4>57</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="85" sdnum="1033;"><b><font face="Times New Roman" size=4>85</font></b></td>
@@ -10339,11 +7221,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.837" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.84</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.94" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.94</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="58" sdnum="1033;"><b><font face="Times New Roman" size=4>58</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="86" sdnum="1033;"><b><font face="Times New Roman" size=4>86</font></b></td>
@@ -10362,11 +7240,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.80944444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.81</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.5" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.50</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="59" sdnum="1033;"><b><font face="Times New Roman" size=4>59</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="87" sdnum="1033;"><b><font face="Times New Roman" size=4>87</font></b></td>
@@ -10385,11 +7259,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.78488888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.78</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.75" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.75</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="60" sdnum="1033;"><b><font face="Times New Roman" size=4>60</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="88" sdnum="1033;"><b><font face="Times New Roman" size=4>88</font></b></td>
@@ -10408,11 +7278,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.77833333333333" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.78</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.125" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.13</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="60" sdnum="1033;"><b><font face="Times New Roman" size=4>60</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="89" sdnum="1033;"><b><font face="Times New Roman" size=4>89</font></b></td>
@@ -10431,11 +7297,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.69977777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.70</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.12" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="61" sdnum="1033;"><b><font face="Times New Roman" size=4>61</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="90" sdnum="1033;"><b><font face="Times New Roman" size=4>90</font></b></td>
@@ -10454,11 +7316,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.69744444444444" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.70</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.12" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="61" sdnum="1033;"><b><font face="Times New Roman" size=4>61</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="91" sdnum="1033;"><b><font face="Times New Roman" size=4>91</font></b></td>
@@ -10477,11 +7335,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.69722222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.70</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.35" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.35</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="61" sdnum="1033;"><b><font face="Times New Roman" size=4 color="#000000">61</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="92" sdnum="1033;"><b><font face="Times New Roman" size=4>92</font></b></td>
@@ -10500,11 +7354,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.62277777777778" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.62</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.12" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.12</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="62" sdnum="1033;"><b><font face="Times New Roman" size=4>62</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="93" sdnum="1033;"><b><font face="Times New Roman" size=4>93</font></b></td>
@@ -10523,11 +7373,7 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.48888888888889" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.49</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="0.375" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>0.38</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="63" sdnum="1033;"><b><font face="Times New Roman" size=4>63</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" height="26" align="center" valign=middle bgcolor="#9BC2E6" sdval="94" sdnum="1033;"><b><font face="Times New Roman" size=4>94</font></b></td>
@@ -10546,103 +7392,21 @@ $course55 = '<table cellspacing="0" border="0">
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="3.36622222222222" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>3.37</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="-0.11" sdnum="1033;0;0.00"><b><font face="Times New Roman" size=4>-0.11</font></b></td>
 		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=middle bgcolor="#9BC2E6" sdval="64" sdnum="1033;"><b><font face="Times New Roman" size=4>64</font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td height="26" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
 	</tr>
 	<tr>
 		<td height="26" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
 	</tr>
 	<tr>
 		<td height="26" align="left" valign=bottom><b><font face="Times New Roman" size=4 color="#000000"><br></font></b></td>
 		<td align="left" valign=bottom><b><font face="Times New Roman" size=4 color="#000000"><br></font></b></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
+		
 	</tr>
 	<tr>
 		<td height="27" align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom bgcolor="#FFFFFF"><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
-		<td align="left" valign=bottom><font face="Times New Roman" size=4 color="#000000"><br></font></td>
 	</tr>
 </table>';
 ?>

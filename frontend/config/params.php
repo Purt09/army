@@ -64,7 +64,7 @@ return [
             'items' => [
                 ['label' => 'Бессмертный полк', 'icon' => 'user-secret', 'url' => ['/department/common/regiment'],],
                 [
-                    'label' => 'Книги',
+                    'label' => 'Библиотека',
                     'icon' => 'book',
                     'items' => [
                         ['label' => 'Рекомендуемые', 'icon' => 'book', 'url' => ['/education/books/index?category_id=2'],],

@@ -128,6 +128,12 @@ class SiteController extends Controller
         return $this->render('list-lessons');
     }
 
+    public function actionGraphikControl()
+    {
+        return $this->render('graphik-control', [
+        ]);
+    }
+
     public function actionViewPlan($alias)
     {
         $category = PlanCategory::find()->where(['alias' => $alias])->one();
